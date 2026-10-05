@@ -1,4 +1,4 @@
-## Hi there 👋
+Creator of [mordorjs](https://dev.to/pengeszikra/mdjs-mordorjs-1mon) and [TifY](https://dev.to/pengeszikra/terminal-is-your-friend-2b49) also [pipeline-operator](https://dev.to/pengeszikra/use-this-pipe-to-feel-the-flow-483j) fanatic. 🇭🇺
 
 <!--
 **Pengeszikra/Pengeszikra** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
