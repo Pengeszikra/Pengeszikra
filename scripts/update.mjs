@@ -71,7 +71,7 @@ export function render(config, articles) {
   }
   const inbox = articles.filter(a => !used.has(a.id)).slice(0, config.inboxLimit);
   if (inbox.length) output.push('### More from my notebook', '', 'Recent articles waiting for a place on the map.', '', '<table>', ...inbox.map(a => card(a, null, config, articles)), '</table>', '');
-  output.push(`[All ${articles.length} articles on DEV](https://dev.to/${config.username})`, '', '<sub>Article images are copied from their original DEV posts. The map is curated; article metadata and covers refresh automatically.</sub>', '');
+  output.push(`[All ${articles.length} articles on DEV](https://dev.to/${config.username})`, '', '<sub>Article images are copied from their original DEV posts. The map, article metadata and covers are maintained manually.</sub>', '');
   return output.join('\n');
 }
 

@@ -145,6 +145,6 @@ Recent articles waiting for a place on the map.
 
 [All 39 articles on DEV](https://dev.to/pengeszikra)
 
-<sub>Article images are copied from their original DEV posts. The map is curated; article metadata and covers refresh automatically.</sub>
+<sub>Article images are copied from their original DEV posts. The map, article metadata and covers are maintained manually.</sub>
 
 <!-- THOUGHT-TREE:END -->

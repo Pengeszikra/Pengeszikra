@@ -3,17 +3,11 @@
 This is a ready-to-publish GitHub profile repository for `Pengeszikra/Pengeszikra`.
 The public profile is `README.md`; this file explains how to maintain it.
 
-## First publication
+## Publication and updates
 
-Create the public repository `Pengeszikra/Pengeszikra`, then commit all files in this
-directory, including `.github/workflows/update-thought-tree.yml` and the images.
-The root README will appear on the GitHub profile automatically. No Pages site,
-API key, npm installation or external database is required.
-
-The workflow uses its built-in `GITHUB_TOKEN` with `contents: write`. If account or
-repository policies prohibit Actions writes, allow them in the repository's
-Actions settings or use a pull-request update workflow instead. If branch rules
-require PRs, direct scheduled commits will need adapting to that policy.
+The root README appears on the GitHub profile. Automatic updates are disabled:
+there is no scheduled or push-triggered GitHub Actions workflow. The current
+profile stays as published until it is edited or refreshed manually.
 
 ## Commands (Node 22 or newer)
 
@@ -23,9 +17,8 @@ npm run build    # Regenerate deterministically from the checked-in snapshot
 npm run update   # Fetch current DEV metadata, selected article details and covers
 ```
 
-The workflow runs daily at 06:23 UTC, on changes to the generator or connections,
-and manually from the Actions tab. Scheduled workflows in inactive public repos
-may be disabled by GitHub after 60 days; re-enable in Actions if needed.
+Run these commands locally only when you want to update the profile. Review the
+resulting changes, then commit and push them manually.
 
 ## Curating connections
 
@@ -61,8 +54,7 @@ are retained so a transient service failure never deletes the previous covers.
 Only the README block between `THOUGHT-TREE:START` and `THOUGHT-TREE:END` is generated.
 Write your bio, contact links and other profile sections outside that block.
 If a DEV request or required image fails, the command exits unsuccessfully before
-rewriting the README. The workflow consequently does not commit an incomplete
-update. Cached data supports an offline rebuild at any time.
+rewriting the README. Cached data supports an offline rebuild at any time.
 
 ## Scope
 
