@@ -1,0 +1,247 @@
+{
+  "username": "pengeszikra",
+  "githubOwner": "Pengeszikra",
+  "inboxLimit": 3,
+  "branches": [
+    {
+      "title": "01 · Read the flow. Learn by doing.",
+      "description": "Pipeline experiments and terminal-first programming meet in a small learning tool.",
+      "nodes": [
+        "terminal_2022",
+        "pipe_2023",
+        "pipe_2026",
+        "tiyf_article",
+        "typescript",
+        "tiyf"
+      ]
+    },
+    {
+      "title": "02 · Useful types, small tools.",
+      "description": "From typed React state to JSDoc, then into a playable game. These older experiments still explain the code.",
+      "nodes": [
+        "state_article",
+        "duck_article",
+        "alien_article",
+        "jsdoc_article",
+        "state_repo",
+        "duck_repo",
+        "alien_repo"
+      ]
+    },
+    {
+      "title": "03 · Rust, WASM and things you can draw.",
+      "description": "An early Rust learning note and a later drawing experiment. Shared curiosity; different projects.",
+      "nodes": [
+        "rust_start",
+        "rustroke_article",
+        "rustroke_repo"
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "terminal_2022",
+      "articleId": 1159810,
+      "label": "2022 · Terminal workflow",
+      "summary": "Making the terminal a comfortable part of everyday JavaScript and TypeScript work."
+    },
+    {
+      "id": "pipe_2023",
+      "articleId": 1615392,
+      "label": "2023 · Pipeline proposal",
+      "summary": "A small proposal: pass a value into a function, then keep reading in the direction the data flows."
+    },
+    {
+      "id": "pipe_2026",
+      "articleId": 4779443,
+      "label": "2026 · Type-checked pipelines",
+      "summary": "Returning to the idea with a working experimental TypeScript compiler, including TSX support."
+    },
+    {
+      "id": "tiyf_article",
+      "articleId": 4786526,
+      "label": "2026 · Terminal Is Your Friend",
+      "summary": "A small programming playground for a friend. Learn the basics, run real code, and discover TypeScript and a tiny TSX interface along the way."
+    },
+    {
+      "id": "typescript",
+      "repo": "https://github.com/Pengeszikra/TypeScript",
+      "label": "TypeScript fork"
+    },
+    {
+      "id": "tiyf",
+      "repo": "https://github.com/Pengeszikra/terminal-is-your-friend",
+      "label": "terminal-is-your-friend"
+    },
+    {
+      "id": "state_article",
+      "articleId": 1594655,
+      "label": "2023 · Typed React state",
+      "summary": "A small state-management library built around useReducer, typed actions and a straightforward dispatch API."
+    },
+    {
+      "id": "duck_article",
+      "articleId": 1976994,
+      "label": "2024 · The JSDoc module quest",
+      "summary": "Reworking react-state-factory in JavaScript with JSDoc, and finding the practical limits of publishing its types."
+    },
+    {
+      "id": "alien_article",
+      "articleId": 2006748,
+      "label": "2024 · Alien Solitaire",
+      "summary": "A playable card game that puts jsdoc-duck to work: typed state and actions in a real JavaScript application."
+    },
+    {
+      "id": "jsdoc_article",
+      "articleId": 2021658,
+      "label": "2024 · JSDoc Evangelism",
+      "summary": "What working on legacy JavaScript and jsdoc-duck taught me about adding useful types without rewriting the application."
+    },
+    {
+      "id": "state_repo",
+      "repo": "https://github.com/Pengeszikra/react-state-factory",
+      "label": "react-state-factory"
+    },
+    {
+      "id": "duck_repo",
+      "repo": "https://github.com/Pengeszikra/jsdoc-duck",
+      "label": "jsdoc-duck"
+    },
+    {
+      "id": "alien_repo",
+      "repo": "https://github.com/Pengeszikra/alien-solitare",
+      "label": "alien-solitare"
+    },
+    {
+      "id": "rust_start",
+      "articleId": 527301,
+      "label": "2020 · Starting with Rust",
+      "summary": "An early notebook entry on getting started with Rust and hot reloading."
+    },
+    {
+      "id": "rustroke_article",
+      "articleId": 3255055,
+      "label": "2026 · Rustroke",
+      "summary": "A minimal drawing tool: draw free lines and fill the areas between them. A Rust/WASM geometry engine sits behind a simple HTML interface."
+    },
+    {
+      "id": "rustroke_repo",
+      "repo": "https://github.com/Pengeszikra/rustroke",
+      "label": "rustroke"
+    }
+  ],
+  "edges": [
+    {
+      "from": "pipe_2023",
+      "to": "pipe_2026",
+      "label": "Continued in",
+      "reverseLabel": "Earlier idea",
+      "reason": "The 2026 article explicitly returns to the earlier TypeScript pipeline proposal.",
+      "kind": "continuation"
+    },
+    {
+      "from": "terminal_2022",
+      "to": "tiyf_article",
+      "label": "Related theme",
+      "reverseLabel": "Earlier terminal writing",
+      "reason": "Both explore terminal-first programming; thematic connection rather than a claimed code dependency.",
+      "kind": "related"
+    },
+    {
+      "from": "pipe_2026",
+      "to": "typescript",
+      "label": "Implemented in",
+      "reverseLabel": "Explained in",
+      "reason": "The article links to issues in the TypeScript fork.",
+      "kind": "implementation"
+    },
+    {
+      "from": "typescript",
+      "to": "tiyf",
+      "label": "Powers",
+      "reverseLabel": "Built with",
+      "reason": "The TiyF article names the pipeline TypeScript fork as its compiler.",
+      "kind": "dependency"
+    },
+    {
+      "from": "tiyf_article",
+      "to": "tiyf",
+      "label": "Implemented in",
+      "reverseLabel": "Explained in",
+      "reason": "The article directly links to the application repository.",
+      "kind": "implementation"
+    },
+    {
+      "from": "state_article",
+      "to": "state_repo",
+      "label": "Implemented in",
+      "reverseLabel": "Explained in",
+      "reason": "The article describes the react-state-factory npm library and the public repository has the same library name.",
+      "kind": "implementation"
+    },
+    {
+      "from": "state_repo",
+      "to": "duck_repo",
+      "label": "Reworked as",
+      "reverseLabel": "Based on",
+      "reason": "Both the JSDoc quest article and jsdoc-duck README state that it is based on react-state-factory.",
+      "kind": "continuation"
+    },
+    {
+      "from": "duck_article",
+      "to": "duck_repo",
+      "label": "Implemented in",
+      "reverseLabel": "Explained in",
+      "reason": "The article documents creating jsdoc-duck.",
+      "kind": "implementation"
+    },
+    {
+      "from": "duck_repo",
+      "to": "alien_repo",
+      "label": "Used by",
+      "reverseLabel": "Uses",
+      "reason": "The Alien Solitaire article explicitly states that the game is powered by jsdoc-duck.",
+      "kind": "dependency"
+    },
+    {
+      "from": "alien_article",
+      "to": "alien_repo",
+      "label": "Implemented in",
+      "reverseLabel": "Explained in",
+      "reason": "The article embeds the alien-solitare repository.",
+      "kind": "implementation"
+    },
+    {
+      "from": "duck_article",
+      "to": "jsdoc_article",
+      "label": "Lessons continued in",
+      "reverseLabel": "Earlier experiment",
+      "reason": "JSDoc Evangelism discusses lessons from building the jsdoc-duck module.",
+      "kind": "continuation"
+    },
+    {
+      "from": "jsdoc_article",
+      "to": "duck_repo",
+      "label": "Discusses",
+      "reverseLabel": "Discussed in",
+      "reason": "JSDoc Evangelism includes jsdoc-duck implementation examples.",
+      "kind": "related"
+    },
+    {
+      "from": "rust_start",
+      "to": "rustroke_article",
+      "label": "Related theme",
+      "reverseLabel": "Earlier Rust writing",
+      "reason": "Two entries along the Rust learning path; no direct code lineage is asserted.",
+      "kind": "related"
+    },
+    {
+      "from": "rustroke_article",
+      "to": "rustroke_repo",
+      "label": "Implemented in",
+      "reverseLabel": "Explained in",
+      "reason": "The Rustroke article directly links to the repository.",
+      "kind": "implementation"
+    }
+  ]
+}

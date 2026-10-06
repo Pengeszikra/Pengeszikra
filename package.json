@@ -1,0 +1,11 @@
+{
+  "name": "pengeszikra-thought-tree",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "update": "node scripts/update.mjs",
+    "build": "node scripts/update.mjs --offline",
+    "test": "node --test"
+  }
+}

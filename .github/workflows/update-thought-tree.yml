@@ -1,0 +1,39 @@
+name: Update thought tree
+
+on:
+  schedule:
+    - cron: '23 6 * * *'
+  workflow_dispatch:
+  push:
+    paths:
+      - 'connections.json'
+      - 'scripts/**'
+      - 'test/**'
+      - '.github/workflows/update-thought-tree.yml'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: thought-tree
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: node --test
+      - run: node scripts/update.mjs
+      - name: Commit updated articles and images
+        run: |
+          git add README.md data/articles.json assets/articles
+          if git diff --cached --quiet; then exit 0; fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'Refresh DEV thought tree'
+          git push

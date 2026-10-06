@@ -1,0 +1,552 @@
+[
+  {
+    "id": 4786526,
+    "title": "Terminal is your Friend",
+    "url": "https://dev.to/pengeszikra/terminal-is-your-friend-2b49",
+    "publishedAt": "2026-10-04T09:38:45Z",
+    "description": "This is a submission for the Hacktoberfest Weekend Challenge: Build for a Friend           What I...",
+    "coverImage": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fdd8kngtodcx1yjnaftsk.png",
+    "tags": [
+      "devchallenge",
+      "weekendchallenge",
+      "hf26challenge",
+      "beginners"
+    ],
+    "detectedRepos": [
+      "https://github.com/Pengeszikra/TypeScript",
+      "https://github.com/Pengeszikra/terminal-is-your-friend"
+    ],
+    "localImage": "assets/articles/4786526-8f98d9aa756d.webp"
+  },
+  {
+    "id": 4779443,
+    "title": "I added a type-checked pipeline operator to TypeScript — including TSX",
+    "url": "https://dev.to/pengeszikra/use-this-pipe-to-feel-the-flow-483j",
+    "publishedAt": "2026-09-30T21:21:09Z",
+    "description": "A proof-of-concept TypeScript compiler with a pipeline operator.   I searching testers and...",
+    "coverImage": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fyh3vnrk2sfm779ivnnvp.png",
+    "tags": [
+      "typescript",
+      "discuss",
+      "opensource",
+      "hacktoberfest"
+    ],
+    "detectedRepos": [
+      "https://github.com/Pengeszikra/TypeScript"
+    ],
+    "localImage": "assets/articles/4779443-285079f9c1b4.webp"
+  },
+  {
+    "id": 3619539,
+    "title": "LLM RPG test 2026",
+    "url": "https://dev.to/pengeszikra/llm-rpg-test-2026-4734",
+    "publishedAt": "2026-05-06T08:17:19Z",
+    "description": "From time to time, I test the abilities of current LLMs with an RPG task. A relatively simple prompt...",
+    "coverImage": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fsvvpsjxxl0buxkcqdlbl.png",
+    "tags": [
+      "ai",
+      "beginners",
+      "gamification",
+      "testing"
+    ],
+    "localImage": "assets/articles/3619539-3f0e1978e393.webp"
+  },
+  {
+    "id": 3518252,
+    "title": "A Game for the Mind",
+    "url": "https://dev.to/pengeszikra/a-game-for-the-mind-2mj3",
+    "publishedAt": "2026-04-18T20:50:43Z",
+    "description": "Share your vision!   Please share your vision, how you can saw to planet bright or dark ...",
+    "coverImage": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fmd0kpec2d0v8aj2cnn0n.png",
+    "tags": [
+      "devchallenge",
+      "weekendchallenge",
+      "discuss",
+      "ai"
+    ],
+    "localImage": "assets/articles/3518252-8672749648f0.webp"
+  },
+  {
+    "id": 3500700,
+    "title": "MCM :: mordor-coffe-machine",
+    "url": "https://dev.to/pengeszikra/mcm-mordor-coffe-machine-42ap",
+    "publishedAt": "2026-04-14T15:42:14Z",
+    "description": "_______________________ dm.rovivruS_1 _______________________             t I     w...",
+    "coverImage": null,
+    "tags": [
+      "jokes",
+      "devchallenge",
+      "showdev",
+      "productivity"
+    ]
+  },
+  {
+    "id": 3451384,
+    "title": "M||D||JS = MorDorJS",
+    "url": "https://dev.to/pengeszikra/mdjs-mordorjs-1mon",
+    "publishedAt": "2026-04-12T03:08:36Z",
+    "description": "This is a submission for the DEV April Fools Challenge   TLDR :: MP is FUFF the Final Underground...",
+    "coverImage": null,
+    "tags": [
+      "devchallenge",
+      "418challenge",
+      "showdev",
+      "javascript"
+    ]
+  },
+  {
+    "id": 3377215,
+    "title": "Vibe Archeologist: From Z80 Assembly to an 1859 Mudbrick House and Beyond",
+    "url": "https://dev.to/pengeszikra/vibe-archeologist-from-z80-assembly-to-an-1859-mudbrick-house-and-beyond-46n5",
+    "publishedAt": "2026-03-20T17:44:37Z",
+    "description": "Born a month before the Moon landing, I’ve spent 56 years watching the world shift from vacuum tubes...",
+    "coverImage": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F8st5hb9edvfo395mx12b.png",
+    "tags": [
+      "ai",
+      "rust",
+      "beginners",
+      "career"
+    ]
+  },
+  {
+    "id": 3366489,
+    "title": "Oscar goes to ...",
+    "url": "https://dev.to/pengeszikra/oscar-goes-to--1nfg",
+    "publishedAt": "2026-03-18T13:43:56Z",
+    "description": "My Oscar vote for the best AI short video of 2026 goes to:           WOW: REBORN Tauren: Every Trail...",
+    "coverImage": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fgbft9fp220uugbrs3mif.png",
+    "tags": [
+      "ai",
+      "design",
+      "diversity"
+    ]
+  },
+  {
+    "id": 779307,
+    "title": "Adventure of javascript based MMORPG creation.",
+    "url": "https://dev.to/pengeszikra/adventure-of-javascript-based-mmorpg-creation-5909",
+    "publishedAt": "2026-03-04T12:13:45Z",
+    "description": "This post is hidden in my dashboard long-long time ago. Because a 8 or nine years ago - fare before...",
+    "coverImage": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fthcjl20fsvrl8ut6l5ww.png",
+    "tags": [
+      "gamedev",
+      "react",
+      "opensource",
+      "architecture"
+    ]
+  },
+  {
+    "id": 3308115,
+    "title": "The Royal Gazette: A Single-Line Noble Intrigue",
+    "url": "https://dev.to/pengeszikra/the-royal-gazette-a-single-line-noble-intrigue-20nn",
+    "publishedAt": "2026-03-04T08:51:03Z",
+    "description": "This is a submission for the Built with Google Gemini: Writing Challenge  Sorry I maded this...",
+    "coverImage": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fxg5blczptx59ymwbemad.png",
+    "tags": [
+      "devchallenge",
+      "geminireflections",
+      "gemini"
+    ]
+  },
+  {
+    "id": 3255055,
+    "title": "Rustroke - WASM mini draw",
+    "url": "https://dev.to/pengeszikra/rustroke-wasm-mini-draw-3oih",
+    "publishedAt": "2026-02-15T05:50:42Z",
+    "description": "This is a submission for the GitHub Copilot CLI Challenge             What I Built   I built one of...",
+    "coverImage": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F34tqafq6m5ngejw10gh8.png",
+    "tags": [
+      "devchallenge",
+      "githubchallenge",
+      "cli",
+      "githubcopilot"
+    ],
+    "detectedRepos": [
+      "https://github.com/Pengeszikra/rustroke"
+    ],
+    "localImage": "assets/articles/3255055-082eec761f1a.webp"
+  },
+  {
+    "id": 2367259,
+    "title": "Importance of visuals",
+    "url": "https://dev.to/pengeszikra/flogon-saga-continue-4785",
+    "publishedAt": "2025-04-01T17:14:50Z",
+    "description": "Excalidraw   Imho even for any developer I consider it important to have ability to grab the...",
+    "coverImage": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F4qcxlsbtuu273c9zs1fy.png",
+    "tags": [
+      "ai",
+      "animation",
+      "beginners",
+      "productivity"
+    ]
+  },
+  {
+    "id": 2270800,
+    "title": "Why reinvent the wheel?",
+    "url": "https://dev.to/pengeszikra/why-reinvent-the-wheel-dcp",
+    "publishedAt": "2025-02-11T11:32:29Z",
+    "description": "I get a great question:    Why reinvent the wheel?   Maybe is worth to try it. I started the...",
+    "coverImage": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F2zvasm2060uv1f2ib3tp.png",
+    "tags": [
+      "webdev",
+      "javascript",
+      "html",
+      "tailwindcss"
+    ]
+  },
+  {
+    "id": 2245221,
+    "title": "Stolen Content by AI",
+    "url": "https://dev.to/pengeszikra/stolen-content-by-ai-3ff7",
+    "publishedAt": "2025-01-27T21:18:48Z",
+    "description": "discussion tag are removed, but in origin I would ask your opinion in this topc. I changed tag to...",
+    "coverImage": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fuue37z5jfn9xlq4pqthc.jpeg",
+    "tags": [
+      "ai",
+      "productivity",
+      "webdev",
+      "opensource"
+    ]
+  },
+  {
+    "id": 2211981,
+    "title": "Javascript great again! - The Voice of Void",
+    "url": "https://dev.to/pengeszikra/javascript-great-again-the-voice-of-void-5fp6",
+    "publishedAt": "2025-01-18T19:52:01Z",
+    "description": "A thrilling game development, including a π / 42 theory. original post on community.aws   github...",
+    "coverImage": null,
+    "tags": [
+      "javascript",
+      "gamedev",
+      "jsdoc",
+      "hackathon"
+    ]
+  },
+  {
+    "id": 2180262,
+    "title": "Flogon Galaxy",
+    "url": "https://dev.to/pengeszikra/flogon-galaxy-2if2",
+    "publishedAt": "2024-12-29T08:21:43Z",
+    "description": "Teaser of my upcomming game for AWS Game Builder Challenge.  Tech Stack:  code: HTML/JS/JSDoc/AWS...",
+    "coverImage": null,
+    "tags": [
+      "webdev",
+      "javascript",
+      "gamedev",
+      "ai"
+    ]
+  },
+  {
+    "id": 2165845,
+    "title": "SDD Story Driven Developments",
+    "url": "https://dev.to/pengeszikra/sdd-story-driven-developments-2425",
+    "publishedAt": "2024-12-19T20:43:14Z",
+    "description": "TLDR;   I am on the flow when I created a JS game for reddit hackhaton.  The Reddit puzzle...",
+    "coverImage": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fcildq7gygpi4o05s6rmu.png",
+    "tags": [
+      "javascript",
+      "html",
+      "gamedev"
+    ]
+  },
+  {
+    "id": 2104705,
+    "title": "Wasm hex code",
+    "url": "https://dev.to/pengeszikra/wasm-hex-code-1mn0",
+    "publishedAt": "2024-11-14T20:32:51Z",
+    "description": "A post by Peter Vivo",
+    "coverImage": null,
+    "tags": [
+      "webassembly"
+    ]
+  },
+  {
+    "id": 2021658,
+    "title": "JSDoc Evangelism",
+    "url": "https://dev.to/pengeszikra/jsdoc-evangelism-1eij",
+    "publishedAt": "2024-10-27T12:11:16Z",
+    "description": "TL;DR   Working with a legacy codebase—something many of us can't avoid from time to...",
+    "coverImage": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fu34c18rmnxrqq866kp4k.png",
+    "tags": [
+      "javascript",
+      "typescript",
+      "jsdoc",
+      "webdev"
+    ],
+    "detectedRepos": [],
+    "localImage": "assets/articles/2021658-3dd3dc9e35c2.webp"
+  },
+  {
+    "id": 2047332,
+    "title": "Wannabe JS framework",
+    "url": "https://dev.to/pengeszikra/wannabe-js-framework-1id8",
+    "publishedAt": "2024-10-21T11:06:43Z",
+    "description": "The next step of my no-framework journey is:      I hope this is a self explanation. I make this demo...",
+    "coverImage": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Feefdq1asgyvgdc9vi6lv.jpeg",
+    "tags": [
+      "webdev",
+      "javascript",
+      "beginners",
+      "pureweb"
+    ]
+  },
+  {
+    "id": 2042016,
+    "title": "Chuck Norris TODO list",
+    "url": "https://dev.to/pengeszikra/chuck-norris-todo-list-564l",
+    "publishedAt": "2024-10-17T12:55:34Z",
+    "description": "pure web, no build, single HTML page, can copy anywhere, reactive, LOC86        Enter...",
+    "coverImage": null,
+    "tags": [
+      "webdev",
+      "javascript"
+    ]
+  },
+  {
+    "id": 2036250,
+    "title": "This is How I Code",
+    "url": "https://dev.to/pengeszikra/this-is-how-i-code-3j8a",
+    "publishedAt": "2024-10-13T07:41:12Z",
+    "description": "After a Long Night of Coding, I just practicing my english skill. Technic recording as I speak of my...",
+    "coverImage": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fb4lns3stlmdwpzqbzyg8.png",
+    "tags": [
+      "webdev",
+      "javascript",
+      "programming",
+      "pureweb"
+    ]
+  },
+  {
+    "id": 2026020,
+    "title": "React => noFramework, noBuild",
+    "url": "https://dev.to/pengeszikra/react-module-no-framework-1ha6",
+    "publishedAt": "2024-10-05T08:51:31Z",
+    "description": "My experience with React and gaming challenge which is put me int to flow: if I was select jsDoc to...",
+    "coverImage": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F3i1wit98rufuoltjq6ve.png",
+    "tags": [
+      "webdev",
+      "javascript",
+      "discuss",
+      "purehtml"
+    ]
+  },
+  {
+    "id": 2006748,
+    "title": "A L I E N - S O L I T A R E",
+    "url": "https://dev.to/pengeszikra/a-l-i-e-n-s-o-l-i-t-a-r-e-2kgc",
+    "publishedAt": "2024-09-29T09:28:29Z",
+    "description": "This is a submission for the Web Game Challenge, Build a Game: Alien Edition           What I...",
+    "coverImage": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Freaxtkjfh8qu08blsa5z.jpg",
+    "tags": [
+      "devchallenge",
+      "gamechallenge",
+      "gamedev",
+      "webdev"
+    ],
+    "detectedRepos": [
+      "https://github.com/Pengeszikra/alien-solitare"
+    ],
+    "localImage": "assets/articles/2006748-e069fcf15a78.webp"
+  },
+  {
+    "id": 1976994,
+    "title": "jsDoc npm module quest",
+    "url": "https://dev.to/pengeszikra/jsdoc-npm-module-quest-2f7a",
+    "publishedAt": "2024-08-29T04:45:17Z",
+    "description": "Currently I am working/maintaning legacy js/react applications, where is no option to rework to...",
+    "coverImage": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fvac46kemy53bgmoj4cz2.png",
+    "tags": [
+      "javascript",
+      "jsdoc",
+      "typescript",
+      "react"
+    ],
+    "detectedRepos": [],
+    "localImage": "assets/articles/1976994-3500a0e75592.webp"
+  },
+  {
+    "id": 1770605,
+    "title": "Age of Spaghetti Code",
+    "url": "https://dev.to/pengeszikra/age-of-spagetti-code-5451",
+    "publishedAt": "2024-06-21T15:56:42Z",
+    "description": "I writen this game POC (2015), before I knew about git and js building system, so whole program...",
+    "coverImage": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F9j8m0k53wk1zco2oybdg.jpg",
+    "tags": [
+      "webdev",
+      "javascript",
+      "beginners"
+    ]
+  },
+  {
+    "id": 1648343,
+    "title": "ChatGPT 4 + Dalle-E 3 = the true RPG",
+    "url": "https://dev.to/pengeszikra/the-true-rpg-2aon",
+    "publishedAt": "2023-10-27T13:55:46Z",
+    "description": "TLDR;   ChatGPT 4 have ability to create illustration with Dall-E 3, this is combined with...",
+    "coverImage": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fu7n2a8unokr6ks4vli66.png",
+    "tags": [
+      "beginners",
+      "chatgpt",
+      "programming",
+      "promptengineering"
+    ]
+  },
+  {
+    "id": 1615392,
+    "title": "Pipeline Operator great again!",
+    "url": "https://dev.to/pengeszikra/pipeline-operator-great-again-1cbn",
+    "publishedAt": "2023-09-29T11:06:10Z",
+    "description": "Pipeline Operator |&gt; in TypeScript: An Ambitious Undertaking            Introduction   I've...",
+    "coverImage": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F8bmp57dhfji6svlsoocv.jpeg",
+    "tags": [
+      "typescript",
+      "opensource",
+      "video",
+      "javascript"
+    ],
+    "detectedRepos": [],
+    "localImage": "assets/articles/1615392-2a0d6b46eb99.webp"
+  },
+  {
+    "id": 1613455,
+    "title": "Typescript challenge",
+    "url": "https://dev.to/pengeszikra/typescript-challenge-1ag7",
+    "publishedAt": "2023-09-27T16:13:15Z",
+    "description": "I've developed a noteworthy React node module, and I'd like to share the evolutionary journey it has...",
+    "coverImage": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Foy72jt87yvljvsmef80h.jpeg",
+    "tags": [
+      "typescript",
+      "productivity",
+      "react",
+      "video"
+    ]
+  },
+  {
+    "id": 1594655,
+    "title": "Simplify your React state management with react-state-factory",
+    "url": "https://dev.to/pengeszikra/simplify-your-react-state-management-with-react-state-factory-4a14",
+    "publishedAt": "2023-09-13T10:26:15Z",
+    "description": "Hello fellow developers! If you have been working with React for some time, you would know that...",
+    "coverImage": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F38rj2v9p28lvzp3m6k8c.jpeg",
+    "tags": [
+      "react",
+      "opensource",
+      "typescript",
+      "discuss"
+    ],
+    "detectedRepos": [],
+    "localImage": "assets/articles/1594655-8a75a1feb8d4.webp"
+  },
+  {
+    "id": 1361698,
+    "title": "Tartalom gyártás: ChatGPT",
+    "url": "https://dev.to/pengeszikra/chatgpt-hasznalata-komplex-fantasy-tortenetek-es-program-tartalmak-letrehozasara-2hh8",
+    "publishedAt": "2023-02-11T09:24:03Z",
+    "description": "borítót a DALL-E lab készítette - 🇬🇧 english           TLDR;   Bemutatom, hogyan lehet rövid fantasy...",
+    "coverImage": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fw49fcge8nt47bhwgywmw.png",
+    "tags": [
+      "goodjob",
+      "gratitude"
+    ]
+  },
+  {
+    "id": 1360611,
+    "title": "Content creation by ChatGPT",
+    "url": "https://dev.to/pengeszikra/using-chatgpt-for-complex-fantasy-story-and-programming-creation-5go5",
+    "publishedAt": "2023-02-10T10:37:04Z",
+    "description": "cover created by DALL-E lab 🇭🇺 magyarul           TLDR;   Demonstration of creating a short fantasy...",
+    "coverImage": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fvn9gtrdyjinpfjrniedg.png",
+    "tags": [
+      "chatgpt",
+      "javascript",
+      "ai",
+      "tutorial"
+    ]
+  },
+  {
+    "id": 1159810,
+    "title": "Terminal is your friend",
+    "url": "https://dev.to/pengeszikra/terminal-is-you-friend-4pna",
+    "publishedAt": "2022-08-09T16:13:00Z",
+    "description": "I work with javascript/typescript projects, some weird reason using terminal is significant part of...",
+    "coverImage": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fy7ortqnvxbk9poierq2v.jpeg",
+    "tags": [
+      "bash",
+      "comment",
+      "productivity",
+      "javascript"
+    ],
+    "detectedRepos": [],
+    "localImage": "assets/articles/1159810-8822b60009a8.webp"
+  },
+  {
+    "id": 831172,
+    "title": "over engineered reduce",
+    "url": "https://dev.to/pengeszikra/over-engineered-reduce-3j09",
+    "publishedAt": "2022-01-28T11:15:00Z",
+    "description": "Try to interpret this code:      const [,startOfPP,,log] = jobList.reduce(     ([acu, pp, prev,...",
+    "coverImage": null,
+    "tags": []
+  },
+  {
+    "id": 898749,
+    "title": "no dislocation = no-undef",
+    "url": "https://dev.to/pengeszikra/no-dislocation-no-undef-2pi8",
+    "publishedAt": "2021-11-15T12:45:58Z",
+    "description": "{ \"rules\": { \"no-unused\" : \"warn\"}}        Enter fullscreen mode            Exit fullscreen mode    ...",
+    "coverImage": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fb0htnlm1qh8acxty5tkg.png",
+    "tags": [
+      "javascript",
+      "eslint"
+    ]
+  },
+  {
+    "id": 527301,
+    "title": "rust start: hot reloading",
+    "url": "https://dev.to/pengeszikra/rust-start-4klf",
+    "publishedAt": "2020-11-28T11:39:02Z",
+    "description": "As js developer who will be going rust coder too, I find simple way to develop rust with hot reloadin...",
+    "coverImage": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fi%2Fnmwlfdhdvovgussztbug.png",
+    "tags": [],
+    "detectedRepos": [],
+    "localImage": "assets/articles/527301-06283c7850dd.webp"
+  },
+  {
+    "id": 482469,
+    "title": "trap of fold",
+    "url": "https://dev.to/pengeszikra/trap-of-fold-4fnb",
+    "publishedAt": "2020-10-09T18:08:16Z",
+    "description": "image by Stefano Valicchia /unsplash  I would like to learn rust, but with my javascript background t...",
+    "coverImage": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fi%2Ftzxopz6jrtslv55uv6h2.jpg",
+    "tags": [
+      "rust",
+      "beginners"
+    ]
+  },
+  {
+    "id": 466925,
+    "title": "React game under 2h",
+    "url": "https://dev.to/pengeszikra/react-game-under-2h-1l10",
+    "publishedAt": "2020-09-27T20:43:48Z",
+    "description": "Yesterday I was waiting for my wife in car, and my Mac charged around: 80%. So I started discovering...",
+    "coverImage": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fi%2Fb51fe0xuvcaeb5awsjf0.png",
+    "tags": [
+      "react",
+      "javascript"
+    ]
+  },
+  {
+    "id": 416817,
+    "title": "handmade react",
+    "url": "https://dev.to/pengeszikra/handmade-react-2ddd",
+    "publishedAt": "2020-08-04T07:51:49Z",
+    "description": "In my mind react is a simple glue for create basic or complex application. The reactive state handlin...",
+    "coverImage": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fi%2F7agt6fw6k2sa0m3jgh3c.jpg",
+    "tags": [
+      "react",
+      "bundler",
+      "javascript",
+      "html"
+    ]
+  }
+]

@@ -14,3 +14,137 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
+
+<!-- THOUGHT-TREE:START -->
+
+## Ideas → experiments → code
+
+Follow the connections between my articles and the projects they became. Dates show when I wrote them; the branches show how the ideas connect.
+
+Rectangles are articles; rounded nodes are repositories. Solid arrows follow a continuation or implementation. Dotted arrows mark a related theme.
+
+### 01 · Read the flow. Learn by doing.
+
+Pipeline experiments and terminal-first programming meet in a small learning tool.
+
+```mermaid
+flowchart TD
+    terminal_2022["2022 · Terminal workflow"]
+    pipe_2023["2023 · Pipeline proposal"]
+    pipe_2026["2026 · Type-checked pipelines"]
+    tiyf_article["2026 · Terminal Is Your Friend"]
+    typescript(["TypeScript fork"])
+    tiyf(["terminal-is-your-friend"])
+    pipe_2023 -->|"Continued in"| pipe_2026
+    terminal_2022 -.->|"Related theme"| tiyf_article
+    pipe_2026 -->|"Implemented in"| typescript
+    typescript -->|"Powers"| tiyf
+    tiyf_article -->|"Implemented in"| tiyf
+```
+
+<table>
+<tr>
+<td width="290" valign="top"><a href="https://dev.to/pengeszikra/terminal-is-you-friend-4pna"><img src="assets/articles/1159810-8822b60009a8.webp" alt="Terminal is your friend — article cover" width="280"></a></td>
+<td valign="top"><sub>2022-08-09</sub><br><strong><a href="https://dev.to/pengeszikra/terminal-is-you-friend-4pna">Terminal is your friend</a></strong><p>Making the terminal a comfortable part of everyday JavaScript and TypeScript work.</p>Related theme: <a href="https://dev.to/pengeszikra/terminal-is-your-friend-2b49">2026 · Terminal Is Your Friend</a><p><a href="https://dev.to/pengeszikra/terminal-is-you-friend-4pna">Read on DEV →</a></p></td>
+</tr>
+<tr>
+<td width="290" valign="top"><a href="https://dev.to/pengeszikra/pipeline-operator-great-again-1cbn"><img src="assets/articles/1615392-2a0d6b46eb99.webp" alt="Pipeline Operator great again! — article cover" width="280"></a></td>
+<td valign="top"><sub>2023-09-29</sub><br><strong><a href="https://dev.to/pengeszikra/pipeline-operator-great-again-1cbn">Pipeline Operator great again!</a></strong><p>A small proposal: pass a value into a function, then keep reading in the direction the data flows.</p>Continued in: <a href="https://dev.to/pengeszikra/use-this-pipe-to-feel-the-flow-483j">2026 · Type-checked pipelines</a><p><a href="https://dev.to/pengeszikra/pipeline-operator-great-again-1cbn">Read on DEV →</a></p></td>
+</tr>
+<tr>
+<td width="290" valign="top"><a href="https://dev.to/pengeszikra/use-this-pipe-to-feel-the-flow-483j"><img src="assets/articles/4779443-285079f9c1b4.webp" alt="I added a type-checked pipeline operator to TypeScript — including TSX — article cover" width="280"></a></td>
+<td valign="top"><sub>2026-09-30</sub><br><strong><a href="https://dev.to/pengeszikra/use-this-pipe-to-feel-the-flow-483j">I added a type-checked pipeline operator to TypeScript — including TSX</a></strong><p>Returning to the idea with a working experimental TypeScript compiler, including TSX support.</p>Earlier idea: <a href="https://dev.to/pengeszikra/pipeline-operator-great-again-1cbn">2023 · Pipeline proposal</a><br>Implemented in: <a href="https://github.com/Pengeszikra/TypeScript">TypeScript fork</a><p><a href="https://dev.to/pengeszikra/use-this-pipe-to-feel-the-flow-483j">Read on DEV →</a></p></td>
+</tr>
+<tr>
+<td width="290" valign="top"><a href="https://dev.to/pengeszikra/terminal-is-your-friend-2b49"><img src="assets/articles/4786526-8f98d9aa756d.webp" alt="Terminal is your Friend — article cover" width="280"></a></td>
+<td valign="top"><sub>2026-10-04</sub><br><strong><a href="https://dev.to/pengeszikra/terminal-is-your-friend-2b49">Terminal is your Friend</a></strong><p>A small programming playground for a friend. Learn the basics, run real code, and discover TypeScript and a tiny TSX interface along the way.</p>Earlier terminal writing: <a href="https://dev.to/pengeszikra/terminal-is-you-friend-4pna">2022 · Terminal workflow</a><br>Implemented in: <a href="https://github.com/Pengeszikra/terminal-is-your-friend">terminal-is-your-friend</a><p><a href="https://dev.to/pengeszikra/terminal-is-your-friend-2b49">Read on DEV →</a></p></td>
+</tr>
+</table>
+
+**Explore the code:** [TypeScript fork](https://github.com/Pengeszikra/TypeScript) · [terminal-is-your-friend](https://github.com/Pengeszikra/terminal-is-your-friend)
+
+### 02 · Useful types, small tools.
+
+From typed React state to JSDoc, then into a playable game. These older experiments still explain the code.
+
+```mermaid
+flowchart TD
+    state_article["2023 · Typed React state"]
+    duck_article["2024 · The JSDoc module quest"]
+    alien_article["2024 · Alien Solitaire"]
+    jsdoc_article["2024 · JSDoc Evangelism"]
+    state_repo(["react-state-factory"])
+    duck_repo(["jsdoc-duck"])
+    alien_repo(["alien-solitare"])
+    state_article -->|"Implemented in"| state_repo
+    state_repo -->|"Reworked as"| duck_repo
+    duck_article -->|"Implemented in"| duck_repo
+    duck_repo -->|"Used by"| alien_repo
+    alien_article -->|"Implemented in"| alien_repo
+    duck_article -->|"Lessons continued in"| jsdoc_article
+    jsdoc_article -.->|"Discusses"| duck_repo
+```
+
+<table>
+<tr>
+<td width="290" valign="top"><a href="https://dev.to/pengeszikra/simplify-your-react-state-management-with-react-state-factory-4a14"><img src="assets/articles/1594655-8a75a1feb8d4.webp" alt="Simplify your React state management with react-state-factory — article cover" width="280"></a></td>
+<td valign="top"><sub>2023-09-13</sub><br><strong><a href="https://dev.to/pengeszikra/simplify-your-react-state-management-with-react-state-factory-4a14">Simplify your React state management with react-state-factory</a></strong><p>A small state-management library built around useReducer, typed actions and a straightforward dispatch API.</p>Implemented in: <a href="https://github.com/Pengeszikra/react-state-factory">react-state-factory</a><p><a href="https://dev.to/pengeszikra/simplify-your-react-state-management-with-react-state-factory-4a14">Read on DEV →</a></p></td>
+</tr>
+<tr>
+<td width="290" valign="top"><a href="https://dev.to/pengeszikra/jsdoc-npm-module-quest-2f7a"><img src="assets/articles/1976994-3500a0e75592.webp" alt="jsDoc npm module quest — article cover" width="280"></a></td>
+<td valign="top"><sub>2024-08-29</sub><br><strong><a href="https://dev.to/pengeszikra/jsdoc-npm-module-quest-2f7a">jsDoc npm module quest</a></strong><p>Reworking react-state-factory in JavaScript with JSDoc, and finding the practical limits of publishing its types.</p>Implemented in: <a href="https://github.com/Pengeszikra/jsdoc-duck">jsdoc-duck</a><br>Lessons continued in: <a href="https://dev.to/pengeszikra/jsdoc-evangelism-1eij">2024 · JSDoc Evangelism</a><p><a href="https://dev.to/pengeszikra/jsdoc-npm-module-quest-2f7a">Read on DEV →</a></p></td>
+</tr>
+<tr>
+<td width="290" valign="top"><a href="https://dev.to/pengeszikra/a-l-i-e-n-s-o-l-i-t-a-r-e-2kgc"><img src="assets/articles/2006748-e069fcf15a78.webp" alt="A L I E N - S O L I T A R E — article cover" width="280"></a></td>
+<td valign="top"><sub>2024-09-29</sub><br><strong><a href="https://dev.to/pengeszikra/a-l-i-e-n-s-o-l-i-t-a-r-e-2kgc">A L I E N - S O L I T A R E</a></strong><p>A playable card game that puts jsdoc-duck to work: typed state and actions in a real JavaScript application.</p>Implemented in: <a href="https://github.com/Pengeszikra/alien-solitare">alien-solitare</a><p><a href="https://dev.to/pengeszikra/a-l-i-e-n-s-o-l-i-t-a-r-e-2kgc">Read on DEV →</a></p></td>
+</tr>
+<tr>
+<td width="290" valign="top"><a href="https://dev.to/pengeszikra/jsdoc-evangelism-1eij"><img src="assets/articles/2021658-3dd3dc9e35c2.webp" alt="JSDoc Evangelism — article cover" width="280"></a></td>
+<td valign="top"><sub>2024-10-27</sub><br><strong><a href="https://dev.to/pengeszikra/jsdoc-evangelism-1eij">JSDoc Evangelism</a></strong><p>What working on legacy JavaScript and jsdoc-duck taught me about adding useful types without rewriting the application.</p>Earlier experiment: <a href="https://dev.to/pengeszikra/jsdoc-npm-module-quest-2f7a">2024 · The JSDoc module quest</a><br>Discusses: <a href="https://github.com/Pengeszikra/jsdoc-duck">jsdoc-duck</a><p><a href="https://dev.to/pengeszikra/jsdoc-evangelism-1eij">Read on DEV →</a></p></td>
+</tr>
+</table>
+
+**Explore the code:** [react-state-factory](https://github.com/Pengeszikra/react-state-factory) · [jsdoc-duck](https://github.com/Pengeszikra/jsdoc-duck) · [alien-solitare](https://github.com/Pengeszikra/alien-solitare)
+
+### 03 · Rust, WASM and things you can draw.
+
+An early Rust learning note and a later drawing experiment. Shared curiosity; different projects.
+
+
+<table>
+<tr>
+<td width="290" valign="top"><a href="https://dev.to/pengeszikra/rust-start-4klf"><img src="assets/articles/527301-06283c7850dd.webp" alt="rust start: hot reloading — article cover" width="280"></a></td>
+<td valign="top"><sub>2020-11-28</sub><br><strong><a href="https://dev.to/pengeszikra/rust-start-4klf">rust start: hot reloading</a></strong><p>An early notebook entry on getting started with Rust and hot reloading.</p>Related theme: <a href="https://dev.to/pengeszikra/rustroke-wasm-mini-draw-3oih">2026 · Rustroke</a><p><a href="https://dev.to/pengeszikra/rust-start-4klf">Read on DEV →</a></p></td>
+</tr>
+<tr>
+<td width="290" valign="top"><a href="https://dev.to/pengeszikra/rustroke-wasm-mini-draw-3oih"><img src="assets/articles/3255055-082eec761f1a.webp" alt="Rustroke - WASM mini draw — article cover" width="280"></a></td>
+<td valign="top"><sub>2026-02-15</sub><br><strong><a href="https://dev.to/pengeszikra/rustroke-wasm-mini-draw-3oih">Rustroke - WASM mini draw</a></strong><p>A minimal drawing tool: draw free lines and fill the areas between them. A Rust/WASM geometry engine sits behind a simple HTML interface.</p>Earlier Rust writing: <a href="https://dev.to/pengeszikra/rust-start-4klf">2020 · Starting with Rust</a><br>Implemented in: <a href="https://github.com/Pengeszikra/rustroke">rustroke</a><p><a href="https://dev.to/pengeszikra/rustroke-wasm-mini-draw-3oih">Read on DEV →</a></p></td>
+</tr>
+</table>
+
+**Explore the code:** [rustroke](https://github.com/Pengeszikra/rustroke)
+
+### More from my notebook
+
+Recent articles waiting for a place on the map.
+
+<table>
+<tr>
+<td width="290" valign="top"><a href="https://dev.to/pengeszikra/llm-rpg-test-2026-4734"><img src="assets/articles/3619539-3f0e1978e393.webp" alt="LLM RPG test 2026 — article cover" width="280"></a></td>
+<td valign="top"><sub>2026-05-06</sub><br><strong><a href="https://dev.to/pengeszikra/llm-rpg-test-2026-4734">LLM RPG test 2026</a></strong><p>From time to time, I test the abilities of current LLMs with an RPG task. A relatively simple prompt...</p><p><a href="https://dev.to/pengeszikra/llm-rpg-test-2026-4734">Read on DEV →</a></p></td>
+</tr>
+<tr>
+<td width="290" valign="top"><a href="https://dev.to/pengeszikra/a-game-for-the-mind-2mj3"><img src="assets/articles/3518252-8672749648f0.webp" alt="A Game for the Mind — article cover" width="280"></a></td>
+<td valign="top"><sub>2026-04-18</sub><br><strong><a href="https://dev.to/pengeszikra/a-game-for-the-mind-2mj3">A Game for the Mind</a></strong><p>Share your vision!   Please share your vision, how you can saw to planet bright or dark ...</p><p><a href="https://dev.to/pengeszikra/a-game-for-the-mind-2mj3">Read on DEV →</a></p></td>
+</tr>
+<tr>
+<td width="290" valign="top"></td>
+<td valign="top"><sub>2026-04-14</sub><br><strong><a href="https://dev.to/pengeszikra/mcm-mordor-coffe-machine-42ap">MCM :: mordor-coffe-machine</a></strong><p><a href="https://dev.to/pengeszikra/mcm-mordor-coffe-machine-42ap">Read on DEV →</a></p></td>
+</tr>
+</table>
+
+[All 39 articles on DEV](https://dev.to/pengeszikra)
+
+<sub>Article images are copied from their original DEV posts. The map is curated; article metadata and covers refresh automatically.</sub>
+
+<!-- THOUGHT-TREE:END -->
