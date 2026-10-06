@@ -17,7 +17,7 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 
-![assets/pengeszikra-thought-tree-atlas.png]
+<img src="assets/pengeszikra-thought-tree-atlas.png" alt="thought tree atlas">
 
 <!-- THOUGHT-TREE:START -->
 
