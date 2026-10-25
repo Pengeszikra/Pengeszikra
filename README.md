@@ -1,4 +1,4 @@
-`single line CV:` Creator of [mordorjs](https://dev.to/pengeszikra/mdjs-mordorjs-1mon) and [TifY](https://dev.to/pengeszikra/terminal-is-your-friend-2b49) also [pipeline-operator](https://dev.to/pengeszikra/use-this-pipe-to-feel-the-flow-483j) fanatic. 🇭🇺
+`single line CV:` Creator of [mordorjs](https://dev.to/pengeszikra/mdjs-mordorjs-1mon) and [HEXAW](https://dev.to/pengeszikra/hexaw-a-lazy-wasm-text-format-5g5n) also [pipeline-operator](https://dev.to/pengeszikra/use-this-pipe-to-feel-the-flow-483j) fanatic. 🇭🇺
 
 mental map: `1John1 + 5John17 |> 1Moses1 = (1Moses2 ... 4.22John21); alpha & omega = !![];`
 
