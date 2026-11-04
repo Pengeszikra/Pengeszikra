@@ -56,8 +56,8 @@ test('links only my own repos and packages, by link, install line, or package re
   const packages = [{ name: 'jsdoc-duck', repo: 'jsdoc-duck' }, { name: 'ts-pipe', repo: 'TypeScript' }];
   const mentions = Object.fromEntries(Object.entries(bodies).map(([id, b]) => [id, extractMentions(b)]));
   assert.deepEqual(linkArticles(arts, mentions, repos, packages), {
-    1: { repos: ['TypeScript'], packages: ['ts-pipe'] },
-    2: { repos: [], packages: ['jsdoc-duck'] },
+    1: { url: undefined, title: undefined, repos: ['TypeScript'], packages: ['ts-pipe'] },
+    2: { url: undefined, title: undefined, repos: [], packages: ['jsdoc-duck'] },
   });
 });
 

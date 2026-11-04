@@ -111,7 +111,7 @@ export function linkArticles(articles, mentions, repos, packages) {
     const repoSet = new Set(m.repos.map(r => repoByLc.get(r)).filter(Boolean));
     const pkgSet = new Set(m.packages.map(p => pkgByLc.get(p)).filter(Boolean));
     for (const r of repoSet) for (const p of pkgsOfRepo.get(lc(r)) || []) pkgSet.add(p);
-    if (repoSet.size || pkgSet.size) links[a.id] = { repos: [...repoSet].sort(), packages: [...pkgSet].sort() };
+    if (repoSet.size || pkgSet.size) links[a.id] = { url: a.url, title: a.title, repos: [...repoSet].sort(), packages: [...pkgSet].sort() };
   }
   return links;
 }
