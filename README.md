@@ -26,80 +26,79 @@ Here are some ideas to get you started:
 <br>
 
 <details>
-<summary><code>2026-10-04</code> <b>Terminal is your Friend</b> · <sub>Rust · WASM · terminal</sub></summary>
+<summary><code>2026-10-31</code> <b>dev.to articles mindmap</b> · <sub>AI &amp; authorship</sub></summary>
 <br>
-<a href="https://dev.to/pengeszikra/terminal-is-your-friend-2b49"><img src="https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fdd8kngtodcx1yjnaftsk.png" alt="" width="420"></a><br>
-This is a submission for the Hacktoberfest Weekend Challenge: Build for a Friend What I...<br>
-<sub>#devchallenge #weekendchallenge #hf26challenge #beginners</sub><br>
-<a href="https://dev.to/pengeszikra/terminal-is-your-friend-2b49">Read on dev.to →</a>
+<a href="https://dev.to/pengeszikra/devto-articles-mindmap-47j5"><img src="https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fq0gbqtjubx2vo99rtz83.png" alt="" width="420"></a><br>
+It’s hard to get used to the speed at which #KnowsEverythingBetter accelerates production beyond its...<br>
+<sub>3 min read · ♡ 19 · #discuss #devto #opensource #productivity</sub><br>
+<a href="https://dev.to/pengeszikra/devto-articles-mindmap-47j5">Read on dev.to →</a>
 <br><br>
 </details>
 
 <details>
-<summary><code>2026-09-30</code> <b>I added a type-checked pipeline operator to TypeScript — including TSX</b> · <sub>|&gt; pipeline operator</sub></summary>
+<summary><code>2026-10-31</code> <b>Singularity News :: CCG</b> · <sub>Singularity News</sub></summary>
 <br>
-<a href="https://dev.to/pengeszikra/use-this-pipe-to-feel-the-flow-483j"><img src="https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fyh3vnrk2sfm779ivnnvp.png" alt="" width="420"></a><br>
-A proof-of-concept TypeScript compiler with a pipeline operator. I searching testers and...<br>
-<sub>#typescript #discuss #opensource #hacktoberfest</sub><br>
-<a href="https://dev.to/pengeszikra/use-this-pipe-to-feel-the-flow-483j">Read on dev.to →</a>
+<a href="https://dev.to/pengeszikra/singularity-news-ccg-5ejk"><img src="https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fyyh84oxpucdnmygo396v.png" alt="" width="420"></a><br>
+This is a submission for the Hacktoberfest Open-Source AI Challenge Week 4: Ghost in the Machine ...<br>
+<sub>4 min read · ♡ 49 · #devchallenge #hf26challenge #gamedev #showdev</sub><br>
+<a href="https://dev.to/pengeszikra/singularity-news-ccg-5ejk">Read on dev.to →</a>
 <br><br>
 </details>
 
 <details>
-<summary><code>2026-05-06</code> <b>LLM RPG test 2026</b> · <sub>LLM as Game Master</sub></summary>
+<summary><code>2026-10-29</code> <b>The Eye of Beholder = UMGD</b> · <sub>LLM as Game Master</sub></summary>
 <br>
-<a href="https://dev.to/pengeszikra/llm-rpg-test-2026-4734"><img src="https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fsvvpsjxxl0buxkcqdlbl.png" alt="" width="420"></a><br>
-From time to time, I test the abilities of current LLMs with an RPG task. A relatively simple prompt...<br>
-<sub>#ai #beginners #gamification #testing</sub><br>
-<a href="https://dev.to/pengeszikra/llm-rpg-test-2026-4734">Read on dev.to →</a>
+<a href="https://dev.to/pengeszikra/the-eye-of-beholder-umgd-55lm"><img src="https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Ftdkan7tvu04q486ot1qc.png" alt="" width="420"></a><br>
+UMGD — Under Meeting Game Development game: Redneck Wreck repo:on github I owe you a...<br>
+<sub>3 min read · ♡ 14 · #ai #discuss #gamedev #showdev</sub><br>
+<a href="https://dev.to/pengeszikra/the-eye-of-beholder-umgd-55lm">Read on dev.to →</a>
 <br><br>
 </details>
 
 <details>
-<summary><code>2026-04-18</code> <b>A Game for the Mind</b> · <sub>LLM as Game Master</sub></summary>
+<summary><code>2026-10-28</code> <b>Liberation from Tech Dep(b)to</b> · <sub>AI &amp; authorship</sub></summary>
 <br>
-<a href="https://dev.to/pengeszikra/a-game-for-the-mind-2mj3"><img src="https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fmd0kpec2d0v8aj2cnn0n.png" alt="" width="420"></a><br>
-Share your vision! Please share your vision, how you can saw to planet bright or dark ...<br>
-<sub>#devchallenge #weekendchallenge #discuss #ai</sub><br>
-<a href="https://dev.to/pengeszikra/a-game-for-the-mind-2mj3">Read on dev.to →</a>
+<a href="https://dev.to/pengeszikra/liberation-from-tech-depbto-241d"><img src="https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fnwd1foowub5y47qykpmd.jpg" alt="" width="420"></a><br>
+Liberation I'm not talking about the length of package.json files. I run into those far...<br>
+<sub>2 min read · ♡ 17 · #beginners #ai #discuss #tutorial</sub><br>
+<a href="https://dev.to/pengeszikra/liberation-from-tech-depbto-241d">Read on dev.to →</a>
 <br><br>
 </details>
 
 <details>
-<summary><code>2026-04-14</code> <b>MCM :: mordor-coffe-machine</b> · <sub>Satire, built for real</sub></summary>
+<summary><code>2026-10-25</code> <b>HEXAW programming language for WebAssembly instead WAT</b> · <sub>Rust · WASM · terminal</sub></summary>
 <br>
-_______________________ dm.rovivruS_1 _______________________ t I w...<br>
-<sub>#jokes #devchallenge #showdev #productivity</sub><br>
-<a href="https://dev.to/pengeszikra/mcm-mordor-coffe-machine-42ap">Read on dev.to →</a>
+<a href="https://dev.to/pengeszikra/hexaw-a-lazy-wasm-text-format-5g5n"><img src="https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fu8zgu8f4zouggzb33wqm.png" alt="" width="420"></a><br>
+This is a submission for the Hacktoberfest Open-Source AI Challenge Week 3: Slow and Steady ...<br>
+<sub>4 min read · ♡ 48 · #devchallenge #hf26challenge #webassembly</sub><br>
+<a href="https://dev.to/pengeszikra/hexaw-a-lazy-wasm-text-format-5g5n">Read on dev.to →</a>
 <br><br>
 </details>
 
 <details>
-<summary><code>2026-04-12</code> <b>M||D||JS = MorDorJS</b> · <sub>Satire, built for real</sub></summary>
+<summary><code>2026-10-24</code> <b>Singularity News :: 0011</b> · <sub>Singularity News</sub></summary>
 <br>
-This is a submission for the DEV April Fools Challenge TLDR :: MP is FUFF the Final Underground...<br>
-<sub>#devchallenge #418challenge #showdev #javascript</sub><br>
-<a href="https://dev.to/pengeszikra/mdjs-mordorjs-1mon">Read on dev.to →</a>
+Tesla Roadster always a big help! Welcome to Singularity News ... until ... well, we all know...<br>
+<sub>3 min read · ♡ 4 · #discuss #news #ai</sub><br>
+<a href="https://dev.to/pengeszikra/singularity-news-0011-1ai0">Read on dev.to →</a>
 <br><br>
 </details>
 
 <details>
-<summary><code>2026-03-20</code> <b>Vibe Archeologist: From Z80 Assembly to an 1859 Mudbrick House and Beyond</b> · <sub>root of the map</sub></summary>
+<summary><code>2026-10-19</code> <b>Do Not prompt the Arch Intelligent ! ! !</b> · <sub>AI &amp; authorship</sub></summary>
 <br>
-<a href="https://dev.to/pengeszikra/vibe-archeologist-from-z80-assembly-to-an-1859-mudbrick-house-and-beyond-46n5"><img src="https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F8st5hb9edvfo395mx12b.png" alt="" width="420"></a><br>
-Born a month before the Moon landing, I’ve spent 56 years watching the world shift from vacuum tubes...<br>
-<sub>#ai #rust #beginners #career</sub><br>
-<a href="https://dev.to/pengeszikra/vibe-archeologist-from-z80-assembly-to-an-1859-mudbrick-house-and-beyond-46n5">Read on dev.to →</a>
+Recently, I came across an interesting Oxford lecture by Professor Yuval Noah Harari, in which he...<br>
+<sub>2 min read · ♡ 8 · #ai #llm #discuss #promptengineering</sub><br>
+<a href="https://dev.to/pengeszikra/do-not-prompt-the-arch-intelligent--2l8g">Read on dev.to →</a>
 <br><br>
 </details>
 
 <details>
-<summary><code>2026-03-18</code> <b>Oscar goes to ...</b> · <sub>AI &amp; authorship</sub></summary>
+<summary><code>2026-10-18</code> <b>The Bell of Greystone</b> · <sub>LLM as Game Master</sub></summary>
 <br>
-<a href="https://dev.to/pengeszikra/oscar-goes-to--1nfg"><img src="https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fgbft9fp220uugbrs3mif.png" alt="" width="420"></a><br>
-My Oscar vote for the best AI short video of 2026 goes to: WOW: REBORN Tauren: Every Trail...<br>
-<sub>#ai #design #diversity</sub><br>
-<a href="https://dev.to/pengeszikra/oscar-goes-to--1nfg">Read on dev.to →</a>
+Role-Playing Games I must confess, when I was young, I got completely hooked on...<br>
+<sub>62 min read · ♡ 10 · #rollplaygame #showdev #llm #gamedev</sub><br>
+<a href="https://dev.to/pengeszikra/the-bell-of-greystone-381n">Read on dev.to →</a>
 <br><br>
 </details>
 
