@@ -11,6 +11,7 @@ on:
     paths:
       - scripts/postmap.mjs
       - scripts/links.mjs
+      - scripts/codemap.mjs
       - .github/workflows/postmap.yml
 
 permissions:

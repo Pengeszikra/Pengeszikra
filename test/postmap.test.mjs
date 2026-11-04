@@ -61,19 +61,33 @@ test('links only my own repos and packages, by link, install line, or package re
   });
 });
 
-test('code section groups by thread and lists unmentioned npm packages', () => {
+test('code section lists only npm packages no post mentions', () => {
   const posts = readPosts(svg);
-  const [url, info] = [...posts.entries()][1];
-  const arts = [{ id: 7, title: 'T', url, publishedAt: '2026-01-01' }];
   const code = {
     repos: [{ name: 'r1', url: 'https://github.com/Pengeszikra/r1', description: 'd' }],
     packages: [{ name: 'p1', repo: 'r1' }, { name: 'lonely' }],
-    links: { 7: { repos: ['r1'], packages: ['p1'] } },
+    links: { 7: { url: 'x', title: 'T', repos: ['r1'], packages: ['p1'] } },
   };
-  const out = renderCode(arts, posts, code);
-  assert.ok(out.includes(info.thread.replace(/&/g, '&amp;').replace(/>/g, '&gt;')));
-  assert.ok(out.includes('More on npm') && out.includes('lonely') && out.includes('p1'));
-  assert.equal(renderCode(arts, posts, null), '');
+  const out = renderCode([], posts, code);
+  assert.ok(out.includes('More on npm') && out.includes('lonely') && !out.includes('package/p1'));
+  assert.equal(renderCode([], posts, null), '');
+});
+
+import { addCodeColumns } from '../scripts/codemap.mjs';
+test('code columns add repo and npm cards wired to the posts, and widen the canvas', () => {
+  const posts = [...readPosts(svg).keys()];
+  const code = {
+    repos: [{ name: 'r1', url: 'https://github.com/Pengeszikra/r1' }],
+    packages: [{ name: 'p1', repo: 'r1', version: '1.0.0' }, { name: 'p2', version: '0.1.0' }],
+    links: { 1: { url: posts[1], title: 'A', repos: ['r1'], packages: ['p1'] }, 2: { url: posts[40], title: 'B', repos: [], packages: ['p2'] } },
+  };
+  const out = addCodeColumns(svg, code);
+  assert.equal((out.match(/class="x"/g) || []).length, 3);
+  assert.ok(out.includes('published from this repo') && out.includes('installs or links this package'));
+  const width = s => Number(s.match(/viewBox="[^"]*"/)[0].split(' ')[2]);
+  assert.ok(width(out) > width(svg));
+  assert.equal(addCodeColumns(svg, null), svg);
+  assert.equal((animateSvg(out).match(/<a /g) || []).length, (out.match(/<a /g) || []).length);
 });
 
 import { foldPackages } from '../scripts/postmap.mjs';

@@ -8,6 +8,7 @@
 //   node scripts/postmap.mjs --offline  # use assets/mindmap.svg and data/articles.json
 import { readFile, writeFile } from 'node:fs/promises';
 import { collectCode } from './links.mjs';
+import { addCodeColumns } from './codemap.mjs';
 
 export const START = '<!-- POSTMAP:START -->';
 export const END = '<!-- POSTMAP:END -->';
@@ -203,68 +204,22 @@ function codeLine(article, code) {
   return `🧩 ${parts.join(' · ')}<br>\n`;
 }
 
-// "Code behind the posts": the repos and npm packages each thread's articles point to,
-// then the npm packages no post mentions yet.
+// npm packages that no post points to yet; the ones posts do point to are on the map.
 export function renderCode(articles, posts, code) {
-  if (!code?.links || !Object.keys(code.links).length) return '';
-  const byId = new Map(articles.map(a => [a.id, a]));
-  const threadOf = a => posts.get(cleanUrl(a.url))?.thread || 'Not on the map yet';
-  const groups = new Map(); // thread → { repos: Map(name → Set(article)), packages: Map(name → Set(article)) }
-  for (const [id, l] of Object.entries(code.links)) {
-    const a = byId.get(Number(id));
-    if (!a) continue;
-    const t = threadOf(a);
-    if (!groups.has(t)) groups.set(t, { repos: new Map(), packages: new Map() });
-    const g = groups.get(t);
-    for (const r of l.repos) g.repos.set(r, (g.repos.get(r) || new Set()).add(a));
-    for (const p of l.packages) g.packages.set(p, (g.packages.get(p) || new Set()).add(a));
-  }
-
-  const order = [...new Set([...posts.values()].map(p => p.thread))];
-  const threads = [...groups.keys()].sort((x, y) => (order.indexOf(x) + 1 || 99) - (order.indexOf(y) + 1 || 99));
-  const titleLinks = set => [...set].sort((x, y) => String(y.publishedAt).localeCompare(String(x.publishedAt)))
-    .map(a => `<a href="${esc(a.url)}">${esc(a.title)}</a>`).join(', ');
-
-  const sections = threads.map(t => {
-    const g = groups.get(t);
-    const list = projects([...g.repos.keys()].sort((a, b) => a.localeCompare(b)), [...g.packages.keys()].sort(), code);
-    const sources = proj => {
-      const s = new Set(proj.repo ? g.repos.get(proj.repo) || [] : []);
-      for (const p of proj.packages) for (const a of g.packages.get(p.name) || []) s.add(a);
-      return titleLinks(s);
-    };
-    const nPkg = list.reduce((n, p) => n + p.packages.length, 0);
-    const counts = [`${list.length} project${list.length > 1 ? 's' : ''}`, nPkg ? `${nPkg} on npm` : ''].filter(Boolean).join(' · ');
-    return `<details>
-<summary><b>${esc(t)}</b> · <sub>${counts}</sub></summary>
-<br>
-
-${list.map(proj => `- ${projectLine(proj, code)}<br><sub>← ${sources(proj)}</sub>`).join('\n')}
-
-</details>`;
-  });
-
-  const linked = new Set(Object.values(code.links).flatMap(l => l.packages));
+  if (!code?.packages?.length) return '';
+  const linked = new Set(Object.values(code.links || {}).flatMap(l => l.packages));
   const restNames = code.packages.filter(p => !linked.has(p.name)).map(p => p.name);
-  const rest = projects([], restNames, code)
-    .sort((x, y) => String((code.packages.find(p => p.name === y.packages[0]?.name) || {}).date)
-      .localeCompare(String((code.packages.find(p => p.name === x.packages[0]?.name) || {}).date)));
-  if (rest.length) sections.push(`<details>
-<summary><b>More on npm</b> · <sub>${rest.length} projects no post mentions yet</sub></summary>
+  const dateOfPkg = proj => String((code.packages.find(p => p.name === proj.packages[0]?.name) || {}).date);
+  const rest = projects([], restNames, code).sort((x, y) => dateOfPkg(y).localeCompare(dateOfPkg(x)));
+  if (!rest.length) return '';
+  return `
+<details>
+<summary><b>📦 More on npm</b> — ${rest.length} projects no post mentions yet</summary>
 <br>
 
 ${rest.map(proj => `- ${projectLine(proj, code)}`).join('\n')}
 
-</details>`);
-
-  return `
-<details>
-<summary><b>🧰 Code behind the posts</b> — GitHub repos and npm packages, grouped by thread</summary>
-<br>
-
-${sections.join('\n\n')}
-
-<sub>Found from links and <code>npm i</code> lines in the articles · <a href="https://github.com/Pengeszikra?tab=repositories">all repos</a> · <a href="https://www.npmjs.com/~${CONFIG.username}">all npm packages</a></sub>
+<sub>Repos and packages that posts link are on the map above · <a href="https://www.npmjs.com/~${CONFIG.username}">all npm packages</a> · <a href="https://github.com/Pengeszikra?tab=repositories">all repos</a></sub>
 </details>
 `;
 }
@@ -347,7 +302,7 @@ async function main() {
   const previous = await readFile(CODE, 'utf8').then(JSON.parse, () => null);
   const code = offline ? previous : await collectCode(articles, { token: process.env.GITHUB_TOKEN, previous });
 
-  const animated = animateSvg(svg);
+  const animated = animateSvg(addCodeColumns(svg, code));
   const readme = replaceBlock(await readFile(README, 'utf8'), renderLatest(articles, readPosts(svg), { code }));
 
   if (!offline) {
