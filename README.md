@@ -30,6 +30,7 @@ Here are some ideas to get you started:
 <br>
 <a href="https://dev.to/pengeszikra/devto-articles-mindmap-47j5"><img src="https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fq0gbqtjubx2vo99rtz83.png" alt="" width="420"></a><br>
 It’s hard to get used to the speed at which #KnowsEverythingBetter accelerates production beyond its...<br>
+🧩 <a href="https://github.com/Pengeszikra/devto-post-map"><code>devto-post-map</code></a><br>
 <sub>3 min read · ♡ 19 · #discuss #devto #opensource #productivity</sub><br>
 <a href="https://dev.to/pengeszikra/devto-articles-mindmap-47j5">Read on dev.to →</a>
 <br><br>
@@ -40,6 +41,7 @@ It’s hard to get used to the speed at which #KnowsEverythingBetter accelerates
 <br>
 <a href="https://dev.to/pengeszikra/singularity-news-ccg-5ejk"><img src="https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fyyh84oxpucdnmygo396v.png" alt="" width="420"></a><br>
 This is a submission for the Hacktoberfest Open-Source AI Challenge Week 4: Ghost in the Machine ...<br>
+🧩 <a href="https://github.com/Pengeszikra/singularity-news-ccg"><code>singularity-news-ccg</code></a><br>
 <sub>4 min read · ♡ 49 · #devchallenge #hf26challenge #gamedev #showdev</sub><br>
 <a href="https://dev.to/pengeszikra/singularity-news-ccg-5ejk">Read on dev.to →</a>
 <br><br>
@@ -50,6 +52,7 @@ This is a submission for the Hacktoberfest Open-Source AI Challenge Week 4: Ghos
 <br>
 <a href="https://dev.to/pengeszikra/the-eye-of-beholder-umgd-55lm"><img src="https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Ftdkan7tvu04q486ot1qc.png" alt="" width="420"></a><br>
 UMGD — Under Meeting Game Development game: Redneck Wreck repo:on github I owe you a...<br>
+🧩 <a href="https://github.com/Pengeszikra/redneck-wreck"><code>redneck-wreck</code></a><br>
 <sub>3 min read · ♡ 14 · #ai #discuss #gamedev #showdev</sub><br>
 <a href="https://dev.to/pengeszikra/the-eye-of-beholder-umgd-55lm">Read on dev.to →</a>
 <br><br>
@@ -70,6 +73,7 @@ Liberation I'm not talking about the length of package.json files. I run into th
 <br>
 <a href="https://dev.to/pengeszikra/hexaw-a-lazy-wasm-text-format-5g5n"><img src="https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fu8zgu8f4zouggzb33wqm.png" alt="" width="420"></a><br>
 This is a submission for the Hacktoberfest Open-Source AI Challenge Week 3: Slow and Steady ...<br>
+🧩 <a href="https://github.com/Pengeszikra/hexaw"><code>hexaw</code></a> · <a href="https://www.npmjs.com/package/hexaw">📦 <code>hexaw</code></a> · <a href="https://www.npmjs.com/package/hexaw-repository">📦 <code>hexaw-repository</code></a><br>
 <sub>4 min read · ♡ 48 · #devchallenge #hf26challenge #webassembly</sub><br>
 <a href="https://dev.to/pengeszikra/hexaw-a-lazy-wasm-text-format-5g5n">Read on dev.to →</a>
 <br><br>
@@ -103,6 +107,124 @@ Role-Playing Games I must confess, when I was young, I got completely hooked on.
 </details>
 
 <sub>All posts: <a href="https://devto-post-map.vercel.app/">interactive map</a> · <a href="https://dev.to/pengeszikra">dev.to/pengeszikra</a></sub>
+</details>
+
+<details>
+<summary><b>🧰 Code behind the posts</b> — GitHub repos and npm packages, grouped by thread</summary>
+<br>
+
+<details>
+<summary><b>Singularity News</b> · <sub>1 repo</sub></summary>
+<br>
+
+- <a href="https://github.com/Pengeszikra/singularity-news-ccg"><code>singularity-news-ccg</code></a> <sub>HTML · <a href="https://singularity-news-ccg.vercel.app">live</a></sub><br><sub>← <a href="https://dev.to/pengeszikra/singularity-news-ccg-5ejk">Singularity News :: CCG</a></sub>
+
+</details>
+
+<details>
+<summary><b>Flogon universe</b> · <sub>3 repos · 2 npm</sub></summary>
+<br>
+
+- <a href="https://github.com/Pengeszikra/alien-solitare"><code>alien-solitare</code></a> <sub>JavaScript · <a href="https://alien-solitare.vercel.app">live</a></sub> — jsdoc-duck example game for dev.io Challenge<br><sub>← <a href="https://dev.to/pengeszikra/a-l-i-e-n-s-o-l-i-t-a-r-e-2kgc">A L I E N - S O L I T A R E</a></sub>
+- <a href="https://github.com/Pengeszikra/flogon-galaxy"><code>flogon-galaxy</code></a> <sub>JavaScript · ★ 3 · <a href="https://flogon-galaxy.vercel.app">live</a></sub> — Intergalactic game using a AWS services, the Flogon story is continued.<br><sub>← <a href="https://dev.to/pengeszikra/javascript-great-again-the-voice-of-void-5fp6">Javascript great again! - The Voice of Void</a></sub>
+- <a href="https://github.com/Pengeszikra/rogmor"><code>rogmor</code></a> <sub>TypeScript · <a href="https://rogmor.vercel.app/">live</a></sub> — Created with StackBlitz ⚡️<br><sub>← <a href="https://dev.to/pengeszikra/adventure-of-javascript-based-mmorpg-creation-5909">Adventure of javascript based MMORPG creation.</a></sub>
+- <a href="https://www.npmjs.com/package/jsdoc-duck">📦 <code>jsdoc-duck</code></a> <img src="https://img.shields.io/npm/v/jsdoc-duck?style=flat-square&label=&color=3d3528" alt="npm version" align="absmiddle"> — react/jsdoc minimal typesafe state handling<br><sub>← <a href="https://dev.to/pengeszikra/a-l-i-e-n-s-o-l-i-t-a-r-e-2kgc">A L I E N - S O L I T A R E</a></sub>
+- <a href="https://www.npmjs.com/package/react-troll">📦 <code>react-troll</code></a> <img src="https://img.shields.io/npm/v/react-troll?style=flat-square&label=&color=3d3528" alt="npm version" align="absmiddle"> — react useReducer organizator<br><sub>← <a href="https://dev.to/pengeszikra/adventure-of-javascript-based-mmorpg-creation-5909">Adventure of javascript based MMORPG creation.</a></sub>
+
+</details>
+
+<details>
+<summary><b>LLM as Game Master</b> · <sub>3 repos · 1 npm</sub></summary>
+<br>
+
+- <a href="https://github.com/Pengeszikra/mordorjs"><code>mordorjs</code></a> <sub>JavaScript · ★ 6</sub> — mordorjs is a single character wide js also declared mordor projcet project format<br><sub>← <a href="https://dev.to/pengeszikra/a-game-for-the-mind-2mj3">A Game for the Mind</a></sub>
+- <a href="https://github.com/Pengeszikra/quickquest"><code>quickquest</code></a> <sub>JavaScript · <a href="https://quickquest-xi.vercel.app">live</a></sub> — single line RPG for dev.to gemni challenge<br><sub>← <a href="https://dev.to/pengeszikra/the-royal-gazette-a-single-line-noble-intrigue-20nn">The Royal Gazette: A Single-Line Noble Intrigue</a></sub>
+- <a href="https://github.com/Pengeszikra/redneck-wreck"><code>redneck-wreck</code></a> <sub>TypeScript · ★ 1 · <a href="https://redneck-wreck.vercel.app">live</a></sub> — space trader game  powered by UMGD :: Under Meeting Game Development<br><sub>← <a href="https://dev.to/pengeszikra/the-eye-of-beholder-umgd-55lm">The Eye of Beholder = UMGD</a></sub>
+- <a href="https://www.npmjs.com/package/mordorjs">📦 <code>mordorjs</code></a> <img src="https://img.shields.io/npm/v/mordorjs?style=flat-square&label=&color=3d3528" alt="npm version" align="absmiddle"> — is a toolkit for first real 1D programming language and so much more<br><sub>← <a href="https://dev.to/pengeszikra/a-game-for-the-mind-2mj3">A Game for the Mind</a></sub>
+
+</details>
+
+<details>
+<summary><b>Satire, built for real</b> · <sub>1 repo · 1 npm</sub></summary>
+<br>
+
+- <a href="https://github.com/Pengeszikra/mordorjs"><code>mordorjs</code></a> <sub>JavaScript · ★ 6</sub> — mordorjs is a single character wide js also declared mordor projcet project format<br><sub>← <a href="https://dev.to/pengeszikra/mdjs-mordorjs-1mon">M||D||JS = MorDorJS</a></sub>
+- <a href="https://www.npmjs.com/package/mordorjs">📦 <code>mordorjs</code></a> <img src="https://img.shields.io/npm/v/mordorjs?style=flat-square&label=&color=3d3528" alt="npm version" align="absmiddle"> — is a toolkit for first real 1D programming language and so much more<br><sub>← <a href="https://dev.to/pengeszikra/mdjs-mordorjs-1mon">M||D||JS = MorDorJS</a></sub>
+
+</details>
+
+<details>
+<summary><b>AI &amp; authorship</b> · <sub>2 repos</sub></summary>
+<br>
+
+- <a href="https://github.com/Pengeszikra/after-flash"><code>after-flash</code></a> <sub>TypeScript</sub> — minimalist android vector based drawing/animation app<br><sub>← <a href="https://dev.to/pengeszikra/slop-coding-the-vibe-archeologist-strikes-again-35df">Slop Coding: The Vibe Archeologist Strikes Again!</a></sub>
+- <a href="https://github.com/Pengeszikra/devto-post-map"><code>devto-post-map</code></a> <sub>HTML · <a href="https://devto-post-map.vercel.app">live</a></sub> — Interactive Mind Map for my dev.to articles created by Claude Design<br><sub>← <a href="https://dev.to/pengeszikra/devto-articles-mindmap-47j5">dev.to articles mindmap</a></sub>
+
+</details>
+
+<details>
+<summary><b>Rust · WASM · terminal</b> · <sub>4 repos · 9 npm</sub></summary>
+<br>
+
+- <a href="https://github.com/Pengeszikra/hexaw"><code>hexaw</code></a> <sub>JavaScript · ★ 1</sub> — new assembly like text format for WASM <br><sub>← <a href="https://dev.to/pengeszikra/hexaw-a-lazy-wasm-text-format-5g5n">HEXAW programming language for WebAssembly instead WAT</a></sub>
+- <a href="https://github.com/Pengeszikra/rustroke"><code>rustroke</code></a> <sub>Rust · ★ 6 · <a href="https://rustroke.vercel.app">live</a></sub> — rust-wasm based SVG draw webapp, state in rust<br><sub>← <a href="https://dev.to/pengeszikra/rustroke-wasm-mini-draw-3oih">Rustroke - WASM mini draw</a></sub>
+- <a href="https://github.com/Pengeszikra/terminal-is-your-friend"><code>terminal-is-your-friend</code></a> <sub>JavaScript · <a href="https://terminal-is-your-friend.vercel.app">live</a></sub> — Friendly AI backed terminal for JS / TS learning &amp; survive the singularity<br><sub>← <a href="https://dev.to/pengeszikra/terminal-is-your-friend-2b49">Terminal is your Friend</a></sub>
+- <a href="https://github.com/Pengeszikra/TypeScript"><code>TypeScript</code></a> <sub>Go · ★ 1 · <a href="https://www.typescriptlang.org">live</a></sub> — TypeScript is a superset of JavaScript that compiles to clean JavaScript output.<br><sub>← <a href="https://dev.to/pengeszikra/terminal-is-your-friend-2b49">Terminal is your Friend</a></sub>
+- <a href="https://www.npmjs.com/package/@pengeszikra/typescript">📦 <code>@pengeszikra/typescript</code></a> <img src="https://img.shields.io/npm/v/@pengeszikra%2Ftypescript?style=flat-square&label=&color=3d3528" alt="npm version" align="absmiddle"> — Experimental TypeScript compiler with a type-safe, single-input pipeline operator for TS and TSX<br><sub>← <a href="https://dev.to/pengeszikra/terminal-is-your-friend-2b49">Terminal is your Friend</a></sub>
+- <a href="https://www.npmjs.com/package/@pengeszikra/typescript-darwin-arm64">📦 <code>@pengeszikra/typescript-darwin-arm64</code></a> <img src="https://img.shields.io/npm/v/@pengeszikra%2Ftypescript-darwin-arm64?style=flat-square&label=&color=3d3528" alt="npm version" align="absmiddle"> — Native darwin-arm64 compiler for the TypeScript unary pipeline POC<br><sub>← <a href="https://dev.to/pengeszikra/terminal-is-your-friend-2b49">Terminal is your Friend</a></sub>
+- <a href="https://www.npmjs.com/package/@pengeszikra/typescript-darwin-x64">📦 <code>@pengeszikra/typescript-darwin-x64</code></a> <img src="https://img.shields.io/npm/v/@pengeszikra%2Ftypescript-darwin-x64?style=flat-square&label=&color=3d3528" alt="npm version" align="absmiddle"> — Native darwin-x64 compiler for the TypeScript unary pipeline POC<br><sub>← <a href="https://dev.to/pengeszikra/terminal-is-your-friend-2b49">Terminal is your Friend</a></sub>
+- <a href="https://www.npmjs.com/package/@pengeszikra/typescript-linux-arm64">📦 <code>@pengeszikra/typescript-linux-arm64</code></a> <img src="https://img.shields.io/npm/v/@pengeszikra%2Ftypescript-linux-arm64?style=flat-square&label=&color=3d3528" alt="npm version" align="absmiddle"> — Native linux-arm64 compiler for the TypeScript unary pipeline POC<br><sub>← <a href="https://dev.to/pengeszikra/terminal-is-your-friend-2b49">Terminal is your Friend</a></sub>
+- <a href="https://www.npmjs.com/package/@pengeszikra/typescript-linux-x64">📦 <code>@pengeszikra/typescript-linux-x64</code></a> <img src="https://img.shields.io/npm/v/@pengeszikra%2Ftypescript-linux-x64?style=flat-square&label=&color=3d3528" alt="npm version" align="absmiddle"> — Native linux-x64 compiler for the TypeScript unary pipeline POC<br><sub>← <a href="https://dev.to/pengeszikra/terminal-is-your-friend-2b49">Terminal is your Friend</a></sub>
+- <a href="https://www.npmjs.com/package/@pengeszikra/typescript-win32-arm64">📦 <code>@pengeszikra/typescript-win32-arm64</code></a> <img src="https://img.shields.io/npm/v/@pengeszikra%2Ftypescript-win32-arm64?style=flat-square&label=&color=3d3528" alt="npm version" align="absmiddle"> — Native win32-arm64 compiler for the TypeScript unary pipeline POC<br><sub>← <a href="https://dev.to/pengeszikra/terminal-is-your-friend-2b49">Terminal is your Friend</a></sub>
+- <a href="https://www.npmjs.com/package/@pengeszikra/typescript-win32-x64">📦 <code>@pengeszikra/typescript-win32-x64</code></a> <img src="https://img.shields.io/npm/v/@pengeszikra%2Ftypescript-win32-x64?style=flat-square&label=&color=3d3528" alt="npm version" align="absmiddle"> — Native win32-x64 compiler for the TypeScript unary pipeline POC<br><sub>← <a href="https://dev.to/pengeszikra/terminal-is-your-friend-2b49">Terminal is your Friend</a></sub>
+- <a href="https://www.npmjs.com/package/hexaw">📦 <code>hexaw</code></a> <img src="https://img.shields.io/npm/v/hexaw?style=flat-square&label=&color=3d3528" alt="npm version" align="absmiddle"> — Dump WebAssembly to readable HEXAW assembly with exact byte offsets and encodings<br><sub>← <a href="https://dev.to/pengeszikra/hexaw-a-lazy-wasm-text-format-5g5n">HEXAW programming language for WebAssembly instead WAT</a></sub>
+- <a href="https://www.npmjs.com/package/hexaw-repository">📦 <code>hexaw-repository</code></a> <img src="https://img.shields.io/npm/v/hexaw-repository?style=flat-square&label=&color=3d3528" alt="npm version" align="absmiddle"> — HEXAW CLI and browser Workshop<br><sub>← <a href="https://dev.to/pengeszikra/hexaw-a-lazy-wasm-text-format-5g5n">HEXAW programming language for WebAssembly instead WAT</a></sub>
+
+</details>
+
+<details>
+<summary><b>|&gt; pipeline operator</b> · <sub>1 repo · 8 npm</sub></summary>
+<br>
+
+- <a href="https://github.com/Pengeszikra/TypeScript"><code>TypeScript</code></a> <sub>Go · ★ 1 · <a href="https://www.typescriptlang.org">live</a></sub> — TypeScript is a superset of JavaScript that compiles to clean JavaScript output.<br><sub>← <a href="https://dev.to/pengeszikra/use-this-pipe-to-feel-the-flow-483j">I added a type-checked pipeline operator to TypeScript — including TSX</a></sub>
+- <a href="https://www.npmjs.com/package/@pengeszikra/typescript">📦 <code>@pengeszikra/typescript</code></a> <img src="https://img.shields.io/npm/v/@pengeszikra%2Ftypescript?style=flat-square&label=&color=3d3528" alt="npm version" align="absmiddle"> — Experimental TypeScript compiler with a type-safe, single-input pipeline operator for TS and TSX<br><sub>← <a href="https://dev.to/pengeszikra/use-this-pipe-to-feel-the-flow-483j">I added a type-checked pipeline operator to TypeScript — including TSX</a></sub>
+- <a href="https://www.npmjs.com/package/@pengeszikra/typescript-darwin-arm64">📦 <code>@pengeszikra/typescript-darwin-arm64</code></a> <img src="https://img.shields.io/npm/v/@pengeszikra%2Ftypescript-darwin-arm64?style=flat-square&label=&color=3d3528" alt="npm version" align="absmiddle"> — Native darwin-arm64 compiler for the TypeScript unary pipeline POC<br><sub>← <a href="https://dev.to/pengeszikra/use-this-pipe-to-feel-the-flow-483j">I added a type-checked pipeline operator to TypeScript — including TSX</a></sub>
+- <a href="https://www.npmjs.com/package/@pengeszikra/typescript-darwin-x64">📦 <code>@pengeszikra/typescript-darwin-x64</code></a> <img src="https://img.shields.io/npm/v/@pengeszikra%2Ftypescript-darwin-x64?style=flat-square&label=&color=3d3528" alt="npm version" align="absmiddle"> — Native darwin-x64 compiler for the TypeScript unary pipeline POC<br><sub>← <a href="https://dev.to/pengeszikra/use-this-pipe-to-feel-the-flow-483j">I added a type-checked pipeline operator to TypeScript — including TSX</a></sub>
+- <a href="https://www.npmjs.com/package/@pengeszikra/typescript-linux-arm64">📦 <code>@pengeszikra/typescript-linux-arm64</code></a> <img src="https://img.shields.io/npm/v/@pengeszikra%2Ftypescript-linux-arm64?style=flat-square&label=&color=3d3528" alt="npm version" align="absmiddle"> — Native linux-arm64 compiler for the TypeScript unary pipeline POC<br><sub>← <a href="https://dev.to/pengeszikra/use-this-pipe-to-feel-the-flow-483j">I added a type-checked pipeline operator to TypeScript — including TSX</a></sub>
+- <a href="https://www.npmjs.com/package/@pengeszikra/typescript-linux-x64">📦 <code>@pengeszikra/typescript-linux-x64</code></a> <img src="https://img.shields.io/npm/v/@pengeszikra%2Ftypescript-linux-x64?style=flat-square&label=&color=3d3528" alt="npm version" align="absmiddle"> — Native linux-x64 compiler for the TypeScript unary pipeline POC<br><sub>← <a href="https://dev.to/pengeszikra/use-this-pipe-to-feel-the-flow-483j">I added a type-checked pipeline operator to TypeScript — including TSX</a></sub>
+- <a href="https://www.npmjs.com/package/@pengeszikra/typescript-win32-arm64">📦 <code>@pengeszikra/typescript-win32-arm64</code></a> <img src="https://img.shields.io/npm/v/@pengeszikra%2Ftypescript-win32-arm64?style=flat-square&label=&color=3d3528" alt="npm version" align="absmiddle"> — Native win32-arm64 compiler for the TypeScript unary pipeline POC<br><sub>← <a href="https://dev.to/pengeszikra/use-this-pipe-to-feel-the-flow-483j">I added a type-checked pipeline operator to TypeScript — including TSX</a></sub>
+- <a href="https://www.npmjs.com/package/@pengeszikra/typescript-win32-x64">📦 <code>@pengeszikra/typescript-win32-x64</code></a> <img src="https://img.shields.io/npm/v/@pengeszikra%2Ftypescript-win32-x64?style=flat-square&label=&color=3d3528" alt="npm version" align="absmiddle"> — Native win32-x64 compiler for the TypeScript unary pipeline POC<br><sub>← <a href="https://dev.to/pengeszikra/use-this-pipe-to-feel-the-flow-483j">I added a type-checked pipeline operator to TypeScript — including TSX</a></sub>
+- <a href="https://www.npmjs.com/package/react-state-factory">📦 <code>react-state-factory</code></a> <img src="https://img.shields.io/npm/v/react-state-factory?style=flat-square&label=&color=3d3528" alt="npm version" align="absmiddle"> — react minimal typesafe state handling even with saga<br><sub>← <a href="https://dev.to/pengeszikra/typescript-challenge-1ag7">Typescript challenge</a></sub>
+
+</details>
+
+<details>
+<summary><b>React → no framework</b> · <sub>1 repo · 2 npm</sub></summary>
+<br>
+
+- <a href="https://github.com/Pengeszikra/ex-exsistence"><code>ex-exsistence</code></a> <sub>JavaScript · ★ 1 · <a href="ex-exsistence.vercel.app">live</a></sub> — react game under 2h<br><sub>← <a href="https://dev.to/pengeszikra/react-game-under-2h-1l10">React game under 2h</a></sub>
+- <a href="https://www.npmjs.com/package/jsdoc-duck">📦 <code>jsdoc-duck</code></a> <img src="https://img.shields.io/npm/v/jsdoc-duck?style=flat-square&label=&color=3d3528" alt="npm version" align="absmiddle"> — react/jsdoc minimal typesafe state handling<br><sub>← <a href="https://dev.to/pengeszikra/jsdoc-npm-module-quest-2f7a">jsDoc npm module quest</a></sub>
+- <a href="https://www.npmjs.com/package/react-state-factory">📦 <code>react-state-factory</code></a> <img src="https://img.shields.io/npm/v/react-state-factory?style=flat-square&label=&color=3d3528" alt="npm version" align="absmiddle"> — react minimal typesafe state handling even with saga<br><sub>← <a href="https://dev.to/pengeszikra/jsdoc-npm-module-quest-2f7a">jsDoc npm module quest</a>, <a href="https://dev.to/pengeszikra/simplify-your-react-state-management-with-react-state-factory-4a14">Simplify your React state management with react-state-factory</a></sub>
+
+</details>
+
+<details>
+<summary><b>More on npm</b> · <sub>9 packages no post mentions yet</sub></summary>
+<br>
+
+- <a href="https://www.npmjs.com/package/3draft">📦 <code>3draft</code></a> <img src="https://img.shields.io/npm/v/3draft?style=flat-square&label=&color=3d3528" alt="npm version" align="absmiddle"> — Minimalist AI first 3D engine: palette-texture, WASM core, WebGPU/WebGL2 renderer. · <a href="https://github.com/Pengeszikra/3Draft"><code>3Draft</code></a>
+- <a href="https://www.npmjs.com/package/marker-edit">📦 <code>marker-edit</code></a> <img src="https://img.shields.io/npm/v/marker-edit?style=flat-square&label=&color=3d3528" alt="npm version" align="absmiddle"> — pure HTML markdown editor · <a href="https://github.com/Pengeszikra/marker"><code>marker</code></a>
+- <a href="https://www.npmjs.com/package/marker-editor">📦 <code>marker-editor</code></a> <img src="https://img.shields.io/npm/v/marker-editor?style=flat-square&label=&color=3d3528" alt="npm version" align="absmiddle"> — pure HTML markdown editor · <a href="https://github.com/Pengeszikra/marker"><code>marker</code></a>
+- <a href="https://www.npmjs.com/package/qwik-saga">📦 <code>qwik-saga</code></a> <img src="https://img.shields.io/npm/v/qwik-saga?style=flat-square&label=&color=3d3528" alt="npm version" align="absmiddle"> — react minimal typesafe state handling even with saga · <a href="https://github.com/Pengeszikra/qwik-saga"><code>qwik-saga</code></a>
+- <a href="https://www.npmjs.com/package/typerdux">📦 <code>typerdux</code></a> <img src="https://img.shields.io/npm/v/typerdux?style=flat-square&label=&color=3d3528" alt="npm version" align="absmiddle"> — react state handling helper based on useReducer and typescript
+- <a href="https://www.npmjs.com/package/react-slash">📦 <code>react-slash</code></a> <img src="https://img.shields.io/npm/v/react-slash?style=flat-square&label=&color=3d3528" alt="npm version" align="absmiddle"> — Tiny useReducer / jsx element naming oriented react helper library. · <a href="https://github.com/Pengeszikra/react-slash"><code>react-slash</code></a>
+- <a href="https://www.npmjs.com/package/fencer">📦 <code>fencer</code></a> <img src="https://img.shields.io/npm/v/fencer?style=flat-square&label=&color=3d3528" alt="npm version" align="absmiddle"> — Experimental functional JSX framework · <a href="https://github.com/Pengeszikra/fencer"><code>fencer</code></a>
+- <a href="https://www.npmjs.com/package/callbag-take-to-finally">📦 <code>callbag-take-to-finally</code></a> <img src="https://img.shields.io/npm/v/callbag-take-to-finally?style=flat-square&label=&color=3d3528" alt="npm version" align="absmiddle"> — 👜 Callbag operator which emits values emitted by the source as long as each value satisfies the given predicate, and then completes as soon as predicate is not satisfied. But call lastly function before callbag is over. · <a href="https://github.com/Pengeszikra/callbag-take-to-finally"><code>callbag-take-to-finally</code></a>
+- <a href="https://www.npmjs.com/package/preact-slash">📦 <code>preact-slash</code></a> <img src="https://img.shields.io/npm/v/preact-slash?style=flat-square&label=&color=3d3528" alt="npm version" align="absmiddle"> — Tiny useReducer / jsx element naming oriented preact helper library. · <a href="https://github.com/Pengeszikra/react-slash"><code>react-slash</code></a>
+
+</details>
+
+<sub>Found from links and <code>npm i</code> lines in the articles · <a href="https://github.com/Pengeszikra?tab=repositories">all repos</a> · <a href="https://www.npmjs.com/~pengeszikra">all npm packages</a></sub>
 </details>
 <!-- POSTMAP:END -->
 

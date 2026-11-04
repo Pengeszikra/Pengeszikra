@@ -1,0 +1,1451 @@
+{
+ "generatedAt": "2026-11-04T20:06:51.601Z",
+ "repos": [
+  {
+   "name": "Pengeszikra",
+   "url": "https://github.com/Pengeszikra/Pengeszikra",
+   "description": "",
+   "homepage": "",
+   "language": "JavaScript",
+   "stars": 0,
+   "fork": false,
+   "archived": false,
+   "pushedAt": "2026-11-04T20:05:28Z",
+   "topics": []
+  },
+  {
+   "name": "3Draft",
+   "url": "https://github.com/Pengeszikra/3Draft",
+   "description": "Minimalist AI first 3D engine",
+   "homepage": "",
+   "language": "TypeScript",
+   "stars": 0,
+   "fork": false,
+   "archived": false,
+   "pushedAt": "2026-11-04T17:16:54Z",
+   "topics": []
+  },
+  {
+   "name": "devto-post-map",
+   "url": "https://github.com/Pengeszikra/devto-post-map",
+   "description": "Interactive Mind Map for my dev.to articles created by Claude Design",
+   "homepage": "https://devto-post-map.vercel.app",
+   "language": "HTML",
+   "stars": 0,
+   "fork": false,
+   "archived": false,
+   "pushedAt": "2026-11-03T10:17:33Z",
+   "topics": []
+  },
+  {
+   "name": "hexaw",
+   "url": "https://github.com/Pengeszikra/hexaw",
+   "description": "new assembly like text format for WASM ",
+   "homepage": "",
+   "language": "JavaScript",
+   "stars": 1,
+   "fork": false,
+   "archived": false,
+   "pushedAt": "2026-11-02T20:32:43Z",
+   "topics": []
+  },
+  {
+   "name": "pitypang",
+   "url": "https://github.com/Pengeszikra/pitypang",
+   "description": "Pitypang cicám inzulinszintje interaktiv formában",
+   "homepage": "",
+   "language": "",
+   "stars": 0,
+   "fork": false,
+   "archived": false,
+   "pushedAt": "2026-11-02T17:31:17Z",
+   "topics": []
+  },
+  {
+   "name": "singularity-news-ccg",
+   "url": "https://github.com/Pengeszikra/singularity-news-ccg",
+   "description": "",
+   "homepage": "https://singularity-news-ccg.vercel.app",
+   "language": "HTML",
+   "stars": 0,
+   "fork": false,
+   "archived": false,
+   "pushedAt": "2026-10-31T09:00:09Z",
+   "topics": []
+  },
+  {
+   "name": "redneck-wreck",
+   "url": "https://github.com/Pengeszikra/redneck-wreck",
+   "description": "space trader game  powered by UMGD :: Under Meeting Game Development",
+   "homepage": "https://redneck-wreck.vercel.app",
+   "language": "TypeScript",
+   "stars": 1,
+   "fork": false,
+   "archived": false,
+   "pushedAt": "2026-10-29T18:19:24Z",
+   "topics": []
+  },
+  {
+   "name": "cvimarker",
+   "url": "https://github.com/Pengeszikra/cvimarker",
+   "description": "minimalist markdown first linux based editor for terminal vibed by C",
+   "homepage": "",
+   "language": "C",
+   "stars": 0,
+   "fork": false,
+   "archived": false,
+   "pushedAt": "2026-10-19T19:27:47Z",
+   "topics": []
+  },
+  {
+   "name": "after-flash",
+   "url": "https://github.com/Pengeszikra/after-flash",
+   "description": "minimalist android vector based drawing/animation app",
+   "homepage": "",
+   "language": "TypeScript",
+   "stars": 0,
+   "fork": false,
+   "archived": false,
+   "pushedAt": "2026-10-15T09:40:38Z",
+   "topics": []
+  },
+  {
+   "name": "terminal-is-your-friend",
+   "url": "https://github.com/Pengeszikra/terminal-is-your-friend",
+   "description": "Friendly AI backed terminal for JS / TS learning & survive the singularity",
+   "homepage": "https://terminal-is-your-friend.vercel.app",
+   "language": "JavaScript",
+   "stars": 0,
+   "fork": false,
+   "archived": false,
+   "pushedAt": "2026-10-05T12:07:55Z",
+   "topics": []
+  },
+  {
+   "name": "TypeScript",
+   "url": "https://github.com/Pengeszikra/TypeScript",
+   "description": "TypeScript is a superset of JavaScript that compiles to clean JavaScript output.",
+   "homepage": "https://www.typescriptlang.org",
+   "language": "Go",
+   "stars": 1,
+   "fork": true,
+   "archived": false,
+   "pushedAt": "2026-09-30T17:26:13Z",
+   "topics": []
+  },
+  {
+   "name": "mordorjs",
+   "url": "https://github.com/Pengeszikra/mordorjs",
+   "description": "mordorjs is a single character wide js also declared mordor projcet project format",
+   "homepage": "",
+   "language": "JavaScript",
+   "stars": 6,
+   "fork": false,
+   "archived": false,
+   "pushedAt": "2026-04-12T20:23:01Z",
+   "topics": []
+  },
+  {
+   "name": "markrush",
+   "url": "https://github.com/Pengeszikra/markrush",
+   "description": "markdown first CLI editor based on basic VIM motions",
+   "homepage": "",
+   "language": "JavaScript",
+   "stars": 0,
+   "fork": false,
+   "archived": false,
+   "pushedAt": "2026-03-24T12:06:16Z",
+   "topics": []
+  },
+  {
+   "name": "quickquest",
+   "url": "https://github.com/Pengeszikra/quickquest",
+   "description": "single line RPG for dev.to gemni challenge",
+   "homepage": "https://quickquest-xi.vercel.app",
+   "language": "JavaScript",
+   "stars": 0,
+   "fork": false,
+   "archived": false,
+   "pushedAt": "2026-03-04T11:40:47Z",
+   "topics": []
+  },
+  {
+   "name": "rogmor",
+   "url": "https://github.com/Pengeszikra/rogmor",
+   "description": "Created with StackBlitz ⚡️",
+   "homepage": "https://rogmor.vercel.app/",
+   "language": "TypeScript",
+   "stars": 0,
+   "fork": false,
+   "archived": false,
+   "pushedAt": "2026-02-17T11:28:40Z",
+   "topics": [
+    "callbag",
+    "functional-programming",
+    "hacktoberfest",
+    "nextjs",
+    "react",
+    "rpg-game"
+   ]
+  },
+  {
+   "name": "rustroke",
+   "url": "https://github.com/Pengeszikra/rustroke",
+   "description": "rust-wasm based SVG draw webapp, state in rust",
+   "homepage": "https://rustroke.vercel.app",
+   "language": "Rust",
+   "stars": 6,
+   "fork": false,
+   "archived": false,
+   "pushedAt": "2026-02-15T12:11:44Z",
+   "topics": []
+  },
+  {
+   "name": "flogon-galaxy",
+   "url": "https://github.com/Pengeszikra/flogon-galaxy",
+   "description": "Intergalactic game using a AWS services, the Flogon story is continued.",
+   "homepage": "https://flogon-galaxy.vercel.app",
+   "language": "JavaScript",
+   "stars": 3,
+   "fork": false,
+   "archived": false,
+   "pushedAt": "2025-11-17T08:15:07Z",
+   "topics": []
+  },
+  {
+   "name": "flogon-board",
+   "url": "https://github.com/Pengeszikra/flogon-board",
+   "description": "reddit app, board game",
+   "homepage": "",
+   "language": "JavaScript",
+   "stars": 0,
+   "fork": false,
+   "archived": false,
+   "pushedAt": "2025-01-16T05:50:45Z",
+   "topics": []
+  },
+  {
+   "name": "pure-web-ccg",
+   "url": "https://github.com/Pengeszikra/pure-web-ccg",
+   "description": "example pure web collectible card game",
+   "homepage": "https://pure-web-ccg.vercel.app",
+   "language": "HTML",
+   "stars": 0,
+   "fork": false,
+   "archived": false,
+   "pushedAt": "2024-12-29T21:06:21Z",
+   "topics": [
+    "ccg",
+    "hacktorberfest",
+    "jsdoc",
+    "nobuild",
+    "noframework",
+    "pureweb"
+   ]
+  },
+  {
+   "name": "trading-pioneers",
+   "url": "https://github.com/Pengeszikra/trading-pioneers",
+   "description": "Trading Pioneers Online is a chaotic, hilarious social tabletop game on Reddit",
+   "homepage": "",
+   "language": "TypeScript",
+   "stars": 0,
+   "fork": false,
+   "archived": false,
+   "pushedAt": "2024-12-13T20:11:16Z",
+   "topics": []
+  },
+  {
+   "name": "marker",
+   "url": "https://github.com/Pengeszikra/marker",
+   "description": "markdown first pure html editor web component",
+   "homepage": "https://marker-nu.vercel.app",
+   "language": "HTML",
+   "stars": 0,
+   "fork": false,
+   "archived": false,
+   "pushedAt": "2024-12-11T09:00:51Z",
+   "topics": []
+  },
+  {
+   "name": "alien-solitare",
+   "url": "https://github.com/Pengeszikra/alien-solitare",
+   "description": "jsdoc-duck example game for dev.io Challenge",
+   "homepage": "https://alien-solitare.vercel.app",
+   "language": "JavaScript",
+   "stars": 0,
+   "fork": false,
+   "archived": false,
+   "pushedAt": "2024-10-15T18:50:24Z",
+   "topics": [
+    "example-game",
+    "hacktoberfest",
+    "jsdock",
+    "jsdock-duck",
+    "react-state-management"
+   ]
+  },
+  {
+   "name": "jsdoc-duck",
+   "url": "https://github.com/Pengeszikra/jsdoc-duck",
+   "description": "jsDoc version of react-state-factory",
+   "homepage": "",
+   "language": "JavaScript",
+   "stars": 0,
+   "fork": false,
+   "archived": false,
+   "pushedAt": "2024-10-15T12:02:16Z",
+   "topics": [
+    "hacktoberfest",
+    "jsdoc",
+    "npm-module",
+    "react",
+    "state-management"
+   ]
+  },
+  {
+   "name": "react-state-factory-js",
+   "url": "https://github.com/Pengeszikra/react-state-factory-js",
+   "description": "react state factory rework from typescript to jsDoc",
+   "homepage": "",
+   "language": "",
+   "stars": 0,
+   "fork": false,
+   "archived": false,
+   "pushedAt": "2024-03-20T18:16:57Z",
+   "topics": []
+  },
+  {
+   "name": "qwik-game",
+   "url": "https://github.com/Pengeszikra/qwik-game",
+   "description": "convert my game-of-function to qwik",
+   "homepage": "https://qwik-game.vercel.app",
+   "language": "TypeScript",
+   "stars": 0,
+   "fork": false,
+   "archived": false,
+   "pushedAt": "2023-11-04T09:55:22Z",
+   "topics": [
+    "game",
+    "hacktoberfest",
+    "hacktoberfest-accepted",
+    "poc",
+    "qwik",
+    "react"
+   ]
+  },
+  {
+   "name": "react-state-factory",
+   "url": "https://github.com/Pengeszikra/react-state-factory",
+   "description": "react state handling helper based on useReducer and typescript",
+   "homepage": "",
+   "language": "TypeScript",
+   "stars": 0,
+   "fork": false,
+   "archived": false,
+   "pushedAt": "2023-10-29T12:08:42Z",
+   "topics": [
+    "generator",
+    "hacktoberfest",
+    "haktoberfest2023",
+    "module",
+    "react",
+    "redux-saga",
+    "saga",
+    "state-management",
+    "typescript"
+   ]
+  },
+  {
+   "name": "qwik-saga",
+   "url": "https://github.com/Pengeszikra/qwik-saga",
+   "description": "redux-saga like process handling for qwik",
+   "homepage": "",
+   "language": "TypeScript",
+   "stars": 0,
+   "fork": false,
+   "archived": false,
+   "pushedAt": "2023-10-15T15:39:58Z",
+   "topics": []
+  },
+  {
+   "name": "game-of-function",
+   "url": "https://github.com/Pengeszikra/game-of-function",
+   "description": "CCG cardgame POC powered by react-state-factory",
+   "homepage": "",
+   "language": "TypeScript",
+   "stars": 0,
+   "fork": false,
+   "archived": false,
+   "pushedAt": "2023-10-04T12:16:26Z",
+   "topics": [
+    "card",
+    "game",
+    "hacktoberfest",
+    "hacktoberfest-accepted",
+    "poc",
+    "reac",
+    "react-state-factory",
+    "typescript"
+   ]
+  },
+  {
+   "name": "react-troll",
+   "url": "https://github.com/Pengeszikra/react-troll",
+   "description": "minimal react state / action-set management",
+   "homepage": "",
+   "language": "JavaScript",
+   "stars": 0,
+   "fork": false,
+   "archived": false,
+   "pushedAt": "2023-09-16T09:27:25Z",
+   "topics": []
+  },
+  {
+   "name": "astro-sandbox",
+   "url": "https://github.com/Pengeszikra/astro-sandbox",
+   "description": "test of astro",
+   "homepage": "",
+   "language": "Astro",
+   "stars": 1,
+   "fork": false,
+   "archived": false,
+   "pushedAt": "2023-07-15T07:25:38Z",
+   "topics": []
+  },
+  {
+   "name": "preact-slash",
+   "url": "https://github.com/Pengeszikra/preact-slash",
+   "description": "Tiny useReducer / jsx element naming oriented preact helper library.",
+   "homepage": "",
+   "language": "JavaScript",
+   "stars": 0,
+   "fork": false,
+   "archived": false,
+   "pushedAt": "2023-05-07T22:59:07Z",
+   "topics": []
+  },
+  {
+   "name": "dbd-next",
+   "url": "https://github.com/Pengeszikra/dbd-next",
+   "description": "",
+   "homepage": "dbd-next.vercel.app",
+   "language": "TypeScript",
+   "stars": 0,
+   "fork": false,
+   "archived": false,
+   "pushedAt": "2023-01-19T14:05:51Z",
+   "topics": []
+  },
+  {
+   "name": "researcher-night-example",
+   "url": "https://github.com/Pengeszikra/researcher-night-example",
+   "description": "",
+   "homepage": "",
+   "language": "JavaScript",
+   "stars": 0,
+   "fork": false,
+   "archived": false,
+   "pushedAt": "2023-01-06T16:36:00Z",
+   "topics": []
+  },
+  {
+   "name": "bible-hu-preact",
+   "url": "https://github.com/Pengeszikra/bible-hu-preact",
+   "description": "",
+   "homepage": "",
+   "language": "JavaScript",
+   "stars": 0,
+   "fork": false,
+   "archived": false,
+   "pushedAt": "2023-01-06T01:42:12Z",
+   "topics": []
+  },
+  {
+   "name": "pipeliner-preact",
+   "url": "https://github.com/Pengeszikra/pipeliner-preact",
+   "description": "preact framework basic setup with pipeline operator, callbags, preact-slash, parcel-boundler",
+   "homepage": "",
+   "language": "HTML",
+   "stars": 0,
+   "fork": false,
+   "archived": false,
+   "pushedAt": "2023-01-05T08:48:17Z",
+   "topics": []
+  },
+  {
+   "name": "react-cat",
+   "url": "https://github.com/Pengeszikra/react-cat",
+   "description": "react utils",
+   "homepage": "",
+   "language": "JavaScript",
+   "stars": 0,
+   "fork": false,
+   "archived": false,
+   "pushedAt": "2023-01-05T05:22:05Z",
+   "topics": []
+  },
+  {
+   "name": "regexp-poker",
+   "url": "https://github.com/Pengeszikra/regexp-poker",
+   "description": "",
+   "homepage": "",
+   "language": "JavaScript",
+   "stars": 0,
+   "fork": false,
+   "archived": false,
+   "pushedAt": "2023-01-04T21:50:18Z",
+   "topics": []
+  },
+  {
+   "name": "mongo-next-cloud",
+   "url": "https://github.com/Pengeszikra/mongo-next-cloud",
+   "description": "next with mongodb cloud test application",
+   "homepage": "mongo-next-cloud.vercel.app",
+   "language": "JavaScript",
+   "stars": 0,
+   "fork": false,
+   "archived": false,
+   "pushedAt": "2022-06-15T16:16:00Z",
+   "topics": []
+  },
+  {
+   "name": "live-game-assignment",
+   "url": "https://github.com/Pengeszikra/live-game-assignment",
+   "description": "",
+   "homepage": "live-game-assignment.vercel.app",
+   "language": "TypeScript",
+   "stars": 0,
+   "fork": false,
+   "archived": false,
+   "pushedAt": "2022-06-04T06:49:49Z",
+   "topics": []
+  },
+  {
+   "name": "svg-draw-assignment",
+   "url": "https://github.com/Pengeszikra/svg-draw-assignment",
+   "description": "",
+   "homepage": "svg-draw-assignment.vercel.app",
+   "language": "TypeScript",
+   "stars": 0,
+   "fork": false,
+   "archived": false,
+   "pushedAt": "2022-05-26T14:55:04Z",
+   "topics": []
+  },
+  {
+   "name": "paralell-assignments",
+   "url": "https://github.com/Pengeszikra/paralell-assignments",
+   "description": "",
+   "homepage": "",
+   "language": "TypeScript",
+   "stars": 0,
+   "fork": false,
+   "archived": false,
+   "pushedAt": "2022-05-18T09:00:15Z",
+   "topics": []
+  },
+  {
+   "name": "flatten-js",
+   "url": "https://github.com/Pengeszikra/flatten-js",
+   "description": "Javascript library for 2d geometry",
+   "homepage": "",
+   "language": "",
+   "stars": 0,
+   "fork": true,
+   "archived": false,
+   "pushedAt": "2022-05-18T07:39:44Z",
+   "topics": []
+  },
+  {
+   "name": "trivia-chellenge-assignment",
+   "url": "https://github.com/Pengeszikra/trivia-chellenge-assignment",
+   "description": "",
+   "homepage": "",
+   "language": "TypeScript",
+   "stars": 0,
+   "fork": false,
+   "archived": false,
+   "pushedAt": "2022-05-17T19:09:46Z",
+   "topics": []
+  },
+  {
+   "name": "type-jsx-and-more",
+   "url": "https://github.com/Pengeszikra/type-jsx-and-more",
+   "description": "",
+   "homepage": "",
+   "language": "JavaScript",
+   "stars": 0,
+   "fork": false,
+   "archived": false,
+   "pushedAt": "2022-01-06T07:59:29Z",
+   "topics": []
+  },
+  {
+   "name": "react-base",
+   "url": "https://github.com/Pengeszikra/react-base",
+   "description": "",
+   "homepage": "",
+   "language": "JavaScript",
+   "stars": 1,
+   "fork": false,
+   "archived": false,
+   "pushedAt": "2021-12-17T07:54:09Z",
+   "topics": []
+  },
+  {
+   "name": "websocket-test",
+   "url": "https://github.com/Pengeszikra/websocket-test",
+   "description": "rust test websocket server",
+   "homepage": "",
+   "language": "Rust",
+   "stars": 0,
+   "fork": false,
+   "archived": false,
+   "pushedAt": "2021-01-22T12:51:29Z",
+   "topics": []
+  },
+  {
+   "name": "pengeszikra.github.io",
+   "url": "https://github.com/Pengeszikra/pengeszikra.github.io",
+   "description": "",
+   "homepage": "",
+   "language": "JavaScript",
+   "stars": 0,
+   "fork": false,
+   "archived": false,
+   "pushedAt": "2020-11-25T17:14:54Z",
+   "topics": []
+  },
+  {
+   "name": "react-slash",
+   "url": "https://github.com/Pengeszikra/react-slash",
+   "description": "",
+   "homepage": "",
+   "language": "JavaScript",
+   "stars": 0,
+   "fork": false,
+   "archived": false,
+   "pushedAt": "2020-10-03T03:46:20Z",
+   "topics": []
+  },
+  {
+   "name": "ex-exsistence",
+   "url": "https://github.com/Pengeszikra/ex-exsistence",
+   "description": "react game under 2h",
+   "homepage": "ex-exsistence.vercel.app",
+   "language": "JavaScript",
+   "stars": 1,
+   "fork": false,
+   "archived": false,
+   "pushedAt": "2020-09-27T20:25:57Z",
+   "topics": []
+  },
+  {
+   "name": "fencer",
+   "url": "https://github.com/Pengeszikra/fencer",
+   "description": "experimental functional jsx framework ",
+   "homepage": "",
+   "language": "JavaScript",
+   "stars": 0,
+   "fork": false,
+   "archived": false,
+   "pushedAt": "2020-08-14T13:17:39Z",
+   "topics": []
+  },
+  {
+   "name": "nebula-inspector",
+   "url": "https://github.com/Pengeszikra/nebula-inspector",
+   "description": "demo side scrolling space shooter",
+   "homepage": "nebula-inspector.vercel.app",
+   "language": "PLSQL",
+   "stars": 0,
+   "fork": false,
+   "archived": false,
+   "pushedAt": "2020-05-21T15:01:47Z",
+   "topics": []
+  },
+  {
+   "name": "callbag-take-to-finally",
+   "url": "https://github.com/Pengeszikra/callbag-take-to-finally",
+   "description": "👜 Callbag operator which emits values emitted by the source as long as each value satisfies the given predicate, and then completes as soon as predicate is not satisfied.",
+   "homepage": "",
+   "language": "JavaScript",
+   "stars": 0,
+   "fork": true,
+   "archived": false,
+   "pushedAt": "2020-04-22T12:18:07Z",
+   "topics": []
+  },
+  {
+   "name": "paper.js",
+   "url": "https://github.com/Pengeszikra/paper.js",
+   "description": "The Swiss Army Knife of Vector Graphics Scripting – Scriptographer ported to JavaScript and the browser, using HTML5 Canvas. Created by @lehni & @puckey",
+   "homepage": "http://paperjs.org",
+   "language": "",
+   "stars": 0,
+   "fork": true,
+   "archived": false,
+   "pushedAt": "2020-03-13T20:56:39Z",
+   "topics": []
+  },
+  {
+   "name": "preact-parcel-bootstrap",
+   "url": "https://github.com/Pengeszikra/preact-parcel-bootstrap",
+   "description": "Bootstrap for preact coding with parcel bundler",
+   "homepage": "",
+   "language": "JavaScript",
+   "stars": 0,
+   "fork": false,
+   "archived": false,
+   "pushedAt": "2020-02-05T11:55:52Z",
+   "topics": []
+  },
+  {
+   "name": "idea-steam-pwa",
+   "url": "https://github.com/Pengeszikra/idea-steam-pwa",
+   "description": "iDeas is geometric adventure application",
+   "homepage": "",
+   "language": "Python",
+   "stars": 0,
+   "fork": false,
+   "archived": false,
+   "pushedAt": "2019-09-26T22:18:46Z",
+   "topics": []
+  },
+  {
+   "name": "t.js.hooker",
+   "url": "https://github.com/Pengeszikra/t.js.hooker",
+   "description": "react + hook - jsx",
+   "homepage": "",
+   "language": "",
+   "stars": 0,
+   "fork": false,
+   "archived": false,
+   "pushedAt": "2019-01-02T14:38:37Z",
+   "topics": []
+  },
+  {
+   "name": "preact-pipeline-babel7-boilerplate",
+   "url": "https://github.com/Pengeszikra/preact-pipeline-babel7-boilerplate",
+   "description": "",
+   "homepage": "",
+   "language": "JavaScript",
+   "stars": 0,
+   "fork": false,
+   "archived": false,
+   "pushedAt": "2018-12-31T12:33:55Z",
+   "topics": []
+  },
+  {
+   "name": "CubeBuilder",
+   "url": "https://github.com/Pengeszikra/CubeBuilder",
+   "description": "",
+   "homepage": "",
+   "language": "JavaScript",
+   "stars": 0,
+   "fork": false,
+   "archived": false,
+   "pushedAt": "2017-05-12T20:25:35Z",
+   "topics": []
+  },
+  {
+   "name": "lastline-frontend",
+   "url": "https://github.com/Pengeszikra/lastline-frontend",
+   "description": "",
+   "homepage": "",
+   "language": "JavaScript",
+   "stars": 0,
+   "fork": false,
+   "archived": false,
+   "pushedAt": "2017-03-15T21:07:19Z",
+   "topics": []
+  },
+  {
+   "name": "three.js",
+   "url": "https://github.com/Pengeszikra/three.js",
+   "description": "JavaScript 3D library.",
+   "homepage": "http://threejs.org/",
+   "language": "JavaScript",
+   "stars": 0,
+   "fork": true,
+   "archived": false,
+   "pushedAt": "2015-12-10T10:16:26Z",
+   "topics": []
+  },
+  {
+   "name": "Spider-Paint",
+   "url": "https://github.com/Pengeszikra/Spider-Paint",
+   "description": "lightweight 3D test scene builder program based on Three.js / webGL with a little Big Bum animation",
+   "homepage": "",
+   "language": "JavaScript",
+   "stars": 1,
+   "fork": false,
+   "archived": false,
+   "pushedAt": "2015-09-11T06:09:57Z",
+   "topics": []
+  }
+ ],
+ "packages": [
+  {
+   "name": "3draft",
+   "version": "26.11.4010",
+   "description": "Minimalist AI first 3D engine: palette-texture, WASM core, WebGPU/WebGL2 renderer.",
+   "date": "2026-11-04T17:30:11.249Z",
+   "url": "https://www.npmjs.com/package/3draft",
+   "repo": "3Draft",
+   "homepage": "https://github.com/Pengeszikra/3Draft#readme"
+  },
+  {
+   "name": "hexaw",
+   "version": "0.5.0",
+   "description": "Dump WebAssembly to readable HEXAW assembly with exact byte offsets and encodings",
+   "date": "2026-10-25T21:48:30.635Z",
+   "url": "https://www.npmjs.com/package/hexaw",
+   "repo": "hexaw",
+   "homepage": "https://github.com/Pengeszikra/hexaw#readme"
+  },
+  {
+   "name": "hexaw-repository",
+   "version": "0.5.0",
+   "description": "HEXAW CLI and browser Workshop",
+   "date": "2026-10-25T21:47:33.269Z",
+   "url": "https://www.npmjs.com/package/hexaw-repository",
+   "repo": "hexaw",
+   "homepage": "https://github.com/Pengeszikra/hexaw#readme"
+  },
+  {
+   "name": "@pengeszikra/typescript-darwin-arm64",
+   "version": "7.1.0-pipeline.1",
+   "description": "Native darwin-arm64 compiler for the TypeScript unary pipeline POC",
+   "date": "2026-09-30T20:33:07.894Z",
+   "url": "https://www.npmjs.com/package/@pengeszikra/typescript-darwin-arm64",
+   "repo": "TypeScript",
+   "homepage": "https://github.com/Pengeszikra/TypeScript#readme"
+  },
+  {
+   "name": "@pengeszikra/typescript-darwin-x64",
+   "version": "7.1.0-pipeline.1",
+   "description": "Native darwin-x64 compiler for the TypeScript unary pipeline POC",
+   "date": "2026-09-30T20:31:41.377Z",
+   "url": "https://www.npmjs.com/package/@pengeszikra/typescript-darwin-x64",
+   "repo": "TypeScript",
+   "homepage": "https://github.com/Pengeszikra/TypeScript#readme"
+  },
+  {
+   "name": "@pengeszikra/typescript-win32-x64",
+   "version": "7.1.0-pipeline.1",
+   "description": "Native win32-x64 compiler for the TypeScript unary pipeline POC",
+   "date": "2026-09-30T20:32:27.260Z",
+   "url": "https://www.npmjs.com/package/@pengeszikra/typescript-win32-x64",
+   "repo": "TypeScript",
+   "homepage": "https://github.com/Pengeszikra/TypeScript#readme"
+  },
+  {
+   "name": "@pengeszikra/typescript-linux-x64",
+   "version": "7.1.0-pipeline.1",
+   "description": "Native linux-x64 compiler for the TypeScript unary pipeline POC",
+   "date": "2026-09-30T20:32:13.529Z",
+   "url": "https://www.npmjs.com/package/@pengeszikra/typescript-linux-x64",
+   "repo": "TypeScript",
+   "homepage": "https://github.com/Pengeszikra/TypeScript#readme"
+  },
+  {
+   "name": "@pengeszikra/typescript",
+   "version": "7.1.0-pipeline.1",
+   "description": "Experimental TypeScript compiler with a type-safe, single-input pipeline operator for TS and TSX",
+   "date": "2026-09-30T20:32:36.103Z",
+   "url": "https://www.npmjs.com/package/@pengeszikra/typescript",
+   "repo": "TypeScript",
+   "homepage": "https://github.com/Pengeszikra/TypeScript#readme"
+  },
+  {
+   "name": "@pengeszikra/typescript-linux-arm64",
+   "version": "7.1.0-pipeline.1",
+   "description": "Native linux-arm64 compiler for the TypeScript unary pipeline POC",
+   "date": "2026-09-30T20:32:19.921Z",
+   "url": "https://www.npmjs.com/package/@pengeszikra/typescript-linux-arm64",
+   "repo": "TypeScript",
+   "homepage": "https://github.com/Pengeszikra/TypeScript#readme"
+  },
+  {
+   "name": "@pengeszikra/typescript-win32-arm64",
+   "version": "7.1.0-pipeline.1",
+   "description": "Native win32-arm64 compiler for the TypeScript unary pipeline POC",
+   "date": "2026-09-30T20:32:33.727Z",
+   "url": "https://www.npmjs.com/package/@pengeszikra/typescript-win32-arm64",
+   "repo": "TypeScript",
+   "homepage": "https://github.com/Pengeszikra/TypeScript#readme"
+  },
+  {
+   "name": "react-state-factory",
+   "version": "0.1.2",
+   "description": "react minimal typesafe state handling even with saga",
+   "date": "2023-10-03T04:11:15.006Z",
+   "url": "https://www.npmjs.com/package/react-state-factory",
+   "repo": "react-state-factory",
+   "homepage": "https://github.com/Pengeszikra/react-state-factory#readme"
+  },
+  {
+   "name": "jsdoc-duck",
+   "version": "0.0.5",
+   "description": "react/jsdoc minimal typesafe state handling",
+   "date": "2024-08-28T04:33:31.025Z",
+   "url": "https://www.npmjs.com/package/jsdoc-duck",
+   "repo": "jsdoc-duck",
+   "homepage": "https://github.com/Pengeszikra/jsdoc-duck#readme"
+  },
+  {
+   "name": "mordorjs",
+   "version": "0.0.3",
+   "description": "is a toolkit for first real 1D programming language and so much more",
+   "date": "2026-04-12T20:23:10.426Z",
+   "url": "https://www.npmjs.com/package/mordorjs",
+   "repo": "mordorjs",
+   "homepage": "https://github.com/Pengeszikra/mordorjs#readme"
+  },
+  {
+   "name": "preact-slash",
+   "version": "0.8.4",
+   "description": "Tiny useReducer / jsx element naming oriented preact helper library.",
+   "date": "2020-02-19T05:59:53.686Z",
+   "url": "https://www.npmjs.com/package/preact-slash",
+   "repo": "react-slash",
+   "homepage": "https://github.com/Pengeszikra/react-slash#readme"
+  },
+  {
+   "name": "typerdux",
+   "version": "0.0.7",
+   "description": "react state handling helper based on useReducer and typescript",
+   "date": "2023-09-09T15:16:45.564Z",
+   "url": "https://www.npmjs.com/package/typerdux",
+   "repo": null,
+   "homepage": ""
+  },
+  {
+   "name": "react-slash",
+   "version": "0.8.5",
+   "description": "Tiny useReducer / jsx element naming oriented react helper library.",
+   "date": "2020-10-03T03:51:11.330Z",
+   "url": "https://www.npmjs.com/package/react-slash",
+   "repo": "react-slash",
+   "homepage": "https://github.com/Pengeszikra/react-slash#readme"
+  },
+  {
+   "name": "react-troll",
+   "version": "0.0.4",
+   "description": "react useReducer organizator",
+   "date": "2020-11-05T21:24:18.642Z",
+   "url": "https://www.npmjs.com/package/react-troll",
+   "repo": "react-troll",
+   "homepage": "https://github.com/Pengeszikra/react-troll#readme"
+  },
+  {
+   "name": "fencer",
+   "version": "0.0.2",
+   "description": "Experimental functional JSX framework",
+   "date": "2020-08-14T16:32:01.628Z",
+   "url": "https://www.npmjs.com/package/fencer",
+   "repo": "fencer",
+   "homepage": "https://github.com/Pengeszikra/fencer#readme"
+  },
+  {
+   "name": "marker-edit",
+   "version": "0.0.3",
+   "description": "pure HTML markdown editor",
+   "date": "2024-12-11T09:00:58.382Z",
+   "url": "https://www.npmjs.com/package/marker-edit",
+   "repo": "marker",
+   "homepage": "https://github.com/Pengeszikra/marker#readme"
+  },
+  {
+   "name": "marker-editor",
+   "version": "0.0.1",
+   "description": "pure HTML markdown editor",
+   "date": "2024-12-11T08:30:22.976Z",
+   "url": "https://www.npmjs.com/package/marker-editor",
+   "repo": "marker",
+   "homepage": "https://github.com/Pengeszikra/marker#readme"
+  },
+  {
+   "name": "callbag-take-to-finally",
+   "version": "0.2.0",
+   "description": "👜 Callbag operator which emits values emitted by the source as long as each value satisfies the given predicate, and then completes as soon as predicate is not satisfied. But call lastly function before callbag is over.",
+   "date": "2020-04-22T12:18:21.445Z",
+   "url": "https://www.npmjs.com/package/callbag-take-to-finally",
+   "repo": "callbag-take-to-finally",
+   "homepage": "https://github.com/Pengeszikra/callbag-take-to-finally#readme"
+  },
+  {
+   "name": "qwik-saga",
+   "version": "0.0.1",
+   "description": "react minimal typesafe state handling even with saga",
+   "date": "2023-10-06T09:00:38.741Z",
+   "url": "https://www.npmjs.com/package/qwik-saga",
+   "repo": "qwik-saga",
+   "homepage": "https://github.com/Pengeszikra/qwik-saga#readme"
+  }
+ ],
+ "mentions": {
+  "416817": {
+   "stamp": "2020-08-04T11:39:58Z",
+   "repos": [],
+   "packages": [
+    "-d",
+    "react"
+   ]
+  },
+  "466925": {
+   "stamp": "2020-10-01T18:02:53Z",
+   "repos": [
+    "ex-exsistence"
+   ],
+   "packages": []
+  },
+  "482469": {
+   "stamp": "2020-10-09T18:08:16Z",
+   "repos": [],
+   "packages": []
+  },
+  "527301": {
+   "stamp": "2020-11-28T11:43:19Z",
+   "repos": [],
+   "packages": []
+  },
+  "779307": {
+   "stamp": "2026-03-04T12:13:45Z",
+   "repos": [
+    "rogmor"
+   ],
+   "packages": [
+    "react-troll"
+   ]
+  },
+  "831172": {
+   "stamp": "2022-01-28T15:12:37Z",
+   "repos": [],
+   "packages": []
+  },
+  "898749": {
+   "stamp": "2021-11-15T12:45:58Z",
+   "repos": [],
+   "packages": []
+  },
+  "1159810": {
+   "stamp": "2022-10-06T19:36:30Z",
+   "repos": [],
+   "packages": []
+  },
+  "1360611": {
+   "stamp": "2023-02-20T11:50:47Z",
+   "repos": [],
+   "packages": []
+  },
+  "1361698": {
+   "stamp": "2023-02-20T11:51:35Z",
+   "repos": [],
+   "packages": []
+  },
+  "1594655": {
+   "stamp": "2023-10-03T09:18:42Z",
+   "repos": [],
+   "packages": [
+    "react-state-factory"
+   ]
+  },
+  "1613455": {
+   "stamp": "2023-10-03T09:19:09Z",
+   "repos": [],
+   "packages": [
+    "react-state-factory"
+   ]
+  },
+  "1615392": {
+   "stamp": "2023-09-29T11:06:10Z",
+   "repos": [],
+   "packages": []
+  },
+  "1648343": {
+   "stamp": "2023-11-03T07:58:51Z",
+   "repos": [],
+   "packages": []
+  },
+  "1770605": {
+   "stamp": "2024-10-14T17:14:06Z",
+   "repos": [],
+   "packages": []
+  },
+  "1976994": {
+   "stamp": "2024-10-07T07:42:51Z",
+   "repos": [],
+   "packages": [
+    "jsdoc-duck",
+    "react-state-factory"
+   ]
+  },
+  "2006748": {
+   "stamp": "2024-10-14T14:33:43Z",
+   "repos": [
+    "alien-solitare"
+   ],
+   "packages": [
+    "jsdoc-duck"
+   ]
+  },
+  "2021658": {
+   "stamp": "2024-11-04T19:10:21Z",
+   "repos": [],
+   "packages": []
+  },
+  "2026020": {
+   "stamp": "2024-10-06T10:54:38Z",
+   "repos": [],
+   "packages": []
+  },
+  "2036250": {
+   "stamp": "2024-10-14T14:32:54Z",
+   "repos": [],
+   "packages": []
+  },
+  "2042016": {
+   "stamp": "2024-10-21T13:06:54Z",
+   "repos": [],
+   "packages": []
+  },
+  "2047332": {
+   "stamp": "2024-10-21T14:45:20Z",
+   "repos": [],
+   "packages": []
+  },
+  "2104705": {
+   "stamp": "2024-12-04T12:52:00Z",
+   "repos": [],
+   "packages": []
+  },
+  "2165845": {
+   "stamp": "2024-12-20T11:44:21Z",
+   "repos": [],
+   "packages": []
+  },
+  "2180262": {
+   "stamp": "2025-01-28T06:09:37Z",
+   "repos": [],
+   "packages": []
+  },
+  "2211981": {
+   "stamp": "2025-01-21T09:37:22Z",
+   "repos": [
+    "flogon-galaxy"
+   ],
+   "packages": []
+  },
+  "2245221": {
+   "stamp": "2025-01-30T19:27:54Z",
+   "repos": [],
+   "packages": []
+  },
+  "2270800": {
+   "stamp": "2025-02-11T11:35:40Z",
+   "repos": [],
+   "packages": []
+  },
+  "2367259": {
+   "stamp": "2025-04-04T09:28:57Z",
+   "repos": [],
+   "packages": []
+  },
+  "3255055": {
+   "stamp": "2026-03-12T17:06:36Z",
+   "repos": [
+    "rustroke"
+   ],
+   "packages": [
+    "@github/copilot"
+   ]
+  },
+  "3308115": {
+   "stamp": "2026-03-04T08:55:31Z",
+   "repos": [
+    "quickquest"
+   ],
+   "packages": []
+  },
+  "3366489": {
+   "stamp": "2026-03-18T13:43:56Z",
+   "repos": [],
+   "packages": []
+  },
+  "3377215": {
+   "stamp": "2026-03-22T21:48:01Z",
+   "repos": [],
+   "packages": []
+  },
+  "3451384": {
+   "stamp": "2026-04-14T04:39:11Z",
+   "repos": [
+    "mordorjs"
+   ],
+   "packages": [
+    "mordorjs"
+   ]
+  },
+  "3500700": {
+   "stamp": "2026-04-14T15:42:14Z",
+   "repos": [],
+   "packages": []
+  },
+  "3518252": {
+   "stamp": "2026-04-20T06:03:45Z",
+   "repos": [
+    "mordorjs"
+   ],
+   "packages": [
+    "mordorjs"
+   ]
+  },
+  "3556542": {
+   "stamp": "2026-10-17T19:31:55Z",
+   "repos": [],
+   "packages": []
+  },
+  "3619539": {
+   "stamp": "2026-05-06T08:35:37Z",
+   "repos": [],
+   "packages": []
+  },
+  "4779443": {
+   "stamp": "2026-10-12T09:43:19Z",
+   "repos": [
+    "typescript"
+   ],
+   "packages": [
+    "@pengeszikra/typescript",
+    "tspipe"
+   ]
+  },
+  "4786526": {
+   "stamp": "2026-10-05T07:56:45Z",
+   "repos": [
+    "terminal-is-your-friend",
+    "typescript"
+   ],
+   "packages": []
+  },
+  "4810090": {
+   "stamp": "2026-10-07T09:45:49Z",
+   "repos": [],
+   "packages": []
+  },
+  "4838333": {
+   "stamp": "2026-10-12T15:24:10Z",
+   "repos": [],
+   "packages": []
+  },
+  "4840294": {
+   "stamp": "2026-10-16T21:22:38Z",
+   "repos": [],
+   "packages": []
+  },
+  "4843904": {
+   "stamp": "2026-10-13T11:04:27Z",
+   "repos": [],
+   "packages": []
+  },
+  "4851346": {
+   "stamp": "2026-10-18T21:03:15Z",
+   "repos": [],
+   "packages": []
+  },
+  "4854548": {
+   "stamp": "2026-10-15T21:01:45Z",
+   "repos": [
+    "after-flash"
+   ],
+   "packages": []
+  },
+  "4868678": {
+   "stamp": "2026-10-24T22:17:03Z",
+   "repos": [],
+   "packages": []
+  },
+  "4875406": {
+   "stamp": "2026-10-19T05:14:13Z",
+   "repos": [],
+   "packages": []
+  },
+  "4886932": {
+   "stamp": "2026-10-28T12:56:20Z",
+   "repos": [],
+   "packages": []
+  },
+  "4894915": {
+   "stamp": "2026-10-29T20:49:54Z",
+   "repos": [
+    "redneck-wreck"
+   ],
+   "packages": []
+  },
+  "4917658": {
+   "stamp": "2026-10-27T09:15:36Z",
+   "repos": [
+    "hexaw"
+   ],
+   "packages": [
+    "hexaw"
+   ]
+  },
+  "4945564": {
+   "stamp": "2026-10-31T02:31:55Z",
+   "repos": [
+    "singularity-news-ccg"
+   ],
+   "packages": []
+  },
+  "4954964": {
+   "stamp": "2026-11-02T09:15:49Z",
+   "repos": [
+    "devto-post-map"
+   ],
+   "packages": []
+  }
+ },
+ "links": {
+  "466925": {
+   "repos": [
+    "ex-exsistence"
+   ],
+   "packages": []
+  },
+  "779307": {
+   "repos": [
+    "rogmor"
+   ],
+   "packages": [
+    "react-troll"
+   ]
+  },
+  "1594655": {
+   "repos": [],
+   "packages": [
+    "react-state-factory"
+   ]
+  },
+  "1613455": {
+   "repos": [],
+   "packages": [
+    "react-state-factory"
+   ]
+  },
+  "1976994": {
+   "repos": [],
+   "packages": [
+    "jsdoc-duck",
+    "react-state-factory"
+   ]
+  },
+  "2006748": {
+   "repos": [
+    "alien-solitare"
+   ],
+   "packages": [
+    "jsdoc-duck"
+   ]
+  },
+  "2211981": {
+   "repos": [
+    "flogon-galaxy"
+   ],
+   "packages": []
+  },
+  "3255055": {
+   "repos": [
+    "rustroke"
+   ],
+   "packages": []
+  },
+  "3308115": {
+   "repos": [
+    "quickquest"
+   ],
+   "packages": []
+  },
+  "3451384": {
+   "repos": [
+    "mordorjs"
+   ],
+   "packages": [
+    "mordorjs"
+   ]
+  },
+  "3518252": {
+   "repos": [
+    "mordorjs"
+   ],
+   "packages": [
+    "mordorjs"
+   ]
+  },
+  "4779443": {
+   "repos": [
+    "TypeScript"
+   ],
+   "packages": [
+    "@pengeszikra/typescript",
+    "@pengeszikra/typescript-darwin-arm64",
+    "@pengeszikra/typescript-darwin-x64",
+    "@pengeszikra/typescript-linux-arm64",
+    "@pengeszikra/typescript-linux-x64",
+    "@pengeszikra/typescript-win32-arm64",
+    "@pengeszikra/typescript-win32-x64"
+   ]
+  },
+  "4786526": {
+   "repos": [
+    "TypeScript",
+    "terminal-is-your-friend"
+   ],
+   "packages": [
+    "@pengeszikra/typescript",
+    "@pengeszikra/typescript-darwin-arm64",
+    "@pengeszikra/typescript-darwin-x64",
+    "@pengeszikra/typescript-linux-arm64",
+    "@pengeszikra/typescript-linux-x64",
+    "@pengeszikra/typescript-win32-arm64",
+    "@pengeszikra/typescript-win32-x64"
+   ]
+  },
+  "4854548": {
+   "repos": [
+    "after-flash"
+   ],
+   "packages": []
+  },
+  "4894915": {
+   "repos": [
+    "redneck-wreck"
+   ],
+   "packages": []
+  },
+  "4917658": {
+   "repos": [
+    "hexaw"
+   ],
+   "packages": [
+    "hexaw",
+    "hexaw-repository"
+   ]
+  },
+  "4945564": {
+   "repos": [
+    "singularity-news-ccg"
+   ],
+   "packages": []
+  },
+  "4954964": {
+   "repos": [
+    "devto-post-map"
+   ],
+   "packages": []
+  }
+ }
+}
