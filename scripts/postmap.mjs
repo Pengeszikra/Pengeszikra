@@ -290,7 +290,7 @@ async function fetchArticles(username) {
     if (batch.length < 100) break;
   }
   return all.map(a => ({
-    id: a.id, title: a.title, url: a.url, publishedAt: a.published_at, description: a.description,
+    id: a.id, title: a.title, url: a.url, publishedAt: a.published_at, editedAt: a.edited_at, description: a.description,
     coverImage: a.cover_image, tags: a.tag_list, reactions: a.public_reactions_count, readingTime: a.reading_time_minutes,
   }));
 }
@@ -301,9 +301,8 @@ async function main() {
   const articles = offline ? JSON.parse(await readFile(CACHE, 'utf8')) : await fetchArticles(CONFIG.username);
   if (!articles.length) throw new Error('No articles returned; README left unchanged');
 
-  let code = null;
-  if (!offline) code = await collectCode(articles, { token: process.env.GITHUB_TOKEN });
-  else code = await readFile(CODE, 'utf8').then(JSON.parse, () => null);
+  const previous = await readFile(CODE, 'utf8').then(JSON.parse, () => null);
+  const code = offline ? previous : await collectCode(articles, { token: process.env.GITHUB_TOKEN, previous });
 
   const animated = animateSvg(svg);
   const readme = replaceBlock(await readFile(README, 'utf8'), renderLatest(articles, readPosts(svg), { code }));

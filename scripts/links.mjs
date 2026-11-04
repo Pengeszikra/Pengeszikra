@@ -17,7 +17,7 @@ const repoNameFromUrl = url => {
 
 const sleep = ms => new Promise(r => setTimeout(r, ms));
 
-async function getJson(url, headers = {}, tries = 4) {
+async function getJson(url, headers = {}, tries = 6) {
   for (let i = 1; ; i++) {
     try {
       const res = await fetch(url, {
@@ -25,12 +25,14 @@ async function getJson(url, headers = {}, tries = 4) {
         signal: AbortSignal.timeout(45000),
       });
       if (res.ok) return await res.json();
+      const wait = Number(res.headers.get('retry-after'));
+      if (res.status === 429 && wait > 0) await sleep(Math.min(wait, 60) * 1000);
       if (res.status !== 429 && res.status < 500) throw Object.assign(new Error(`${res.status} ${res.statusText}`), { fatal: true });
       throw new Error(`${res.status} ${res.statusText}`);
     } catch (err) {
       if (err.fatal || i >= tries) throw new Error(`${err.message} — ${url}`);
       console.warn(`retry ${i}: ${err.message} — ${url}`);
-      await sleep(2000 * i);
+      await sleep(3000 * i);
     }
   }
 }
@@ -65,18 +67,35 @@ export async function fetchPackages() {
   }));
 }
 
-export async function fetchBodies(articles) {
-  const bodies = {};
-  for (const a of articles) {
-    const detail = await getJson(`https://dev.to/api/articles/${a.id}`);
-    bodies[a.id] = detail.body_markdown || '';
-    await sleep(150);
+// What an article body mentions, before checking which names really are mine.
+export function extractMentions(body) {
+  const repos = new Set(), packages = new Set();
+  for (const m of body.matchAll(/github\.com\/([\w.-]+)\/([\w.-]+)/gi)) {
+    if (lc(m[1]) === lc(OWNER)) repos.add(lc(m[2].replace(/\.git$/, '')));
   }
-  return bodies;
+  for (const m of body.matchAll(/npmjs\.com\/package\/((?:@[\w.-]+\/)?[\w.-]+)/gi)) packages.add(lc(m[1]));
+  for (const m of body.matchAll(/\b(?:npm\s+(?:i|install|add)(?:\s+-[-\w]+)*|npx|pnpm\s+add|yarn\s+add)\s+((?:@[\w.-]+\/)?[\w.-]+)/gi)) {
+    packages.add(lc(m[1]).replace(/(.)@[^/]*$/, '$1'));
+  }
+  return { repos: [...repos].sort(), packages: [...packages].sort() };
 }
 
-// pure: article bodies + my repos + my packages → { [articleId]: { repos: [name], packages: [name] } }
-export function linkArticles(articles, bodies, repos, packages) {
+// Article bodies are fetched only for new or edited articles; dev.to rate-limits bursts.
+export async function fetchMentions(articles, cache = {}) {
+  const out = {};
+  for (const a of articles) {
+    const stamp = a.editedAt || a.publishedAt;
+    const hit = cache[a.id];
+    if (hit && hit.stamp === stamp) { out[a.id] = hit; continue; }
+    const detail = await getJson(`https://dev.to/api/articles/${a.id}`);
+    out[a.id] = { stamp, ...extractMentions(detail.body_markdown || '') };
+    await sleep(1200);
+  }
+  return out;
+}
+
+// pure: mentions per article + my repos + my packages → { [articleId]: { repos: [name], packages: [name] } }
+export function linkArticles(articles, mentions, repos, packages) {
   const repoByLc = new Map(repos.map(r => [lc(r.name), r.name]));
   const pkgByLc = new Map(packages.map(p => [lc(p.name), p.name]));
   const pkgsOfRepo = new Map();
@@ -87,30 +106,18 @@ export function linkArticles(articles, bodies, repos, packages) {
 
   const links = {};
   for (const a of articles) {
-    const body = bodies[a.id] || '';
-    const repoSet = new Set(), pkgSet = new Set();
-
-    for (const m of body.matchAll(/github\.com\/([\w.-]+)\/([\w.-]+)/gi)) {
-      if (lc(m[1]) !== lc(OWNER)) continue;
-      const name = repoByLc.get(lc(m[2].replace(/\.git$/, '')));
-      if (name) repoSet.add(name);
-    }
-    for (const m of body.matchAll(/npmjs\.com\/package\/((?:@[\w.-]+\/)?[\w.-]+)/gi)) {
-      const name = pkgByLc.get(lc(m[1]));
-      if (name) pkgSet.add(name);
-    }
-    for (const m of body.matchAll(/\b(?:npm\s+(?:i|install|add)(?:\s+-[-\w]+)*|npx|pnpm\s+add|yarn\s+add)\s+((?:@[\w.-]+\/)?[\w.-]+)/gi)) {
-      const name = pkgByLc.get(lc(m[1]).replace(/@[^/]*$/, ''));
-      if (name) pkgSet.add(name);
-    }
+    const m = mentions[a.id];
+    if (!m) continue;
+    const repoSet = new Set(m.repos.map(r => repoByLc.get(r)).filter(Boolean));
+    const pkgSet = new Set(m.packages.map(p => pkgByLc.get(p)).filter(Boolean));
     for (const r of repoSet) for (const p of pkgsOfRepo.get(lc(r)) || []) pkgSet.add(p);
-
     if (repoSet.size || pkgSet.size) links[a.id] = { repos: [...repoSet].sort(), packages: [...pkgSet].sort() };
   }
   return links;
 }
 
-export async function collectCode(articles, { token } = {}) {
-  const [repos, packages, bodies] = await Promise.all([fetchRepos(token), fetchPackages(), fetchBodies(articles)]);
-  return { generatedAt: new Date().toISOString(), repos, packages, links: linkArticles(articles, bodies, repos, packages) };
+export async function collectCode(articles, { token, previous } = {}) {
+  const [repos, packages] = await Promise.all([fetchRepos(token), fetchPackages()]);
+  const mentions = await fetchMentions(articles, previous?.mentions);
+  return { generatedAt: new Date().toISOString(), repos, packages, mentions, links: linkArticles(articles, mentions, repos, packages) };
 }

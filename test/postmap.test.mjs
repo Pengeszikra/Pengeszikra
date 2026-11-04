@@ -42,7 +42,7 @@ test('block replacement keeps handwritten content, is idempotent, and refuses ba
   for (const bad of ['nothing', `${END}${START}`, `${START}${START}${END}`]) assert.throws(() => replaceBlock(bad, block));
 });
 
-import { linkArticles } from '../scripts/links.mjs';
+import { linkArticles, extractMentions } from '../scripts/links.mjs';
 import { renderCode } from '../scripts/postmap.mjs';
 
 test('links only my own repos and packages, by link, install line, or package repository', () => {
@@ -54,7 +54,8 @@ test('links only my own repos and packages, by link, install line, or package re
   };
   const repos = [{ name: 'TypeScript' }, { name: 'jsdoc-duck' }];
   const packages = [{ name: 'jsdoc-duck', repo: 'jsdoc-duck' }, { name: 'ts-pipe', repo: 'TypeScript' }];
-  assert.deepEqual(linkArticles(arts, bodies, repos, packages), {
+  const mentions = Object.fromEntries(Object.entries(bodies).map(([id, b]) => [id, extractMentions(b)]));
+  assert.deepEqual(linkArticles(arts, mentions, repos, packages), {
     1: { repos: ['TypeScript'], packages: ['ts-pipe'] },
     2: { repos: [], packages: ['jsdoc-duck'] },
   });
