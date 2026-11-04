@@ -7,6 +7,7 @@
 //   node scripts/postmap.mjs            # fetch the map SVG and the dev.to API
 //   node scripts/postmap.mjs --offline  # use assets/mindmap.svg and data/articles.json
 import { readFile, writeFile } from 'node:fs/promises';
+import { collectCode } from './links.mjs';
 
 export const START = '<!-- POSTMAP:START -->';
 export const END = '<!-- POSTMAP:END -->';
@@ -23,6 +24,7 @@ const SOURCE_SVG = new URL('assets/mindmap.svg', root);
 const ANIMATED_SVG = new URL('assets/postmap-animated.svg', root);
 const README = new URL('README.md', root);
 const CACHE = new URL('data/articles.json', root);
+const CODE = new URL('data/postmap-code.json', root);
 
 const esc = s => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
 const unesc = s => String(s).replace(/&lt;/g, '<').replace(/&gt;/g, '>').replace(/&quot;/g, '"').replace(/&amp;/g, '&');
@@ -139,7 +141,92 @@ export function animateSvg(svg) {
 
 const dateOf = iso => String(iso).slice(0, 10);
 
-export function renderLatest(articles, posts, { latest = CONFIG.latest, username = CONFIG.username, appUrl = CONFIG.appUrl } = {}) {
+const npmBadge = name =>
+  `<img src="https://img.shields.io/npm/v/${encodeURIComponent(name).replace('%40', '@')}?style=flat-square&label=&color=3d3528" alt="npm version" align="absmiddle">`;
+const repoLink = (r, code) => {
+  const repo = code.repos.find(x => x.name === r);
+  return `<a href="${esc(repo?.url || `https://github.com/Pengeszikra/${r}`)}"><code>${esc(r)}</code></a>`;
+};
+const pkgLink = name => `<a href="https://www.npmjs.com/package/${esc(name)}">📦 <code>${esc(name)}</code></a>`;
+
+function codeLine(article, code) {
+  const l = code?.links?.[article.id];
+  if (!l) return '';
+  const parts = [...l.repos.map(r => repoLink(r, code)), ...l.packages.map(pkgLink)];
+  return `🧩 ${parts.join(' · ')}<br>\n`;
+}
+
+// "Code behind the posts": every repo and npm package an article points to, grouped by the
+// article's thread on the map; then the npm packages no post mentions yet.
+export function renderCode(articles, posts, code) {
+  if (!code?.links || !Object.keys(code.links).length) return '';
+  const byId = new Map(articles.map(a => [a.id, a]));
+  const threadOf = a => posts.get(cleanUrl(a.url))?.thread || 'Not on the map yet';
+  const groups = new Map(); // thread → Map(key → { kind, name, articles:Set })
+  const add = (thread, kind, name, a) => {
+    if (!groups.has(thread)) groups.set(thread, new Map());
+    const g = groups.get(thread), key = `${kind}:${name}`;
+    if (!g.has(key)) g.set(key, { kind, name, articles: new Set() });
+    g.get(key).articles.add(a);
+  };
+  for (const [id, l] of Object.entries(code.links)) {
+    const a = byId.get(Number(id));
+    if (!a) continue;
+    for (const r of l.repos) add(threadOf(a), 'repo', r, a);
+    for (const p of l.packages) add(threadOf(a), 'npm', p, a);
+  }
+
+  const order = [...new Set([...posts.values()].map(p => p.thread))];
+  const threads = [...groups.keys()].sort((x, y) => (order.indexOf(x) + 1 || 99) - (order.indexOf(y) + 1 || 99));
+  const linkedPkgs = new Set(Object.values(code.links).flatMap(l => l.packages));
+
+  const entry = item => {
+    const from = [...item.articles].sort((x, y) => String(y.publishedAt).localeCompare(String(x.publishedAt)))
+      .map(a => `<a href="${esc(a.url)}">${esc(a.title)}</a>`).join(', ');
+    if (item.kind === 'repo') {
+      const r = code.repos.find(x => x.name === item.name) || {};
+      const meta = [r.language, r.stars ? `★ ${r.stars}` : '', r.homepage ? `<a href="${esc(r.homepage)}">live</a>` : ''].filter(Boolean).join(' · ');
+      return `- ${repoLink(item.name, code)}${meta ? ` <sub>${meta}</sub>` : ''}${r.description ? ` — ${esc(r.description)}` : ''}<br><sub>← ${from}</sub>`;
+    }
+    const p = code.packages.find(x => x.name === item.name) || {};
+    return `- ${pkgLink(item.name)} ${npmBadge(item.name)}${p.description ? ` — ${esc(p.description)}` : ''}<br><sub>← ${from}</sub>`;
+  };
+
+  const sections = threads.map(t => {
+    const items = [...groups.get(t).values()].sort((x, y) => (x.kind === y.kind ? x.name.localeCompare(y.name) : x.kind === 'repo' ? -1 : 1));
+    const nRepo = items.filter(i => i.kind === 'repo').length, nPkg = items.length - nRepo;
+    const counts = [nRepo ? `${nRepo} repo${nRepo > 1 ? 's' : ''}` : '', nPkg ? `${nPkg} npm` : ''].filter(Boolean).join(' · ');
+    return `<details>
+<summary><b>${esc(t)}</b> · <sub>${counts}</sub></summary>
+<br>
+
+${items.map(entry).join('\n')}
+
+</details>`;
+  });
+
+  const others = code.packages.filter(p => !linkedPkgs.has(p.name)).sort((a, b) => String(b.date).localeCompare(String(a.date)));
+  if (others.length) sections.push(`<details>
+<summary><b>More on npm</b> · <sub>${others.length} packages no post mentions yet</sub></summary>
+<br>
+
+${others.map(p => `- ${pkgLink(p.name)} ${npmBadge(p.name)}${p.description ? ` — ${esc(p.description)}` : ''}${p.repo ? ` · ${repoLink(p.repo, code)}` : ''}`).join('\n')}
+
+</details>`);
+
+  return `
+<details>
+<summary><b>🧰 Code behind the posts</b> — GitHub repos and npm packages, grouped by thread</summary>
+<br>
+
+${sections.join('\n\n')}
+
+<sub>Found from links and <code>npm i</code> lines in the articles · <a href="https://github.com/Pengeszikra?tab=repositories">all repos</a> · <a href="https://www.npmjs.com/~${CONFIG.username}">all npm packages</a></sub>
+</details>
+`;
+}
+
+export function renderLatest(articles, posts, { latest = CONFIG.latest, username = CONFIG.username, appUrl = CONFIG.appUrl, code = null } = {}) {
   const newest = [...articles].sort((a, b) => String(b.publishedAt).localeCompare(String(a.publishedAt))).slice(0, latest);
   const items = newest.map(a => {
     const known = posts.get(cleanUrl(a.url));
@@ -156,7 +243,7 @@ export function renderLatest(articles, posts, { latest = CONFIG.latest, username
     return `<details>
 <summary><code>${dateOf(a.publishedAt)}</code> <b>${esc(a.title)}</b>${thread}</summary>
 <br>
-${cover}${description}<sub>${meta}</sub><br>
+${cover}${description}${codeLine(a, code)}<sub>${meta}</sub><br>
 <a href="${esc(a.url)}">Read on dev.to →</a>
 <br><br>
 </details>`;
@@ -174,7 +261,7 @@ ${items.join('\n\n')}
 
 <sub>All posts: <a href="${appUrl}">interactive map</a> · <a href="https://dev.to/${username}">dev.to/${username}</a></sub>
 </details>
-${END}`;
+${renderCode(articles, posts, code)}${END}`;
 }
 
 export function replaceBlock(readme, block) {
@@ -214,13 +301,21 @@ async function main() {
   const articles = offline ? JSON.parse(await readFile(CACHE, 'utf8')) : await fetchArticles(CONFIG.username);
   if (!articles.length) throw new Error('No articles returned; README left unchanged');
 
-  const animated = animateSvg(svg);
-  const readme = replaceBlock(await readFile(README, 'utf8'), renderLatest(articles, readPosts(svg)));
+  let code = null;
+  if (!offline) code = await collectCode(articles, { token: process.env.GITHUB_TOKEN });
+  else code = await readFile(CODE, 'utf8').then(JSON.parse, () => null);
 
-  if (!offline) await writeFile(SOURCE_SVG, svg);
+  const animated = animateSvg(svg);
+  const readme = replaceBlock(await readFile(README, 'utf8'), renderLatest(articles, readPosts(svg), { code }));
+
+  if (!offline) {
+    await writeFile(SOURCE_SVG, svg);
+    await writeFile(CODE, JSON.stringify(code, null, 1) + '\n');
+  }
   await writeFile(ANIMATED_SVG, animated);
   await writeFile(README, readme);
-  console.log(`postmap: ${readThreads(svg).length} threads, ${readPosts(svg).size} mapped posts, ${articles.length} articles`);
+  console.log(`postmap: ${readThreads(svg).length} threads, ${readPosts(svg).size} mapped posts, ${articles.length} articles`
+    + (code ? `, ${code.repos.length} repos, ${code.packages.length} npm packages, ${Object.keys(code.links).length} posts with code` : ''));
 }
 
 if (import.meta.url === `file://${process.argv[1]}`) {

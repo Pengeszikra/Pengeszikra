@@ -41,3 +41,36 @@ test('block replacement keeps handwritten content, is idempotent, and refuses ba
   assert.equal(replaceBlock(after, block), after);
   for (const bad of ['nothing', `${END}${START}`, `${START}${START}${END}`]) assert.throws(() => replaceBlock(bad, block));
 });
+
+import { linkArticles } from '../scripts/links.mjs';
+import { renderCode } from '../scripts/postmap.mjs';
+
+test('links only my own repos and packages, by link, install line, or package repository', () => {
+  const arts = [{ id: 1 }, { id: 2 }, { id: 3 }];
+  const bodies = {
+    1: 'See https://github.com/Pengeszikra/TypeScript and https://github.com/microsoft/TypeScript',
+    2: '```sh\nnpm i -D jsdoc-duck@1.2.0\nnpm install react\n```',
+    3: 'nothing here, just https://www.npmjs.com/package/left-pad',
+  };
+  const repos = [{ name: 'TypeScript' }, { name: 'jsdoc-duck' }];
+  const packages = [{ name: 'jsdoc-duck', repo: 'jsdoc-duck' }, { name: 'ts-pipe', repo: 'TypeScript' }];
+  assert.deepEqual(linkArticles(arts, bodies, repos, packages), {
+    1: { repos: ['TypeScript'], packages: ['ts-pipe'] },
+    2: { repos: [], packages: ['jsdoc-duck'] },
+  });
+});
+
+test('code section groups by thread and lists unmentioned npm packages', () => {
+  const posts = readPosts(svg);
+  const [url, info] = [...posts.entries()][1];
+  const arts = [{ id: 7, title: 'T', url, publishedAt: '2026-01-01' }];
+  const code = {
+    repos: [{ name: 'r1', url: 'https://github.com/Pengeszikra/r1', description: 'd' }],
+    packages: [{ name: 'p1', repo: 'r1' }, { name: 'lonely' }],
+    links: { 7: { repos: ['r1'], packages: ['p1'] } },
+  };
+  const out = renderCode(arts, posts, code);
+  assert.ok(out.includes(info.thread.replace(/&/g, '&amp;').replace(/>/g, '&gt;')));
+  assert.ok(out.includes('More on npm') && out.includes('lonely'));
+  assert.equal(renderCode(arts, posts, null), '');
+});
