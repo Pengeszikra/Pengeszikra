@@ -10,6 +10,8 @@ on:
     branches: [main]
     paths:
       - scripts/postmap.mjs
+      - scripts/links.mjs
+      - scripts/codemap.mjs
       - .github/workflows/postmap.yml
 
 permissions:
@@ -29,9 +31,11 @@ jobs:
           node-version: 22
       - run: node --test test/postmap.test.mjs
       - run: node scripts/postmap.mjs
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: Commit if anything changed
         run: |
-          git add README.md assets/mindmap.svg assets/postmap-animated.svg
+          git add README.md assets/mindmap.svg assets/postmap-animated.svg data/postmap-code.json
           if git diff --cached --quiet; then
             echo "Post map already up to date."
             exit 0

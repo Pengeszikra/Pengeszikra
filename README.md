@@ -30,6 +30,7 @@ Here are some ideas to get you started:
 <br>
 <a href="https://dev.to/pengeszikra/devto-articles-mindmap-47j5"><img src="https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fq0gbqtjubx2vo99rtz83.png" alt="" width="420"></a><br>
 It’s hard to get used to the speed at which #KnowsEverythingBetter accelerates production beyond its...<br>
+🧩 <a href="https://github.com/Pengeszikra/devto-post-map"><code>devto-post-map</code></a><br>
 <sub>3 min read · ♡ 19 · #discuss #devto #opensource #productivity</sub><br>
 <a href="https://dev.to/pengeszikra/devto-articles-mindmap-47j5">Read on dev.to →</a>
 <br><br>
@@ -40,6 +41,7 @@ It’s hard to get used to the speed at which #KnowsEverythingBetter accelerates
 <br>
 <a href="https://dev.to/pengeszikra/singularity-news-ccg-5ejk"><img src="https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fyyh84oxpucdnmygo396v.png" alt="" width="420"></a><br>
 This is a submission for the Hacktoberfest Open-Source AI Challenge Week 4: Ghost in the Machine ...<br>
+🧩 <a href="https://github.com/Pengeszikra/singularity-news-ccg"><code>singularity-news-ccg</code></a><br>
 <sub>4 min read · ♡ 49 · #devchallenge #hf26challenge #gamedev #showdev</sub><br>
 <a href="https://dev.to/pengeszikra/singularity-news-ccg-5ejk">Read on dev.to →</a>
 <br><br>
@@ -50,6 +52,7 @@ This is a submission for the Hacktoberfest Open-Source AI Challenge Week 4: Ghos
 <br>
 <a href="https://dev.to/pengeszikra/the-eye-of-beholder-umgd-55lm"><img src="https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Ftdkan7tvu04q486ot1qc.png" alt="" width="420"></a><br>
 UMGD — Under Meeting Game Development game: Redneck Wreck repo:on github I owe you a...<br>
+🧩 <a href="https://github.com/Pengeszikra/redneck-wreck"><code>redneck-wreck</code></a><br>
 <sub>3 min read · ♡ 14 · #ai #discuss #gamedev #showdev</sub><br>
 <a href="https://dev.to/pengeszikra/the-eye-of-beholder-umgd-55lm">Read on dev.to →</a>
 <br><br>
@@ -70,6 +73,7 @@ Liberation I'm not talking about the length of package.json files. I run into th
 <br>
 <a href="https://dev.to/pengeszikra/hexaw-a-lazy-wasm-text-format-5g5n"><img src="https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fu8zgu8f4zouggzb33wqm.png" alt="" width="420"></a><br>
 This is a submission for the Hacktoberfest Open-Source AI Challenge Week 3: Slow and Steady ...<br>
+🧩 <a href="https://github.com/Pengeszikra/hexaw"><code>hexaw</code></a> <a href="https://www.npmjs.com/package/hexaw">📦 <code>hexaw</code></a> <img src="https://img.shields.io/npm/v/hexaw?style=flat-square&label=&color=3d3528" alt="npm version" align="absmiddle"> · <a href="https://www.npmjs.com/package/hexaw-repository">📦 <code>hexaw-repository</code></a> <img src="https://img.shields.io/npm/v/hexaw-repository?style=flat-square&label=&color=3d3528" alt="npm version" align="absmiddle"><br>
 <sub>4 min read · ♡ 48 · #devchallenge #hf26challenge #webassembly</sub><br>
 <a href="https://dev.to/pengeszikra/hexaw-a-lazy-wasm-text-format-5g5n">Read on dev.to →</a>
 <br><br>
@@ -103,6 +107,21 @@ Role-Playing Games I must confess, when I was young, I got completely hooked on.
 </details>
 
 <sub>All posts: <a href="https://devto-post-map.vercel.app/">interactive map</a> · <a href="https://dev.to/pengeszikra">dev.to/pengeszikra</a></sub>
+</details>
+
+<details>
+<summary><b>📦 More on npm</b> — 7 projects no post mentions yet</summary>
+<br>
+
+- <a href="https://github.com/Pengeszikra/3Draft"><code>3Draft</code></a> <sub>TypeScript</sub> — Minimalist AI first 3D engine<br><a href="https://www.npmjs.com/package/3draft">📦 <code>3draft</code></a> <img src="https://img.shields.io/npm/v/3draft?style=flat-square&label=&color=3d3528" alt="npm version" align="absmiddle">
+- <a href="https://github.com/Pengeszikra/marker"><code>marker</code></a> <sub>HTML · <a href="https://marker-nu.vercel.app">live ↗</a></sub> — markdown first pure html editor web component<br><a href="https://www.npmjs.com/package/marker-edit">📦 <code>marker-edit</code></a> <img src="https://img.shields.io/npm/v/marker-edit?style=flat-square&label=&color=3d3528" alt="npm version" align="absmiddle"> · <a href="https://www.npmjs.com/package/marker-editor">📦 <code>marker-editor</code></a> <img src="https://img.shields.io/npm/v/marker-editor?style=flat-square&label=&color=3d3528" alt="npm version" align="absmiddle">
+- <a href="https://github.com/Pengeszikra/qwik-saga"><code>qwik-saga</code></a> <sub>TypeScript</sub> — redux-saga like process handling for qwik<br><a href="https://www.npmjs.com/package/qwik-saga">📦 <code>qwik-saga</code></a> <img src="https://img.shields.io/npm/v/qwik-saga?style=flat-square&label=&color=3d3528" alt="npm version" align="absmiddle">
+- <a href="https://www.npmjs.com/package/typerdux">📦 <code>typerdux</code></a> <img src="https://img.shields.io/npm/v/typerdux?style=flat-square&label=&color=3d3528" alt="npm version" align="absmiddle"> — react state handling helper based on useReducer and typescript
+- <a href="https://github.com/Pengeszikra/fencer"><code>fencer</code></a> <sub>JavaScript</sub> — experimental functional jsx framework <br><a href="https://www.npmjs.com/package/fencer">📦 <code>fencer</code></a> <img src="https://img.shields.io/npm/v/fencer?style=flat-square&label=&color=3d3528" alt="npm version" align="absmiddle">
+- <a href="https://github.com/Pengeszikra/callbag-take-to-finally"><code>callbag-take-to-finally</code></a> <sub>fork · JavaScript</sub> — 👜 Callbag operator which emits values emitted by the source as long as each value satisfies the given predicate, and then completes as soon as predicate is not satisfied. But call lastly function before callbag is over.<br><a href="https://www.npmjs.com/package/callbag-take-to-finally">📦 <code>callbag-take-to-finally</code></a> <img src="https://img.shields.io/npm/v/callbag-take-to-finally?style=flat-square&label=&color=3d3528" alt="npm version" align="absmiddle">
+- <a href="https://github.com/Pengeszikra/react-slash"><code>react-slash</code></a> <sub>JavaScript</sub> — Tiny useReducer / jsx element naming oriented preact helper library.<br><a href="https://www.npmjs.com/package/preact-slash">📦 <code>preact-slash</code></a> <img src="https://img.shields.io/npm/v/preact-slash?style=flat-square&label=&color=3d3528" alt="npm version" align="absmiddle"> · <a href="https://www.npmjs.com/package/react-slash">📦 <code>react-slash</code></a> <img src="https://img.shields.io/npm/v/react-slash?style=flat-square&label=&color=3d3528" alt="npm version" align="absmiddle">
+
+<sub>Repos and packages that posts link are on the map above · <a href="https://www.npmjs.com/~pengeszikra">all npm packages</a> · <a href="https://github.com/Pengeszikra?tab=repositories">all repos</a></sub>
 </details>
 <!-- POSTMAP:END -->
 

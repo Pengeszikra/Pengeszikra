@@ -7,6 +7,8 @@
 //   node scripts/postmap.mjs            # fetch the map SVG and the dev.to API
 //   node scripts/postmap.mjs --offline  # use assets/mindmap.svg and data/articles.json
 import { readFile, writeFile } from 'node:fs/promises';
+import { collectCode } from './links.mjs';
+import { addCodeColumns } from './codemap.mjs';
 
 export const START = '<!-- POSTMAP:START -->';
 export const END = '<!-- POSTMAP:END -->';
@@ -23,6 +25,7 @@ const SOURCE_SVG = new URL('assets/mindmap.svg', root);
 const ANIMATED_SVG = new URL('assets/postmap-animated.svg', root);
 const README = new URL('README.md', root);
 const CACHE = new URL('data/articles.json', root);
+const CODE = new URL('data/postmap-code.json', root);
 
 const esc = s => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
 const unesc = s => String(s).replace(/&lt;/g, '<').replace(/&gt;/g, '>').replace(/&quot;/g, '"').replace(/&amp;/g, '&');
@@ -139,7 +142,89 @@ export function animateSvg(svg) {
 
 const dateOf = iso => String(iso).slice(0, 10);
 
-export function renderLatest(articles, posts, { latest = CONFIG.latest, username = CONFIG.username, appUrl = CONFIG.appUrl } = {}) {
+const npmBadge = name =>
+  `<img src="https://img.shields.io/npm/v/${encodeURIComponent(name).replace('%40', '@')}?style=flat-square&label=&color=3d3528" alt="npm version" align="absmiddle">`;
+const pkgLink = name => `<a href="https://www.npmjs.com/package/${esc(name)}">📦 <code>${esc(name)}</code></a>`;
+const httpUrl = u => (!u ? '' : /^https?:\/\//i.test(u) ? u : `https://${u}`);
+
+// Platform builds such as @x/typescript-linux-x64 are folded into their main package.
+const PLATFORM = /^(.+)-(?:darwin|linux|win32|freebsd|android|linux-musl)-(?:x64|arm64|ia32|arm)$/;
+export function foldPackages(names, all) {
+  const known = new Set(all.map(p => p.name));
+  const main = new Map();
+  for (const n of names) {
+    const base = n.match(PLATFORM)?.[1];
+    const key = base && known.has(base) ? base : n;
+    main.set(key, (main.get(key) || 0) + (key === n ? 0 : 1));
+  }
+  return [...main].map(([name, builds]) => ({ name, builds }));
+}
+
+// One "project" = a repo plus the npm packages published from it, or a package without a repo.
+function projects(repoNames, pkgNames, code) {
+  const repos = new Map(repoNames.map(r => [r, { repo: r, packages: [] }]));
+  const loose = [];
+  for (const p of foldPackages(pkgNames, code.packages)) {
+    const pkg = code.packages.find(x => x.name === p.name) || {};
+    const home = pkg.repo && [...repos.keys()].find(r => r.toLowerCase() === pkg.repo.toLowerCase());
+    if (home) repos.get(home).packages.push(p);
+    else if (pkg.repo && code.repos.some(r => r.name.toLowerCase() === pkg.repo.toLowerCase())) {
+      const r = code.repos.find(x => x.name.toLowerCase() === pkg.repo.toLowerCase()).name;
+      repos.set(r, { repo: r, packages: [p] });
+    } else loose.push({ repo: null, packages: [p] });
+  }
+  return [...repos.values(), ...loose];
+}
+
+function pkgChips(packages) {
+  return packages.map(p => `${pkgLink(p.name)} ${npmBadge(p.name)}${p.builds ? ` <sub>+${p.builds} platform builds</sub>` : ''}`).join(' · ');
+}
+
+function projectLine(proj, code) {
+  if (!proj.repo) {
+    const pkg = code.packages.find(x => x.name === proj.packages[0].name) || {};
+    return `${pkgChips(proj.packages)}${pkg.description ? ` — ${esc(pkg.description)}` : ''}`;
+  }
+  const r = code.repos.find(x => x.name === proj.repo) || { url: `https://github.com/Pengeszikra/${proj.repo}` };
+  const meta = [
+    r.fork ? 'fork' : '', r.language, r.stars ? `★ ${r.stars}` : '',
+    !r.fork && r.homepage ? `<a href="${esc(httpUrl(r.homepage))}">live ↗</a>` : '',
+  ].filter(Boolean).join(' · ');
+  const pkgDesc = proj.packages.length && (code.packages.find(x => x.name === proj.packages[0].name) || {}).description;
+  const desc = r.fork ? pkgDesc : r.description || pkgDesc;
+  return `<a href="${esc(r.url)}"><code>${esc(proj.repo)}</code></a>${meta ? ` <sub>${meta}</sub>` : ''}`
+    + `${desc ? ` — ${esc(desc)}` : ''}${proj.packages.length ? `<br>${pkgChips(proj.packages)}` : ''}`;
+}
+
+function codeLine(article, code) {
+  const l = code?.links?.[article.id];
+  if (!l) return '';
+  const parts = projects(l.repos, l.packages, code).map(p =>
+    p.repo ? `<a href="${esc(code.repos.find(x => x.name === p.repo)?.url || '')}"><code>${esc(p.repo)}</code></a>${p.packages.length ? ` ${pkgChips(p.packages)}` : ''}` : pkgChips(p.packages));
+  return `🧩 ${parts.join(' · ')}<br>\n`;
+}
+
+// npm packages that no post points to yet; the ones posts do point to are on the map.
+export function renderCode(articles, posts, code) {
+  if (!code?.packages?.length) return '';
+  const linked = new Set(Object.values(code.links || {}).flatMap(l => l.packages));
+  const restNames = code.packages.filter(p => !linked.has(p.name)).map(p => p.name);
+  const dateOfPkg = proj => String((code.packages.find(p => p.name === proj.packages[0]?.name) || {}).date);
+  const rest = projects([], restNames, code).sort((x, y) => dateOfPkg(y).localeCompare(dateOfPkg(x)));
+  if (!rest.length) return '';
+  return `
+<details>
+<summary><b>📦 More on npm</b> — ${rest.length} projects no post mentions yet</summary>
+<br>
+
+${rest.map(proj => `- ${projectLine(proj, code)}`).join('\n')}
+
+<sub>Repos and packages that posts link are on the map above · <a href="https://www.npmjs.com/~${CONFIG.username}">all npm packages</a> · <a href="https://github.com/Pengeszikra?tab=repositories">all repos</a></sub>
+</details>
+`;
+}
+
+export function renderLatest(articles, posts, { latest = CONFIG.latest, username = CONFIG.username, appUrl = CONFIG.appUrl, code = null } = {}) {
   const newest = [...articles].sort((a, b) => String(b.publishedAt).localeCompare(String(a.publishedAt))).slice(0, latest);
   const items = newest.map(a => {
     const known = posts.get(cleanUrl(a.url));
@@ -156,7 +241,7 @@ export function renderLatest(articles, posts, { latest = CONFIG.latest, username
     return `<details>
 <summary><code>${dateOf(a.publishedAt)}</code> <b>${esc(a.title)}</b>${thread}</summary>
 <br>
-${cover}${description}<sub>${meta}</sub><br>
+${cover}${description}${codeLine(a, code)}<sub>${meta}</sub><br>
 <a href="${esc(a.url)}">Read on dev.to →</a>
 <br><br>
 </details>`;
@@ -174,7 +259,7 @@ ${items.join('\n\n')}
 
 <sub>All posts: <a href="${appUrl}">interactive map</a> · <a href="https://dev.to/${username}">dev.to/${username}</a></sub>
 </details>
-${END}`;
+${renderCode(articles, posts, code)}${END}`;
 }
 
 export function replaceBlock(readme, block) {
@@ -203,7 +288,7 @@ async function fetchArticles(username) {
     if (batch.length < 100) break;
   }
   return all.map(a => ({
-    id: a.id, title: a.title, url: a.url, publishedAt: a.published_at, description: a.description,
+    id: a.id, title: a.title, url: a.url, publishedAt: a.published_at, editedAt: a.edited_at, description: a.description,
     coverImage: a.cover_image, tags: a.tag_list, reactions: a.public_reactions_count, readingTime: a.reading_time_minutes,
   }));
 }
@@ -214,13 +299,20 @@ async function main() {
   const articles = offline ? JSON.parse(await readFile(CACHE, 'utf8')) : await fetchArticles(CONFIG.username);
   if (!articles.length) throw new Error('No articles returned; README left unchanged');
 
-  const animated = animateSvg(svg);
-  const readme = replaceBlock(await readFile(README, 'utf8'), renderLatest(articles, readPosts(svg)));
+  const previous = await readFile(CODE, 'utf8').then(JSON.parse, () => null);
+  const code = offline ? previous : await collectCode(articles, { token: process.env.GITHUB_TOKEN, previous });
 
-  if (!offline) await writeFile(SOURCE_SVG, svg);
+  const animated = animateSvg(addCodeColumns(svg, code));
+  const readme = replaceBlock(await readFile(README, 'utf8'), renderLatest(articles, readPosts(svg), { code }));
+
+  if (!offline) {
+    await writeFile(SOURCE_SVG, svg);
+    await writeFile(CODE, JSON.stringify(code, null, 1) + '\n');
+  }
   await writeFile(ANIMATED_SVG, animated);
   await writeFile(README, readme);
-  console.log(`postmap: ${readThreads(svg).length} threads, ${readPosts(svg).size} mapped posts, ${articles.length} articles`);
+  console.log(`postmap: ${readThreads(svg).length} threads, ${readPosts(svg).size} mapped posts, ${articles.length} articles`
+    + (code ? `, ${code.repos.length} repos, ${code.packages.length} npm packages, ${Object.keys(code.links).length} posts with code` : ''));
 }
 
 if (import.meta.url === `file://${process.argv[1]}`) {
