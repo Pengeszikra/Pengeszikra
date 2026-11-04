@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-04T20:08:13.476Z",
+ "generatedAt": "2026-11-04T20:25:05.770Z",
  "repos": [
   {
    "name": "Pengeszikra",
@@ -10,7 +10,7 @@
    "stars": 0,
    "fork": false,
    "archived": false,
-   "pushedAt": "2026-11-04T20:08:00Z",
+   "pushedAt": "2026-11-04T20:24:55Z",
    "topics": []
   },
   {
@@ -1311,12 +1311,16 @@
  },
  "links": {
   "466925": {
+   "url": "https://dev.to/pengeszikra/react-game-under-2h-1l10",
+   "title": "React game under 2h",
    "repos": [
     "ex-exsistence"
    ],
    "packages": []
   },
   "779307": {
+   "url": "https://dev.to/pengeszikra/adventure-of-javascript-based-mmorpg-creation-5909",
+   "title": "Adventure of javascript based MMORPG creation.",
    "repos": [
     "rogmor"
    ],
@@ -1325,18 +1329,24 @@
    ]
   },
   "1594655": {
+   "url": "https://dev.to/pengeszikra/simplify-your-react-state-management-with-react-state-factory-4a14",
+   "title": "Simplify your React state management with react-state-factory",
    "repos": [],
    "packages": [
     "react-state-factory"
    ]
   },
   "1613455": {
+   "url": "https://dev.to/pengeszikra/typescript-challenge-1ag7",
+   "title": "Typescript challenge",
    "repos": [],
    "packages": [
     "react-state-factory"
    ]
   },
   "1976994": {
+   "url": "https://dev.to/pengeszikra/jsdoc-npm-module-quest-2f7a",
+   "title": "jsDoc npm module quest",
    "repos": [],
    "packages": [
     "jsdoc-duck",
@@ -1344,6 +1354,8 @@
    ]
   },
   "2006748": {
+   "url": "https://dev.to/pengeszikra/a-l-i-e-n-s-o-l-i-t-a-r-e-2kgc",
+   "title": "A L I E N - S O L I T A R E",
    "repos": [
     "alien-solitare"
    ],
@@ -1352,24 +1364,32 @@
    ]
   },
   "2211981": {
+   "url": "https://dev.to/pengeszikra/javascript-great-again-the-voice-of-void-5fp6",
+   "title": "Javascript great again! - The Voice of Void",
    "repos": [
     "flogon-galaxy"
    ],
    "packages": []
   },
   "3255055": {
+   "url": "https://dev.to/pengeszikra/rustroke-wasm-mini-draw-3oih",
+   "title": "Rustroke - WASM mini draw",
    "repos": [
     "rustroke"
    ],
    "packages": []
   },
   "3308115": {
+   "url": "https://dev.to/pengeszikra/the-royal-gazette-a-single-line-noble-intrigue-20nn",
+   "title": "The Royal Gazette: A Single-Line Noble Intrigue",
    "repos": [
     "quickquest"
    ],
    "packages": []
   },
   "3451384": {
+   "url": "https://dev.to/pengeszikra/mdjs-mordorjs-1mon",
+   "title": "M||D||JS = MorDorJS",
    "repos": [
     "mordorjs"
    ],
@@ -1378,6 +1398,8 @@
    ]
   },
   "3518252": {
+   "url": "https://dev.to/pengeszikra/a-game-for-the-mind-2mj3",
+   "title": "A Game for the Mind",
    "repos": [
     "mordorjs"
    ],
@@ -1386,6 +1408,8 @@
    ]
   },
   "4779443": {
+   "url": "https://dev.to/pengeszikra/use-this-pipe-to-feel-the-flow-483j",
+   "title": "I added a type-checked pipeline operator to TypeScript — including TSX",
    "repos": [
     "TypeScript"
    ],
@@ -1400,6 +1424,8 @@
    ]
   },
   "4786526": {
+   "url": "https://dev.to/pengeszikra/terminal-is-your-friend-2b49",
+   "title": "Terminal is your Friend",
    "repos": [
     "TypeScript",
     "terminal-is-your-friend"
@@ -1415,18 +1441,24 @@
    ]
   },
   "4854548": {
+   "url": "https://dev.to/pengeszikra/slop-coding-the-vibe-archeologist-strikes-again-35df",
+   "title": "Slop Coding: The Vibe Archeologist Strikes Again!",
    "repos": [
     "after-flash"
    ],
    "packages": []
   },
   "4894915": {
+   "url": "https://dev.to/pengeszikra/the-eye-of-beholder-umgd-55lm",
+   "title": "The Eye of Beholder = UMGD",
    "repos": [
     "redneck-wreck"
    ],
    "packages": []
   },
   "4917658": {
+   "url": "https://dev.to/pengeszikra/hexaw-a-lazy-wasm-text-format-5g5n",
+   "title": "HEXAW programming language for WebAssembly instead WAT",
    "repos": [
     "hexaw"
    ],
@@ -1436,12 +1468,16 @@
    ]
   },
   "4945564": {
+   "url": "https://dev.to/pengeszikra/singularity-news-ccg-5ejk",
+   "title": "Singularity News :: CCG",
    "repos": [
     "singularity-news-ccg"
    ],
    "packages": []
   },
   "4954964": {
+   "url": "https://dev.to/pengeszikra/devto-articles-mindmap-47j5",
+   "title": "dev.to articles mindmap",
    "repos": [
     "devto-post-map"
    ],
