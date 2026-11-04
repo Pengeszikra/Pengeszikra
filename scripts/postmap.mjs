@@ -143,74 +143,117 @@ const dateOf = iso => String(iso).slice(0, 10);
 
 const npmBadge = name =>
   `<img src="https://img.shields.io/npm/v/${encodeURIComponent(name).replace('%40', '@')}?style=flat-square&label=&color=3d3528" alt="npm version" align="absmiddle">`;
-const repoLink = (r, code) => {
-  const repo = code.repos.find(x => x.name === r);
-  return `<a href="${esc(repo?.url || `https://github.com/Pengeszikra/${r}`)}"><code>${esc(r)}</code></a>`;
-};
 const pkgLink = name => `<a href="https://www.npmjs.com/package/${esc(name)}">📦 <code>${esc(name)}</code></a>`;
+const httpUrl = u => (!u ? '' : /^https?:\/\//i.test(u) ? u : `https://${u}`);
+
+// Platform builds such as @x/typescript-linux-x64 are folded into their main package.
+const PLATFORM = /^(.+)-(?:darwin|linux|win32|freebsd|android|linux-musl)-(?:x64|arm64|ia32|arm)$/;
+export function foldPackages(names, all) {
+  const known = new Set(all.map(p => p.name));
+  const main = new Map();
+  for (const n of names) {
+    const base = n.match(PLATFORM)?.[1];
+    const key = base && known.has(base) ? base : n;
+    main.set(key, (main.get(key) || 0) + (key === n ? 0 : 1));
+  }
+  return [...main].map(([name, builds]) => ({ name, builds }));
+}
+
+// One "project" = a repo plus the npm packages published from it, or a package without a repo.
+function projects(repoNames, pkgNames, code) {
+  const repos = new Map(repoNames.map(r => [r, { repo: r, packages: [] }]));
+  const loose = [];
+  for (const p of foldPackages(pkgNames, code.packages)) {
+    const pkg = code.packages.find(x => x.name === p.name) || {};
+    const home = pkg.repo && [...repos.keys()].find(r => r.toLowerCase() === pkg.repo.toLowerCase());
+    if (home) repos.get(home).packages.push(p);
+    else if (pkg.repo && code.repos.some(r => r.name.toLowerCase() === pkg.repo.toLowerCase())) {
+      const r = code.repos.find(x => x.name.toLowerCase() === pkg.repo.toLowerCase()).name;
+      repos.set(r, { repo: r, packages: [p] });
+    } else loose.push({ repo: null, packages: [p] });
+  }
+  return [...repos.values(), ...loose];
+}
+
+function pkgChips(packages) {
+  return packages.map(p => `${pkgLink(p.name)} ${npmBadge(p.name)}${p.builds ? ` <sub>+${p.builds} platform builds</sub>` : ''}`).join(' · ');
+}
+
+function projectLine(proj, code) {
+  if (!proj.repo) {
+    const pkg = code.packages.find(x => x.name === proj.packages[0].name) || {};
+    return `${pkgChips(proj.packages)}${pkg.description ? ` — ${esc(pkg.description)}` : ''}`;
+  }
+  const r = code.repos.find(x => x.name === proj.repo) || { url: `https://github.com/Pengeszikra/${proj.repo}` };
+  const meta = [
+    r.fork ? 'fork' : '', r.language, r.stars ? `★ ${r.stars}` : '',
+    !r.fork && r.homepage ? `<a href="${esc(httpUrl(r.homepage))}">live ↗</a>` : '',
+  ].filter(Boolean).join(' · ');
+  const pkgDesc = proj.packages.length && (code.packages.find(x => x.name === proj.packages[0].name) || {}).description;
+  const desc = r.fork ? pkgDesc : r.description || pkgDesc;
+  return `<a href="${esc(r.url)}"><code>${esc(proj.repo)}</code></a>${meta ? ` <sub>${meta}</sub>` : ''}`
+    + `${desc ? ` — ${esc(desc)}` : ''}${proj.packages.length ? `<br>${pkgChips(proj.packages)}` : ''}`;
+}
 
 function codeLine(article, code) {
   const l = code?.links?.[article.id];
   if (!l) return '';
-  const parts = [...l.repos.map(r => repoLink(r, code)), ...l.packages.map(pkgLink)];
+  const parts = projects(l.repos, l.packages, code).map(p =>
+    p.repo ? `<a href="${esc(code.repos.find(x => x.name === p.repo)?.url || '')}"><code>${esc(p.repo)}</code></a>${p.packages.length ? ` ${pkgChips(p.packages)}` : ''}` : pkgChips(p.packages));
   return `🧩 ${parts.join(' · ')}<br>\n`;
 }
 
-// "Code behind the posts": every repo and npm package an article points to, grouped by the
-// article's thread on the map; then the npm packages no post mentions yet.
+// "Code behind the posts": the repos and npm packages each thread's articles point to,
+// then the npm packages no post mentions yet.
 export function renderCode(articles, posts, code) {
   if (!code?.links || !Object.keys(code.links).length) return '';
   const byId = new Map(articles.map(a => [a.id, a]));
   const threadOf = a => posts.get(cleanUrl(a.url))?.thread || 'Not on the map yet';
-  const groups = new Map(); // thread → Map(key → { kind, name, articles:Set })
-  const add = (thread, kind, name, a) => {
-    if (!groups.has(thread)) groups.set(thread, new Map());
-    const g = groups.get(thread), key = `${kind}:${name}`;
-    if (!g.has(key)) g.set(key, { kind, name, articles: new Set() });
-    g.get(key).articles.add(a);
-  };
+  const groups = new Map(); // thread → { repos: Map(name → Set(article)), packages: Map(name → Set(article)) }
   for (const [id, l] of Object.entries(code.links)) {
     const a = byId.get(Number(id));
     if (!a) continue;
-    for (const r of l.repos) add(threadOf(a), 'repo', r, a);
-    for (const p of l.packages) add(threadOf(a), 'npm', p, a);
+    const t = threadOf(a);
+    if (!groups.has(t)) groups.set(t, { repos: new Map(), packages: new Map() });
+    const g = groups.get(t);
+    for (const r of l.repos) g.repos.set(r, (g.repos.get(r) || new Set()).add(a));
+    for (const p of l.packages) g.packages.set(p, (g.packages.get(p) || new Set()).add(a));
   }
 
   const order = [...new Set([...posts.values()].map(p => p.thread))];
   const threads = [...groups.keys()].sort((x, y) => (order.indexOf(x) + 1 || 99) - (order.indexOf(y) + 1 || 99));
-  const linkedPkgs = new Set(Object.values(code.links).flatMap(l => l.packages));
-
-  const entry = item => {
-    const from = [...item.articles].sort((x, y) => String(y.publishedAt).localeCompare(String(x.publishedAt)))
-      .map(a => `<a href="${esc(a.url)}">${esc(a.title)}</a>`).join(', ');
-    if (item.kind === 'repo') {
-      const r = code.repos.find(x => x.name === item.name) || {};
-      const meta = [r.language, r.stars ? `★ ${r.stars}` : '', r.homepage ? `<a href="${esc(r.homepage)}">live</a>` : ''].filter(Boolean).join(' · ');
-      return `- ${repoLink(item.name, code)}${meta ? ` <sub>${meta}</sub>` : ''}${r.description ? ` — ${esc(r.description)}` : ''}<br><sub>← ${from}</sub>`;
-    }
-    const p = code.packages.find(x => x.name === item.name) || {};
-    return `- ${pkgLink(item.name)} ${npmBadge(item.name)}${p.description ? ` — ${esc(p.description)}` : ''}<br><sub>← ${from}</sub>`;
-  };
+  const titleLinks = set => [...set].sort((x, y) => String(y.publishedAt).localeCompare(String(x.publishedAt)))
+    .map(a => `<a href="${esc(a.url)}">${esc(a.title)}</a>`).join(', ');
 
   const sections = threads.map(t => {
-    const items = [...groups.get(t).values()].sort((x, y) => (x.kind === y.kind ? x.name.localeCompare(y.name) : x.kind === 'repo' ? -1 : 1));
-    const nRepo = items.filter(i => i.kind === 'repo').length, nPkg = items.length - nRepo;
-    const counts = [nRepo ? `${nRepo} repo${nRepo > 1 ? 's' : ''}` : '', nPkg ? `${nPkg} npm` : ''].filter(Boolean).join(' · ');
+    const g = groups.get(t);
+    const list = projects([...g.repos.keys()].sort((a, b) => a.localeCompare(b)), [...g.packages.keys()].sort(), code);
+    const sources = proj => {
+      const s = new Set(proj.repo ? g.repos.get(proj.repo) || [] : []);
+      for (const p of proj.packages) for (const a of g.packages.get(p.name) || []) s.add(a);
+      return titleLinks(s);
+    };
+    const nPkg = list.reduce((n, p) => n + p.packages.length, 0);
+    const counts = [`${list.length} project${list.length > 1 ? 's' : ''}`, nPkg ? `${nPkg} on npm` : ''].filter(Boolean).join(' · ');
     return `<details>
 <summary><b>${esc(t)}</b> · <sub>${counts}</sub></summary>
 <br>
 
-${items.map(entry).join('\n')}
+${list.map(proj => `- ${projectLine(proj, code)}<br><sub>← ${sources(proj)}</sub>`).join('\n')}
 
 </details>`;
   });
 
-  const others = code.packages.filter(p => !linkedPkgs.has(p.name)).sort((a, b) => String(b.date).localeCompare(String(a.date)));
-  if (others.length) sections.push(`<details>
-<summary><b>More on npm</b> · <sub>${others.length} packages no post mentions yet</sub></summary>
+  const linked = new Set(Object.values(code.links).flatMap(l => l.packages));
+  const restNames = code.packages.filter(p => !linked.has(p.name)).map(p => p.name);
+  const rest = projects([], restNames, code)
+    .sort((x, y) => String((code.packages.find(p => p.name === y.packages[0]?.name) || {}).date)
+      .localeCompare(String((code.packages.find(p => p.name === x.packages[0]?.name) || {}).date)));
+  if (rest.length) sections.push(`<details>
+<summary><b>More on npm</b> · <sub>${rest.length} projects no post mentions yet</sub></summary>
 <br>
 
-${others.map(p => `- ${pkgLink(p.name)} ${npmBadge(p.name)}${p.description ? ` — ${esc(p.description)}` : ''}${p.repo ? ` · ${repoLink(p.repo, code)}` : ''}`).join('\n')}
+${rest.map(proj => `- ${projectLine(proj, code)}`).join('\n')}
 
 </details>`);
 

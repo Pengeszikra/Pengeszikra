@@ -72,6 +72,12 @@ test('code section groups by thread and lists unmentioned npm packages', () => {
   };
   const out = renderCode(arts, posts, code);
   assert.ok(out.includes(info.thread.replace(/&/g, '&amp;').replace(/>/g, '&gt;')));
-  assert.ok(out.includes('More on npm') && out.includes('lonely'));
+  assert.ok(out.includes('More on npm') && out.includes('lonely') && out.includes('p1'));
   assert.equal(renderCode(arts, posts, null), '');
+});
+
+import { foldPackages } from '../scripts/postmap.mjs';
+test('platform builds fold into their main package', () => {
+  const all = ['@p/ts', '@p/ts-linux-x64', '@p/ts-win32-arm64', 'solo-linux-x64'].map(name => ({ name }));
+  assert.deepEqual(foldPackages(all.map(p => p.name), all), [{ name: '@p/ts', builds: 2 }, { name: 'solo-linux-x64', builds: 0 }]);
 });
