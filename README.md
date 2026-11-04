@@ -18,6 +18,7 @@ Here are some ideas to get you started:
 -->
 
 <img src="assets/pengeszikra-thought-tree-atlas.png" alt="thought tree atlas">
+<img src="assets/mindmap.svg" alt="devto-mindmap">
 
 <!-- THOUGHT-TREE:START -->
 
