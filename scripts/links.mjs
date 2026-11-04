@@ -15,16 +15,25 @@ const repoNameFromUrl = url => {
   return m && lc(m[1]) === lc(OWNER) ? m[2] : null;
 };
 
-async function getJson(url, headers = {}) {
-  const res = await fetch(url, {
-    headers: { 'User-Agent': 'Pengeszikra-profile-postmap', Accept: 'application/json', ...headers },
-    signal: AbortSignal.timeout(30000),
-  });
-  if (!res.ok) throw new Error(`${res.status} ${res.statusText} — ${url}`);
-  return res.json();
-}
-
 const sleep = ms => new Promise(r => setTimeout(r, ms));
+
+async function getJson(url, headers = {}, tries = 4) {
+  for (let i = 1; ; i++) {
+    try {
+      const res = await fetch(url, {
+        headers: { 'User-Agent': 'Pengeszikra-profile-postmap', Accept: 'application/json', ...headers },
+        signal: AbortSignal.timeout(45000),
+      });
+      if (res.ok) return await res.json();
+      if (res.status !== 429 && res.status < 500) throw Object.assign(new Error(`${res.status} ${res.statusText}`), { fatal: true });
+      throw new Error(`${res.status} ${res.statusText}`);
+    } catch (err) {
+      if (err.fatal || i >= tries) throw new Error(`${err.message} — ${url}`);
+      console.warn(`retry ${i}: ${err.message} — ${url}`);
+      await sleep(2000 * i);
+    }
+  }
+}
 
 export async function fetchRepos(token) {
   const headers = token ? { Authorization: `Bearer ${token}` } : {};
