@@ -110,88 +110,7 @@ Role-Playing Games I must confess, when I was young, I got completely hooked on.
 </details>
 
 <details>
-<summary><b>🧰 Code behind the posts</b> — GitHub repos and npm packages, grouped by thread</summary>
-<br>
-
-<details>
-<summary><b>Singularity News</b> · <sub>1 project</sub></summary>
-<br>
-
-- <a href="https://github.com/Pengeszikra/singularity-news-ccg"><code>singularity-news-ccg</code></a> <sub>HTML · <a href="https://singularity-news-ccg.vercel.app">live ↗</a></sub><br><sub>← <a href="https://dev.to/pengeszikra/singularity-news-ccg-5ejk">Singularity News :: CCG</a></sub>
-
-</details>
-
-<details>
-<summary><b>Flogon universe</b> · <sub>5 projects · 2 on npm</sub></summary>
-<br>
-
-- <a href="https://github.com/Pengeszikra/alien-solitare"><code>alien-solitare</code></a> <sub>JavaScript · <a href="https://alien-solitare.vercel.app">live ↗</a></sub> — jsdoc-duck example game for dev.io Challenge<br><sub>← <a href="https://dev.to/pengeszikra/a-l-i-e-n-s-o-l-i-t-a-r-e-2kgc">A L I E N - S O L I T A R E</a></sub>
-- <a href="https://github.com/Pengeszikra/flogon-galaxy"><code>flogon-galaxy</code></a> <sub>JavaScript · ★ 3 · <a href="https://flogon-galaxy.vercel.app">live ↗</a></sub> — Intergalactic game using a AWS services, the Flogon story is continued.<br><sub>← <a href="https://dev.to/pengeszikra/javascript-great-again-the-voice-of-void-5fp6">Javascript great again! - The Voice of Void</a></sub>
-- <a href="https://github.com/Pengeszikra/rogmor"><code>rogmor</code></a> <sub>TypeScript · <a href="https://rogmor.vercel.app/">live ↗</a></sub> — Created with StackBlitz ⚡️<br><sub>← <a href="https://dev.to/pengeszikra/adventure-of-javascript-based-mmorpg-creation-5909">Adventure of javascript based MMORPG creation.</a></sub>
-- <a href="https://github.com/Pengeszikra/jsdoc-duck"><code>jsdoc-duck</code></a> <sub>JavaScript</sub> — jsDoc version of react-state-factory<br><a href="https://www.npmjs.com/package/jsdoc-duck">📦 <code>jsdoc-duck</code></a> <img src="https://img.shields.io/npm/v/jsdoc-duck?style=flat-square&label=&color=3d3528" alt="npm version" align="absmiddle"><br><sub>← <a href="https://dev.to/pengeszikra/a-l-i-e-n-s-o-l-i-t-a-r-e-2kgc">A L I E N - S O L I T A R E</a></sub>
-- <a href="https://github.com/Pengeszikra/react-troll"><code>react-troll</code></a> <sub>JavaScript</sub> — minimal react state / action-set management<br><a href="https://www.npmjs.com/package/react-troll">📦 <code>react-troll</code></a> <img src="https://img.shields.io/npm/v/react-troll?style=flat-square&label=&color=3d3528" alt="npm version" align="absmiddle"><br><sub>← <a href="https://dev.to/pengeszikra/adventure-of-javascript-based-mmorpg-creation-5909">Adventure of javascript based MMORPG creation.</a></sub>
-
-</details>
-
-<details>
-<summary><b>LLM as Game Master</b> · <sub>3 projects · 1 on npm</sub></summary>
-<br>
-
-- <a href="https://github.com/Pengeszikra/mordorjs"><code>mordorjs</code></a> <sub>JavaScript · ★ 6</sub> — mordorjs is a single character wide js also declared mordor projcet project format<br><a href="https://www.npmjs.com/package/mordorjs">📦 <code>mordorjs</code></a> <img src="https://img.shields.io/npm/v/mordorjs?style=flat-square&label=&color=3d3528" alt="npm version" align="absmiddle"><br><sub>← <a href="https://dev.to/pengeszikra/a-game-for-the-mind-2mj3">A Game for the Mind</a></sub>
-- <a href="https://github.com/Pengeszikra/quickquest"><code>quickquest</code></a> <sub>JavaScript · <a href="https://quickquest-xi.vercel.app">live ↗</a></sub> — single line RPG for dev.to gemni challenge<br><sub>← <a href="https://dev.to/pengeszikra/the-royal-gazette-a-single-line-noble-intrigue-20nn">The Royal Gazette: A Single-Line Noble Intrigue</a></sub>
-- <a href="https://github.com/Pengeszikra/redneck-wreck"><code>redneck-wreck</code></a> <sub>TypeScript · ★ 1 · <a href="https://redneck-wreck.vercel.app">live ↗</a></sub> — space trader game  powered by UMGD :: Under Meeting Game Development<br><sub>← <a href="https://dev.to/pengeszikra/the-eye-of-beholder-umgd-55lm">The Eye of Beholder = UMGD</a></sub>
-
-</details>
-
-<details>
-<summary><b>Satire, built for real</b> · <sub>1 project · 1 on npm</sub></summary>
-<br>
-
-- <a href="https://github.com/Pengeszikra/mordorjs"><code>mordorjs</code></a> <sub>JavaScript · ★ 6</sub> — mordorjs is a single character wide js also declared mordor projcet project format<br><a href="https://www.npmjs.com/package/mordorjs">📦 <code>mordorjs</code></a> <img src="https://img.shields.io/npm/v/mordorjs?style=flat-square&label=&color=3d3528" alt="npm version" align="absmiddle"><br><sub>← <a href="https://dev.to/pengeszikra/mdjs-mordorjs-1mon">M||D||JS = MorDorJS</a></sub>
-
-</details>
-
-<details>
-<summary><b>AI &amp; authorship</b> · <sub>2 projects</sub></summary>
-<br>
-
-- <a href="https://github.com/Pengeszikra/after-flash"><code>after-flash</code></a> <sub>TypeScript</sub> — minimalist android vector based drawing/animation app<br><sub>← <a href="https://dev.to/pengeszikra/slop-coding-the-vibe-archeologist-strikes-again-35df">Slop Coding: The Vibe Archeologist Strikes Again!</a></sub>
-- <a href="https://github.com/Pengeszikra/devto-post-map"><code>devto-post-map</code></a> <sub>HTML · <a href="https://devto-post-map.vercel.app">live ↗</a></sub> — Interactive Mind Map for my dev.to articles created by Claude Design<br><sub>← <a href="https://dev.to/pengeszikra/devto-articles-mindmap-47j5">dev.to articles mindmap</a></sub>
-
-</details>
-
-<details>
-<summary><b>Rust · WASM · terminal</b> · <sub>4 projects · 3 on npm</sub></summary>
-<br>
-
-- <a href="https://github.com/Pengeszikra/hexaw"><code>hexaw</code></a> <sub>JavaScript · ★ 1</sub> — new assembly like text format for WASM <br><a href="https://www.npmjs.com/package/hexaw">📦 <code>hexaw</code></a> <img src="https://img.shields.io/npm/v/hexaw?style=flat-square&label=&color=3d3528" alt="npm version" align="absmiddle"> · <a href="https://www.npmjs.com/package/hexaw-repository">📦 <code>hexaw-repository</code></a> <img src="https://img.shields.io/npm/v/hexaw-repository?style=flat-square&label=&color=3d3528" alt="npm version" align="absmiddle"><br><sub>← <a href="https://dev.to/pengeszikra/hexaw-a-lazy-wasm-text-format-5g5n">HEXAW programming language for WebAssembly instead WAT</a></sub>
-- <a href="https://github.com/Pengeszikra/rustroke"><code>rustroke</code></a> <sub>Rust · ★ 6 · <a href="https://rustroke.vercel.app">live ↗</a></sub> — rust-wasm based SVG draw webapp, state in rust<br><sub>← <a href="https://dev.to/pengeszikra/rustroke-wasm-mini-draw-3oih">Rustroke - WASM mini draw</a></sub>
-- <a href="https://github.com/Pengeszikra/terminal-is-your-friend"><code>terminal-is-your-friend</code></a> <sub>JavaScript · <a href="https://terminal-is-your-friend.vercel.app">live ↗</a></sub> — Friendly AI backed terminal for JS / TS learning &amp; survive the singularity<br><sub>← <a href="https://dev.to/pengeszikra/terminal-is-your-friend-2b49">Terminal is your Friend</a></sub>
-- <a href="https://github.com/Pengeszikra/TypeScript"><code>TypeScript</code></a> <sub>fork · Go · ★ 1</sub> — Experimental TypeScript compiler with a type-safe, single-input pipeline operator for TS and TSX<br><a href="https://www.npmjs.com/package/@pengeszikra/typescript">📦 <code>@pengeszikra/typescript</code></a> <img src="https://img.shields.io/npm/v/@pengeszikra%2Ftypescript?style=flat-square&label=&color=3d3528" alt="npm version" align="absmiddle"> <sub>+6 platform builds</sub><br><sub>← <a href="https://dev.to/pengeszikra/terminal-is-your-friend-2b49">Terminal is your Friend</a></sub>
-
-</details>
-
-<details>
-<summary><b>|&gt; pipeline operator</b> · <sub>2 projects · 2 on npm</sub></summary>
-<br>
-
-- <a href="https://github.com/Pengeszikra/TypeScript"><code>TypeScript</code></a> <sub>fork · Go · ★ 1</sub> — Experimental TypeScript compiler with a type-safe, single-input pipeline operator for TS and TSX<br><a href="https://www.npmjs.com/package/@pengeszikra/typescript">📦 <code>@pengeszikra/typescript</code></a> <img src="https://img.shields.io/npm/v/@pengeszikra%2Ftypescript?style=flat-square&label=&color=3d3528" alt="npm version" align="absmiddle"> <sub>+6 platform builds</sub><br><sub>← <a href="https://dev.to/pengeszikra/use-this-pipe-to-feel-the-flow-483j">I added a type-checked pipeline operator to TypeScript — including TSX</a></sub>
-- <a href="https://github.com/Pengeszikra/react-state-factory"><code>react-state-factory</code></a> <sub>TypeScript</sub> — react state handling helper based on useReducer and typescript<br><a href="https://www.npmjs.com/package/react-state-factory">📦 <code>react-state-factory</code></a> <img src="https://img.shields.io/npm/v/react-state-factory?style=flat-square&label=&color=3d3528" alt="npm version" align="absmiddle"><br><sub>← <a href="https://dev.to/pengeszikra/typescript-challenge-1ag7">Typescript challenge</a></sub>
-
-</details>
-
-<details>
-<summary><b>React → no framework</b> · <sub>3 projects · 2 on npm</sub></summary>
-<br>
-
-- <a href="https://github.com/Pengeszikra/ex-exsistence"><code>ex-exsistence</code></a> <sub>JavaScript · ★ 1 · <a href="https://ex-exsistence.vercel.app">live ↗</a></sub> — react game under 2h<br><sub>← <a href="https://dev.to/pengeszikra/react-game-under-2h-1l10">React game under 2h</a></sub>
-- <a href="https://github.com/Pengeszikra/jsdoc-duck"><code>jsdoc-duck</code></a> <sub>JavaScript</sub> — jsDoc version of react-state-factory<br><a href="https://www.npmjs.com/package/jsdoc-duck">📦 <code>jsdoc-duck</code></a> <img src="https://img.shields.io/npm/v/jsdoc-duck?style=flat-square&label=&color=3d3528" alt="npm version" align="absmiddle"><br><sub>← <a href="https://dev.to/pengeszikra/jsdoc-npm-module-quest-2f7a">jsDoc npm module quest</a></sub>
-- <a href="https://github.com/Pengeszikra/react-state-factory"><code>react-state-factory</code></a> <sub>TypeScript</sub> — react state handling helper based on useReducer and typescript<br><a href="https://www.npmjs.com/package/react-state-factory">📦 <code>react-state-factory</code></a> <img src="https://img.shields.io/npm/v/react-state-factory?style=flat-square&label=&color=3d3528" alt="npm version" align="absmiddle"><br><sub>← <a href="https://dev.to/pengeszikra/jsdoc-npm-module-quest-2f7a">jsDoc npm module quest</a>, <a href="https://dev.to/pengeszikra/simplify-your-react-state-management-with-react-state-factory-4a14">Simplify your React state management with react-state-factory</a></sub>
-
-</details>
-
-<details>
-<summary><b>More on npm</b> · <sub>7 projects no post mentions yet</sub></summary>
+<summary><b>📦 More on npm</b> — 7 projects no post mentions yet</summary>
 <br>
 
 - <a href="https://github.com/Pengeszikra/3Draft"><code>3Draft</code></a> <sub>TypeScript</sub> — Minimalist AI first 3D engine<br><a href="https://www.npmjs.com/package/3draft">📦 <code>3draft</code></a> <img src="https://img.shields.io/npm/v/3draft?style=flat-square&label=&color=3d3528" alt="npm version" align="absmiddle">
@@ -202,9 +121,7 @@ Role-Playing Games I must confess, when I was young, I got completely hooked on.
 - <a href="https://github.com/Pengeszikra/callbag-take-to-finally"><code>callbag-take-to-finally</code></a> <sub>fork · JavaScript</sub> — 👜 Callbag operator which emits values emitted by the source as long as each value satisfies the given predicate, and then completes as soon as predicate is not satisfied. But call lastly function before callbag is over.<br><a href="https://www.npmjs.com/package/callbag-take-to-finally">📦 <code>callbag-take-to-finally</code></a> <img src="https://img.shields.io/npm/v/callbag-take-to-finally?style=flat-square&label=&color=3d3528" alt="npm version" align="absmiddle">
 - <a href="https://github.com/Pengeszikra/react-slash"><code>react-slash</code></a> <sub>JavaScript</sub> — Tiny useReducer / jsx element naming oriented preact helper library.<br><a href="https://www.npmjs.com/package/preact-slash">📦 <code>preact-slash</code></a> <img src="https://img.shields.io/npm/v/preact-slash?style=flat-square&label=&color=3d3528" alt="npm version" align="absmiddle"> · <a href="https://www.npmjs.com/package/react-slash">📦 <code>react-slash</code></a> <img src="https://img.shields.io/npm/v/react-slash?style=flat-square&label=&color=3d3528" alt="npm version" align="absmiddle">
 
-</details>
-
-<sub>Found from links and <code>npm i</code> lines in the articles · <a href="https://github.com/Pengeszikra?tab=repositories">all repos</a> · <a href="https://www.npmjs.com/~pengeszikra">all npm packages</a></sub>
+<sub>Repos and packages that posts link are on the map above · <a href="https://www.npmjs.com/~pengeszikra">all npm packages</a> · <a href="https://github.com/Pengeszikra?tab=repositories">all repos</a></sub>
 </details>
 <!-- POSTMAP:END -->
 
