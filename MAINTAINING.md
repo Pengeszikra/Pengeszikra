@@ -5,9 +5,30 @@ The public profile is `README.md`; this file explains how to maintain it.
 
 ## Publication and updates
 
-The root README appears on the GitHub profile. Automatic updates are disabled:
-there is no scheduled or push-triggered GitHub Actions workflow. The current
-profile stays as published until it is edited or refreshed manually.
+The root README appears on the GitHub profile.
+
+### Post map block (automatic)
+
+The block between `POSTMAP:START` and `POSTMAP:END` is refreshed by
+`.github/workflows/postmap.yml` every 4 hours, on manual dispatch (Actions →
+Post map → Run workflow), and when the generator changes. It runs
+`scripts/postmap.mjs`, which:
+
+- downloads `mindmap.svg` from `Pengeszikra/devto-post-map` (main) into
+  `assets/mindmap.svg`, and writes `assets/postmap-animated.svg`: the same map
+  with CSS animation (branches draw out, then a spotlight walks the threads;
+  static for readers with reduced motion). The image links to
+  https://devto-post-map.vercel.app/ because GitHub runs no scripts in a README.
+- lists the newest dev.to posts from the public API as expandable `<details>`
+  entries, each labelled with its thread on the map, or "new — not on the map
+  yet" until the map repo is updated.
+
+The workflow commits only when something changed. `npm run postmap:offline`
+rebuilds from the checked-in SVG and `data/articles.json` without network.
+
+### Thought tree (manual)
+
+The older thought-tree generator below has no workflow; run it by hand.
 
 ## Commands (Node 22 or newer)
 

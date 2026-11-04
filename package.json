@@ -6,6 +6,8 @@
   "scripts": {
     "update": "node scripts/update.mjs",
     "build": "node scripts/update.mjs --offline",
+    "postmap": "node scripts/postmap.mjs",
+    "postmap:offline": "node scripts/postmap.mjs --offline",
     "test": "node --test"
   }
 }

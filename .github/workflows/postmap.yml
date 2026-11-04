@@ -1,0 +1,42 @@
+name: Post map
+
+# Refreshes the animated post map and the "Latest on dev.to" block in README.md.
+# Sources: mindmap.svg from Pengeszikra/devto-post-map (main) and the public dev.to API.
+on:
+  schedule:
+    - cron: '23 */4 * * *'   # every 4 hours
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - scripts/postmap.mjs
+      - .github/workflows/postmap.yml
+
+permissions:
+  contents: write
+
+concurrency:
+  group: postmap
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: node --test test/postmap.test.mjs
+      - run: node scripts/postmap.mjs
+      - name: Commit if anything changed
+        run: |
+          git add README.md assets/mindmap.svg assets/postmap-animated.svg
+          if git diff --cached --quiet; then
+            echo "Post map already up to date."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Refresh post map and latest dev.to posts"
+          git push
