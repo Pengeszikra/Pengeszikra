@@ -1,6 +1,30 @@
 {
- "generatedAt": "2026-11-05T08:28:44.814Z",
+ "generatedAt": "2026-11-05T12:31:08.544Z",
  "repos": [
+  {
+   "name": "singularity-news-ccg",
+   "url": "https://github.com/Pengeszikra/singularity-news-ccg",
+   "description": "",
+   "homepage": "https://singularity-news-ccg.vercel.app",
+   "language": "HTML",
+   "stars": 0,
+   "fork": false,
+   "archived": false,
+   "pushedAt": "2026-11-05T11:03:47Z",
+   "topics": []
+  },
+  {
+   "name": "SpectraCare",
+   "url": "https://github.com/Pengeszikra/SpectraCare",
+   "description": "Mobile app using by Presage SmartSpectra SDK",
+   "homepage": "",
+   "language": "",
+   "stars": 0,
+   "fork": false,
+   "archived": false,
+   "pushedAt": "2026-11-05T09:47:37Z",
+   "topics": []
+  },
   {
    "name": "Pengeszikra",
    "url": "https://github.com/Pengeszikra/Pengeszikra",
@@ -10,7 +34,7 @@
    "stars": 0,
    "fork": false,
    "archived": false,
-   "pushedAt": "2026-11-05T08:27:07Z",
+   "pushedAt": "2026-11-05T08:28:46Z",
    "topics": []
   },
   {
@@ -59,18 +83,6 @@
    "fork": false,
    "archived": false,
    "pushedAt": "2026-11-02T17:31:17Z",
-   "topics": []
-  },
-  {
-   "name": "singularity-news-ccg",
-   "url": "https://github.com/Pengeszikra/singularity-news-ccg",
-   "description": "",
-   "homepage": "https://singularity-news-ccg.vercel.app",
-   "language": "HTML",
-   "stars": 0,
-   "fork": false,
-   "archived": false,
-   "pushedAt": "2026-10-31T09:00:09Z",
    "topics": []
   },
   {
