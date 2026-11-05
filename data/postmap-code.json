@@ -1,6 +1,18 @@
 {
- "generatedAt": "2026-11-04T20:58:36.125Z",
+ "generatedAt": "2026-11-05T00:42:15.136Z",
  "repos": [
+  {
+   "name": "devto-post-map",
+   "url": "https://github.com/Pengeszikra/devto-post-map",
+   "description": "Interactive Mind Map for my dev.to articles created by Claude Design",
+   "homepage": "https://devto-post-map.vercel.app",
+   "language": "HTML",
+   "stars": 0,
+   "fork": false,
+   "archived": false,
+   "pushedAt": "2026-11-04T21:11:26Z",
+   "topics": []
+  },
   {
    "name": "Pengeszikra",
    "url": "https://github.com/Pengeszikra/Pengeszikra",
@@ -10,7 +22,7 @@
    "stars": 0,
    "fork": false,
    "archived": false,
-   "pushedAt": "2026-11-04T20:58:26Z",
+   "pushedAt": "2026-11-04T20:58:37Z",
    "topics": []
   },
   {
@@ -23,18 +35,6 @@
    "fork": false,
    "archived": false,
    "pushedAt": "2026-11-04T17:16:54Z",
-   "topics": []
-  },
-  {
-   "name": "devto-post-map",
-   "url": "https://github.com/Pengeszikra/devto-post-map",
-   "description": "Interactive Mind Map for my dev.to articles created by Claude Design",
-   "homepage": "https://devto-post-map.vercel.app",
-   "language": "HTML",
-   "stars": 0,
-   "fork": false,
-   "archived": false,
-   "pushedAt": "2026-11-03T10:17:33Z",
    "topics": []
   },
   {
@@ -896,11 +896,11 @@
    "homepage": "https://github.com/Pengeszikra/jsdoc-duck#readme"
   },
   {
-   "name": "preact-slash",
-   "version": "0.8.4",
-   "description": "Tiny useReducer / jsx element naming oriented preact helper library.",
-   "date": "2020-02-19T05:59:53.686Z",
-   "url": "https://www.npmjs.com/package/preact-slash",
+   "name": "react-slash",
+   "version": "0.8.5",
+   "description": "Tiny useReducer / jsx element naming oriented react helper library.",
+   "date": "2020-10-03T03:51:11.330Z",
+   "url": "https://www.npmjs.com/package/react-slash",
    "repo": "react-slash",
    "homepage": "https://github.com/Pengeszikra/react-slash#readme"
   },
@@ -923,11 +923,11 @@
    "homepage": ""
   },
   {
-   "name": "react-slash",
-   "version": "0.8.5",
-   "description": "Tiny useReducer / jsx element naming oriented react helper library.",
-   "date": "2020-10-03T03:51:11.330Z",
-   "url": "https://www.npmjs.com/package/react-slash",
+   "name": "preact-slash",
+   "version": "0.8.4",
+   "description": "Tiny useReducer / jsx element naming oriented preact helper library.",
+   "date": "2020-02-19T05:59:53.686Z",
+   "url": "https://www.npmjs.com/package/preact-slash",
    "repo": "react-slash",
    "homepage": "https://github.com/Pengeszikra/react-slash#readme"
   },
