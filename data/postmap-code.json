@@ -1,6 +1,18 @@
 {
- "generatedAt": "2026-11-05T00:42:15.136Z",
+ "generatedAt": "2026-11-05T04:27:09.912Z",
  "repos": [
+  {
+   "name": "Pengeszikra",
+   "url": "https://github.com/Pengeszikra/Pengeszikra",
+   "description": "",
+   "homepage": "",
+   "language": "JavaScript",
+   "stars": 0,
+   "fork": false,
+   "archived": false,
+   "pushedAt": "2026-11-05T00:42:16Z",
+   "topics": []
+  },
   {
    "name": "devto-post-map",
    "url": "https://github.com/Pengeszikra/devto-post-map",
@@ -11,18 +23,6 @@
    "fork": false,
    "archived": false,
    "pushedAt": "2026-11-04T21:11:26Z",
-   "topics": []
-  },
-  {
-   "name": "Pengeszikra",
-   "url": "https://github.com/Pengeszikra/Pengeszikra",
-   "description": "",
-   "homepage": "",
-   "language": "JavaScript",
-   "stars": 0,
-   "fork": false,
-   "archived": false,
-   "pushedAt": "2026-11-04T20:58:37Z",
    "topics": []
   },
   {
@@ -815,15 +815,6 @@
    "homepage": "https://github.com/Pengeszikra/hexaw#readme"
   },
   {
-   "name": "@pengeszikra/typescript-darwin-x64",
-   "version": "7.1.0-pipeline.1",
-   "description": "Native darwin-x64 compiler for the TypeScript unary pipeline POC",
-   "date": "2026-09-30T20:31:41.377Z",
-   "url": "https://www.npmjs.com/package/@pengeszikra/typescript-darwin-x64",
-   "repo": "TypeScript",
-   "homepage": "https://github.com/Pengeszikra/TypeScript#readme"
-  },
-  {
    "name": "@pengeszikra/typescript",
    "version": "7.1.0-pipeline.1",
    "description": "Experimental TypeScript compiler with a type-safe, single-input pipeline operator for TS and TSX",
@@ -847,6 +838,15 @@
    "description": "Native linux-x64 compiler for the TypeScript unary pipeline POC",
    "date": "2026-09-30T20:32:13.529Z",
    "url": "https://www.npmjs.com/package/@pengeszikra/typescript-linux-x64",
+   "repo": "TypeScript",
+   "homepage": "https://github.com/Pengeszikra/TypeScript#readme"
+  },
+  {
+   "name": "@pengeszikra/typescript-darwin-x64",
+   "version": "7.1.0-pipeline.1",
+   "description": "Native darwin-x64 compiler for the TypeScript unary pipeline POC",
+   "date": "2026-09-30T20:31:41.377Z",
+   "url": "https://www.npmjs.com/package/@pengeszikra/typescript-darwin-x64",
    "repo": "TypeScript",
    "homepage": "https://github.com/Pengeszikra/TypeScript#readme"
   },
