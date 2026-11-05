@@ -125,5 +125,5 @@ Role-Playing Games I must confess, when I was young, I got completely hooked on.
 </details>
 <!-- POSTMAP:END -->
 
-<img src="assets/pengeszikra-thought-tree-atlas.png" alt="thought tree atlas">
+<!-- <img src="assets/pengeszikra-thought-tree-atlas.png" alt="thought tree atlas"> -->
 
