@@ -1,6 +1,18 @@
 {
- "generatedAt": "2026-11-06T12:29:53.159Z",
+ "generatedAt": "2026-11-06T16:25:55.248Z",
  "repos": [
+  {
+   "name": "3Draft",
+   "url": "https://github.com/Pengeszikra/3Draft",
+   "description": "Minimalist AI first 3D engine",
+   "homepage": "",
+   "language": "TypeScript",
+   "stars": 0,
+   "fork": false,
+   "archived": false,
+   "pushedAt": "2026-11-06T16:24:21Z",
+   "topics": []
+  },
   {
    "name": "Pengeszikra",
    "url": "https://github.com/Pengeszikra/Pengeszikra",
@@ -10,7 +22,7 @@
    "stars": 0,
    "fork": false,
    "archived": false,
-   "pushedAt": "2026-11-06T08:27:54Z",
+   "pushedAt": "2026-11-06T12:29:54Z",
    "topics": []
   },
   {
@@ -59,18 +71,6 @@
    "fork": false,
    "archived": false,
    "pushedAt": "2026-11-05T19:49:21Z",
-   "topics": []
-  },
-  {
-   "name": "3Draft",
-   "url": "https://github.com/Pengeszikra/3Draft",
-   "description": "Minimalist AI first 3D engine",
-   "homepage": "",
-   "language": "TypeScript",
-   "stars": 0,
-   "fork": false,
-   "archived": false,
-   "pushedAt": "2026-11-05T16:14:12Z",
    "topics": []
   },
   {
@@ -1319,6 +1319,15 @@
     "devto-post-map"
    ],
    "packages": []
+  },
+  "4987022": {
+   "stamp": "2026-11-06T10:41:08Z",
+   "repos": [
+    "spider-paint"
+   ],
+   "packages": [
+    "3draft"
+   ]
   }
  },
  "links": {
@@ -1494,6 +1503,16 @@
     "devto-post-map"
    ],
    "packages": []
+  },
+  "4987022": {
+   "url": "https://dev.to/pengeszikra/retro-spider-paint-6lf",
+   "title": "Retro :: Spider-Paint",
+   "repos": [
+    "Spider-Paint"
+   ],
+   "packages": [
+    "3draft"
+   ]
   }
  }
 }

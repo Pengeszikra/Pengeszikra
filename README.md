@@ -26,12 +26,23 @@ Here are some ideas to get you started:
 <br>
 
 <details>
+<summary><code>2026-11-06</code> <b>Retro :: Spider-Paint</b> · <sub>new — not on the map yet</sub></summary>
+<br>
+<a href="https://dev.to/pengeszikra/retro-spider-paint-6lf"><img src="https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fi7u5od8lu9aru184t7g9.png" alt="" width="420"></a><br>
+The weeklyretro tag doesn’t come close to covering it. This is really another trip through time into...<br>
+🧩 <a href="https://github.com/Pengeszikra/Spider-Paint"><code>Spider-Paint</code></a> · <a href="https://github.com/Pengeszikra/3Draft"><code>3Draft</code></a> <a href="https://www.npmjs.com/package/3draft">📦 <code>3draft</code></a> <img src="https://img.shields.io/npm/v/3draft?style=flat-square&label=&color=3d3528" alt="npm version" align="absmiddle"><br>
+<sub>2 min read · ♡ 17 · #showdev #tooling #weeklyretro #opensource</sub><br>
+<a href="https://dev.to/pengeszikra/retro-spider-paint-6lf">Read on dev.to →</a>
+<br><br>
+</details>
+
+<details>
 <summary><code>2026-10-31</code> <b>dev.to articles mindmap</b> · <sub>AI &amp; authorship</sub></summary>
 <br>
 <a href="https://dev.to/pengeszikra/devto-articles-mindmap-47j5"><img src="https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fq0gbqtjubx2vo99rtz83.png" alt="" width="420"></a><br>
 It’s hard to get used to the speed at which #KnowsEverythingBetter accelerates production beyond its...<br>
 🧩 <a href="https://github.com/Pengeszikra/devto-post-map"><code>devto-post-map</code></a><br>
-<sub>3 min read · ♡ 19 · #discuss #devto #opensource #productivity</sub><br>
+<sub>3 min read · ♡ 20 · #discuss #devto #opensource #productivity</sub><br>
 <a href="https://dev.to/pengeszikra/devto-articles-mindmap-47j5">Read on dev.to →</a>
 <br><br>
 </details>
@@ -53,7 +64,7 @@ This is a submission for the Hacktoberfest Open-Source AI Challenge Week 4: Ghos
 <a href="https://dev.to/pengeszikra/the-eye-of-beholder-umgd-55lm"><img src="https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Ftdkan7tvu04q486ot1qc.png" alt="" width="420"></a><br>
 UMGD — Under Meeting Game Development game: Redneck Wreck repo:on github I owe you a...<br>
 🧩 <a href="https://github.com/Pengeszikra/redneck-wreck"><code>redneck-wreck</code></a><br>
-<sub>3 min read · ♡ 14 · #ai #discuss #gamedev #showdev</sub><br>
+<sub>3 min read · ♡ 15 · #ai #discuss #gamedev #showdev</sub><br>
 <a href="https://dev.to/pengeszikra/the-eye-of-beholder-umgd-55lm">Read on dev.to →</a>
 <br><br>
 </details>
@@ -74,7 +85,7 @@ Liberation I'm not talking about the length of package.json files. I run into th
 <a href="https://dev.to/pengeszikra/hexaw-a-lazy-wasm-text-format-5g5n"><img src="https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fu8zgu8f4zouggzb33wqm.png" alt="" width="420"></a><br>
 This is a submission for the Hacktoberfest Open-Source AI Challenge Week 3: Slow and Steady ...<br>
 🧩 <a href="https://github.com/Pengeszikra/hexaw"><code>hexaw</code></a> <a href="https://www.npmjs.com/package/hexaw">📦 <code>hexaw</code></a> <img src="https://img.shields.io/npm/v/hexaw?style=flat-square&label=&color=3d3528" alt="npm version" align="absmiddle"> · <a href="https://www.npmjs.com/package/hexaw-repository">📦 <code>hexaw-repository</code></a> <img src="https://img.shields.io/npm/v/hexaw-repository?style=flat-square&label=&color=3d3528" alt="npm version" align="absmiddle"><br>
-<sub>4 min read · ♡ 48 · #devchallenge #hf26challenge #webassembly</sub><br>
+<sub>4 min read · ♡ 53 · #devchallenge #hf26challenge #webassembly</sub><br>
 <a href="https://dev.to/pengeszikra/hexaw-a-lazy-wasm-text-format-5g5n">Read on dev.to →</a>
 <br><br>
 </details>
@@ -97,23 +108,13 @@ Recently, I came across an interesting Oxford lecture by Professor Yuval Noah Ha
 <br><br>
 </details>
 
-<details>
-<summary><code>2026-10-18</code> <b>The Bell of Greystone</b> · <sub>LLM as Game Master</sub></summary>
-<br>
-Role-Playing Games I must confess, when I was young, I got completely hooked on...<br>
-<sub>62 min read · ♡ 10 · #rollplaygame #showdev #llm #gamedev</sub><br>
-<a href="https://dev.to/pengeszikra/the-bell-of-greystone-381n">Read on dev.to →</a>
-<br><br>
-</details>
-
 <sub>All posts: <a href="https://devto-post-map.vercel.app/">interactive map</a> · <a href="https://dev.to/pengeszikra">dev.to/pengeszikra</a></sub>
 </details>
 
 <details>
-<summary><b>📦 More on npm</b> — 7 projects no post mentions yet</summary>
+<summary><b>📦 More on npm</b> — 6 projects no post mentions yet</summary>
 <br>
 
-- <a href="https://github.com/Pengeszikra/3Draft"><code>3Draft</code></a> <sub>TypeScript</sub> — Minimalist AI first 3D engine<br><a href="https://www.npmjs.com/package/3draft">📦 <code>3draft</code></a> <img src="https://img.shields.io/npm/v/3draft?style=flat-square&label=&color=3d3528" alt="npm version" align="absmiddle">
 - <a href="https://github.com/Pengeszikra/marker"><code>marker</code></a> <sub>HTML · <a href="https://marker-nu.vercel.app">live ↗</a></sub> — markdown first pure html editor web component<br><a href="https://www.npmjs.com/package/marker-edit">📦 <code>marker-edit</code></a> <img src="https://img.shields.io/npm/v/marker-edit?style=flat-square&label=&color=3d3528" alt="npm version" align="absmiddle"> · <a href="https://www.npmjs.com/package/marker-editor">📦 <code>marker-editor</code></a> <img src="https://img.shields.io/npm/v/marker-editor?style=flat-square&label=&color=3d3528" alt="npm version" align="absmiddle">
 - <a href="https://github.com/Pengeszikra/qwik-saga"><code>qwik-saga</code></a> <sub>TypeScript</sub> — redux-saga like process handling for qwik<br><a href="https://www.npmjs.com/package/qwik-saga">📦 <code>qwik-saga</code></a> <img src="https://img.shields.io/npm/v/qwik-saga?style=flat-square&label=&color=3d3528" alt="npm version" align="absmiddle">
 - <a href="https://www.npmjs.com/package/typerdux">📦 <code>typerdux</code></a> <img src="https://img.shields.io/npm/v/typerdux?style=flat-square&label=&color=3d3528" alt="npm version" align="absmiddle"> — react state handling helper based on useReducer and typescript
