@@ -1,6 +1,18 @@
 {
- "generatedAt": "2026-11-06T16:25:55.248Z",
+ "generatedAt": "2026-11-06T20:25:26.030Z",
  "repos": [
+  {
+   "name": "Spider-Paint",
+   "url": "https://github.com/Pengeszikra/Spider-Paint",
+   "description": "lightweight 3D test scene builder program based on Three.js / webGL with a little Big Bum animation",
+   "homepage": "https://spider-paint.vercel.app",
+   "language": "HTML",
+   "stars": 1,
+   "fork": false,
+   "archived": false,
+   "pushedAt": "2026-11-06T19:16:58Z",
+   "topics": []
+  },
   {
    "name": "3Draft",
    "url": "https://github.com/Pengeszikra/3Draft",
@@ -10,7 +22,7 @@
    "stars": 0,
    "fork": false,
    "archived": false,
-   "pushedAt": "2026-11-06T16:24:21Z",
+   "pushedAt": "2026-11-06T19:11:41Z",
    "topics": []
   },
   {
@@ -22,19 +34,7 @@
    "stars": 0,
    "fork": false,
    "archived": false,
-   "pushedAt": "2026-11-06T12:29:54Z",
-   "topics": []
-  },
-  {
-   "name": "Spider-Paint",
-   "url": "https://github.com/Pengeszikra/Spider-Paint",
-   "description": "lightweight 3D test scene builder program based on Three.js / webGL with a little Big Bum animation",
-   "homepage": "https://spider-paint.vercel.app",
-   "language": "HTML",
-   "stars": 1,
-   "fork": false,
-   "archived": false,
-   "pushedAt": "2026-11-06T08:02:18Z",
+   "pushedAt": "2026-11-06T16:25:56Z",
    "topics": []
   },
   {
@@ -801,9 +801,9 @@
  "packages": [
   {
    "name": "3draft",
-   "version": "26.11.4010",
+   "version": "26.11.5001",
    "description": "Minimalist AI first 3D engine: palette-texture, WASM core, WebGPU/WebGL2 renderer.",
-   "date": "2026-11-04T17:30:11.249Z",
+   "date": "2026-11-06T16:52:04.797Z",
    "url": "https://www.npmjs.com/package/3draft",
    "repo": "3Draft",
    "homepage": "https://github.com/Pengeszikra/3Draft#readme"
@@ -926,15 +926,6 @@
    "homepage": "https://github.com/Pengeszikra/mordorjs#readme"
   },
   {
-   "name": "typerdux",
-   "version": "0.0.7",
-   "description": "react state handling helper based on useReducer and typescript",
-   "date": "2023-09-09T15:16:45.564Z",
-   "url": "https://www.npmjs.com/package/typerdux",
-   "repo": null,
-   "homepage": ""
-  },
-  {
    "name": "preact-slash",
    "version": "0.8.4",
    "description": "Tiny useReducer / jsx element naming oriented preact helper library.",
@@ -942,6 +933,15 @@
    "url": "https://www.npmjs.com/package/preact-slash",
    "repo": "react-slash",
    "homepage": "https://github.com/Pengeszikra/react-slash#readme"
+  },
+  {
+   "name": "typerdux",
+   "version": "0.0.7",
+   "description": "react state handling helper based on useReducer and typescript",
+   "date": "2023-09-09T15:16:45.564Z",
+   "url": "https://www.npmjs.com/package/typerdux",
+   "repo": null,
+   "homepage": ""
   },
   {
    "name": "react-troll",
