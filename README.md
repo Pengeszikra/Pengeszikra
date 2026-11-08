@@ -53,7 +53,7 @@ It’s hard to get used to the speed at which #KnowsEverythingBetter accelerates
 <a href="https://dev.to/pengeszikra/singularity-news-ccg-5ejk"><img src="https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fyyh84oxpucdnmygo396v.png" alt="" width="420"></a><br>
 This is a submission for the Hacktoberfest Open-Source AI Challenge Week 4: Ghost in the Machine ...<br>
 🧩 <a href="https://github.com/Pengeszikra/singularity-news-ccg"><code>singularity-news-ccg</code></a><br>
-<sub>4 min read · ♡ 51 · #devchallenge #hf26challenge #gamedev #showdev</sub><br>
+<sub>4 min read · ♡ 52 · #devchallenge #hf26challenge #gamedev #showdev</sub><br>
 <a href="https://dev.to/pengeszikra/singularity-news-ccg-5ejk">Read on dev.to →</a>
 <br><br>
 </details>
