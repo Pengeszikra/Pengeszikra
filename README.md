@@ -31,7 +31,7 @@ Here are some ideas to get you started:
 <a href="https://dev.to/pengeszikra/retro-spider-paint-6lf"><img src="https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fi7u5od8lu9aru184t7g9.png" alt="" width="420"></a><br>
 The weeklyretro tag doesn’t come close to covering it. This is really another trip through time into...<br>
 🧩 <a href="https://github.com/Pengeszikra/Spider-Paint"><code>Spider-Paint</code></a> · <a href="https://github.com/Pengeszikra/3Draft"><code>3Draft</code></a> <a href="https://www.npmjs.com/package/3draft">📦 <code>3draft</code></a> <img src="https://img.shields.io/npm/v/3draft?style=flat-square&label=&color=3d3528" alt="npm version" align="absmiddle"><br>
-<sub>2 min read · ♡ 19 · #showdev #tooling #weeklyretro #opensource</sub><br>
+<sub>2 min read · ♡ 20 · #showdev #tooling #weeklyretro #opensource</sub><br>
 <a href="https://dev.to/pengeszikra/retro-spider-paint-6lf">Read on dev.to →</a>
 <br><br>
 </details>
@@ -42,7 +42,7 @@ The weeklyretro tag doesn’t come close to covering it. This is really another 
 <a href="https://dev.to/pengeszikra/devto-articles-mindmap-47j5"><img src="https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fq0gbqtjubx2vo99rtz83.png" alt="" width="420"></a><br>
 It’s hard to get used to the speed at which #KnowsEverythingBetter accelerates production beyond its...<br>
 🧩 <a href="https://github.com/Pengeszikra/devto-post-map"><code>devto-post-map</code></a><br>
-<sub>3 min read · ♡ 20 · #discuss #devto #opensource #productivity</sub><br>
+<sub>3 min read · ♡ 21 · #discuss #devto #opensource #productivity</sub><br>
 <a href="https://dev.to/pengeszikra/devto-articles-mindmap-47j5">Read on dev.to →</a>
 <br><br>
 </details>
@@ -53,7 +53,7 @@ It’s hard to get used to the speed at which #KnowsEverythingBetter accelerates
 <a href="https://dev.to/pengeszikra/singularity-news-ccg-5ejk"><img src="https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fyyh84oxpucdnmygo396v.png" alt="" width="420"></a><br>
 This is a submission for the Hacktoberfest Open-Source AI Challenge Week 4: Ghost in the Machine ...<br>
 🧩 <a href="https://github.com/Pengeszikra/singularity-news-ccg"><code>singularity-news-ccg</code></a><br>
-<sub>4 min read · ♡ 52 · #devchallenge #hf26challenge #gamedev #showdev</sub><br>
+<sub>4 min read · ♡ 53 · #devchallenge #hf26challenge #gamedev #showdev</sub><br>
 <a href="https://dev.to/pengeszikra/singularity-news-ccg-5ejk">Read on dev.to →</a>
 <br><br>
 </details>
@@ -74,7 +74,7 @@ UMGD — Under Meeting Game Development game: Redneck Wreck repo:on github I owe
 <br>
 <a href="https://dev.to/pengeszikra/liberation-from-tech-depbto-241d"><img src="https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fnwd1foowub5y47qykpmd.jpg" alt="" width="420"></a><br>
 Liberation I'm not talking about the length of package.json files. I run into those far...<br>
-<sub>2 min read · ♡ 17 · #beginners #ai #discuss #tutorial</sub><br>
+<sub>2 min read · ♡ 18 · #beginners #ai #discuss #tutorial</sub><br>
 <a href="https://dev.to/pengeszikra/liberation-from-tech-depbto-241d">Read on dev.to →</a>
 <br><br>
 </details>
@@ -85,7 +85,7 @@ Liberation I'm not talking about the length of package.json files. I run into th
 <a href="https://dev.to/pengeszikra/hexaw-a-lazy-wasm-text-format-5g5n"><img src="https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fu8zgu8f4zouggzb33wqm.png" alt="" width="420"></a><br>
 This is a submission for the Hacktoberfest Open-Source AI Challenge Week 3: Slow and Steady ...<br>
 🧩 <a href="https://github.com/Pengeszikra/hexaw"><code>hexaw</code></a> <a href="https://www.npmjs.com/package/hexaw">📦 <code>hexaw</code></a> <img src="https://img.shields.io/npm/v/hexaw?style=flat-square&label=&color=3d3528" alt="npm version" align="absmiddle"> · <a href="https://www.npmjs.com/package/hexaw-repository">📦 <code>hexaw-repository</code></a> <img src="https://img.shields.io/npm/v/hexaw-repository?style=flat-square&label=&color=3d3528" alt="npm version" align="absmiddle"><br>
-<sub>4 min read · ♡ 53 · #devchallenge #hf26challenge #webassembly</sub><br>
+<sub>4 min read · ♡ 55 · #devchallenge #hf26challenge #webassembly</sub><br>
 <a href="https://dev.to/pengeszikra/hexaw-a-lazy-wasm-text-format-5g5n">Read on dev.to →</a>
 <br><br>
 </details>
