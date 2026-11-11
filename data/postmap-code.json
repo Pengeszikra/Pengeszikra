@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-11T08:27:20.411Z",
+ "generatedAt": "2026-11-11T12:29:50.190Z",
  "repos": [
   {
    "name": "Spider-Paint",
@@ -10,7 +10,7 @@
    "stars": 1,
    "fork": false,
    "archived": false,
-   "pushedAt": "2026-11-11T07:42:45Z",
+   "pushedAt": "2026-11-11T11:47:52Z",
    "topics": []
   },
   {
@@ -22,7 +22,7 @@
    "stars": 0,
    "fork": false,
    "archived": false,
-   "pushedAt": "2026-11-11T07:42:42Z",
+   "pushedAt": "2026-11-11T11:47:49Z",
    "topics": []
   },
   {
@@ -34,7 +34,7 @@
    "stars": 0,
    "fork": false,
    "archived": false,
-   "pushedAt": "2026-11-11T04:26:47Z",
+   "pushedAt": "2026-11-11T08:27:21Z",
    "topics": []
   },
   {
@@ -813,21 +813,12 @@
  "packages": [
   {
    "name": "3draft",
-   "version": "26.11.5001",
+   "version": "26.11.11010",
    "description": "Minimalist AI first 3D engine: palette-texture, WASM core, WebGPU/WebGL2 renderer.",
-   "date": "2026-11-06T16:52:04.797Z",
+   "date": "2026-11-11T09:33:06.669Z",
    "url": "https://www.npmjs.com/package/3draft",
    "repo": "3Draft",
    "homepage": "https://github.com/Pengeszikra/3Draft#readme"
-  },
-  {
-   "name": "hexaw-repository",
-   "version": "0.5.0",
-   "description": "HEXAW CLI and browser Workshop",
-   "date": "2026-10-25T21:47:33.269Z",
-   "url": "https://www.npmjs.com/package/hexaw-repository",
-   "repo": "hexaw",
-   "homepage": "https://github.com/Pengeszikra/hexaw#readme"
   },
   {
    "name": "hexaw",
@@ -835,6 +826,15 @@
    "description": "Dump WebAssembly to readable HEXAW assembly with exact byte offsets and encodings",
    "date": "2026-10-25T21:48:30.635Z",
    "url": "https://www.npmjs.com/package/hexaw",
+   "repo": "hexaw",
+   "homepage": "https://github.com/Pengeszikra/hexaw#readme"
+  },
+  {
+   "name": "hexaw-repository",
+   "version": "0.5.0",
+   "description": "HEXAW CLI and browser Workshop",
+   "date": "2026-10-25T21:47:33.269Z",
+   "url": "https://www.npmjs.com/package/hexaw-repository",
    "repo": "hexaw",
    "homepage": "https://github.com/Pengeszikra/hexaw#readme"
   },
@@ -884,20 +884,20 @@
    "homepage": "https://github.com/Pengeszikra/TypeScript#readme"
   },
   {
-   "name": "@pengeszikra/typescript-win32-arm64",
-   "version": "7.1.0-pipeline.1",
-   "description": "Native win32-arm64 compiler for the TypeScript unary pipeline POC",
-   "date": "2026-09-30T20:32:33.727Z",
-   "url": "https://www.npmjs.com/package/@pengeszikra/typescript-win32-arm64",
-   "repo": "TypeScript",
-   "homepage": "https://github.com/Pengeszikra/TypeScript#readme"
-  },
-  {
    "name": "@pengeszikra/typescript-win32-x64",
    "version": "7.1.0-pipeline.1",
    "description": "Native win32-x64 compiler for the TypeScript unary pipeline POC",
    "date": "2026-09-30T20:32:27.260Z",
    "url": "https://www.npmjs.com/package/@pengeszikra/typescript-win32-x64",
+   "repo": "TypeScript",
+   "homepage": "https://github.com/Pengeszikra/TypeScript#readme"
+  },
+  {
+   "name": "@pengeszikra/typescript-win32-arm64",
+   "version": "7.1.0-pipeline.1",
+   "description": "Native win32-arm64 compiler for the TypeScript unary pipeline POC",
+   "date": "2026-09-30T20:32:33.727Z",
+   "url": "https://www.npmjs.com/package/@pengeszikra/typescript-win32-arm64",
    "repo": "TypeScript",
    "homepage": "https://github.com/Pengeszikra/TypeScript#readme"
   },
@@ -911,15 +911,6 @@
    "homepage": "https://github.com/Pengeszikra/TypeScript#readme"
   },
   {
-   "name": "react-slash",
-   "version": "0.8.5",
-   "description": "Tiny useReducer / jsx element naming oriented react helper library.",
-   "date": "2020-10-03T03:51:11.330Z",
-   "url": "https://www.npmjs.com/package/react-slash",
-   "repo": "react-slash",
-   "homepage": "https://github.com/Pengeszikra/react-slash#readme"
-  },
-  {
    "name": "typerdux",
    "version": "0.0.7",
    "description": "react state handling helper based on useReducer and typescript",
@@ -927,6 +918,15 @@
    "url": "https://www.npmjs.com/package/typerdux",
    "repo": null,
    "homepage": ""
+  },
+  {
+   "name": "react-slash",
+   "version": "0.8.5",
+   "description": "Tiny useReducer / jsx element naming oriented react helper library.",
+   "date": "2020-10-03T03:51:11.330Z",
+   "url": "https://www.npmjs.com/package/react-slash",
+   "repo": "react-slash",
+   "homepage": "https://github.com/Pengeszikra/react-slash#readme"
   },
   {
    "name": "jsdoc-duck",
