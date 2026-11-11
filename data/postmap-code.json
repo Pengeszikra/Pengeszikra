@@ -1,6 +1,18 @@
 {
- "generatedAt": "2026-11-11T16:25:41.944Z",
+ "generatedAt": "2026-11-11T20:56:47.386Z",
  "repos": [
+  {
+   "name": "devto-post-map",
+   "url": "https://github.com/Pengeszikra/devto-post-map",
+   "description": "Interactive Mind Map for my dev.to articles created by Claude Design",
+   "homepage": "https://devto-post-map.vercel.app",
+   "language": "HTML",
+   "stars": 0,
+   "fork": false,
+   "archived": false,
+   "pushedAt": "2026-11-11T20:52:02Z",
+   "topics": []
+  },
   {
    "name": "Spider-Paint",
    "url": "https://github.com/Pengeszikra/Spider-Paint",
@@ -10,7 +22,7 @@
    "stars": 1,
    "fork": false,
    "archived": false,
-   "pushedAt": "2026-11-11T16:08:16Z",
+   "pushedAt": "2026-11-11T20:48:30Z",
    "topics": []
   },
   {
@@ -22,7 +34,7 @@
    "stars": 0,
    "fork": false,
    "archived": false,
-   "pushedAt": "2026-11-11T16:08:14Z",
+   "pushedAt": "2026-11-11T20:48:23Z",
    "topics": []
   },
   {
@@ -34,7 +46,7 @@
    "stars": 0,
    "fork": false,
    "archived": false,
-   "pushedAt": "2026-11-11T12:29:51Z",
+   "pushedAt": "2026-11-11T16:25:43Z",
    "topics": []
   },
   {
@@ -83,18 +95,6 @@
    "fork": false,
    "archived": false,
    "pushedAt": "2026-11-05T19:49:21Z",
-   "topics": []
-  },
-  {
-   "name": "devto-post-map",
-   "url": "https://github.com/Pengeszikra/devto-post-map",
-   "description": "Interactive Mind Map for my dev.to articles created by Claude Design",
-   "homepage": "https://devto-post-map.vercel.app",
-   "language": "HTML",
-   "stars": 0,
-   "fork": false,
-   "archived": false,
-   "pushedAt": "2026-11-04T21:11:26Z",
    "topics": []
   },
   {
@@ -813,9 +813,9 @@
  "packages": [
   {
    "name": "3draft",
-   "version": "26.11.11010",
+   "version": "26.11.11032",
    "description": "Minimalist AI first 3D engine: palette-texture, WASM core, WebGPU/WebGL2 renderer.",
-   "date": "2026-11-11T09:33:06.669Z",
+   "date": "2026-11-11T20:47:47.102Z",
    "url": "https://www.npmjs.com/package/3draft",
    "repo": "3Draft",
    "homepage": "https://github.com/Pengeszikra/3Draft#readme"
@@ -848,15 +848,6 @@
    "homepage": "https://github.com/Pengeszikra/TypeScript#readme"
   },
   {
-   "name": "react-state-factory",
-   "version": "0.1.2",
-   "description": "react minimal typesafe state handling even with saga",
-   "date": "2023-10-03T04:11:15.006Z",
-   "url": "https://www.npmjs.com/package/react-state-factory",
-   "repo": "react-state-factory",
-   "homepage": "https://github.com/Pengeszikra/react-state-factory#readme"
-  },
-  {
    "name": "@pengeszikra/typescript-linux-x64",
    "version": "7.1.0-pipeline.1",
    "description": "Native linux-x64 compiler for the TypeScript unary pipeline POC",
@@ -864,6 +855,15 @@
    "url": "https://www.npmjs.com/package/@pengeszikra/typescript-linux-x64",
    "repo": "TypeScript",
    "homepage": "https://github.com/Pengeszikra/TypeScript#readme"
+  },
+  {
+   "name": "react-state-factory",
+   "version": "0.1.2",
+   "description": "react minimal typesafe state handling even with saga",
+   "date": "2023-10-03T04:11:15.006Z",
+   "url": "https://www.npmjs.com/package/react-state-factory",
+   "repo": "react-state-factory",
+   "homepage": "https://github.com/Pengeszikra/react-state-factory#readme"
   },
   {
    "name": "@pengeszikra/typescript-darwin-x64",
@@ -911,13 +911,13 @@
    "homepage": ""
   },
   {
-   "name": "react-slash",
-   "version": "0.8.5",
-   "description": "Tiny useReducer / jsx element naming oriented react helper library.",
-   "date": "2020-10-03T03:51:11.330Z",
-   "url": "https://www.npmjs.com/package/react-slash",
-   "repo": "react-slash",
-   "homepage": "https://github.com/Pengeszikra/react-slash#readme"
+   "name": "jsdoc-duck",
+   "version": "0.0.5",
+   "description": "react/jsdoc minimal typesafe state handling",
+   "date": "2024-08-28T04:33:31.025Z",
+   "url": "https://www.npmjs.com/package/jsdoc-duck",
+   "repo": "jsdoc-duck",
+   "homepage": "https://github.com/Pengeszikra/jsdoc-duck#readme"
   },
   {
    "name": "@pengeszikra/typescript-win32-arm64",
@@ -929,13 +929,13 @@
    "homepage": "https://github.com/Pengeszikra/TypeScript#readme"
   },
   {
-   "name": "jsdoc-duck",
-   "version": "0.0.5",
-   "description": "react/jsdoc minimal typesafe state handling",
-   "date": "2024-08-28T04:33:31.025Z",
-   "url": "https://www.npmjs.com/package/jsdoc-duck",
-   "repo": "jsdoc-duck",
-   "homepage": "https://github.com/Pengeszikra/jsdoc-duck#readme"
+   "name": "react-slash",
+   "version": "0.8.5",
+   "description": "Tiny useReducer / jsx element naming oriented react helper library.",
+   "date": "2020-10-03T03:51:11.330Z",
+   "url": "https://www.npmjs.com/package/react-slash",
+   "repo": "react-slash",
+   "homepage": "https://github.com/Pengeszikra/react-slash#readme"
   },
   {
    "name": "mordorjs",
@@ -983,15 +983,6 @@
    "homepage": "https://github.com/Pengeszikra/marker#readme"
   },
   {
-   "name": "callbag-take-to-finally",
-   "version": "0.2.0",
-   "description": "👜 Callbag operator which emits values emitted by the source as long as each value satisfies the given predicate, and then completes as soon as predicate is not satisfied. But call lastly function before callbag is over.",
-   "date": "2020-04-22T12:18:21.445Z",
-   "url": "https://www.npmjs.com/package/callbag-take-to-finally",
-   "repo": "callbag-take-to-finally",
-   "homepage": "https://github.com/Pengeszikra/callbag-take-to-finally#readme"
-  },
-  {
    "name": "marker-editor",
    "version": "0.0.1",
    "description": "pure HTML markdown editor",
@@ -999,6 +990,15 @@
    "url": "https://www.npmjs.com/package/marker-editor",
    "repo": "marker",
    "homepage": "https://github.com/Pengeszikra/marker#readme"
+  },
+  {
+   "name": "callbag-take-to-finally",
+   "version": "0.2.0",
+   "description": "👜 Callbag operator which emits values emitted by the source as long as each value satisfies the given predicate, and then completes as soon as predicate is not satisfied. But call lastly function before callbag is over.",
+   "date": "2020-04-22T12:18:21.445Z",
+   "url": "https://www.npmjs.com/package/callbag-take-to-finally",
+   "repo": "callbag-take-to-finally",
+   "homepage": "https://github.com/Pengeszikra/callbag-take-to-finally#readme"
   },
   {
    "name": "qwik-saga",

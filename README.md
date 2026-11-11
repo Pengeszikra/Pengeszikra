@@ -26,7 +26,7 @@ Here are some ideas to get you started:
 <br>
 
 <details>
-<summary><code>2026-11-06</code> <b>Retro :: Spider-Paint</b> · <sub>new — not on the map yet</sub></summary>
+<summary><code>2026-11-06</code> <b>Retro :: Spider-Paint</b> · <sub>Lost in Space</sub></summary>
 <br>
 <a href="https://dev.to/pengeszikra/retro-spider-paint-6lf"><img src="https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fi7u5od8lu9aru184t7g9.png" alt="" width="420"></a><br>
 The weeklyretro tag doesn’t come close to covering it. This is really another trip through time into...<br>
