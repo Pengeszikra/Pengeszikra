@@ -31,7 +31,7 @@ Here are some ideas to get you started:
 <a href="https://dev.to/pengeszikra/retro-spider-paint-6lf"><img src="https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fi7u5od8lu9aru184t7g9.png" alt="" width="420"></a><br>
 The weeklyretro tag doesn’t come close to covering it. This is really another trip through time into...<br>
 🧩 <a href="https://github.com/Pengeszikra/Spider-Paint"><code>Spider-Paint</code></a> · <a href="https://github.com/Pengeszikra/3Draft"><code>3Draft</code></a> <a href="https://www.npmjs.com/package/3draft">📦 <code>3draft</code></a> <img src="https://img.shields.io/npm/v/3draft?style=flat-square&label=&color=3d3528" alt="npm version" align="absmiddle"><br>
-<sub>2 min read · ♡ 20 · #showdev #tooling #weeklyretro #opensource</sub><br>
+<sub>2 min read · ♡ 24 · #showdev #tooling #weeklyretro #opensource</sub><br>
 <a href="https://dev.to/pengeszikra/retro-spider-paint-6lf">Read on dev.to →</a>
 <br><br>
 </details>
