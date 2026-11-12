@@ -1,6 +1,42 @@
 {
- "generatedAt": "2026-11-11T20:58:07.542Z",
+ "generatedAt": "2026-11-12T00:43:51.605Z",
  "repos": [
+  {
+   "name": "Spider-Paint",
+   "url": "https://github.com/Pengeszikra/Spider-Paint",
+   "description": "lightweight 3D test scene builder program based on Three.js / webGL with a little Big Bum animation",
+   "homepage": "https://spider-paint.vercel.app",
+   "language": "HTML",
+   "stars": 1,
+   "fork": false,
+   "archived": false,
+   "pushedAt": "2026-11-11T23:39:37Z",
+   "topics": []
+  },
+  {
+   "name": "3Draft",
+   "url": "https://github.com/Pengeszikra/3Draft",
+   "description": "Minimalist AI first 3D engine",
+   "homepage": "",
+   "language": "HTML",
+   "stars": 0,
+   "fork": false,
+   "archived": false,
+   "pushedAt": "2026-11-11T23:38:56Z",
+   "topics": []
+  },
+  {
+   "name": "five-percent",
+   "url": "https://github.com/Pengeszikra/five-percent",
+   "description": "participant of Meta VR Start Developer Competition 2026 ",
+   "homepage": "",
+   "language": "JavaScript",
+   "stars": 0,
+   "fork": false,
+   "archived": false,
+   "pushedAt": "2026-11-11T23:13:50Z",
+   "topics": []
+  },
   {
    "name": "Pengeszikra",
    "url": "https://github.com/Pengeszikra/Pengeszikra",
@@ -10,7 +46,7 @@
    "stars": 0,
    "fork": false,
    "archived": false,
-   "pushedAt": "2026-11-11T20:56:48Z",
+   "pushedAt": "2026-11-11T20:58:08Z",
    "topics": []
   },
   {
@@ -23,42 +59,6 @@
    "fork": false,
    "archived": false,
    "pushedAt": "2026-11-11T20:52:02Z",
-   "topics": []
-  },
-  {
-   "name": "Spider-Paint",
-   "url": "https://github.com/Pengeszikra/Spider-Paint",
-   "description": "lightweight 3D test scene builder program based on Three.js / webGL with a little Big Bum animation",
-   "homepage": "https://spider-paint.vercel.app",
-   "language": "HTML",
-   "stars": 1,
-   "fork": false,
-   "archived": false,
-   "pushedAt": "2026-11-11T20:48:30Z",
-   "topics": []
-  },
-  {
-   "name": "3Draft",
-   "url": "https://github.com/Pengeszikra/3Draft",
-   "description": "Minimalist AI first 3D engine",
-   "homepage": "",
-   "language": "HTML",
-   "stars": 0,
-   "fork": false,
-   "archived": false,
-   "pushedAt": "2026-11-11T20:48:23Z",
-   "topics": []
-  },
-  {
-   "name": "five-percent",
-   "url": "https://github.com/Pengeszikra/five-percent",
-   "description": "participant of Meta VR Start Developer Competition 2026 ",
-   "homepage": "",
-   "language": "JavaScript",
-   "stars": 0,
-   "fork": false,
-   "archived": false,
-   "pushedAt": "2026-11-10T19:52:05Z",
    "topics": []
   },
   {
@@ -813,9 +813,9 @@
  "packages": [
   {
    "name": "3draft",
-   "version": "26.11.11032",
+   "version": "26.11.11033",
    "description": "Minimalist AI first 3D engine: palette-texture, WASM core, WebGPU/WebGL2 renderer.",
-   "date": "2026-11-11T20:47:47.102Z",
+   "date": "2026-11-11T21:09:43.979Z",
    "url": "https://www.npmjs.com/package/3draft",
    "repo": "3Draft",
    "homepage": "https://github.com/Pengeszikra/3Draft#readme"
@@ -857,15 +857,6 @@
    "homepage": "https://github.com/Pengeszikra/TypeScript#readme"
   },
   {
-   "name": "react-state-factory",
-   "version": "0.1.2",
-   "description": "react minimal typesafe state handling even with saga",
-   "date": "2023-10-03T04:11:15.006Z",
-   "url": "https://www.npmjs.com/package/react-state-factory",
-   "repo": "react-state-factory",
-   "homepage": "https://github.com/Pengeszikra/react-state-factory#readme"
-  },
-  {
    "name": "@pengeszikra/typescript-darwin-x64",
    "version": "7.1.0-pipeline.1",
    "description": "Native darwin-x64 compiler for the TypeScript unary pipeline POC",
@@ -875,31 +866,13 @@
    "homepage": "https://github.com/Pengeszikra/TypeScript#readme"
   },
   {
-   "name": "@pengeszikra/typescript-linux-arm64",
-   "version": "7.1.0-pipeline.1",
-   "description": "Native linux-arm64 compiler for the TypeScript unary pipeline POC",
-   "date": "2026-09-30T20:32:19.921Z",
-   "url": "https://www.npmjs.com/package/@pengeszikra/typescript-linux-arm64",
-   "repo": "TypeScript",
-   "homepage": "https://github.com/Pengeszikra/TypeScript#readme"
-  },
-  {
-   "name": "@pengeszikra/typescript-win32-x64",
-   "version": "7.1.0-pipeline.1",
-   "description": "Native win32-x64 compiler for the TypeScript unary pipeline POC",
-   "date": "2026-09-30T20:32:27.260Z",
-   "url": "https://www.npmjs.com/package/@pengeszikra/typescript-win32-x64",
-   "repo": "TypeScript",
-   "homepage": "https://github.com/Pengeszikra/TypeScript#readme"
-  },
-  {
-   "name": "@pengeszikra/typescript-darwin-arm64",
-   "version": "7.1.0-pipeline.1",
-   "description": "Native darwin-arm64 compiler for the TypeScript unary pipeline POC",
-   "date": "2026-09-30T20:33:07.894Z",
-   "url": "https://www.npmjs.com/package/@pengeszikra/typescript-darwin-arm64",
-   "repo": "TypeScript",
-   "homepage": "https://github.com/Pengeszikra/TypeScript#readme"
+   "name": "react-state-factory",
+   "version": "0.1.2",
+   "description": "react minimal typesafe state handling even with saga",
+   "date": "2023-10-03T04:11:15.006Z",
+   "url": "https://www.npmjs.com/package/react-state-factory",
+   "repo": "react-state-factory",
+   "homepage": "https://github.com/Pengeszikra/react-state-factory#readme"
   },
   {
    "name": "typerdux",
@@ -911,20 +884,11 @@
    "homepage": ""
   },
   {
-   "name": "jsdoc-duck",
-   "version": "0.0.5",
-   "description": "react/jsdoc minimal typesafe state handling",
-   "date": "2024-08-28T04:33:31.025Z",
-   "url": "https://www.npmjs.com/package/jsdoc-duck",
-   "repo": "jsdoc-duck",
-   "homepage": "https://github.com/Pengeszikra/jsdoc-duck#readme"
-  },
-  {
-   "name": "@pengeszikra/typescript-win32-arm64",
+   "name": "@pengeszikra/typescript-win32-x64",
    "version": "7.1.0-pipeline.1",
-   "description": "Native win32-arm64 compiler for the TypeScript unary pipeline POC",
-   "date": "2026-09-30T20:32:33.727Z",
-   "url": "https://www.npmjs.com/package/@pengeszikra/typescript-win32-arm64",
+   "description": "Native win32-x64 compiler for the TypeScript unary pipeline POC",
+   "date": "2026-09-30T20:32:27.260Z",
+   "url": "https://www.npmjs.com/package/@pengeszikra/typescript-win32-x64",
    "repo": "TypeScript",
    "homepage": "https://github.com/Pengeszikra/TypeScript#readme"
   },
@@ -938,6 +902,33 @@
    "homepage": "https://github.com/Pengeszikra/react-slash#readme"
   },
   {
+   "name": "jsdoc-duck",
+   "version": "0.0.5",
+   "description": "react/jsdoc minimal typesafe state handling",
+   "date": "2024-08-28T04:33:31.025Z",
+   "url": "https://www.npmjs.com/package/jsdoc-duck",
+   "repo": "jsdoc-duck",
+   "homepage": "https://github.com/Pengeszikra/jsdoc-duck#readme"
+  },
+  {
+   "name": "@pengeszikra/typescript-linux-arm64",
+   "version": "7.1.0-pipeline.1",
+   "description": "Native linux-arm64 compiler for the TypeScript unary pipeline POC",
+   "date": "2026-09-30T20:32:19.921Z",
+   "url": "https://www.npmjs.com/package/@pengeszikra/typescript-linux-arm64",
+   "repo": "TypeScript",
+   "homepage": "https://github.com/Pengeszikra/TypeScript#readme"
+  },
+  {
+   "name": "@pengeszikra/typescript-darwin-arm64",
+   "version": "7.1.0-pipeline.1",
+   "description": "Native darwin-arm64 compiler for the TypeScript unary pipeline POC",
+   "date": "2026-09-30T20:33:07.894Z",
+   "url": "https://www.npmjs.com/package/@pengeszikra/typescript-darwin-arm64",
+   "repo": "TypeScript",
+   "homepage": "https://github.com/Pengeszikra/TypeScript#readme"
+  },
+  {
    "name": "mordorjs",
    "version": "0.0.3",
    "description": "is a toolkit for first real 1D programming language and so much more",
@@ -947,13 +938,13 @@
    "homepage": "https://github.com/Pengeszikra/mordorjs#readme"
   },
   {
-   "name": "preact-slash",
-   "version": "0.8.4",
-   "description": "Tiny useReducer / jsx element naming oriented preact helper library.",
-   "date": "2020-02-19T05:59:53.686Z",
-   "url": "https://www.npmjs.com/package/preact-slash",
-   "repo": "react-slash",
-   "homepage": "https://github.com/Pengeszikra/react-slash#readme"
+   "name": "@pengeszikra/typescript-win32-arm64",
+   "version": "7.1.0-pipeline.1",
+   "description": "Native win32-arm64 compiler for the TypeScript unary pipeline POC",
+   "date": "2026-09-30T20:32:33.727Z",
+   "url": "https://www.npmjs.com/package/@pengeszikra/typescript-win32-arm64",
+   "repo": "TypeScript",
+   "homepage": "https://github.com/Pengeszikra/TypeScript#readme"
   },
   {
    "name": "react-troll",
@@ -963,6 +954,15 @@
    "url": "https://www.npmjs.com/package/react-troll",
    "repo": "react-troll",
    "homepage": "https://github.com/Pengeszikra/react-troll#readme"
+  },
+  {
+   "name": "preact-slash",
+   "version": "0.8.4",
+   "description": "Tiny useReducer / jsx element naming oriented preact helper library.",
+   "date": "2020-02-19T05:59:53.686Z",
+   "url": "https://www.npmjs.com/package/preact-slash",
+   "repo": "react-slash",
+   "homepage": "https://github.com/Pengeszikra/react-slash#readme"
   },
   {
    "name": "fencer",
