@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-12T08:27:35.841Z",
+ "generatedAt": "2026-11-12T12:31:10.125Z",
  "repos": [
   {
    "name": "Spider-Paint",
@@ -10,7 +10,7 @@
    "stars": 1,
    "fork": false,
    "archived": false,
-   "pushedAt": "2026-11-12T07:24:11Z",
+   "pushedAt": "2026-11-12T11:32:55Z",
    "topics": []
   },
   {
@@ -22,7 +22,7 @@
    "stars": 0,
    "fork": false,
    "archived": false,
-   "pushedAt": "2026-11-12T07:24:07Z",
+   "pushedAt": "2026-11-12T11:32:53Z",
    "topics": []
   },
   {
@@ -34,7 +34,7 @@
    "stars": 0,
    "fork": false,
    "archived": false,
-   "pushedAt": "2026-11-12T04:27:00Z",
+   "pushedAt": "2026-11-12T08:27:36Z",
    "topics": []
   },
   {
@@ -893,15 +893,6 @@
    "homepage": "https://github.com/Pengeszikra/TypeScript#readme"
   },
   {
-   "name": "jsdoc-duck",
-   "version": "0.0.5",
-   "description": "react/jsdoc minimal typesafe state handling",
-   "date": "2024-08-28T04:33:31.025Z",
-   "url": "https://www.npmjs.com/package/jsdoc-duck",
-   "repo": "jsdoc-duck",
-   "homepage": "https://github.com/Pengeszikra/jsdoc-duck#readme"
-  },
-  {
    "name": "react-slash",
    "version": "0.8.5",
    "description": "Tiny useReducer / jsx element naming oriented react helper library.",
@@ -909,6 +900,15 @@
    "url": "https://www.npmjs.com/package/react-slash",
    "repo": "react-slash",
    "homepage": "https://github.com/Pengeszikra/react-slash#readme"
+  },
+  {
+   "name": "jsdoc-duck",
+   "version": "0.0.5",
+   "description": "react/jsdoc minimal typesafe state handling",
+   "date": "2024-08-28T04:33:31.025Z",
+   "url": "https://www.npmjs.com/package/jsdoc-duck",
+   "repo": "jsdoc-duck",
+   "homepage": "https://github.com/Pengeszikra/jsdoc-duck#readme"
   },
   {
    "name": "@pengeszikra/typescript-linux-arm64",
