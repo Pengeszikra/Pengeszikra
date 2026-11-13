@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-12T20:25:13.067Z",
+ "generatedAt": "2026-11-13T00:43:30.980Z",
  "repos": [
   {
    "name": "Spider-Paint",
@@ -10,7 +10,7 @@
    "stars": 1,
    "fork": false,
    "archived": false,
-   "pushedAt": "2026-11-12T20:19:48Z",
+   "pushedAt": "2026-11-13T00:37:26Z",
    "topics": []
   },
   {
@@ -22,7 +22,7 @@
    "stars": 0,
    "fork": false,
    "archived": false,
-   "pushedAt": "2026-11-12T20:19:45Z",
+   "pushedAt": "2026-11-13T00:37:24Z",
    "topics": []
   },
   {
@@ -34,7 +34,7 @@
    "stars": 0,
    "fork": false,
    "archived": false,
-   "pushedAt": "2026-11-12T16:26:35Z",
+   "pushedAt": "2026-11-12T20:25:14Z",
    "topics": []
   },
   {
@@ -813,9 +813,9 @@
  "packages": [
   {
    "name": "3draft",
-   "version": "26.11.12002",
+   "version": "26.11.12014",
    "description": "Minimalist AI first 3D engine: palette-texture, WASM core, WebGPU/WebGL2 renderer.",
-   "date": "2026-11-12T05:29:02.833Z",
+   "date": "2026-11-12T20:38:31.687Z",
    "url": "https://www.npmjs.com/package/3draft",
    "repo": "3Draft",
    "homepage": "https://github.com/Pengeszikra/3Draft#readme"
