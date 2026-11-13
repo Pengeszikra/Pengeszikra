@@ -1,18 +1,6 @@
 {
- "generatedAt": "2026-11-13T12:29:52.779Z",
+ "generatedAt": "2026-11-13T16:26:00.104Z",
  "repos": [
-  {
-   "name": "Spider-Paint",
-   "url": "https://github.com/Pengeszikra/Spider-Paint",
-   "description": "lightweight 3D test scene builder program based on Three.js / webGL with a little Big Bum animation",
-   "homepage": "https://spider-paint.vercel.app",
-   "language": "HTML",
-   "stars": 1,
-   "fork": false,
-   "archived": false,
-   "pushedAt": "2026-11-13T11:18:13Z",
-   "topics": []
-  },
   {
    "name": "3Draft",
    "url": "https://github.com/Pengeszikra/3Draft",
@@ -22,7 +10,19 @@
    "stars": 0,
    "fork": false,
    "archived": false,
-   "pushedAt": "2026-11-13T11:18:11Z",
+   "pushedAt": "2026-11-13T16:24:46Z",
+   "topics": []
+  },
+  {
+   "name": "Spider-Paint",
+   "url": "https://github.com/Pengeszikra/Spider-Paint",
+   "description": "lightweight 3D test scene builder program based on Three.js / webGL with a little Big Bum animation",
+   "homepage": "https://spider-paint.vercel.app",
+   "language": "HTML",
+   "stars": 1,
+   "fork": false,
+   "archived": false,
+   "pushedAt": "2026-11-13T16:24:38Z",
    "topics": []
   },
   {
@@ -34,7 +34,7 @@
    "stars": 0,
    "fork": false,
    "archived": false,
-   "pushedAt": "2026-11-13T08:27:21Z",
+   "pushedAt": "2026-11-13T12:29:53Z",
    "topics": []
   },
   {
@@ -813,9 +813,9 @@
  "packages": [
   {
    "name": "3draft",
-   "version": "26.11.13018",
+   "version": "26.11.13022",
    "description": "Minimalist AI first 3D engine: palette-texture, WASM core, WebGPU/WebGL2 renderer.",
-   "date": "2026-11-13T12:09:26.131Z",
+   "date": "2026-11-13T14:42:23.566Z",
    "url": "https://www.npmjs.com/package/3draft",
    "repo": "3Draft",
    "homepage": "https://github.com/Pengeszikra/3Draft#readme"
