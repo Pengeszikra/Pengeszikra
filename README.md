@@ -26,6 +26,16 @@ Here are some ideas to get you started:
 <br>
 
 <details>
+<summary><code>2026-11-11</code> <b>Retro :: Germo the flash developer</b> · <sub>Lost in Space</sub></summary>
+<br>
+<a href="https://dev.to/pengeszikra/retro-germo-the-flash-developer-5akc"><img src="https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fmlia5tbgtseus45y5v41.gif" alt="" width="420"></a><br>
+A Vibe Archeologist’s main job is to dig through the past, and although I’m not going back to the...<br>
+<sub>1 min read · ♡ 18 · #retrowek #claude #showdev</sub><br>
+<a href="https://dev.to/pengeszikra/retro-germo-the-flash-developer-5akc">Read on dev.to →</a>
+<br><br>
+</details>
+
+<details>
 <summary><code>2026-11-06</code> <b>Retro :: Spider-Paint</b> · <sub>Lost in Space</sub></summary>
 <br>
 <a href="https://dev.to/pengeszikra/retro-spider-paint-6lf"><img src="https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fi7u5od8lu9aru184t7g9.png" alt="" width="420"></a><br>
@@ -85,7 +95,7 @@ Liberation I'm not talking about the length of package.json files. I run into th
 <a href="https://dev.to/pengeszikra/hexaw-a-lazy-wasm-text-format-5g5n"><img src="https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fu8zgu8f4zouggzb33wqm.png" alt="" width="420"></a><br>
 This is a submission for the Hacktoberfest Open-Source AI Challenge Week 3: Slow and Steady ...<br>
 🧩 <a href="https://github.com/Pengeszikra/hexaw"><code>hexaw</code></a> <a href="https://www.npmjs.com/package/hexaw">📦 <code>hexaw</code></a> <img src="https://img.shields.io/npm/v/hexaw?style=flat-square&label=&color=3d3528" alt="npm version" align="absmiddle"> · <a href="https://www.npmjs.com/package/hexaw-repository">📦 <code>hexaw-repository</code></a> <img src="https://img.shields.io/npm/v/hexaw-repository?style=flat-square&label=&color=3d3528" alt="npm version" align="absmiddle"><br>
-<sub>4 min read · ♡ 56 · #devchallenge #hf26challenge #webassembly</sub><br>
+<sub>4 min read · ♡ 55 · #devchallenge #hf26challenge #webassembly</sub><br>
 <a href="https://dev.to/pengeszikra/hexaw-a-lazy-wasm-text-format-5g5n">Read on dev.to →</a>
 <br><br>
 </details>
@@ -96,15 +106,6 @@ This is a submission for the Hacktoberfest Open-Source AI Challenge Week 3: Slow
 Tesla Roadster always a big help! Welcome to Singularity News ... until ... well, we all know...<br>
 <sub>3 min read · ♡ 4 · #discuss #news #ai</sub><br>
 <a href="https://dev.to/pengeszikra/singularity-news-0011-1ai0">Read on dev.to →</a>
-<br><br>
-</details>
-
-<details>
-<summary><code>2026-10-19</code> <b>Do Not prompt the Arch Intelligent ! ! !</b> · <sub>AI &amp; authorship</sub></summary>
-<br>
-Recently, I came across an interesting Oxford lecture by Professor Yuval Noah Harari, in which he...<br>
-<sub>2 min read · ♡ 8 · #ai #llm #discuss #promptengineering</sub><br>
-<a href="https://dev.to/pengeszikra/do-not-prompt-the-arch-intelligent--2l8g">Read on dev.to →</a>
 <br><br>
 </details>
 
