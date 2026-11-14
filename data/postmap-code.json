@@ -1,6 +1,18 @@
 {
- "generatedAt": "2026-11-14T16:25:13.498Z",
+ "generatedAt": "2026-11-14T20:25:27.609Z",
  "repos": [
+  {
+   "name": "tuskek-es-gyokerek",
+   "url": "https://github.com/Pengeszikra/tuskek-es-gyokerek",
+   "description": "Tüskék és Gyökerek - Independent Software Workshop",
+   "homepage": "https://tuskek-es-gyokerek.vercel.app",
+   "language": "",
+   "stars": 0,
+   "fork": false,
+   "archived": false,
+   "pushedAt": "2026-11-14T20:19:19Z",
+   "topics": []
+  },
   {
    "name": "Spider-Paint",
    "url": "https://github.com/Pengeszikra/Spider-Paint",
@@ -10,7 +22,7 @@
    "stars": 1,
    "fork": false,
    "archived": false,
-   "pushedAt": "2026-11-14T16:08:17Z",
+   "pushedAt": "2026-11-14T19:13:10Z",
    "topics": []
   },
   {
@@ -22,7 +34,19 @@
    "stars": 0,
    "fork": false,
    "archived": false,
-   "pushedAt": "2026-11-14T16:08:13Z",
+   "pushedAt": "2026-11-14T19:12:58Z",
+   "topics": []
+  },
+  {
+   "name": "terminal-is-your-friend",
+   "url": "https://github.com/Pengeszikra/terminal-is-your-friend",
+   "description": "Friendly AI backed terminal for JS / TS learning & survive the singularity",
+   "homepage": "https://terminal-is-your-friend.vercel.app",
+   "language": "JavaScript",
+   "stars": 0,
+   "fork": false,
+   "archived": false,
+   "pushedAt": "2026-11-14T19:11:53Z",
    "topics": []
   },
   {
@@ -34,7 +58,7 @@
    "stars": 0,
    "fork": false,
    "archived": false,
-   "pushedAt": "2026-11-14T12:27:41Z",
+   "pushedAt": "2026-11-14T16:25:14Z",
    "topics": []
   },
   {
@@ -143,18 +167,6 @@
    "fork": false,
    "archived": false,
    "pushedAt": "2026-10-15T09:40:38Z",
-   "topics": []
-  },
-  {
-   "name": "terminal-is-your-friend",
-   "url": "https://github.com/Pengeszikra/terminal-is-your-friend",
-   "description": "Friendly AI backed terminal for JS / TS learning & survive the singularity",
-   "homepage": "https://terminal-is-your-friend.vercel.app",
-   "language": "JavaScript",
-   "stars": 0,
-   "fork": false,
-   "archived": false,
-   "pushedAt": "2026-10-05T12:07:55Z",
    "topics": []
   },
   {
@@ -813,9 +825,9 @@
  "packages": [
   {
    "name": "3draft",
-   "version": "26.11.14001",
+   "version": "26.11.14007",
    "description": "Minimalist AI first 3D engine: palette-texture, WASM core, WebGPU/WebGL2 renderer.",
-   "date": "2026-11-14T09:57:55.825Z",
+   "date": "2026-11-14T19:45:37.781Z",
    "url": "https://www.npmjs.com/package/3draft",
    "repo": "3Draft",
    "homepage": "https://github.com/Pengeszikra/3Draft#readme"
