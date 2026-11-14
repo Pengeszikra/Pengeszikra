@@ -1,18 +1,6 @@
 {
- "generatedAt": "2026-11-14T08:25:38.375Z",
+ "generatedAt": "2026-11-14T12:27:40.872Z",
  "repos": [
-  {
-   "name": "Pengeszikra",
-   "url": "https://github.com/Pengeszikra/Pengeszikra",
-   "description": "",
-   "homepage": "",
-   "language": "JavaScript",
-   "stars": 0,
-   "fork": false,
-   "archived": false,
-   "pushedAt": "2026-11-14T04:26:05Z",
-   "topics": []
-  },
   {
    "name": "Spider-Paint",
    "url": "https://github.com/Pengeszikra/Spider-Paint",
@@ -22,7 +10,7 @@
    "stars": 1,
    "fork": false,
    "archived": false,
-   "pushedAt": "2026-11-13T22:35:12Z",
+   "pushedAt": "2026-11-14T10:24:11Z",
    "topics": []
   },
   {
@@ -34,7 +22,19 @@
    "stars": 0,
    "fork": false,
    "archived": false,
-   "pushedAt": "2026-11-13T22:35:09Z",
+   "pushedAt": "2026-11-14T10:24:07Z",
+   "topics": []
+  },
+  {
+   "name": "Pengeszikra",
+   "url": "https://github.com/Pengeszikra/Pengeszikra",
+   "description": "",
+   "homepage": "",
+   "language": "JavaScript",
+   "stars": 0,
+   "fork": false,
+   "archived": false,
+   "pushedAt": "2026-11-14T08:25:39Z",
    "topics": []
   },
   {
@@ -813,9 +813,9 @@
  "packages": [
   {
    "name": "3draft",
-   "version": "26.11.13037",
+   "version": "26.11.14001",
    "description": "Minimalist AI first 3D engine: palette-texture, WASM core, WebGPU/WebGL2 renderer.",
-   "date": "2026-11-13T18:22:56.265Z",
+   "date": "2026-11-14T09:57:55.825Z",
    "url": "https://www.npmjs.com/package/3draft",
    "repo": "3Draft",
    "homepage": "https://github.com/Pengeszikra/3Draft#readme"
@@ -875,15 +875,6 @@
    "homepage": "https://github.com/Pengeszikra/TypeScript#readme"
   },
   {
-   "name": "jsdoc-duck",
-   "version": "0.0.5",
-   "description": "react/jsdoc minimal typesafe state handling",
-   "date": "2024-08-28T04:33:31.025Z",
-   "url": "https://www.npmjs.com/package/jsdoc-duck",
-   "repo": "jsdoc-duck",
-   "homepage": "https://github.com/Pengeszikra/jsdoc-duck#readme"
-  },
-  {
    "name": "react-slash",
    "version": "0.8.5",
    "description": "Tiny useReducer / jsx element naming oriented react helper library.",
@@ -891,6 +882,15 @@
    "url": "https://www.npmjs.com/package/react-slash",
    "repo": "react-slash",
    "homepage": "https://github.com/Pengeszikra/react-slash#readme"
+  },
+  {
+   "name": "jsdoc-duck",
+   "version": "0.0.5",
+   "description": "react/jsdoc minimal typesafe state handling",
+   "date": "2024-08-28T04:33:31.025Z",
+   "url": "https://www.npmjs.com/package/jsdoc-duck",
+   "repo": "jsdoc-duck",
+   "homepage": "https://github.com/Pengeszikra/jsdoc-duck#readme"
   },
   {
    "name": "typerdux",
@@ -956,15 +956,6 @@
    "homepage": "https://github.com/Pengeszikra/react-slash#readme"
   },
   {
-   "name": "fencer",
-   "version": "0.0.2",
-   "description": "Experimental functional JSX framework",
-   "date": "2020-08-14T16:32:01.628Z",
-   "url": "https://www.npmjs.com/package/fencer",
-   "repo": "fencer",
-   "homepage": "https://github.com/Pengeszikra/fencer#readme"
-  },
-  {
    "name": "react-troll",
    "version": "0.0.4",
    "description": "react useReducer organizator",
@@ -981,6 +972,15 @@
    "url": "https://www.npmjs.com/package/marker-edit",
    "repo": "marker",
    "homepage": "https://github.com/Pengeszikra/marker#readme"
+  },
+  {
+   "name": "fencer",
+   "version": "0.0.2",
+   "description": "Experimental functional JSX framework",
+   "date": "2020-08-14T16:32:01.628Z",
+   "url": "https://www.npmjs.com/package/fencer",
+   "repo": "fencer",
+   "homepage": "https://github.com/Pengeszikra/fencer#readme"
   },
   {
    "name": "marker-editor",
