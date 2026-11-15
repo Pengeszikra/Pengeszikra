@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-15T04:26:17.888Z",
+ "generatedAt": "2026-11-15T08:26:19.857Z",
  "repos": [
   {
    "name": "Pengeszikra",
@@ -10,7 +10,7 @@
    "stars": 0,
    "fork": false,
    "archived": false,
-   "pushedAt": "2026-11-15T00:46:10Z",
+   "pushedAt": "2026-11-15T04:26:18Z",
    "topics": []
   },
   {
@@ -878,15 +878,6 @@
    "homepage": "https://github.com/Pengeszikra/react-state-factory#readme"
   },
   {
-   "name": "@pengeszikra/typescript-darwin-x64",
-   "version": "7.1.0-pipeline.1",
-   "description": "Native darwin-x64 compiler for the TypeScript unary pipeline POC",
-   "date": "2026-09-30T20:31:41.377Z",
-   "url": "https://www.npmjs.com/package/@pengeszikra/typescript-darwin-x64",
-   "repo": "TypeScript",
-   "homepage": "https://github.com/Pengeszikra/TypeScript#readme"
-  },
-  {
    "name": "jsdoc-duck",
    "version": "0.0.5",
    "description": "react/jsdoc minimal typesafe state handling",
@@ -894,6 +885,24 @@
    "url": "https://www.npmjs.com/package/jsdoc-duck",
    "repo": "jsdoc-duck",
    "homepage": "https://github.com/Pengeszikra/jsdoc-duck#readme"
+  },
+  {
+   "name": "react-slash",
+   "version": "0.8.5",
+   "description": "Tiny useReducer / jsx element naming oriented react helper library.",
+   "date": "2020-10-03T03:51:11.330Z",
+   "url": "https://www.npmjs.com/package/react-slash",
+   "repo": "react-slash",
+   "homepage": "https://github.com/Pengeszikra/react-slash#readme"
+  },
+  {
+   "name": "@pengeszikra/typescript-darwin-x64",
+   "version": "7.1.0-pipeline.1",
+   "description": "Native darwin-x64 compiler for the TypeScript unary pipeline POC",
+   "date": "2026-09-30T20:31:41.377Z",
+   "url": "https://www.npmjs.com/package/@pengeszikra/typescript-darwin-x64",
+   "repo": "TypeScript",
+   "homepage": "https://github.com/Pengeszikra/TypeScript#readme"
   },
   {
    "name": "typerdux",
@@ -912,15 +921,6 @@
    "url": "https://www.npmjs.com/package/@pengeszikra/typescript-win32-x64",
    "repo": "TypeScript",
    "homepage": "https://github.com/Pengeszikra/TypeScript#readme"
-  },
-  {
-   "name": "react-slash",
-   "version": "0.8.5",
-   "description": "Tiny useReducer / jsx element naming oriented react helper library.",
-   "date": "2020-10-03T03:51:11.330Z",
-   "url": "https://www.npmjs.com/package/react-slash",
-   "repo": "react-slash",
-   "homepage": "https://github.com/Pengeszikra/react-slash#readme"
   },
   {
    "name": "@pengeszikra/typescript-linux-arm64",
