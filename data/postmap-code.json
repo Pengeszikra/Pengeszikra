@@ -1,6 +1,42 @@
 {
- "generatedAt": "2026-11-14T20:25:27.609Z",
+ "generatedAt": "2026-11-15T00:46:09.163Z",
  "repos": [
+  {
+   "name": "Spider-Paint",
+   "url": "https://github.com/Pengeszikra/Spider-Paint",
+   "description": "lightweight 3D test scene builder program based on Three.js / webGL with a little Big Bum animation",
+   "homepage": "https://spider-paint.vercel.app",
+   "language": "HTML",
+   "stars": 1,
+   "fork": false,
+   "archived": false,
+   "pushedAt": "2026-11-14T22:50:22Z",
+   "topics": []
+  },
+  {
+   "name": "3Draft",
+   "url": "https://github.com/Pengeszikra/3Draft",
+   "description": "Minimalist AI first 3D engine",
+   "homepage": "",
+   "language": "HTML",
+   "stars": 0,
+   "fork": false,
+   "archived": false,
+   "pushedAt": "2026-11-14T22:50:19Z",
+   "topics": []
+  },
+  {
+   "name": "Pengeszikra",
+   "url": "https://github.com/Pengeszikra/Pengeszikra",
+   "description": "",
+   "homepage": "",
+   "language": "JavaScript",
+   "stars": 0,
+   "fork": false,
+   "archived": false,
+   "pushedAt": "2026-11-14T20:25:28Z",
+   "topics": []
+  },
   {
    "name": "tuskek-es-gyokerek",
    "url": "https://github.com/Pengeszikra/tuskek-es-gyokerek",
@@ -14,30 +50,6 @@
    "topics": []
   },
   {
-   "name": "Spider-Paint",
-   "url": "https://github.com/Pengeszikra/Spider-Paint",
-   "description": "lightweight 3D test scene builder program based on Three.js / webGL with a little Big Bum animation",
-   "homepage": "https://spider-paint.vercel.app",
-   "language": "HTML",
-   "stars": 1,
-   "fork": false,
-   "archived": false,
-   "pushedAt": "2026-11-14T19:13:10Z",
-   "topics": []
-  },
-  {
-   "name": "3Draft",
-   "url": "https://github.com/Pengeszikra/3Draft",
-   "description": "Minimalist AI first 3D engine",
-   "homepage": "",
-   "language": "HTML",
-   "stars": 0,
-   "fork": false,
-   "archived": false,
-   "pushedAt": "2026-11-14T19:12:58Z",
-   "topics": []
-  },
-  {
    "name": "terminal-is-your-friend",
    "url": "https://github.com/Pengeszikra/terminal-is-your-friend",
    "description": "Friendly AI backed terminal for JS / TS learning & survive the singularity",
@@ -47,18 +59,6 @@
    "fork": false,
    "archived": false,
    "pushedAt": "2026-11-14T19:11:53Z",
-   "topics": []
-  },
-  {
-   "name": "Pengeszikra",
-   "url": "https://github.com/Pengeszikra/Pengeszikra",
-   "description": "",
-   "homepage": "",
-   "language": "JavaScript",
-   "stars": 0,
-   "fork": false,
-   "archived": false,
-   "pushedAt": "2026-11-14T16:25:14Z",
    "topics": []
   },
   {
@@ -977,15 +977,6 @@
    "homepage": "https://github.com/Pengeszikra/react-troll#readme"
   },
   {
-   "name": "marker-edit",
-   "version": "0.0.3",
-   "description": "pure HTML markdown editor",
-   "date": "2024-12-11T09:00:58.382Z",
-   "url": "https://www.npmjs.com/package/marker-edit",
-   "repo": "marker",
-   "homepage": "https://github.com/Pengeszikra/marker#readme"
-  },
-  {
    "name": "fencer",
    "version": "0.0.2",
    "description": "Experimental functional JSX framework",
@@ -993,6 +984,15 @@
    "url": "https://www.npmjs.com/package/fencer",
    "repo": "fencer",
    "homepage": "https://github.com/Pengeszikra/fencer#readme"
+  },
+  {
+   "name": "marker-edit",
+   "version": "0.0.3",
+   "description": "pure HTML markdown editor",
+   "date": "2024-12-11T09:00:58.382Z",
+   "url": "https://www.npmjs.com/package/marker-edit",
+   "repo": "marker",
+   "homepage": "https://github.com/Pengeszikra/marker#readme"
   },
   {
    "name": "marker-editor",
