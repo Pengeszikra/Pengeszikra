@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-15T12:27:51.760Z",
+ "generatedAt": "2026-11-15T16:25:13.904Z",
  "repos": [
   {
    "name": "Spider-Paint",
@@ -10,19 +10,7 @@
    "stars": 1,
    "fork": false,
    "archived": false,
-   "pushedAt": "2026-11-15T12:21:54Z",
-   "topics": []
-  },
-  {
-   "name": "Pengeszikra",
-   "url": "https://github.com/Pengeszikra/Pengeszikra",
-   "description": "",
-   "homepage": "",
-   "language": "JavaScript",
-   "stars": 0,
-   "fork": false,
-   "archived": false,
-   "pushedAt": "2026-11-15T08:26:20Z",
+   "pushedAt": "2026-11-15T16:12:41Z",
    "topics": []
   },
   {
@@ -34,7 +22,19 @@
    "stars": 0,
    "fork": false,
    "archived": false,
-   "pushedAt": "2026-11-14T22:50:19Z",
+   "pushedAt": "2026-11-15T16:12:38Z",
+   "topics": []
+  },
+  {
+   "name": "Pengeszikra",
+   "url": "https://github.com/Pengeszikra/Pengeszikra",
+   "description": "",
+   "homepage": "",
+   "language": "JavaScript",
+   "stars": 0,
+   "fork": false,
+   "archived": false,
+   "pushedAt": "2026-11-15T12:27:52Z",
    "topics": []
   },
   {
@@ -825,9 +825,9 @@
  "packages": [
   {
    "name": "3draft",
-   "version": "26.11.14007",
+   "version": "26.11.15003",
    "description": "Minimalist AI first 3D engine: palette-texture, WASM core, WebGPU/WebGL2 renderer.",
-   "date": "2026-11-14T19:45:37.781Z",
+   "date": "2026-11-15T14:47:05.311Z",
    "url": "https://www.npmjs.com/package/3draft",
    "repo": "3Draft",
    "homepage": "https://github.com/Pengeszikra/3Draft#readme"
@@ -887,15 +887,6 @@
    "homepage": "https://github.com/Pengeszikra/jsdoc-duck#readme"
   },
   {
-   "name": "react-slash",
-   "version": "0.8.5",
-   "description": "Tiny useReducer / jsx element naming oriented react helper library.",
-   "date": "2020-10-03T03:51:11.330Z",
-   "url": "https://www.npmjs.com/package/react-slash",
-   "repo": "react-slash",
-   "homepage": "https://github.com/Pengeszikra/react-slash#readme"
-  },
-  {
    "name": "@pengeszikra/typescript-darwin-x64",
    "version": "7.1.0-pipeline.1",
    "description": "Native darwin-x64 compiler for the TypeScript unary pipeline POC",
@@ -903,6 +894,15 @@
    "url": "https://www.npmjs.com/package/@pengeszikra/typescript-darwin-x64",
    "repo": "TypeScript",
    "homepage": "https://github.com/Pengeszikra/TypeScript#readme"
+  },
+  {
+   "name": "react-slash",
+   "version": "0.8.5",
+   "description": "Tiny useReducer / jsx element naming oriented react helper library.",
+   "date": "2020-10-03T03:51:11.330Z",
+   "url": "https://www.npmjs.com/package/react-slash",
+   "repo": "react-slash",
+   "homepage": "https://github.com/Pengeszikra/react-slash#readme"
   },
   {
    "name": "typerdux",
