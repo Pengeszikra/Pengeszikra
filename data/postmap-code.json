@@ -1,6 +1,18 @@
 {
- "generatedAt": "2026-11-18T16:25:24.542Z",
+ "generatedAt": "2026-11-18T20:25:04.104Z",
  "repos": [
+  {
+   "name": "five-percent",
+   "url": "https://github.com/Pengeszikra/five-percent",
+   "description": "participant of Meta VR Start Developer Competition 2026 ",
+   "homepage": "https://five-percent-peach.vercel.app",
+   "language": "HTML",
+   "stars": 0,
+   "fork": false,
+   "archived": false,
+   "pushedAt": "2026-11-18T19:26:06Z",
+   "topics": []
+  },
   {
    "name": "Spider-Paint",
    "url": "https://github.com/Pengeszikra/Spider-Paint",
@@ -10,7 +22,7 @@
    "stars": 1,
    "fork": false,
    "archived": false,
-   "pushedAt": "2026-11-18T16:19:02Z",
+   "pushedAt": "2026-11-18T19:26:02Z",
    "topics": []
   },
   {
@@ -22,7 +34,7 @@
    "stars": 0,
    "fork": false,
    "archived": false,
-   "pushedAt": "2026-11-18T16:18:58Z",
+   "pushedAt": "2026-11-18T19:25:55Z",
    "topics": []
   },
   {
@@ -34,7 +46,7 @@
    "stars": 0,
    "fork": false,
    "archived": false,
-   "pushedAt": "2026-11-18T12:30:29Z",
+   "pushedAt": "2026-11-18T16:25:25Z",
    "topics": []
   },
   {
@@ -71,18 +83,6 @@
    "fork": false,
    "archived": false,
    "pushedAt": "2026-11-14T19:11:53Z",
-   "topics": []
-  },
-  {
-   "name": "five-percent",
-   "url": "https://github.com/Pengeszikra/five-percent",
-   "description": "participant of Meta VR Start Developer Competition 2026 ",
-   "homepage": "",
-   "language": "JavaScript",
-   "stars": 0,
-   "fork": false,
-   "archived": false,
-   "pushedAt": "2026-11-11T23:13:50Z",
    "topics": []
   },
   {
@@ -899,15 +899,6 @@
    "homepage": "https://github.com/Pengeszikra/TypeScript#readme"
   },
   {
-   "name": "react-slash",
-   "version": "0.8.5",
-   "description": "Tiny useReducer / jsx element naming oriented react helper library.",
-   "date": "2020-10-03T03:51:11.330Z",
-   "url": "https://www.npmjs.com/package/react-slash",
-   "repo": "react-slash",
-   "homepage": "https://github.com/Pengeszikra/react-slash#readme"
-  },
-  {
    "name": "jsdoc-duck",
    "version": "0.0.5",
    "description": "react/jsdoc minimal typesafe state handling",
@@ -933,6 +924,15 @@
    "url": "https://www.npmjs.com/package/typerdux",
    "repo": null,
    "homepage": ""
+  },
+  {
+   "name": "react-slash",
+   "version": "0.8.5",
+   "description": "Tiny useReducer / jsx element naming oriented react helper library.",
+   "date": "2020-10-03T03:51:11.330Z",
+   "url": "https://www.npmjs.com/package/react-slash",
+   "repo": "react-slash",
+   "homepage": "https://github.com/Pengeszikra/react-slash#readme"
   },
   {
    "name": "@pengeszikra/typescript-linux-arm64",
@@ -971,15 +971,6 @@
    "homepage": "https://github.com/Pengeszikra/TypeScript#readme"
   },
   {
-   "name": "preact-slash",
-   "version": "0.8.4",
-   "description": "Tiny useReducer / jsx element naming oriented preact helper library.",
-   "date": "2020-02-19T05:59:53.686Z",
-   "url": "https://www.npmjs.com/package/preact-slash",
-   "repo": "react-slash",
-   "homepage": "https://github.com/Pengeszikra/react-slash#readme"
-  },
-  {
    "name": "react-troll",
    "version": "0.0.4",
    "description": "react useReducer organizator",
@@ -989,13 +980,13 @@
    "homepage": "https://github.com/Pengeszikra/react-troll#readme"
   },
   {
-   "name": "fencer",
-   "version": "0.0.2",
-   "description": "Experimental functional JSX framework",
-   "date": "2020-08-14T16:32:01.628Z",
-   "url": "https://www.npmjs.com/package/fencer",
-   "repo": "fencer",
-   "homepage": "https://github.com/Pengeszikra/fencer#readme"
+   "name": "preact-slash",
+   "version": "0.8.4",
+   "description": "Tiny useReducer / jsx element naming oriented preact helper library.",
+   "date": "2020-02-19T05:59:53.686Z",
+   "url": "https://www.npmjs.com/package/preact-slash",
+   "repo": "react-slash",
+   "homepage": "https://github.com/Pengeszikra/react-slash#readme"
   },
   {
    "name": "marker-edit",
@@ -1007,6 +998,15 @@
    "homepage": "https://github.com/Pengeszikra/marker#readme"
   },
   {
+   "name": "fencer",
+   "version": "0.0.2",
+   "description": "Experimental functional JSX framework",
+   "date": "2020-08-14T16:32:01.628Z",
+   "url": "https://www.npmjs.com/package/fencer",
+   "repo": "fencer",
+   "homepage": "https://github.com/Pengeszikra/fencer#readme"
+  },
+  {
    "name": "qwik-saga",
    "version": "0.0.1",
    "description": "react minimal typesafe state handling even with saga",
@@ -1016,15 +1016,6 @@
    "homepage": "https://github.com/Pengeszikra/qwik-saga#readme"
   },
   {
-   "name": "marker-editor",
-   "version": "0.0.1",
-   "description": "pure HTML markdown editor",
-   "date": "2024-12-11T08:30:22.976Z",
-   "url": "https://www.npmjs.com/package/marker-editor",
-   "repo": "marker",
-   "homepage": "https://github.com/Pengeszikra/marker#readme"
-  },
-  {
    "name": "callbag-take-to-finally",
    "version": "0.2.0",
    "description": "👜 Callbag operator which emits values emitted by the source as long as each value satisfies the given predicate, and then completes as soon as predicate is not satisfied. But call lastly function before callbag is over.",
@@ -1032,6 +1023,15 @@
    "url": "https://www.npmjs.com/package/callbag-take-to-finally",
    "repo": "callbag-take-to-finally",
    "homepage": "https://github.com/Pengeszikra/callbag-take-to-finally#readme"
+  },
+  {
+   "name": "marker-editor",
+   "version": "0.0.1",
+   "description": "pure HTML markdown editor",
+   "date": "2024-12-11T08:30:22.976Z",
+   "url": "https://www.npmjs.com/package/marker-editor",
+   "repo": "marker",
+   "homepage": "https://github.com/Pengeszikra/marker#readme"
   }
  ],
  "mentions": {
