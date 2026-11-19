@@ -30,7 +30,7 @@ Here are some ideas to get you started:
 <br>
 <a href="https://dev.to/pengeszikra/100-x-exhaused-4g9"><img src="https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fgzfyfqqd5vmlj6nl8cuj.png" alt="" width="420"></a><br>
 Short: I am totally exhaused after 11days vibe, result is: ...<br>
-<sub>1 min read · ♡ 19 · #buildinpublic #showdev #sideprojects</sub><br>
+<sub>1 min read · ♡ 20 · #showdev #webdev #mcp #challenge</sub><br>
 <a href="https://dev.to/pengeszikra/100-x-exhaused-4g9">Read on dev.to →</a>
 <br><br>
 </details>
