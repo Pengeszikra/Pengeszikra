@@ -1,6 +1,18 @@
 {
- "generatedAt": "2026-11-18T20:25:04.104Z",
+ "generatedAt": "2026-11-19T00:44:15.336Z",
  "repos": [
+  {
+   "name": "Pengeszikra",
+   "url": "https://github.com/Pengeszikra/Pengeszikra",
+   "description": "",
+   "homepage": "",
+   "language": "JavaScript",
+   "stars": 0,
+   "fork": false,
+   "archived": false,
+   "pushedAt": "2026-11-18T20:25:05Z",
+   "topics": []
+  },
   {
    "name": "five-percent",
    "url": "https://github.com/Pengeszikra/five-percent",
@@ -35,18 +47,6 @@
    "fork": false,
    "archived": false,
    "pushedAt": "2026-11-18T19:25:55Z",
-   "topics": []
-  },
-  {
-   "name": "Pengeszikra",
-   "url": "https://github.com/Pengeszikra/Pengeszikra",
-   "description": "",
-   "homepage": "",
-   "language": "JavaScript",
-   "stars": 0,
-   "fork": false,
-   "archived": false,
-   "pushedAt": "2026-11-18T16:25:25Z",
    "topics": []
   },
   {
@@ -872,15 +872,6 @@
    "homepage": "https://github.com/Pengeszikra/TypeScript#readme"
   },
   {
-   "name": "@pengeszikra/typescript-linux-x64",
-   "version": "7.1.0-pipeline.1",
-   "description": "Native linux-x64 compiler for the TypeScript unary pipeline POC",
-   "date": "2026-09-30T20:32:13.529Z",
-   "url": "https://www.npmjs.com/package/@pengeszikra/typescript-linux-x64",
-   "repo": "TypeScript",
-   "homepage": "https://github.com/Pengeszikra/TypeScript#readme"
-  },
-  {
    "name": "react-state-factory",
    "version": "0.1.2",
    "description": "react minimal typesafe state handling even with saga",
@@ -888,6 +879,15 @@
    "url": "https://www.npmjs.com/package/react-state-factory",
    "repo": "react-state-factory",
    "homepage": "https://github.com/Pengeszikra/react-state-factory#readme"
+  },
+  {
+   "name": "@pengeszikra/typescript-linux-x64",
+   "version": "7.1.0-pipeline.1",
+   "description": "Native linux-x64 compiler for the TypeScript unary pipeline POC",
+   "date": "2026-09-30T20:32:13.529Z",
+   "url": "https://www.npmjs.com/package/@pengeszikra/typescript-linux-x64",
+   "repo": "TypeScript",
+   "homepage": "https://github.com/Pengeszikra/TypeScript#readme"
   },
   {
    "name": "@pengeszikra/typescript-darwin-x64",
@@ -899,6 +899,15 @@
    "homepage": "https://github.com/Pengeszikra/TypeScript#readme"
   },
   {
+   "name": "react-slash",
+   "version": "0.8.5",
+   "description": "Tiny useReducer / jsx element naming oriented react helper library.",
+   "date": "2020-10-03T03:51:11.330Z",
+   "url": "https://www.npmjs.com/package/react-slash",
+   "repo": "react-slash",
+   "homepage": "https://github.com/Pengeszikra/react-slash#readme"
+  },
+  {
    "name": "jsdoc-duck",
    "version": "0.0.5",
    "description": "react/jsdoc minimal typesafe state handling",
@@ -906,15 +915,6 @@
    "url": "https://www.npmjs.com/package/jsdoc-duck",
    "repo": "jsdoc-duck",
    "homepage": "https://github.com/Pengeszikra/jsdoc-duck#readme"
-  },
-  {
-   "name": "@pengeszikra/typescript-win32-x64",
-   "version": "7.1.0-pipeline.1",
-   "description": "Native win32-x64 compiler for the TypeScript unary pipeline POC",
-   "date": "2026-09-30T20:32:27.260Z",
-   "url": "https://www.npmjs.com/package/@pengeszikra/typescript-win32-x64",
-   "repo": "TypeScript",
-   "homepage": "https://github.com/Pengeszikra/TypeScript#readme"
   },
   {
    "name": "typerdux",
@@ -926,29 +926,11 @@
    "homepage": ""
   },
   {
-   "name": "react-slash",
-   "version": "0.8.5",
-   "description": "Tiny useReducer / jsx element naming oriented react helper library.",
-   "date": "2020-10-03T03:51:11.330Z",
-   "url": "https://www.npmjs.com/package/react-slash",
-   "repo": "react-slash",
-   "homepage": "https://github.com/Pengeszikra/react-slash#readme"
-  },
-  {
    "name": "@pengeszikra/typescript-linux-arm64",
    "version": "7.1.0-pipeline.1",
    "description": "Native linux-arm64 compiler for the TypeScript unary pipeline POC",
    "date": "2026-09-30T20:32:19.921Z",
    "url": "https://www.npmjs.com/package/@pengeszikra/typescript-linux-arm64",
-   "repo": "TypeScript",
-   "homepage": "https://github.com/Pengeszikra/TypeScript#readme"
-  },
-  {
-   "name": "@pengeszikra/typescript-darwin-arm64",
-   "version": "7.1.0-pipeline.1",
-   "description": "Native darwin-arm64 compiler for the TypeScript unary pipeline POC",
-   "date": "2026-09-30T20:33:07.894Z",
-   "url": "https://www.npmjs.com/package/@pengeszikra/typescript-darwin-arm64",
    "repo": "TypeScript",
    "homepage": "https://github.com/Pengeszikra/TypeScript#readme"
   },
@@ -962,11 +944,20 @@
    "homepage": "https://github.com/Pengeszikra/mordorjs#readme"
   },
   {
-   "name": "@pengeszikra/typescript-win32-arm64",
+   "name": "@pengeszikra/typescript-win32-x64",
    "version": "7.1.0-pipeline.1",
-   "description": "Native win32-arm64 compiler for the TypeScript unary pipeline POC",
-   "date": "2026-09-30T20:32:33.727Z",
-   "url": "https://www.npmjs.com/package/@pengeszikra/typescript-win32-arm64",
+   "description": "Native win32-x64 compiler for the TypeScript unary pipeline POC",
+   "date": "2026-09-30T20:32:27.260Z",
+   "url": "https://www.npmjs.com/package/@pengeszikra/typescript-win32-x64",
+   "repo": "TypeScript",
+   "homepage": "https://github.com/Pengeszikra/TypeScript#readme"
+  },
+  {
+   "name": "@pengeszikra/typescript-darwin-arm64",
+   "version": "7.1.0-pipeline.1",
+   "description": "Native darwin-arm64 compiler for the TypeScript unary pipeline POC",
+   "date": "2026-09-30T20:33:07.894Z",
+   "url": "https://www.npmjs.com/package/@pengeszikra/typescript-darwin-arm64",
    "repo": "TypeScript",
    "homepage": "https://github.com/Pengeszikra/TypeScript#readme"
   },
@@ -978,6 +969,15 @@
    "url": "https://www.npmjs.com/package/react-troll",
    "repo": "react-troll",
    "homepage": "https://github.com/Pengeszikra/react-troll#readme"
+  },
+  {
+   "name": "@pengeszikra/typescript-win32-arm64",
+   "version": "7.1.0-pipeline.1",
+   "description": "Native win32-arm64 compiler for the TypeScript unary pipeline POC",
+   "date": "2026-09-30T20:32:33.727Z",
+   "url": "https://www.npmjs.com/package/@pengeszikra/typescript-win32-arm64",
+   "repo": "TypeScript",
+   "homepage": "https://github.com/Pengeszikra/TypeScript#readme"
   },
   {
    "name": "preact-slash",
