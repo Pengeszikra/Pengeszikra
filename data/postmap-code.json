@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-19T00:44:15.336Z",
+ "generatedAt": "2026-11-19T04:27:45.973Z",
  "repos": [
   {
    "name": "Pengeszikra",
@@ -10,7 +10,7 @@
    "stars": 0,
    "fork": false,
    "archived": false,
-   "pushedAt": "2026-11-18T20:25:05Z",
+   "pushedAt": "2026-11-19T00:44:16Z",
    "topics": []
   },
   {
@@ -890,13 +890,13 @@
    "homepage": "https://github.com/Pengeszikra/TypeScript#readme"
   },
   {
-   "name": "@pengeszikra/typescript-darwin-x64",
-   "version": "7.1.0-pipeline.1",
-   "description": "Native darwin-x64 compiler for the TypeScript unary pipeline POC",
-   "date": "2026-09-30T20:31:41.377Z",
-   "url": "https://www.npmjs.com/package/@pengeszikra/typescript-darwin-x64",
-   "repo": "TypeScript",
-   "homepage": "https://github.com/Pengeszikra/TypeScript#readme"
+   "name": "jsdoc-duck",
+   "version": "0.0.5",
+   "description": "react/jsdoc minimal typesafe state handling",
+   "date": "2024-08-28T04:33:31.025Z",
+   "url": "https://www.npmjs.com/package/jsdoc-duck",
+   "repo": "jsdoc-duck",
+   "homepage": "https://github.com/Pengeszikra/jsdoc-duck#readme"
   },
   {
    "name": "react-slash",
@@ -908,15 +908,6 @@
    "homepage": "https://github.com/Pengeszikra/react-slash#readme"
   },
   {
-   "name": "jsdoc-duck",
-   "version": "0.0.5",
-   "description": "react/jsdoc minimal typesafe state handling",
-   "date": "2024-08-28T04:33:31.025Z",
-   "url": "https://www.npmjs.com/package/jsdoc-duck",
-   "repo": "jsdoc-duck",
-   "homepage": "https://github.com/Pengeszikra/jsdoc-duck#readme"
-  },
-  {
    "name": "typerdux",
    "version": "0.0.7",
    "description": "react state handling helper based on useReducer and typescript",
@@ -924,6 +915,15 @@
    "url": "https://www.npmjs.com/package/typerdux",
    "repo": null,
    "homepage": ""
+  },
+  {
+   "name": "@pengeszikra/typescript-darwin-x64",
+   "version": "7.1.0-pipeline.1",
+   "description": "Native darwin-x64 compiler for the TypeScript unary pipeline POC",
+   "date": "2026-09-30T20:31:41.377Z",
+   "url": "https://www.npmjs.com/package/@pengeszikra/typescript-darwin-x64",
+   "repo": "TypeScript",
+   "homepage": "https://github.com/Pengeszikra/TypeScript#readme"
   },
   {
    "name": "@pengeszikra/typescript-linux-arm64",
@@ -962,15 +962,6 @@
    "homepage": "https://github.com/Pengeszikra/TypeScript#readme"
   },
   {
-   "name": "react-troll",
-   "version": "0.0.4",
-   "description": "react useReducer organizator",
-   "date": "2020-11-05T21:24:18.642Z",
-   "url": "https://www.npmjs.com/package/react-troll",
-   "repo": "react-troll",
-   "homepage": "https://github.com/Pengeszikra/react-troll#readme"
-  },
-  {
    "name": "@pengeszikra/typescript-win32-arm64",
    "version": "7.1.0-pipeline.1",
    "description": "Native win32-arm64 compiler for the TypeScript unary pipeline POC",
@@ -980,13 +971,13 @@
    "homepage": "https://github.com/Pengeszikra/TypeScript#readme"
   },
   {
-   "name": "preact-slash",
-   "version": "0.8.4",
-   "description": "Tiny useReducer / jsx element naming oriented preact helper library.",
-   "date": "2020-02-19T05:59:53.686Z",
-   "url": "https://www.npmjs.com/package/preact-slash",
-   "repo": "react-slash",
-   "homepage": "https://github.com/Pengeszikra/react-slash#readme"
+   "name": "react-troll",
+   "version": "0.0.4",
+   "description": "react useReducer organizator",
+   "date": "2020-11-05T21:24:18.642Z",
+   "url": "https://www.npmjs.com/package/react-troll",
+   "repo": "react-troll",
+   "homepage": "https://github.com/Pengeszikra/react-troll#readme"
   },
   {
    "name": "marker-edit",
@@ -1005,6 +996,15 @@
    "url": "https://www.npmjs.com/package/fencer",
    "repo": "fencer",
    "homepage": "https://github.com/Pengeszikra/fencer#readme"
+  },
+  {
+   "name": "preact-slash",
+   "version": "0.8.4",
+   "description": "Tiny useReducer / jsx element naming oriented preact helper library.",
+   "date": "2020-02-19T05:59:53.686Z",
+   "url": "https://www.npmjs.com/package/preact-slash",
+   "repo": "react-slash",
+   "homepage": "https://github.com/Pengeszikra/react-slash#readme"
   },
   {
    "name": "qwik-saga",
