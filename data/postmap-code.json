@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-19T08:28:37.923Z",
+ "generatedAt": "2026-11-19T12:30:30.905Z",
  "repos": [
   {
    "name": "Pengeszikra",
@@ -10,7 +10,7 @@
    "stars": 0,
    "fork": false,
    "archived": false,
-   "pushedAt": "2026-11-19T04:27:46Z",
+   "pushedAt": "2026-11-19T08:28:38Z",
    "topics": []
   },
   {
@@ -837,9 +837,9 @@
  "packages": [
   {
    "name": "3draft",
-   "version": "26.11.18008",
+   "version": "26.11.18029",
    "description": "Minimalist AI first 3D engine: palette-texture, WASM core, WebGPU/WebGL2 renderer.",
-   "date": "2026-11-18T08:31:49.390Z",
+   "date": "2026-11-19T12:15:10.081Z",
    "url": "https://www.npmjs.com/package/3draft",
    "repo": "3Draft",
    "homepage": "https://github.com/Pengeszikra/3Draft#readme"
@@ -890,15 +890,6 @@
    "homepage": "https://github.com/Pengeszikra/TypeScript#readme"
   },
   {
-   "name": "jsdoc-duck",
-   "version": "0.0.5",
-   "description": "react/jsdoc minimal typesafe state handling",
-   "date": "2024-08-28T04:33:31.025Z",
-   "url": "https://www.npmjs.com/package/jsdoc-duck",
-   "repo": "jsdoc-duck",
-   "homepage": "https://github.com/Pengeszikra/jsdoc-duck#readme"
-  },
-  {
    "name": "react-slash",
    "version": "0.8.5",
    "description": "Tiny useReducer / jsx element naming oriented react helper library.",
@@ -908,13 +899,13 @@
    "homepage": "https://github.com/Pengeszikra/react-slash#readme"
   },
   {
-   "name": "typerdux",
-   "version": "0.0.7",
-   "description": "react state handling helper based on useReducer and typescript",
-   "date": "2023-09-09T15:16:45.564Z",
-   "url": "https://www.npmjs.com/package/typerdux",
-   "repo": null,
-   "homepage": ""
+   "name": "jsdoc-duck",
+   "version": "0.0.5",
+   "description": "react/jsdoc minimal typesafe state handling",
+   "date": "2024-08-28T04:33:31.025Z",
+   "url": "https://www.npmjs.com/package/jsdoc-duck",
+   "repo": "jsdoc-duck",
+   "homepage": "https://github.com/Pengeszikra/jsdoc-duck#readme"
   },
   {
    "name": "@pengeszikra/typescript-darwin-x64",
@@ -924,6 +915,15 @@
    "url": "https://www.npmjs.com/package/@pengeszikra/typescript-darwin-x64",
    "repo": "TypeScript",
    "homepage": "https://github.com/Pengeszikra/TypeScript#readme"
+  },
+  {
+   "name": "typerdux",
+   "version": "0.0.7",
+   "description": "react state handling helper based on useReducer and typescript",
+   "date": "2023-09-09T15:16:45.564Z",
+   "url": "https://www.npmjs.com/package/typerdux",
+   "repo": null,
+   "homepage": ""
   },
   {
    "name": "@pengeszikra/typescript-linux-arm64",
@@ -962,15 +962,6 @@
    "homepage": "https://github.com/Pengeszikra/TypeScript#readme"
   },
   {
-   "name": "@pengeszikra/typescript-win32-arm64",
-   "version": "7.1.0-pipeline.1",
-   "description": "Native win32-arm64 compiler for the TypeScript unary pipeline POC",
-   "date": "2026-09-30T20:32:33.727Z",
-   "url": "https://www.npmjs.com/package/@pengeszikra/typescript-win32-arm64",
-   "repo": "TypeScript",
-   "homepage": "https://github.com/Pengeszikra/TypeScript#readme"
-  },
-  {
    "name": "react-troll",
    "version": "0.0.4",
    "description": "react useReducer organizator",
@@ -978,6 +969,15 @@
    "url": "https://www.npmjs.com/package/react-troll",
    "repo": "react-troll",
    "homepage": "https://github.com/Pengeszikra/react-troll#readme"
+  },
+  {
+   "name": "@pengeszikra/typescript-win32-arm64",
+   "version": "7.1.0-pipeline.1",
+   "description": "Native win32-arm64 compiler for the TypeScript unary pipeline POC",
+   "date": "2026-09-30T20:32:33.727Z",
+   "url": "https://www.npmjs.com/package/@pengeszikra/typescript-win32-arm64",
+   "repo": "TypeScript",
+   "homepage": "https://github.com/Pengeszikra/TypeScript#readme"
   },
   {
    "name": "marker-edit",
@@ -1016,15 +1016,6 @@
    "homepage": "https://github.com/Pengeszikra/qwik-saga#readme"
   },
   {
-   "name": "callbag-take-to-finally",
-   "version": "0.2.0",
-   "description": "👜 Callbag operator which emits values emitted by the source as long as each value satisfies the given predicate, and then completes as soon as predicate is not satisfied. But call lastly function before callbag is over.",
-   "date": "2020-04-22T12:18:21.445Z",
-   "url": "https://www.npmjs.com/package/callbag-take-to-finally",
-   "repo": "callbag-take-to-finally",
-   "homepage": "https://github.com/Pengeszikra/callbag-take-to-finally#readme"
-  },
-  {
    "name": "marker-editor",
    "version": "0.0.1",
    "description": "pure HTML markdown editor",
@@ -1032,6 +1023,15 @@
    "url": "https://www.npmjs.com/package/marker-editor",
    "repo": "marker",
    "homepage": "https://github.com/Pengeszikra/marker#readme"
+  },
+  {
+   "name": "callbag-take-to-finally",
+   "version": "0.2.0",
+   "description": "👜 Callbag operator which emits values emitted by the source as long as each value satisfies the given predicate, and then completes as soon as predicate is not satisfied. But call lastly function before callbag is over.",
+   "date": "2020-04-22T12:18:21.445Z",
+   "url": "https://www.npmjs.com/package/callbag-take-to-finally",
+   "repo": "callbag-take-to-finally",
+   "homepage": "https://github.com/Pengeszikra/callbag-take-to-finally#readme"
   }
  ],
  "mentions": {
@@ -1367,6 +1367,11 @@
   },
   "4988439": {
    "stamp": "2026-11-12T07:26:34Z",
+   "repos": [],
+   "packages": []
+  },
+  "5073839": {
+   "stamp": "2026-11-19T11:56:41Z",
    "repos": [],
    "packages": []
   }

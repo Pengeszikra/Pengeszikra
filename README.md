@@ -26,6 +26,16 @@ Here are some ideas to get you started:
 <br>
 
 <details>
+<summary><code>2026-11-19</code> <b>100 x |&gt; exhaused</b> · <sub>new — not on the map yet</sub></summary>
+<br>
+<a href="https://dev.to/pengeszikra/100-x-exhaused-4g9"><img src="https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fgzfyfqqd5vmlj6nl8cuj.png" alt="" width="420"></a><br>
+Short: I am totally exhaused after 11days vibe, result is: ...<br>
+<sub>1 min read · ♡ 11 · #buildinpublic #showdev #sideprojects</sub><br>
+<a href="https://dev.to/pengeszikra/100-x-exhaused-4g9">Read on dev.to →</a>
+<br><br>
+</details>
+
+<details>
 <summary><code>2026-11-11</code> <b>Retro :: Germo the flash developer</b> · <sub>Lost in Space</sub></summary>
 <br>
 <a href="https://dev.to/pengeszikra/retro-germo-the-flash-developer-5akc"><img src="https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fmlia5tbgtseus45y5v41.gif" alt="" width="420"></a><br>
@@ -97,15 +107,6 @@ This is a submission for the Hacktoberfest Open-Source AI Challenge Week 3: Slow
 🧩 <a href="https://github.com/Pengeszikra/hexaw"><code>hexaw</code></a> <a href="https://www.npmjs.com/package/hexaw">📦 <code>hexaw</code></a> <img src="https://img.shields.io/npm/v/hexaw?style=flat-square&label=&color=3d3528" alt="npm version" align="absmiddle"> · <a href="https://www.npmjs.com/package/hexaw-repository">📦 <code>hexaw-repository</code></a> <img src="https://img.shields.io/npm/v/hexaw-repository?style=flat-square&label=&color=3d3528" alt="npm version" align="absmiddle"><br>
 <sub>4 min read · ♡ 55 · #devchallenge #hf26challenge #webassembly</sub><br>
 <a href="https://dev.to/pengeszikra/hexaw-a-lazy-wasm-text-format-5g5n">Read on dev.to →</a>
-<br><br>
-</details>
-
-<details>
-<summary><code>2026-10-24</code> <b>Singularity News :: 0011</b> · <sub>Singularity News</sub></summary>
-<br>
-Tesla Roadster always a big help! Welcome to Singularity News ... until ... well, we all know...<br>
-<sub>3 min read · ♡ 4 · #discuss #news #ai</sub><br>
-<a href="https://dev.to/pengeszikra/singularity-news-0011-1ai0">Read on dev.to →</a>
 <br><br>
 </details>
 
