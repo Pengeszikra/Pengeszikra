@@ -1,6 +1,18 @@
 {
- "generatedAt": "2026-11-20T08:28:25.612Z",
+ "generatedAt": "2026-11-20T12:30:41.813Z",
  "repos": [
+  {
+   "name": "spi3der",
+   "url": "https://github.com/Pengeszikra/spi3der",
+   "description": "MCP capable 3D workshop based on spider-painter, 3Draft, 5%",
+   "homepage": "",
+   "language": "JavaScript",
+   "stars": 0,
+   "fork": false,
+   "archived": false,
+   "pushedAt": "2026-11-20T10:44:36Z",
+   "topics": []
+  },
   {
    "name": "Spider-Paint",
    "url": "https://github.com/Pengeszikra/Spider-Paint",
@@ -10,7 +22,7 @@
    "stars": 1,
    "fork": false,
    "archived": false,
-   "pushedAt": "2026-11-20T08:27:43Z",
+   "pushedAt": "2026-11-20T08:53:44Z",
    "topics": []
   },
   {
@@ -22,7 +34,7 @@
    "stars": 0,
    "fork": false,
    "archived": false,
-   "pushedAt": "2026-11-20T04:28:01Z",
+   "pushedAt": "2026-11-20T08:28:26Z",
    "topics": []
   },
   {
@@ -890,15 +902,6 @@
    "homepage": "https://github.com/Pengeszikra/TypeScript#readme"
   },
   {
-   "name": "jsdoc-duck",
-   "version": "0.0.5",
-   "description": "react/jsdoc minimal typesafe state handling",
-   "date": "2024-08-28T04:33:31.025Z",
-   "url": "https://www.npmjs.com/package/jsdoc-duck",
-   "repo": "jsdoc-duck",
-   "homepage": "https://github.com/Pengeszikra/jsdoc-duck#readme"
-  },
-  {
    "name": "react-slash",
    "version": "0.8.5",
    "description": "Tiny useReducer / jsx element naming oriented react helper library.",
@@ -917,6 +920,15 @@
    "homepage": "https://github.com/Pengeszikra/TypeScript#readme"
   },
   {
+   "name": "typerdux",
+   "version": "0.0.7",
+   "description": "react state handling helper based on useReducer and typescript",
+   "date": "2023-09-09T15:16:45.564Z",
+   "url": "https://www.npmjs.com/package/typerdux",
+   "repo": null,
+   "homepage": ""
+  },
+  {
    "name": "@pengeszikra/typescript-linux-arm64",
    "version": "7.1.0-pipeline.1",
    "description": "Native linux-arm64 compiler for the TypeScript unary pipeline POC",
@@ -926,13 +938,13 @@
    "homepage": "https://github.com/Pengeszikra/TypeScript#readme"
   },
   {
-   "name": "typerdux",
-   "version": "0.0.7",
-   "description": "react state handling helper based on useReducer and typescript",
-   "date": "2023-09-09T15:16:45.564Z",
-   "url": "https://www.npmjs.com/package/typerdux",
-   "repo": null,
-   "homepage": ""
+   "name": "jsdoc-duck",
+   "version": "0.0.5",
+   "description": "react/jsdoc minimal typesafe state handling",
+   "date": "2024-08-28T04:33:31.025Z",
+   "url": "https://www.npmjs.com/package/jsdoc-duck",
+   "repo": "jsdoc-duck",
+   "homepage": "https://github.com/Pengeszikra/jsdoc-duck#readme"
   },
   {
    "name": "mordorjs",
@@ -949,15 +961,6 @@
    "description": "Native win32-x64 compiler for the TypeScript unary pipeline POC",
    "date": "2026-09-30T20:32:27.260Z",
    "url": "https://www.npmjs.com/package/@pengeszikra/typescript-win32-x64",
-   "repo": "TypeScript",
-   "homepage": "https://github.com/Pengeszikra/TypeScript#readme"
-  },
-  {
-   "name": "@pengeszikra/typescript-darwin-arm64",
-   "version": "7.1.0-pipeline.1",
-   "description": "Native darwin-arm64 compiler for the TypeScript unary pipeline POC",
-   "date": "2026-09-30T20:33:07.894Z",
-   "url": "https://www.npmjs.com/package/@pengeszikra/typescript-darwin-arm64",
    "repo": "TypeScript",
    "homepage": "https://github.com/Pengeszikra/TypeScript#readme"
   },
@@ -980,6 +983,15 @@
    "homepage": "https://github.com/Pengeszikra/TypeScript#readme"
   },
   {
+   "name": "@pengeszikra/typescript-darwin-arm64",
+   "version": "7.1.0-pipeline.1",
+   "description": "Native darwin-arm64 compiler for the TypeScript unary pipeline POC",
+   "date": "2026-09-30T20:33:07.894Z",
+   "url": "https://www.npmjs.com/package/@pengeszikra/typescript-darwin-arm64",
+   "repo": "TypeScript",
+   "homepage": "https://github.com/Pengeszikra/TypeScript#readme"
+  },
+  {
    "name": "marker-edit",
    "version": "0.0.3",
    "description": "pure HTML markdown editor",
@@ -989,15 +1001,6 @@
    "homepage": "https://github.com/Pengeszikra/marker#readme"
   },
   {
-   "name": "fencer",
-   "version": "0.0.2",
-   "description": "Experimental functional JSX framework",
-   "date": "2020-08-14T16:32:01.628Z",
-   "url": "https://www.npmjs.com/package/fencer",
-   "repo": "fencer",
-   "homepage": "https://github.com/Pengeszikra/fencer#readme"
-  },
-  {
    "name": "preact-slash",
    "version": "0.8.4",
    "description": "Tiny useReducer / jsx element naming oriented preact helper library.",
@@ -1005,6 +1008,15 @@
    "url": "https://www.npmjs.com/package/preact-slash",
    "repo": "react-slash",
    "homepage": "https://github.com/Pengeszikra/react-slash#readme"
+  },
+  {
+   "name": "fencer",
+   "version": "0.0.2",
+   "description": "Experimental functional JSX framework",
+   "date": "2020-08-14T16:32:01.628Z",
+   "url": "https://www.npmjs.com/package/fencer",
+   "repo": "fencer",
+   "homepage": "https://github.com/Pengeszikra/fencer#readme"
   },
   {
    "name": "qwik-saga",
@@ -1032,6 +1044,15 @@
    "url": "https://www.npmjs.com/package/callbag-take-to-finally",
    "repo": "callbag-take-to-finally",
    "homepage": "https://github.com/Pengeszikra/callbag-take-to-finally#readme"
+  },
+  {
+   "name": "spi3der",
+   "version": "0.1.0",
+   "description": "Browser-native 3D scene building, WebXR and ViRtuSH, based on 3Draft",
+   "date": "2026-11-20T10:49:56.222Z",
+   "url": "https://www.npmjs.com/package/spi3der",
+   "repo": null,
+   "homepage": ""
   }
  ],
  "mentions": {

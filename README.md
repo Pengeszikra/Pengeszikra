@@ -30,7 +30,7 @@ Here are some ideas to get you started:
 <br>
 <a href="https://dev.to/pengeszikra/100-x-exhaused-4g9"><img src="https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fgzfyfqqd5vmlj6nl8cuj.png" alt="" width="420"></a><br>
 Short: I am totally exhaused after 11days vibe, result is: ...<br>
-<sub>1 min read · ♡ 20 · #showdev #webdev #mcp #ai</sub><br>
+<sub>1 min read · ♡ 23 · #showdev #webdev #mcp #ai</sub><br>
 <a href="https://dev.to/pengeszikra/100-x-exhaused-4g9">Read on dev.to →</a>
 <br><br>
 </details>
@@ -114,9 +114,10 @@ This is a submission for the Hacktoberfest Open-Source AI Challenge Week 3: Slow
 </details>
 
 <details>
-<summary><b>📦 More on npm</b> — 6 projects no post mentions yet</summary>
+<summary><b>📦 More on npm</b> — 7 projects no post mentions yet</summary>
 <br>
 
+- <a href="https://www.npmjs.com/package/spi3der">📦 <code>spi3der</code></a> <img src="https://img.shields.io/npm/v/spi3der?style=flat-square&label=&color=3d3528" alt="npm version" align="absmiddle"> — Browser-native 3D scene building, WebXR and ViRtuSH, based on 3Draft
 - <a href="https://github.com/Pengeszikra/marker"><code>marker</code></a> <sub>HTML · <a href="https://marker-nu.vercel.app">live ↗</a></sub> — markdown first pure html editor web component<br><a href="https://www.npmjs.com/package/marker-edit">📦 <code>marker-edit</code></a> <img src="https://img.shields.io/npm/v/marker-edit?style=flat-square&label=&color=3d3528" alt="npm version" align="absmiddle"> · <a href="https://www.npmjs.com/package/marker-editor">📦 <code>marker-editor</code></a> <img src="https://img.shields.io/npm/v/marker-editor?style=flat-square&label=&color=3d3528" alt="npm version" align="absmiddle">
 - <a href="https://github.com/Pengeszikra/qwik-saga"><code>qwik-saga</code></a> <sub>TypeScript</sub> — redux-saga like process handling for qwik<br><a href="https://www.npmjs.com/package/qwik-saga">📦 <code>qwik-saga</code></a> <img src="https://img.shields.io/npm/v/qwik-saga?style=flat-square&label=&color=3d3528" alt="npm version" align="absmiddle">
 - <a href="https://www.npmjs.com/package/typerdux">📦 <code>typerdux</code></a> <img src="https://img.shields.io/npm/v/typerdux?style=flat-square&label=&color=3d3528" alt="npm version" align="absmiddle"> — react state handling helper based on useReducer and typescript
