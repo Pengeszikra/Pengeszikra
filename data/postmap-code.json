@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-20T00:42:03.240Z",
+ "generatedAt": "2026-11-20T04:28:00.772Z",
  "repos": [
   {
    "name": "Pengeszikra",
@@ -10,7 +10,7 @@
    "stars": 0,
    "fork": false,
    "archived": false,
-   "pushedAt": "2026-11-19T20:25:41Z",
+   "pushedAt": "2026-11-20T00:42:04Z",
    "topics": []
   },
   {
@@ -917,15 +917,6 @@
    "homepage": "https://github.com/Pengeszikra/TypeScript#readme"
   },
   {
-   "name": "typerdux",
-   "version": "0.0.7",
-   "description": "react state handling helper based on useReducer and typescript",
-   "date": "2023-09-09T15:16:45.564Z",
-   "url": "https://www.npmjs.com/package/typerdux",
-   "repo": null,
-   "homepage": ""
-  },
-  {
    "name": "@pengeszikra/typescript-linux-arm64",
    "version": "7.1.0-pipeline.1",
    "description": "Native linux-arm64 compiler for the TypeScript unary pipeline POC",
@@ -933,6 +924,15 @@
    "url": "https://www.npmjs.com/package/@pengeszikra/typescript-linux-arm64",
    "repo": "TypeScript",
    "homepage": "https://github.com/Pengeszikra/TypeScript#readme"
+  },
+  {
+   "name": "typerdux",
+   "version": "0.0.7",
+   "description": "react state handling helper based on useReducer and typescript",
+   "date": "2023-09-09T15:16:45.564Z",
+   "url": "https://www.npmjs.com/package/typerdux",
+   "repo": null,
+   "homepage": ""
   },
   {
    "name": "mordorjs",
