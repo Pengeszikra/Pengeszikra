@@ -1,18 +1,6 @@
 {
- "generatedAt": "2026-11-20T12:30:41.813Z",
+ "generatedAt": "2026-11-20T16:25:15.433Z",
  "repos": [
-  {
-   "name": "spi3der",
-   "url": "https://github.com/Pengeszikra/spi3der",
-   "description": "MCP capable 3D workshop based on spider-painter, 3Draft, 5%",
-   "homepage": "",
-   "language": "JavaScript",
-   "stars": 0,
-   "fork": false,
-   "archived": false,
-   "pushedAt": "2026-11-20T10:44:36Z",
-   "topics": []
-  },
   {
    "name": "Spider-Paint",
    "url": "https://github.com/Pengeszikra/Spider-Paint",
@@ -22,7 +10,7 @@
    "stars": 1,
    "fork": false,
    "archived": false,
-   "pushedAt": "2026-11-20T08:53:44Z",
+   "pushedAt": "2026-11-20T16:11:04Z",
    "topics": []
   },
   {
@@ -34,7 +22,19 @@
    "stars": 0,
    "fork": false,
    "archived": false,
-   "pushedAt": "2026-11-20T08:28:26Z",
+   "pushedAt": "2026-11-20T12:30:42Z",
+   "topics": []
+  },
+  {
+   "name": "spi3der",
+   "url": "https://github.com/Pengeszikra/spi3der",
+   "description": "MCP capable 3D workshop based on spider-painter, 3Draft, 5%",
+   "homepage": "",
+   "language": "JavaScript",
+   "stars": 0,
+   "fork": false,
+   "archived": false,
+   "pushedAt": "2026-11-20T10:44:36Z",
    "topics": []
   },
   {
@@ -911,15 +911,6 @@
    "homepage": "https://github.com/Pengeszikra/react-slash#readme"
   },
   {
-   "name": "@pengeszikra/typescript-darwin-x64",
-   "version": "7.1.0-pipeline.1",
-   "description": "Native darwin-x64 compiler for the TypeScript unary pipeline POC",
-   "date": "2026-09-30T20:31:41.377Z",
-   "url": "https://www.npmjs.com/package/@pengeszikra/typescript-darwin-x64",
-   "repo": "TypeScript",
-   "homepage": "https://github.com/Pengeszikra/TypeScript#readme"
-  },
-  {
    "name": "typerdux",
    "version": "0.0.7",
    "description": "react state handling helper based on useReducer and typescript",
@@ -965,6 +956,15 @@
    "homepage": "https://github.com/Pengeszikra/TypeScript#readme"
   },
   {
+   "name": "@pengeszikra/typescript-darwin-x64",
+   "version": "7.1.0-pipeline.1",
+   "description": "Native darwin-x64 compiler for the TypeScript unary pipeline POC",
+   "date": "2026-09-30T20:31:41.377Z",
+   "url": "https://www.npmjs.com/package/@pengeszikra/typescript-darwin-x64",
+   "repo": "TypeScript",
+   "homepage": "https://github.com/Pengeszikra/TypeScript#readme"
+  },
+  {
    "name": "react-troll",
    "version": "0.0.4",
    "description": "react useReducer organizator",
@@ -974,20 +974,20 @@
    "homepage": "https://github.com/Pengeszikra/react-troll#readme"
   },
   {
-   "name": "@pengeszikra/typescript-win32-arm64",
-   "version": "7.1.0-pipeline.1",
-   "description": "Native win32-arm64 compiler for the TypeScript unary pipeline POC",
-   "date": "2026-09-30T20:32:33.727Z",
-   "url": "https://www.npmjs.com/package/@pengeszikra/typescript-win32-arm64",
-   "repo": "TypeScript",
-   "homepage": "https://github.com/Pengeszikra/TypeScript#readme"
-  },
-  {
    "name": "@pengeszikra/typescript-darwin-arm64",
    "version": "7.1.0-pipeline.1",
    "description": "Native darwin-arm64 compiler for the TypeScript unary pipeline POC",
    "date": "2026-09-30T20:33:07.894Z",
    "url": "https://www.npmjs.com/package/@pengeszikra/typescript-darwin-arm64",
+   "repo": "TypeScript",
+   "homepage": "https://github.com/Pengeszikra/TypeScript#readme"
+  },
+  {
+   "name": "@pengeszikra/typescript-win32-arm64",
+   "version": "7.1.0-pipeline.1",
+   "description": "Native win32-arm64 compiler for the TypeScript unary pipeline POC",
+   "date": "2026-09-30T20:32:33.727Z",
+   "url": "https://www.npmjs.com/package/@pengeszikra/typescript-win32-arm64",
    "repo": "TypeScript",
    "homepage": "https://github.com/Pengeszikra/TypeScript#readme"
   },
