@@ -1,6 +1,18 @@
 {
- "generatedAt": "2026-11-20T16:25:15.433Z",
+ "generatedAt": "2026-11-20T20:24:42.481Z",
  "repos": [
+  {
+   "name": "spi3der",
+   "url": "https://github.com/Pengeszikra/spi3der",
+   "description": "MCP capable 3D workshop based on spider-painter, 3Draft, 5%",
+   "homepage": "",
+   "language": "JavaScript",
+   "stars": 0,
+   "fork": false,
+   "archived": false,
+   "pushedAt": "2026-11-20T20:11:17Z",
+   "topics": []
+  },
   {
    "name": "Spider-Paint",
    "url": "https://github.com/Pengeszikra/Spider-Paint",
@@ -10,7 +22,7 @@
    "stars": 1,
    "fork": false,
    "archived": false,
-   "pushedAt": "2026-11-20T16:11:04Z",
+   "pushedAt": "2026-11-20T16:27:37Z",
    "topics": []
   },
   {
@@ -22,19 +34,7 @@
    "stars": 0,
    "fork": false,
    "archived": false,
-   "pushedAt": "2026-11-20T12:30:42Z",
-   "topics": []
-  },
-  {
-   "name": "spi3der",
-   "url": "https://github.com/Pengeszikra/spi3der",
-   "description": "MCP capable 3D workshop based on spider-painter, 3Draft, 5%",
-   "homepage": "",
-   "language": "JavaScript",
-   "stars": 0,
-   "fork": false,
-   "archived": false,
-   "pushedAt": "2026-11-20T10:44:36Z",
+   "pushedAt": "2026-11-20T16:25:16Z",
    "topics": []
   },
   {
@@ -974,20 +974,20 @@
    "homepage": "https://github.com/Pengeszikra/react-troll#readme"
   },
   {
-   "name": "@pengeszikra/typescript-darwin-arm64",
-   "version": "7.1.0-pipeline.1",
-   "description": "Native darwin-arm64 compiler for the TypeScript unary pipeline POC",
-   "date": "2026-09-30T20:33:07.894Z",
-   "url": "https://www.npmjs.com/package/@pengeszikra/typescript-darwin-arm64",
-   "repo": "TypeScript",
-   "homepage": "https://github.com/Pengeszikra/TypeScript#readme"
-  },
-  {
    "name": "@pengeszikra/typescript-win32-arm64",
    "version": "7.1.0-pipeline.1",
    "description": "Native win32-arm64 compiler for the TypeScript unary pipeline POC",
    "date": "2026-09-30T20:32:33.727Z",
    "url": "https://www.npmjs.com/package/@pengeszikra/typescript-win32-arm64",
+   "repo": "TypeScript",
+   "homepage": "https://github.com/Pengeszikra/TypeScript#readme"
+  },
+  {
+   "name": "@pengeszikra/typescript-darwin-arm64",
+   "version": "7.1.0-pipeline.1",
+   "description": "Native darwin-arm64 compiler for the TypeScript unary pipeline POC",
+   "date": "2026-09-30T20:33:07.894Z",
+   "url": "https://www.npmjs.com/package/@pengeszikra/typescript-darwin-arm64",
    "repo": "TypeScript",
    "homepage": "https://github.com/Pengeszikra/TypeScript#readme"
   },
@@ -1047,9 +1047,9 @@
   },
   {
    "name": "spi3der",
-   "version": "0.1.0",
+   "version": "26.11.20001",
    "description": "Browser-native 3D scene building, WebXR and ViRtuSH, based on 3Draft",
-   "date": "2026-11-20T10:49:56.222Z",
+   "date": "2026-11-20T17:47:59.557Z",
    "url": "https://www.npmjs.com/package/spi3der",
    "repo": null,
    "homepage": ""
