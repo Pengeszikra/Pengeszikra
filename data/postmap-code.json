@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-20T20:24:42.481Z",
+ "generatedAt": "2026-11-21T00:42:11.953Z",
  "repos": [
   {
    "name": "spi3der",
@@ -10,7 +10,7 @@
    "stars": 0,
    "fork": false,
    "archived": false,
-   "pushedAt": "2026-11-20T20:11:17Z",
+   "pushedAt": "2026-11-20T23:05:48Z",
    "topics": []
   },
   {
@@ -22,7 +22,7 @@
    "stars": 1,
    "fork": false,
    "archived": false,
-   "pushedAt": "2026-11-20T16:27:37Z",
+   "pushedAt": "2026-11-20T21:24:42Z",
    "topics": []
   },
   {
@@ -34,7 +34,7 @@
    "stars": 0,
    "fork": false,
    "archived": false,
-   "pushedAt": "2026-11-20T16:25:16Z",
+   "pushedAt": "2026-11-20T20:24:43Z",
    "topics": []
   },
   {
@@ -911,15 +911,6 @@
    "homepage": "https://github.com/Pengeszikra/react-slash#readme"
   },
   {
-   "name": "typerdux",
-   "version": "0.0.7",
-   "description": "react state handling helper based on useReducer and typescript",
-   "date": "2023-09-09T15:16:45.564Z",
-   "url": "https://www.npmjs.com/package/typerdux",
-   "repo": null,
-   "homepage": ""
-  },
-  {
    "name": "@pengeszikra/typescript-linux-arm64",
    "version": "7.1.0-pipeline.1",
    "description": "Native linux-arm64 compiler for the TypeScript unary pipeline POC",
@@ -929,13 +920,22 @@
    "homepage": "https://github.com/Pengeszikra/TypeScript#readme"
   },
   {
-   "name": "jsdoc-duck",
-   "version": "0.0.5",
-   "description": "react/jsdoc minimal typesafe state handling",
-   "date": "2024-08-28T04:33:31.025Z",
-   "url": "https://www.npmjs.com/package/jsdoc-duck",
-   "repo": "jsdoc-duck",
-   "homepage": "https://github.com/Pengeszikra/jsdoc-duck#readme"
+   "name": "typerdux",
+   "version": "0.0.7",
+   "description": "react state handling helper based on useReducer and typescript",
+   "date": "2023-09-09T15:16:45.564Z",
+   "url": "https://www.npmjs.com/package/typerdux",
+   "repo": null,
+   "homepage": ""
+  },
+  {
+   "name": "@pengeszikra/typescript-darwin-x64",
+   "version": "7.1.0-pipeline.1",
+   "description": "Native darwin-x64 compiler for the TypeScript unary pipeline POC",
+   "date": "2026-09-30T20:31:41.377Z",
+   "url": "https://www.npmjs.com/package/@pengeszikra/typescript-darwin-x64",
+   "repo": "TypeScript",
+   "homepage": "https://github.com/Pengeszikra/TypeScript#readme"
   },
   {
    "name": "mordorjs",
@@ -956,13 +956,13 @@
    "homepage": "https://github.com/Pengeszikra/TypeScript#readme"
   },
   {
-   "name": "@pengeszikra/typescript-darwin-x64",
-   "version": "7.1.0-pipeline.1",
-   "description": "Native darwin-x64 compiler for the TypeScript unary pipeline POC",
-   "date": "2026-09-30T20:31:41.377Z",
-   "url": "https://www.npmjs.com/package/@pengeszikra/typescript-darwin-x64",
-   "repo": "TypeScript",
-   "homepage": "https://github.com/Pengeszikra/TypeScript#readme"
+   "name": "jsdoc-duck",
+   "version": "0.0.5",
+   "description": "react/jsdoc minimal typesafe state handling",
+   "date": "2024-08-28T04:33:31.025Z",
+   "url": "https://www.npmjs.com/package/jsdoc-duck",
+   "repo": "jsdoc-duck",
+   "homepage": "https://github.com/Pengeszikra/jsdoc-duck#readme"
   },
   {
    "name": "react-troll",
@@ -1047,9 +1047,9 @@
   },
   {
    "name": "spi3der",
-   "version": "26.11.20001",
+   "version": "26.11.21002",
    "description": "Browser-native 3D scene building, WebXR and ViRtuSH, based on 3Draft",
-   "date": "2026-11-20T17:47:59.557Z",
+   "date": "2026-11-20T23:23:22.259Z",
    "url": "https://www.npmjs.com/package/spi3der",
    "repo": null,
    "homepage": ""
