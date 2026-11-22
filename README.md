@@ -26,6 +26,15 @@ Here are some ideas to get you started:
 <br>
 
 <details>
+<summary><code>2026-11-22</code> <b>3Draft: Five Percent — 30 Minutes to Deadline</b> · <sub>new — not on the map yet</sub></summary>
+<br>
+This is probably the most improvised demo video I've ever made. I recorded it roughly 30 minutes...<br>
+<sub>2 min read · ♡ 10 · #ai #opensource #showdev #tools</sub><br>
+<a href="https://dev.to/pengeszikra/3draft-five-percent-30-minutes-to-deadline-1kfk">Read on dev.to →</a>
+<br><br>
+</details>
+
+<details>
 <summary><code>2026-11-21</code> <b>3Draft: Vibe first, explain later!</b> · <sub>new — not on the map yet</sub></summary>
 <br>
 <a href="https://dev.to/pengeszikra/3draft-vibe-first-explain-later-3mch"><img src="https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fpuv9els8f2obk2eq9dvj.png" alt="" width="420"></a><br>
@@ -96,16 +105,6 @@ UMGD — Under Meeting Game Development game: Redneck Wreck repo:on github I owe
 🧩 <a href="https://github.com/Pengeszikra/redneck-wreck"><code>redneck-wreck</code></a><br>
 <sub>3 min read · ♡ 15 · #ai #discuss #gamedev #showdev</sub><br>
 <a href="https://dev.to/pengeszikra/the-eye-of-beholder-umgd-55lm">Read on dev.to →</a>
-<br><br>
-</details>
-
-<details>
-<summary><code>2026-10-28</code> <b>Liberation from Tech Dep(b)to</b> · <sub>AI &amp; authorship</sub></summary>
-<br>
-<a href="https://dev.to/pengeszikra/liberation-from-tech-depbto-241d"><img src="https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fnwd1foowub5y47qykpmd.jpg" alt="" width="420"></a><br>
-Liberation I'm not talking about the length of package.json files. I run into those far...<br>
-<sub>2 min read · ♡ 18 · #beginners #ai #discuss #tutorial</sub><br>
-<a href="https://dev.to/pengeszikra/liberation-from-tech-depbto-241d">Read on dev.to →</a>
 <br><br>
 </details>
 
