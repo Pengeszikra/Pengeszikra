@@ -26,6 +26,16 @@ Here are some ideas to get you started:
 <br>
 
 <details>
+<summary><code>2026-11-21</code> <b>3Draft: Vibe first, explain later!</b> · <sub>new — not on the map yet</sub></summary>
+<br>
+<a href="https://dev.to/pengeszikra/3draft-vibe-first-explain-later-3mch"><img src="https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fpuv9els8f2obk2eq9dvj.png" alt="" width="420"></a><br>
+This is Part I of the explanation, simply because there is so much to talk about. So, 11 days of...<br>
+<sub>4 min read · ♡ 17 · #ai #webdev #showdev #productivity</sub><br>
+<a href="https://dev.to/pengeszikra/3draft-vibe-first-explain-later-3mch">Read on dev.to →</a>
+<br><br>
+</details>
+
+<details>
 <summary><code>2026-11-19</code> <b>100 x |&gt; exhaused</b> · <sub>new — not on the map yet</sub></summary>
 <br>
 <a href="https://dev.to/pengeszikra/100-x-exhaused-4g9"><img src="https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fgzfyfqqd5vmlj6nl8cuj.png" alt="" width="420"></a><br>
@@ -96,17 +106,6 @@ UMGD — Under Meeting Game Development game: Redneck Wreck repo:on github I owe
 Liberation I'm not talking about the length of package.json files. I run into those far...<br>
 <sub>2 min read · ♡ 18 · #beginners #ai #discuss #tutorial</sub><br>
 <a href="https://dev.to/pengeszikra/liberation-from-tech-depbto-241d">Read on dev.to →</a>
-<br><br>
-</details>
-
-<details>
-<summary><code>2026-10-25</code> <b>HEXAW programming language for WebAssembly instead WAT</b> · <sub>Rust · WASM · terminal</sub></summary>
-<br>
-<a href="https://dev.to/pengeszikra/hexaw-a-lazy-wasm-text-format-5g5n"><img src="https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fu8zgu8f4zouggzb33wqm.png" alt="" width="420"></a><br>
-This is a submission for the Hacktoberfest Open-Source AI Challenge Week 3: Slow and Steady ...<br>
-🧩 <a href="https://github.com/Pengeszikra/hexaw"><code>hexaw</code></a> <a href="https://www.npmjs.com/package/hexaw">📦 <code>hexaw</code></a> <img src="https://img.shields.io/npm/v/hexaw?style=flat-square&label=&color=3d3528" alt="npm version" align="absmiddle"> · <a href="https://www.npmjs.com/package/hexaw-repository">📦 <code>hexaw-repository</code></a> <img src="https://img.shields.io/npm/v/hexaw-repository?style=flat-square&label=&color=3d3528" alt="npm version" align="absmiddle"><br>
-<sub>4 min read · ♡ 55 · #devchallenge #hf26challenge #webassembly</sub><br>
-<a href="https://dev.to/pengeszikra/hexaw-a-lazy-wasm-text-format-5g5n">Read on dev.to →</a>
 <br><br>
 </details>
 
