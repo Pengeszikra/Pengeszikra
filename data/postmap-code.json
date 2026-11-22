@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-21T20:25:20.490Z",
+ "generatedAt": "2026-11-22T00:45:32.967Z",
  "repos": [
   {
    "name": "Pengeszikra",
@@ -10,7 +10,7 @@
    "stars": 0,
    "fork": false,
    "archived": false,
-   "pushedAt": "2026-11-21T16:25:13Z",
+   "pushedAt": "2026-11-21T20:25:21Z",
    "topics": []
   },
   {
@@ -929,15 +929,6 @@
    "homepage": ""
   },
   {
-   "name": "jsdoc-duck",
-   "version": "0.0.5",
-   "description": "react/jsdoc minimal typesafe state handling",
-   "date": "2024-08-28T04:33:31.025Z",
-   "url": "https://www.npmjs.com/package/jsdoc-duck",
-   "repo": "jsdoc-duck",
-   "homepage": "https://github.com/Pengeszikra/jsdoc-duck#readme"
-  },
-  {
    "name": "@pengeszikra/typescript-darwin-x64",
    "version": "7.1.0-pipeline.1",
    "description": "Native darwin-x64 compiler for the TypeScript unary pipeline POC",
@@ -945,6 +936,15 @@
    "url": "https://www.npmjs.com/package/@pengeszikra/typescript-darwin-x64",
    "repo": "TypeScript",
    "homepage": "https://github.com/Pengeszikra/TypeScript#readme"
+  },
+  {
+   "name": "jsdoc-duck",
+   "version": "0.0.5",
+   "description": "react/jsdoc minimal typesafe state handling",
+   "date": "2024-08-28T04:33:31.025Z",
+   "url": "https://www.npmjs.com/package/jsdoc-duck",
+   "repo": "jsdoc-duck",
+   "homepage": "https://github.com/Pengeszikra/jsdoc-duck#readme"
   },
   {
    "name": "mordorjs",
