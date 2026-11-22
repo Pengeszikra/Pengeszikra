@@ -29,7 +29,7 @@ Here are some ideas to get you started:
 <summary><code>2026-11-22</code> <b>3Draft: Five Percent — 30 Minutes to Deadline</b> · <sub>new — not on the map yet</sub></summary>
 <br>
 This is probably the most improvised demo video I've ever made. I recorded it roughly 30 minutes...<br>
-<sub>2 min read · ♡ 10 · #ai #opensource #showdev #tools</sub><br>
+<sub>2 min read · ♡ 19 · #ai #opensource #showdev #tools</sub><br>
 <a href="https://dev.to/pengeszikra/3draft-five-percent-30-minutes-to-deadline-1kfk">Read on dev.to →</a>
 <br><br>
 </details>
@@ -39,7 +39,7 @@ This is probably the most improvised demo video I've ever made. I recorded it ro
 <br>
 <a href="https://dev.to/pengeszikra/3draft-vibe-first-explain-later-3mch"><img src="https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fpuv9els8f2obk2eq9dvj.png" alt="" width="420"></a><br>
 This is Part I of the explanation, simply because there is so much to talk about. So, 11 days of...<br>
-<sub>4 min read · ♡ 17 · #ai #webdev #showdev #productivity</sub><br>
+<sub>4 min read · ♡ 21 · #ai #webdev #showdev #productivity</sub><br>
 <a href="https://dev.to/pengeszikra/3draft-vibe-first-explain-later-3mch">Read on dev.to →</a>
 <br><br>
 </details>
