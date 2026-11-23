@@ -26,6 +26,15 @@ Here are some ideas to get you started:
 <br>
 
 <details>
+<summary><code>2026-11-23</code> <b>3Draft : $1 Million VR Quest</b> · <sub>new — not on the map yet</sub></summary>
+<br>
+...<br>
+<sub>2 min read · ♡ 11 · #webdev #ai #productivity #vibecoding</sub><br>
+<a href="https://dev.to/pengeszikra/3draft-1-million-vr-quest-2plg">Read on dev.to →</a>
+<br><br>
+</details>
+
+<details>
 <summary><code>2026-11-22</code> <b>3Draft : Thorn &amp; Roots</b> · <sub>Five Percent · 3Draft</sub></summary>
 <br>
 <a href="https://dev.to/pengeszikra/3draft-thorn-roots-4cam"><img src="https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fsl0x35sjlweodk9m1faq.png" alt="" width="420"></a><br>
@@ -91,17 +100,6 @@ The weeklyretro tag doesn’t come close to covering it. This is really another 
 🧩 <a href="https://github.com/Pengeszikra/Spider-Paint"><code>Spider-Paint</code></a> · <a href="https://github.com/Pengeszikra/3Draft"><code>3Draft</code></a> <a href="https://www.npmjs.com/package/3draft">📦 <code>3draft</code></a> <img src="https://img.shields.io/npm/v/3draft?style=flat-square&label=&color=3d3528" alt="npm version" align="absmiddle"><br>
 <sub>2 min read · ♡ 25 · #showdev #tooling #weeklyretro #opensource</sub><br>
 <a href="https://dev.to/pengeszikra/retro-spider-paint-6lf">Read on dev.to →</a>
-<br><br>
-</details>
-
-<details>
-<summary><code>2026-10-31</code> <b>dev.to articles mindmap</b> · <sub>AI &amp; authorship</sub></summary>
-<br>
-<a href="https://dev.to/pengeszikra/devto-articles-mindmap-47j5"><img src="https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fq0gbqtjubx2vo99rtz83.png" alt="" width="420"></a><br>
-It’s hard to get used to the speed at which #KnowsEverythingBetter accelerates production beyond its...<br>
-🧩 <a href="https://github.com/Pengeszikra/devto-post-map"><code>devto-post-map</code></a><br>
-<sub>3 min read · ♡ 22 · #discuss #devto #opensource #productivity</sub><br>
-<a href="https://dev.to/pengeszikra/devto-articles-mindmap-47j5">Read on dev.to →</a>
 <br><br>
 </details>
 
