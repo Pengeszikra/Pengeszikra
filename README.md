@@ -26,10 +26,29 @@ Here are some ideas to get you started:
 <br>
 
 <details>
+<summary><code>2026-11-22</code> <b>3Draft : Thorn &amp; Roots</b> · <sub>Five Percent · 3Draft</sub></summary>
+<br>
+<a href="https://dev.to/pengeszikra/3draft-thorn-roots-4cam"><img src="https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fsl0x35sjlweodk9m1faq.png" alt="" width="420"></a><br>
+Thorns &amp;amp; Roots — A Company of One I founded Thorns &amp;amp; Roots because the competition...<br>
+<sub>2 min read · ♡ 5 · #webdev #programming #startup #career</sub><br>
+<a href="https://dev.to/pengeszikra/3draft-thorn-roots-4cam">Read on dev.to →</a>
+<br><br>
+</details>
+
+<details>
+<summary><code>2026-11-22</code> <b>3Draft : Game Engine Targetting System</b> · <sub>Five Percent · 3Draft</sub></summary>
+<br>
+Spider Paint capability not limited to serve my VR program, fare beyond that it is capable...<br>
+<sub>2 min read · ♡ 1 · #webdev #gamedev #basic #showdev</sub><br>
+<a href="https://dev.to/pengeszikra/3draft-game-engine-targetting-system-4gfp">Read on dev.to →</a>
+<br><br>
+</details>
+
+<details>
 <summary><code>2026-11-22</code> <b>3Draft: Five Percent — 30 Minutes to Deadline</b> · <sub>Five Percent · 3Draft</sub></summary>
 <br>
 This is probably the most improvised demo video I've ever made. I recorded it roughly 30 minutes...<br>
-<sub>2 min read · ♡ 19 · #ai #opensource #showdev #tools</sub><br>
+<sub>2 min read · ♡ 20 · #ai #opensource #showdev #tools</sub><br>
 <a href="https://dev.to/pengeszikra/3draft-five-percent-30-minutes-to-deadline-1kfk">Read on dev.to →</a>
 <br><br>
 </details>
@@ -49,7 +68,7 @@ This is Part I of the explanation, simply because there is so much to talk about
 <br>
 <a href="https://dev.to/pengeszikra/100-x-exhaused-4g9"><img src="https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fgzfyfqqd5vmlj6nl8cuj.png" alt="" width="420"></a><br>
 Short: I am totally exhaused after 11days vibe, result is: ...<br>
-<sub>1 min read · ♡ 23 · #showdev #webdev #mcp #ai</sub><br>
+<sub>1 min read · ♡ 24 · #showdev #webdev #mcp #ai</sub><br>
 <a href="https://dev.to/pengeszikra/100-x-exhaused-4g9">Read on dev.to →</a>
 <br><br>
 </details>
@@ -83,28 +102,6 @@ It’s hard to get used to the speed at which #KnowsEverythingBetter accelerates
 🧩 <a href="https://github.com/Pengeszikra/devto-post-map"><code>devto-post-map</code></a><br>
 <sub>3 min read · ♡ 22 · #discuss #devto #opensource #productivity</sub><br>
 <a href="https://dev.to/pengeszikra/devto-articles-mindmap-47j5">Read on dev.to →</a>
-<br><br>
-</details>
-
-<details>
-<summary><code>2026-10-31</code> <b>Singularity News :: CCG</b> · <sub>Singularity News</sub></summary>
-<br>
-<a href="https://dev.to/pengeszikra/singularity-news-ccg-5ejk"><img src="https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fyyh84oxpucdnmygo396v.png" alt="" width="420"></a><br>
-This is a submission for the Hacktoberfest Open-Source AI Challenge Week 4: Ghost in the Machine ...<br>
-🧩 <a href="https://github.com/Pengeszikra/singularity-news-ccg"><code>singularity-news-ccg</code></a><br>
-<sub>4 min read · ♡ 53 · #devchallenge #hf26challenge #gamedev #showdev</sub><br>
-<a href="https://dev.to/pengeszikra/singularity-news-ccg-5ejk">Read on dev.to →</a>
-<br><br>
-</details>
-
-<details>
-<summary><code>2026-10-29</code> <b>The Eye of Beholder = UMGD</b> · <sub>LLM as Game Master</sub></summary>
-<br>
-<a href="https://dev.to/pengeszikra/the-eye-of-beholder-umgd-55lm"><img src="https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Ftdkan7tvu04q486ot1qc.png" alt="" width="420"></a><br>
-UMGD — Under Meeting Game Development game: Redneck Wreck repo:on github I owe you a...<br>
-🧩 <a href="https://github.com/Pengeszikra/redneck-wreck"><code>redneck-wreck</code></a><br>
-<sub>3 min read · ♡ 15 · #ai #discuss #gamedev #showdev</sub><br>
-<a href="https://dev.to/pengeszikra/the-eye-of-beholder-umgd-55lm">Read on dev.to →</a>
 <br><br>
 </details>
 
