@@ -1,6 +1,18 @@
 {
- "generatedAt": "2026-11-22T20:24:59.161Z",
+ "generatedAt": "2026-11-23T00:46:37.100Z",
  "repos": [
+  {
+   "name": "devto-post-map",
+   "url": "https://github.com/Pengeszikra/devto-post-map",
+   "description": "Interactive Mind Map for my dev.to articles created by Claude Design",
+   "homepage": "https://devto-post-map.vercel.app",
+   "language": "HTML",
+   "stars": 0,
+   "fork": false,
+   "archived": false,
+   "pushedAt": "2026-11-22T23:35:30Z",
+   "topics": []
+  },
   {
    "name": "Pengeszikra",
    "url": "https://github.com/Pengeszikra/Pengeszikra",
@@ -10,7 +22,7 @@
    "stars": 0,
    "fork": false,
    "archived": false,
-   "pushedAt": "2026-11-22T16:24:57Z",
+   "pushedAt": "2026-11-22T20:25:00Z",
    "topics": []
   },
   {
@@ -95,18 +107,6 @@
    "fork": false,
    "archived": false,
    "pushedAt": "2026-11-14T19:11:53Z",
-   "topics": []
-  },
-  {
-   "name": "devto-post-map",
-   "url": "https://github.com/Pengeszikra/devto-post-map",
-   "description": "Interactive Mind Map for my dev.to articles created by Claude Design",
-   "homepage": "https://devto-post-map.vercel.app",
-   "language": "HTML",
-   "stars": 0,
-   "fork": false,
-   "archived": false,
-   "pushedAt": "2026-11-11T20:52:02Z",
    "topics": []
   },
   {
@@ -911,15 +911,6 @@
    "homepage": "https://github.com/Pengeszikra/react-slash#readme"
   },
   {
-   "name": "@pengeszikra/typescript-linux-arm64",
-   "version": "7.1.0-pipeline.1",
-   "description": "Native linux-arm64 compiler for the TypeScript unary pipeline POC",
-   "date": "2026-09-30T20:32:19.921Z",
-   "url": "https://www.npmjs.com/package/@pengeszikra/typescript-linux-arm64",
-   "repo": "TypeScript",
-   "homepage": "https://github.com/Pengeszikra/TypeScript#readme"
-  },
-  {
    "name": "jsdoc-duck",
    "version": "0.0.5",
    "description": "react/jsdoc minimal typesafe state handling",
@@ -927,6 +918,15 @@
    "url": "https://www.npmjs.com/package/jsdoc-duck",
    "repo": "jsdoc-duck",
    "homepage": "https://github.com/Pengeszikra/jsdoc-duck#readme"
+  },
+  {
+   "name": "@pengeszikra/typescript-linux-arm64",
+   "version": "7.1.0-pipeline.1",
+   "description": "Native linux-arm64 compiler for the TypeScript unary pipeline POC",
+   "date": "2026-09-30T20:32:19.921Z",
+   "url": "https://www.npmjs.com/package/@pengeszikra/typescript-linux-arm64",
+   "repo": "TypeScript",
+   "homepage": "https://github.com/Pengeszikra/TypeScript#readme"
   },
   {
    "name": "@pengeszikra/typescript-darwin-x64",
@@ -947,6 +947,15 @@
    "homepage": ""
   },
   {
+   "name": "@pengeszikra/typescript-win32-x64",
+   "version": "7.1.0-pipeline.1",
+   "description": "Native win32-x64 compiler for the TypeScript unary pipeline POC",
+   "date": "2026-09-30T20:32:27.260Z",
+   "url": "https://www.npmjs.com/package/@pengeszikra/typescript-win32-x64",
+   "repo": "TypeScript",
+   "homepage": "https://github.com/Pengeszikra/TypeScript#readme"
+  },
+  {
    "name": "mordorjs",
    "version": "0.0.3",
    "description": "is a toolkit for first real 1D programming language and so much more",
@@ -956,11 +965,11 @@
    "homepage": "https://github.com/Pengeszikra/mordorjs#readme"
   },
   {
-   "name": "@pengeszikra/typescript-win32-x64",
+   "name": "@pengeszikra/typescript-darwin-arm64",
    "version": "7.1.0-pipeline.1",
-   "description": "Native win32-x64 compiler for the TypeScript unary pipeline POC",
-   "date": "2026-09-30T20:32:27.260Z",
-   "url": "https://www.npmjs.com/package/@pengeszikra/typescript-win32-x64",
+   "description": "Native darwin-arm64 compiler for the TypeScript unary pipeline POC",
+   "date": "2026-09-30T20:33:07.894Z",
+   "url": "https://www.npmjs.com/package/@pengeszikra/typescript-darwin-arm64",
    "repo": "TypeScript",
    "homepage": "https://github.com/Pengeszikra/TypeScript#readme"
   },
@@ -972,15 +981,6 @@
    "url": "https://www.npmjs.com/package/react-troll",
    "repo": "react-troll",
    "homepage": "https://github.com/Pengeszikra/react-troll#readme"
-  },
-  {
-   "name": "@pengeszikra/typescript-darwin-arm64",
-   "version": "7.1.0-pipeline.1",
-   "description": "Native darwin-arm64 compiler for the TypeScript unary pipeline POC",
-   "date": "2026-09-30T20:33:07.894Z",
-   "url": "https://www.npmjs.com/package/@pengeszikra/typescript-darwin-arm64",
-   "repo": "TypeScript",
-   "homepage": "https://github.com/Pengeszikra/TypeScript#readme"
   },
   {
    "name": "@pengeszikra/typescript-win32-arm64",
