@@ -30,7 +30,7 @@ Here are some ideas to get you started:
 <br>
 <a href="https://dev.to/pengeszikra/3draft-thorn-roots-4cam"><img src="https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fsl0x35sjlweodk9m1faq.png" alt="" width="420"></a><br>
 Thorns &amp;amp; Roots — A Company of One I founded Thorns &amp;amp; Roots because the competition...<br>
-<sub>2 min read · ♡ 5 · #webdev #programming #startup #career</sub><br>
+<sub>2 min read · ♡ 12 · #webdev #programming #startup #career</sub><br>
 <a href="https://dev.to/pengeszikra/3draft-thorn-roots-4cam">Read on dev.to →</a>
 <br><br>
 </details>
@@ -39,7 +39,7 @@ Thorns &amp;amp; Roots — A Company of One I founded Thorns &amp;amp; Roots bec
 <summary><code>2026-11-22</code> <b>3Draft : Game Engine Targetting System</b> · <sub>Five Percent · 3Draft</sub></summary>
 <br>
 Spider Paint capability not limited to serve my VR program, fare beyond that it is capable...<br>
-<sub>2 min read · ♡ 1 · #webdev #gamedev #basic #showdev</sub><br>
+<sub>2 min read · ♡ 21 · #webdev #gamedev #basic #showdev</sub><br>
 <a href="https://dev.to/pengeszikra/3draft-game-engine-targetting-system-4gfp">Read on dev.to →</a>
 <br><br>
 </details>
@@ -48,7 +48,7 @@ Spider Paint capability not limited to serve my VR program, fare beyond that it 
 <summary><code>2026-11-22</code> <b>3Draft: Five Percent — 30 Minutes to Deadline</b> · <sub>Five Percent · 3Draft</sub></summary>
 <br>
 This is probably the most improvised demo video I've ever made. I recorded it roughly 30 minutes...<br>
-<sub>2 min read · ♡ 20 · #ai #opensource #showdev #tools</sub><br>
+<sub>2 min read · ♡ 22 · #ai #opensource #showdev #tools</sub><br>
 <a href="https://dev.to/pengeszikra/3draft-five-percent-30-minutes-to-deadline-1kfk">Read on dev.to →</a>
 <br><br>
 </details>
