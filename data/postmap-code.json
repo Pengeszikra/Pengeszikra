@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-24T08:28:56.127Z",
+ "generatedAt": "2026-11-24T12:31:40.729Z",
  "repos": [
   {
    "name": "tuskek-es-gyokerek",
@@ -10,19 +10,7 @@
    "stars": 0,
    "fork": false,
    "archived": false,
-   "pushedAt": "2026-11-24T07:08:07Z",
-   "topics": []
-  },
-  {
-   "name": "Pengeszikra",
-   "url": "https://github.com/Pengeszikra/Pengeszikra",
-   "description": "",
-   "homepage": "",
-   "language": "JavaScript",
-   "stars": 0,
-   "fork": false,
-   "archived": false,
-   "pushedAt": "2026-11-24T04:27:33Z",
+   "pushedAt": "2026-11-24T11:12:32Z",
    "topics": []
   },
   {
@@ -34,7 +22,19 @@
    "stars": 0,
    "fork": false,
    "archived": false,
-   "pushedAt": "2026-11-24T00:48:52Z",
+   "pushedAt": "2026-11-24T10:45:13Z",
+   "topics": []
+  },
+  {
+   "name": "Pengeszikra",
+   "url": "https://github.com/Pengeszikra/Pengeszikra",
+   "description": "",
+   "homepage": "",
+   "language": "JavaScript",
+   "stars": 0,
+   "fork": false,
+   "archived": false,
+   "pushedAt": "2026-11-24T08:28:57Z",
    "topics": []
   },
   {
@@ -920,20 +920,20 @@
    "homepage": "https://github.com/Pengeszikra/react-slash#readme"
   },
   {
-   "name": "@pengeszikra/typescript-linux-arm64",
-   "version": "7.1.0-pipeline.1",
-   "description": "Native linux-arm64 compiler for the TypeScript unary pipeline POC",
-   "date": "2026-09-30T20:32:19.921Z",
-   "url": "https://www.npmjs.com/package/@pengeszikra/typescript-linux-arm64",
-   "repo": "TypeScript",
-   "homepage": "https://github.com/Pengeszikra/TypeScript#readme"
-  },
-  {
    "name": "@pengeszikra/typescript-darwin-x64",
    "version": "7.1.0-pipeline.1",
    "description": "Native darwin-x64 compiler for the TypeScript unary pipeline POC",
    "date": "2026-09-30T20:31:41.377Z",
    "url": "https://www.npmjs.com/package/@pengeszikra/typescript-darwin-x64",
+   "repo": "TypeScript",
+   "homepage": "https://github.com/Pengeszikra/TypeScript#readme"
+  },
+  {
+   "name": "@pengeszikra/typescript-linux-arm64",
+   "version": "7.1.0-pipeline.1",
+   "description": "Native linux-arm64 compiler for the TypeScript unary pipeline POC",
+   "date": "2026-09-30T20:32:19.921Z",
+   "url": "https://www.npmjs.com/package/@pengeszikra/typescript-linux-arm64",
    "repo": "TypeScript",
    "homepage": "https://github.com/Pengeszikra/TypeScript#readme"
   },
