@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-23T20:25:32.618Z",
+ "generatedAt": "2026-11-24T00:40:17.084Z",
  "repos": [
   {
    "name": "spi3der",
@@ -10,7 +10,7 @@
    "stars": 0,
    "fork": false,
    "archived": false,
-   "pushedAt": "2026-11-23T19:48:14Z",
+   "pushedAt": "2026-11-24T00:21:18Z",
    "topics": []
   },
   {
@@ -22,7 +22,7 @@
    "stars": 0,
    "fork": false,
    "archived": false,
-   "pushedAt": "2026-11-23T16:26:39Z",
+   "pushedAt": "2026-11-23T20:25:33Z",
    "topics": []
   },
   {
@@ -857,6 +857,15 @@
    "homepage": "https://github.com/Pengeszikra/3Draft#readme"
   },
   {
+   "name": "spi3der",
+   "version": "26.11.24001",
+   "description": "Browser-native 3D scene building, WebXR and ViRtuSH, based on 3Draft",
+   "date": "2026-11-24T00:26:51.908Z",
+   "url": "https://www.npmjs.com/package/spi3der",
+   "repo": null,
+   "homepage": ""
+  },
+  {
    "name": "hexaw",
    "version": "0.5.0",
    "description": "Dump WebAssembly to readable HEXAW assembly with exact byte offsets and encodings",
@@ -911,13 +920,13 @@
    "homepage": "https://github.com/Pengeszikra/react-slash#readme"
   },
   {
-   "name": "jsdoc-duck",
-   "version": "0.0.5",
-   "description": "react/jsdoc minimal typesafe state handling",
-   "date": "2024-08-28T04:33:31.025Z",
-   "url": "https://www.npmjs.com/package/jsdoc-duck",
-   "repo": "jsdoc-duck",
-   "homepage": "https://github.com/Pengeszikra/jsdoc-duck#readme"
+   "name": "@pengeszikra/typescript-darwin-x64",
+   "version": "7.1.0-pipeline.1",
+   "description": "Native darwin-x64 compiler for the TypeScript unary pipeline POC",
+   "date": "2026-09-30T20:31:41.377Z",
+   "url": "https://www.npmjs.com/package/@pengeszikra/typescript-darwin-x64",
+   "repo": "TypeScript",
+   "homepage": "https://github.com/Pengeszikra/TypeScript#readme"
   },
   {
    "name": "@pengeszikra/typescript-linux-arm64",
@@ -929,13 +938,13 @@
    "homepage": "https://github.com/Pengeszikra/TypeScript#readme"
   },
   {
-   "name": "@pengeszikra/typescript-darwin-x64",
-   "version": "7.1.0-pipeline.1",
-   "description": "Native darwin-x64 compiler for the TypeScript unary pipeline POC",
-   "date": "2026-09-30T20:31:41.377Z",
-   "url": "https://www.npmjs.com/package/@pengeszikra/typescript-darwin-x64",
-   "repo": "TypeScript",
-   "homepage": "https://github.com/Pengeszikra/TypeScript#readme"
+   "name": "jsdoc-duck",
+   "version": "0.0.5",
+   "description": "react/jsdoc minimal typesafe state handling",
+   "date": "2024-08-28T04:33:31.025Z",
+   "url": "https://www.npmjs.com/package/jsdoc-duck",
+   "repo": "jsdoc-duck",
+   "homepage": "https://github.com/Pengeszikra/jsdoc-duck#readme"
   },
   {
    "name": "typerdux",
@@ -965,13 +974,13 @@
    "homepage": "https://github.com/Pengeszikra/mordorjs#readme"
   },
   {
-   "name": "@pengeszikra/typescript-darwin-arm64",
-   "version": "7.1.0-pipeline.1",
-   "description": "Native darwin-arm64 compiler for the TypeScript unary pipeline POC",
-   "date": "2026-09-30T20:33:07.894Z",
-   "url": "https://www.npmjs.com/package/@pengeszikra/typescript-darwin-arm64",
-   "repo": "TypeScript",
-   "homepage": "https://github.com/Pengeszikra/TypeScript#readme"
+   "name": "qwik-saga",
+   "version": "0.0.1",
+   "description": "react minimal typesafe state handling even with saga",
+   "date": "2023-10-06T09:00:38.741Z",
+   "url": "https://www.npmjs.com/package/qwik-saga",
+   "repo": "qwik-saga",
+   "homepage": "https://github.com/Pengeszikra/qwik-saga#readme"
   },
   {
    "name": "react-troll",
@@ -981,6 +990,15 @@
    "url": "https://www.npmjs.com/package/react-troll",
    "repo": "react-troll",
    "homepage": "https://github.com/Pengeszikra/react-troll#readme"
+  },
+  {
+   "name": "@pengeszikra/typescript-darwin-arm64",
+   "version": "7.1.0-pipeline.1",
+   "description": "Native darwin-arm64 compiler for the TypeScript unary pipeline POC",
+   "date": "2026-09-30T20:33:07.894Z",
+   "url": "https://www.npmjs.com/package/@pengeszikra/typescript-darwin-arm64",
+   "repo": "TypeScript",
+   "homepage": "https://github.com/Pengeszikra/TypeScript#readme"
   },
   {
    "name": "@pengeszikra/typescript-win32-arm64",
@@ -1028,15 +1046,6 @@
    "homepage": "https://github.com/Pengeszikra/marker#readme"
   },
   {
-   "name": "qwik-saga",
-   "version": "0.0.1",
-   "description": "react minimal typesafe state handling even with saga",
-   "date": "2023-10-06T09:00:38.741Z",
-   "url": "https://www.npmjs.com/package/qwik-saga",
-   "repo": "qwik-saga",
-   "homepage": "https://github.com/Pengeszikra/qwik-saga#readme"
-  },
-  {
    "name": "callbag-take-to-finally",
    "version": "0.2.0",
    "description": "👜 Callbag operator which emits values emitted by the source as long as each value satisfies the given predicate, and then completes as soon as predicate is not satisfied. But call lastly function before callbag is over.",
@@ -1044,15 +1053,6 @@
    "url": "https://www.npmjs.com/package/callbag-take-to-finally",
    "repo": "callbag-take-to-finally",
    "homepage": "https://github.com/Pengeszikra/callbag-take-to-finally#readme"
-  },
-  {
-   "name": "spi3der",
-   "version": "26.11.21005",
-   "description": "Browser-native 3D scene building, WebXR and ViRtuSH, based on 3Draft",
-   "date": "2026-11-21T06:16:23.842Z",
-   "url": "https://www.npmjs.com/package/spi3der",
-   "repo": null,
-   "homepage": ""
   }
  ],
  "mentions": {
