@@ -29,7 +29,7 @@ Here are some ideas to get you started:
 <summary><code>2026-11-23</code> <b>3Draft : $1 Million VR Quest</b> · <sub>new — not on the map yet</sub></summary>
 <br>
 ...<br>
-<sub>2 min read · ♡ 11 · #webdev #ai #productivity #vibecoding</sub><br>
+<sub>2 min read · ♡ 13 · #webdev #ai #productivity #vibecoding</sub><br>
 <a href="https://dev.to/pengeszikra/3draft-1-million-vr-quest-2plg">Read on dev.to →</a>
 <br><br>
 </details>
@@ -57,7 +57,7 @@ Spider Paint capability not limited to serve my VR program, fare beyond that it 
 <summary><code>2026-11-22</code> <b>3Draft: Five Percent — 30 Minutes to Deadline</b> · <sub>Five Percent · 3Draft</sub></summary>
 <br>
 This is probably the most improvised demo video I've ever made. I recorded it roughly 30 minutes...<br>
-<sub>2 min read · ♡ 22 · #ai #opensource #showdev #tools</sub><br>
+<sub>2 min read · ♡ 24 · #ai #opensource #showdev #tools</sub><br>
 <a href="https://dev.to/pengeszikra/3draft-five-percent-30-minutes-to-deadline-1kfk">Read on dev.to →</a>
 <br><br>
 </details>
