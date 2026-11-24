@@ -107,9 +107,10 @@ The weeklyretro tag doesn’t come close to covering it. This is really another 
 </details>
 
 <details>
-<summary><b>📦 More on npm</b> — 7 projects no post mentions yet</summary>
+<summary><b>📦 More on npm</b> — 8 projects no post mentions yet</summary>
 <br>
 
+- <a href="https://www.npmjs.com/package/spider-paint">📦 <code>spider-paint</code></a> <img src="https://img.shields.io/npm/v/spider-paint?style=flat-square&label=&color=3d3528" alt="npm version" align="absmiddle"> — Spider Paint: the test and community workshop of the 3Draft engine (custom MCP test program)
 - <a href="https://www.npmjs.com/package/spi3der">📦 <code>spi3der</code></a> <img src="https://img.shields.io/npm/v/spi3der?style=flat-square&label=&color=3d3528" alt="npm version" align="absmiddle"> — Browser-native 3D scene building, WebXR and ViRtuSH, based on 3Draft
 - <a href="https://github.com/Pengeszikra/marker"><code>marker</code></a> <sub>HTML · <a href="https://marker-nu.vercel.app">live ↗</a></sub> — markdown first pure html editor web component<br><a href="https://www.npmjs.com/package/marker-edit">📦 <code>marker-edit</code></a> <img src="https://img.shields.io/npm/v/marker-edit?style=flat-square&label=&color=3d3528" alt="npm version" align="absmiddle"> · <a href="https://www.npmjs.com/package/marker-editor">📦 <code>marker-editor</code></a> <img src="https://img.shields.io/npm/v/marker-editor?style=flat-square&label=&color=3d3528" alt="npm version" align="absmiddle">
 - <a href="https://github.com/Pengeszikra/qwik-saga"><code>qwik-saga</code></a> <sub>TypeScript</sub> — redux-saga like process handling for qwik<br><a href="https://www.npmjs.com/package/qwik-saga">📦 <code>qwik-saga</code></a> <img src="https://img.shields.io/npm/v/qwik-saga?style=flat-square&label=&color=3d3528" alt="npm version" align="absmiddle">

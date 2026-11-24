@@ -1,6 +1,42 @@
 {
- "generatedAt": "2026-11-24T12:31:40.729Z",
+ "generatedAt": "2026-11-24T16:27:40.754Z",
  "repos": [
+  {
+   "name": "Spider-Paint",
+   "url": "https://github.com/Pengeszikra/Spider-Paint",
+   "description": "lightweight 3D test scene builder program based on Three.js / webGL with a little Big Bum animation",
+   "homepage": "https://spider-paint.vercel.app",
+   "language": "JavaScript",
+   "stars": 1,
+   "fork": false,
+   "archived": false,
+   "pushedAt": "2026-11-24T14:40:13Z",
+   "topics": []
+  },
+  {
+   "name": "spi3der",
+   "url": "https://github.com/Pengeszikra/spi3der",
+   "description": "MCP capable 3D workshop based on spider-painter, 3Draft, 5%",
+   "homepage": "",
+   "language": "JavaScript",
+   "stars": 0,
+   "fork": false,
+   "archived": false,
+   "pushedAt": "2026-11-24T14:39:57Z",
+   "topics": []
+  },
+  {
+   "name": "Pengeszikra",
+   "url": "https://github.com/Pengeszikra/Pengeszikra",
+   "description": "",
+   "homepage": "",
+   "language": "JavaScript",
+   "stars": 0,
+   "fork": false,
+   "archived": false,
+   "pushedAt": "2026-11-24T12:31:41Z",
+   "topics": []
+  },
   {
    "name": "tuskek-es-gyokerek",
    "url": "https://github.com/Pengeszikra/tuskek-es-gyokerek",
@@ -14,30 +50,6 @@
    "topics": []
   },
   {
-   "name": "spi3der",
-   "url": "https://github.com/Pengeszikra/spi3der",
-   "description": "MCP capable 3D workshop based on spider-painter, 3Draft, 5%",
-   "homepage": "",
-   "language": "JavaScript",
-   "stars": 0,
-   "fork": false,
-   "archived": false,
-   "pushedAt": "2026-11-24T10:45:13Z",
-   "topics": []
-  },
-  {
-   "name": "Pengeszikra",
-   "url": "https://github.com/Pengeszikra/Pengeszikra",
-   "description": "",
-   "homepage": "",
-   "language": "JavaScript",
-   "stars": 0,
-   "fork": false,
-   "archived": false,
-   "pushedAt": "2026-11-24T08:28:57Z",
-   "topics": []
-  },
-  {
    "name": "devto-post-map",
    "url": "https://github.com/Pengeszikra/devto-post-map",
    "description": "Interactive Mind Map for my dev.to articles created by Claude Design",
@@ -47,18 +59,6 @@
    "fork": false,
    "archived": false,
    "pushedAt": "2026-11-22T23:35:30Z",
-   "topics": []
-  },
-  {
-   "name": "Spider-Paint",
-   "url": "https://github.com/Pengeszikra/Spider-Paint",
-   "description": "lightweight 3D test scene builder program based on Three.js / webGL with a little Big Bum animation",
-   "homepage": "https://spider-paint.vercel.app",
-   "language": "JavaScript",
-   "stars": 1,
-   "fork": false,
-   "archived": false,
-   "pushedAt": "2026-11-20T21:24:42Z",
    "topics": []
   },
   {
@@ -857,15 +857,6 @@
    "homepage": "https://github.com/Pengeszikra/3Draft#readme"
   },
   {
-   "name": "spi3der",
-   "version": "26.11.24001",
-   "description": "Browser-native 3D scene building, WebXR and ViRtuSH, based on 3Draft",
-   "date": "2026-11-24T00:26:51.908Z",
-   "url": "https://www.npmjs.com/package/spi3der",
-   "repo": null,
-   "homepage": ""
-  },
-  {
    "name": "hexaw",
    "version": "0.5.0",
    "description": "Dump WebAssembly to readable HEXAW assembly with exact byte offsets and encodings",
@@ -873,6 +864,15 @@
    "url": "https://www.npmjs.com/package/hexaw",
    "repo": "hexaw",
    "homepage": "https://github.com/Pengeszikra/hexaw#readme"
+  },
+  {
+   "name": "spi3der",
+   "version": "26.11.24001",
+   "description": "Browser-native 3D scene building, WebXR and ViRtuSH, based on 3Draft",
+   "date": "2026-11-24T00:26:51.908Z",
+   "url": "https://www.npmjs.com/package/spi3der",
+   "repo": null,
+   "homepage": ""
   },
   {
    "name": "hexaw-repository",
@@ -911,6 +911,15 @@
    "homepage": "https://github.com/Pengeszikra/TypeScript#readme"
   },
   {
+   "name": "jsdoc-duck",
+   "version": "0.0.5",
+   "description": "react/jsdoc minimal typesafe state handling",
+   "date": "2024-08-28T04:33:31.025Z",
+   "url": "https://www.npmjs.com/package/jsdoc-duck",
+   "repo": "jsdoc-duck",
+   "homepage": "https://github.com/Pengeszikra/jsdoc-duck#readme"
+  },
+  {
    "name": "react-slash",
    "version": "0.8.5",
    "description": "Tiny useReducer / jsx element naming oriented react helper library.",
@@ -936,15 +945,6 @@
    "url": "https://www.npmjs.com/package/@pengeszikra/typescript-linux-arm64",
    "repo": "TypeScript",
    "homepage": "https://github.com/Pengeszikra/TypeScript#readme"
-  },
-  {
-   "name": "jsdoc-duck",
-   "version": "0.0.5",
-   "description": "react/jsdoc minimal typesafe state handling",
-   "date": "2024-08-28T04:33:31.025Z",
-   "url": "https://www.npmjs.com/package/jsdoc-duck",
-   "repo": "jsdoc-duck",
-   "homepage": "https://github.com/Pengeszikra/jsdoc-duck#readme"
   },
   {
    "name": "typerdux",
@@ -1001,13 +1001,13 @@
    "homepage": "https://github.com/Pengeszikra/TypeScript#readme"
   },
   {
-   "name": "@pengeszikra/typescript-darwin-arm64",
-   "version": "7.1.0-pipeline.1",
-   "description": "Native darwin-arm64 compiler for the TypeScript unary pipeline POC",
-   "date": "2026-09-30T20:33:07.894Z",
-   "url": "https://www.npmjs.com/package/@pengeszikra/typescript-darwin-arm64",
-   "repo": "TypeScript",
-   "homepage": "https://github.com/Pengeszikra/TypeScript#readme"
+   "name": "fencer",
+   "version": "0.0.2",
+   "description": "Experimental functional JSX framework",
+   "date": "2020-08-14T16:32:01.628Z",
+   "url": "https://www.npmjs.com/package/fencer",
+   "repo": "fencer",
+   "homepage": "https://github.com/Pengeszikra/fencer#readme"
   },
   {
    "name": "marker-edit",
@@ -1019,6 +1019,15 @@
    "homepage": "https://github.com/Pengeszikra/marker#readme"
   },
   {
+   "name": "@pengeszikra/typescript-darwin-arm64",
+   "version": "7.1.0-pipeline.1",
+   "description": "Native darwin-arm64 compiler for the TypeScript unary pipeline POC",
+   "date": "2026-09-30T20:33:07.894Z",
+   "url": "https://www.npmjs.com/package/@pengeszikra/typescript-darwin-arm64",
+   "repo": "TypeScript",
+   "homepage": "https://github.com/Pengeszikra/TypeScript#readme"
+  },
+  {
    "name": "preact-slash",
    "version": "0.8.4",
    "description": "Tiny useReducer / jsx element naming oriented preact helper library.",
@@ -1026,15 +1035,6 @@
    "url": "https://www.npmjs.com/package/preact-slash",
    "repo": "react-slash",
    "homepage": "https://github.com/Pengeszikra/react-slash#readme"
-  },
-  {
-   "name": "fencer",
-   "version": "0.0.2",
-   "description": "Experimental functional JSX framework",
-   "date": "2020-08-14T16:32:01.628Z",
-   "url": "https://www.npmjs.com/package/fencer",
-   "repo": "fencer",
-   "homepage": "https://github.com/Pengeszikra/fencer#readme"
   },
   {
    "name": "marker-editor",
@@ -1053,6 +1053,15 @@
    "url": "https://www.npmjs.com/package/callbag-take-to-finally",
    "repo": "callbag-take-to-finally",
    "homepage": "https://github.com/Pengeszikra/callbag-take-to-finally#readme"
+  },
+  {
+   "name": "spider-paint",
+   "version": "26.11.24002",
+   "description": "Spider Paint: the test and community workshop of the 3Draft engine (custom MCP test program)",
+   "date": "2026-11-24T14:35:38.043Z",
+   "url": "https://www.npmjs.com/package/spider-paint",
+   "repo": null,
+   "homepage": ""
   }
  ],
  "mentions": {
