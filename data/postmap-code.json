@@ -1,18 +1,6 @@
 {
- "generatedAt": "2026-11-25T04:28:33.143Z",
+ "generatedAt": "2026-11-25T08:29:06.472Z",
  "repos": [
-  {
-   "name": "Pengeszikra",
-   "url": "https://github.com/Pengeszikra/Pengeszikra",
-   "description": "",
-   "homepage": "",
-   "language": "JavaScript",
-   "stars": 0,
-   "fork": false,
-   "archived": false,
-   "pushedAt": "2026-11-25T00:44:24Z",
-   "topics": []
-  },
   {
    "name": "Spider-Paint",
    "url": "https://github.com/Pengeszikra/Spider-Paint",
@@ -22,19 +10,7 @@
    "stars": 1,
    "fork": false,
    "archived": false,
-   "pushedAt": "2026-11-24T22:40:57Z",
-   "topics": []
-  },
-  {
-   "name": "3Draft",
-   "url": "https://github.com/Pengeszikra/3Draft",
-   "description": "Minimalist AI first 3D engine",
-   "homepage": "",
-   "language": "HTML",
-   "stars": 0,
-   "fork": false,
-   "archived": false,
-   "pushedAt": "2026-11-24T22:40:03Z",
+   "pushedAt": "2026-11-25T06:11:47Z",
    "topics": []
   },
   {
@@ -46,7 +22,31 @@
    "stars": 0,
    "fork": false,
    "archived": false,
-   "pushedAt": "2026-11-24T14:39:57Z",
+   "pushedAt": "2026-11-25T05:41:30Z",
+   "topics": []
+  },
+  {
+   "name": "3Draft",
+   "url": "https://github.com/Pengeszikra/3Draft",
+   "description": "Minimalist AI first 3D engine",
+   "homepage": "",
+   "language": "HTML",
+   "stars": 0,
+   "fork": false,
+   "archived": false,
+   "pushedAt": "2026-11-25T05:32:05Z",
+   "topics": []
+  },
+  {
+   "name": "Pengeszikra",
+   "url": "https://github.com/Pengeszikra/Pengeszikra",
+   "description": "",
+   "homepage": "",
+   "language": "JavaScript",
+   "stars": 0,
+   "fork": false,
+   "archived": false,
+   "pushedAt": "2026-11-25T04:28:34Z",
    "topics": []
   },
   {
@@ -849,9 +849,9 @@
  "packages": [
   {
    "name": "3draft",
-   "version": "26.11.18029",
+   "version": "26.11.25001",
    "description": "Minimalist AI first 3D engine: palette-texture, WASM core, WebGPU/WebGL2 renderer.",
-   "date": "2026-11-19T12:15:10.081Z",
+   "date": "2026-11-25T05:33:19.093Z",
    "url": "https://www.npmjs.com/package/3draft",
    "repo": "3Draft",
    "homepage": "https://github.com/Pengeszikra/3Draft#readme"
@@ -902,6 +902,15 @@
    "homepage": "https://github.com/Pengeszikra/react-state-factory#readme"
   },
   {
+   "name": "typerdux",
+   "version": "0.0.7",
+   "description": "react state handling helper based on useReducer and typescript",
+   "date": "2023-09-09T15:16:45.564Z",
+   "url": "https://www.npmjs.com/package/typerdux",
+   "repo": null,
+   "homepage": ""
+  },
+  {
    "name": "@pengeszikra/typescript-linux-x64",
    "version": "7.1.0-pipeline.1",
    "description": "Native linux-x64 compiler for the TypeScript unary pipeline POC",
@@ -938,13 +947,13 @@
    "homepage": "https://github.com/Pengeszikra/react-slash#readme"
   },
   {
-   "name": "typerdux",
-   "version": "0.0.7",
-   "description": "react state handling helper based on useReducer and typescript",
-   "date": "2023-09-09T15:16:45.564Z",
-   "url": "https://www.npmjs.com/package/typerdux",
-   "repo": null,
-   "homepage": ""
+   "name": "@pengeszikra/typescript-linux-arm64",
+   "version": "7.1.0-pipeline.1",
+   "description": "Native linux-arm64 compiler for the TypeScript unary pipeline POC",
+   "date": "2026-09-30T20:32:19.921Z",
+   "url": "https://www.npmjs.com/package/@pengeszikra/typescript-linux-arm64",
+   "repo": "TypeScript",
+   "homepage": "https://github.com/Pengeszikra/TypeScript#readme"
   },
   {
    "name": "qwik-saga",
@@ -954,15 +963,6 @@
    "url": "https://www.npmjs.com/package/qwik-saga",
    "repo": "qwik-saga",
    "homepage": "https://github.com/Pengeszikra/qwik-saga#readme"
-  },
-  {
-   "name": "@pengeszikra/typescript-linux-arm64",
-   "version": "7.1.0-pipeline.1",
-   "description": "Native linux-arm64 compiler for the TypeScript unary pipeline POC",
-   "date": "2026-09-30T20:32:19.921Z",
-   "url": "https://www.npmjs.com/package/@pengeszikra/typescript-linux-arm64",
-   "repo": "TypeScript",
-   "homepage": "https://github.com/Pengeszikra/TypeScript#readme"
   },
   {
    "name": "@pengeszikra/typescript-win32-x64",
@@ -1037,15 +1037,6 @@
    "homepage": "https://github.com/Pengeszikra/react-slash#readme"
   },
   {
-   "name": "callbag-take-to-finally",
-   "version": "0.2.0",
-   "description": "👜 Callbag operator which emits values emitted by the source as long as each value satisfies the given predicate, and then completes as soon as predicate is not satisfied. But call lastly function before callbag is over.",
-   "date": "2020-04-22T12:18:21.445Z",
-   "url": "https://www.npmjs.com/package/callbag-take-to-finally",
-   "repo": "callbag-take-to-finally",
-   "homepage": "https://github.com/Pengeszikra/callbag-take-to-finally#readme"
-  },
-  {
    "name": "marker-editor",
    "version": "0.0.1",
    "description": "pure HTML markdown editor",
@@ -1055,10 +1046,19 @@
    "homepage": "https://github.com/Pengeszikra/marker#readme"
   },
   {
+   "name": "callbag-take-to-finally",
+   "version": "0.2.0",
+   "description": "👜 Callbag operator which emits values emitted by the source as long as each value satisfies the given predicate, and then completes as soon as predicate is not satisfied. But call lastly function before callbag is over.",
+   "date": "2020-04-22T12:18:21.445Z",
+   "url": "https://www.npmjs.com/package/callbag-take-to-finally",
+   "repo": "callbag-take-to-finally",
+   "homepage": "https://github.com/Pengeszikra/callbag-take-to-finally#readme"
+  },
+  {
    "name": "spider-paint",
-   "version": "26.11.24003",
+   "version": "26.11.25003",
    "description": "Spider Paint: the test and community workshop of the 3Draft engine (custom MCP test program)",
-   "date": "2026-11-24T16:51:00.257Z",
+   "date": "2026-11-25T05:59:09.768Z",
    "url": "https://www.npmjs.com/package/spider-paint",
    "repo": null,
    "homepage": ""
