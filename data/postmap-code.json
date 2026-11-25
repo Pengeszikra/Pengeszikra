@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-25T16:28:51.007Z",
+ "generatedAt": "2026-11-25T20:25:12.704Z",
  "repos": [
   {
    "name": "Spider-Paint",
@@ -10,7 +10,7 @@
    "stars": 1,
    "fork": false,
    "archived": false,
-   "pushedAt": "2026-11-25T15:39:04Z",
+   "pushedAt": "2026-11-25T18:03:40Z",
    "topics": []
   },
   {
@@ -22,7 +22,7 @@
    "stars": 0,
    "fork": false,
    "archived": false,
-   "pushedAt": "2026-11-25T12:31:53Z",
+   "pushedAt": "2026-11-25T16:28:52Z",
    "topics": []
   },
   {
@@ -884,6 +884,24 @@
    "homepage": "https://github.com/Pengeszikra/hexaw#readme"
   },
   {
+   "name": "spider-paint",
+   "version": "26.11.25004",
+   "description": "Spider Paint: the test and community workshop of the 3Draft engine (custom MCP test program)",
+   "date": "2026-11-25T18:14:53.049Z",
+   "url": "https://www.npmjs.com/package/spider-paint",
+   "repo": null,
+   "homepage": ""
+  },
+  {
+   "name": "react-state-factory",
+   "version": "0.1.2",
+   "description": "react minimal typesafe state handling even with saga",
+   "date": "2023-10-03T04:11:15.006Z",
+   "url": "https://www.npmjs.com/package/react-state-factory",
+   "repo": "react-state-factory",
+   "homepage": "https://github.com/Pengeszikra/react-state-factory#readme"
+  },
+  {
    "name": "@pengeszikra/typescript",
    "version": "7.1.0-pipeline.1",
    "description": "Experimental TypeScript compiler with a type-safe, single-input pipeline operator for TS and TSX",
@@ -909,15 +927,6 @@
    "url": "https://www.npmjs.com/package/jsdoc-duck",
    "repo": "jsdoc-duck",
    "homepage": "https://github.com/Pengeszikra/jsdoc-duck#readme"
-  },
-  {
-   "name": "react-state-factory",
-   "version": "0.1.2",
-   "description": "react minimal typesafe state handling even with saga",
-   "date": "2023-10-03T04:11:15.006Z",
-   "url": "https://www.npmjs.com/package/react-state-factory",
-   "repo": "react-state-factory",
-   "homepage": "https://github.com/Pengeszikra/react-state-factory#readme"
   },
   {
    "name": "@pengeszikra/typescript-linux-x64",
@@ -1001,24 +1010,6 @@
    "homepage": "https://github.com/Pengeszikra/fencer#readme"
   },
   {
-   "name": "@pengeszikra/typescript-darwin-arm64",
-   "version": "7.1.0-pipeline.1",
-   "description": "Native darwin-arm64 compiler for the TypeScript unary pipeline POC",
-   "date": "2026-09-30T20:33:07.894Z",
-   "url": "https://www.npmjs.com/package/@pengeszikra/typescript-darwin-arm64",
-   "repo": "TypeScript",
-   "homepage": "https://github.com/Pengeszikra/TypeScript#readme"
-  },
-  {
-   "name": "@pengeszikra/typescript-win32-arm64",
-   "version": "7.1.0-pipeline.1",
-   "description": "Native win32-arm64 compiler for the TypeScript unary pipeline POC",
-   "date": "2026-09-30T20:32:33.727Z",
-   "url": "https://www.npmjs.com/package/@pengeszikra/typescript-win32-arm64",
-   "repo": "TypeScript",
-   "homepage": "https://github.com/Pengeszikra/TypeScript#readme"
-  },
-  {
    "name": "marker-edit",
    "version": "0.0.3",
    "description": "pure HTML markdown editor",
@@ -1028,13 +1019,13 @@
    "homepage": "https://github.com/Pengeszikra/marker#readme"
   },
   {
-   "name": "preact-slash",
-   "version": "0.8.4",
-   "description": "Tiny useReducer / jsx element naming oriented preact helper library.",
-   "date": "2020-02-19T05:59:53.686Z",
-   "url": "https://www.npmjs.com/package/preact-slash",
-   "repo": "react-slash",
-   "homepage": "https://github.com/Pengeszikra/react-slash#readme"
+   "name": "@pengeszikra/typescript-darwin-arm64",
+   "version": "7.1.0-pipeline.1",
+   "description": "Native darwin-arm64 compiler for the TypeScript unary pipeline POC",
+   "date": "2026-09-30T20:33:07.894Z",
+   "url": "https://www.npmjs.com/package/@pengeszikra/typescript-darwin-arm64",
+   "repo": "TypeScript",
+   "homepage": "https://github.com/Pengeszikra/TypeScript#readme"
   },
   {
    "name": "marker-editor",
@@ -1046,6 +1037,24 @@
    "homepage": "https://github.com/Pengeszikra/marker#readme"
   },
   {
+   "name": "@pengeszikra/typescript-win32-arm64",
+   "version": "7.1.0-pipeline.1",
+   "description": "Native win32-arm64 compiler for the TypeScript unary pipeline POC",
+   "date": "2026-09-30T20:32:33.727Z",
+   "url": "https://www.npmjs.com/package/@pengeszikra/typescript-win32-arm64",
+   "repo": "TypeScript",
+   "homepage": "https://github.com/Pengeszikra/TypeScript#readme"
+  },
+  {
+   "name": "preact-slash",
+   "version": "0.8.4",
+   "description": "Tiny useReducer / jsx element naming oriented preact helper library.",
+   "date": "2020-02-19T05:59:53.686Z",
+   "url": "https://www.npmjs.com/package/preact-slash",
+   "repo": "react-slash",
+   "homepage": "https://github.com/Pengeszikra/react-slash#readme"
+  },
+  {
    "name": "callbag-take-to-finally",
    "version": "0.2.0",
    "description": "👜 Callbag operator which emits values emitted by the source as long as each value satisfies the given predicate, and then completes as soon as predicate is not satisfied. But call lastly function before callbag is over.",
@@ -1053,15 +1062,6 @@
    "url": "https://www.npmjs.com/package/callbag-take-to-finally",
    "repo": "callbag-take-to-finally",
    "homepage": "https://github.com/Pengeszikra/callbag-take-to-finally#readme"
-  },
-  {
-   "name": "spider-paint",
-   "version": "26.11.25003",
-   "description": "Spider Paint: the test and community workshop of the 3Draft engine (custom MCP test program)",
-   "date": "2026-11-25T05:59:09.768Z",
-   "url": "https://www.npmjs.com/package/spider-paint",
-   "repo": null,
-   "homepage": ""
   }
  ],
  "mentions": {
