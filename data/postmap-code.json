@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-25T12:31:52.506Z",
+ "generatedAt": "2026-11-25T16:28:51.007Z",
  "repos": [
   {
    "name": "Spider-Paint",
@@ -10,7 +10,7 @@
    "stars": 1,
    "fork": false,
    "archived": false,
-   "pushedAt": "2026-11-25T12:24:11Z",
+   "pushedAt": "2026-11-25T15:39:04Z",
    "topics": []
   },
   {
@@ -22,7 +22,7 @@
    "stars": 0,
    "fork": false,
    "archived": false,
-   "pushedAt": "2026-11-25T08:29:07Z",
+   "pushedAt": "2026-11-25T12:31:53Z",
    "topics": []
   },
   {
@@ -893,15 +893,6 @@
    "homepage": "https://github.com/Pengeszikra/TypeScript#readme"
   },
   {
-   "name": "react-state-factory",
-   "version": "0.1.2",
-   "description": "react minimal typesafe state handling even with saga",
-   "date": "2023-10-03T04:11:15.006Z",
-   "url": "https://www.npmjs.com/package/react-state-factory",
-   "repo": "react-state-factory",
-   "homepage": "https://github.com/Pengeszikra/react-state-factory#readme"
-  },
-  {
    "name": "typerdux",
    "version": "0.0.7",
    "description": "react state handling helper based on useReducer and typescript",
@@ -911,15 +902,6 @@
    "homepage": ""
   },
   {
-   "name": "@pengeszikra/typescript-linux-x64",
-   "version": "7.1.0-pipeline.1",
-   "description": "Native linux-x64 compiler for the TypeScript unary pipeline POC",
-   "date": "2026-09-30T20:32:13.529Z",
-   "url": "https://www.npmjs.com/package/@pengeszikra/typescript-linux-x64",
-   "repo": "TypeScript",
-   "homepage": "https://github.com/Pengeszikra/TypeScript#readme"
-  },
-  {
    "name": "jsdoc-duck",
    "version": "0.0.5",
    "description": "react/jsdoc minimal typesafe state handling",
@@ -927,6 +909,24 @@
    "url": "https://www.npmjs.com/package/jsdoc-duck",
    "repo": "jsdoc-duck",
    "homepage": "https://github.com/Pengeszikra/jsdoc-duck#readme"
+  },
+  {
+   "name": "react-state-factory",
+   "version": "0.1.2",
+   "description": "react minimal typesafe state handling even with saga",
+   "date": "2023-10-03T04:11:15.006Z",
+   "url": "https://www.npmjs.com/package/react-state-factory",
+   "repo": "react-state-factory",
+   "homepage": "https://github.com/Pengeszikra/react-state-factory#readme"
+  },
+  {
+   "name": "@pengeszikra/typescript-linux-x64",
+   "version": "7.1.0-pipeline.1",
+   "description": "Native linux-x64 compiler for the TypeScript unary pipeline POC",
+   "date": "2026-09-30T20:32:13.529Z",
+   "url": "https://www.npmjs.com/package/@pengeszikra/typescript-linux-x64",
+   "repo": "TypeScript",
+   "homepage": "https://github.com/Pengeszikra/TypeScript#readme"
   },
   {
    "name": "react-slash",
@@ -956,15 +956,6 @@
    "homepage": "https://github.com/Pengeszikra/TypeScript#readme"
   },
   {
-   "name": "qwik-saga",
-   "version": "0.0.1",
-   "description": "react minimal typesafe state handling even with saga",
-   "date": "2023-10-06T09:00:38.741Z",
-   "url": "https://www.npmjs.com/package/qwik-saga",
-   "repo": "qwik-saga",
-   "homepage": "https://github.com/Pengeszikra/qwik-saga#readme"
-  },
-  {
    "name": "@pengeszikra/typescript-win32-x64",
    "version": "7.1.0-pipeline.1",
    "description": "Native win32-x64 compiler for the TypeScript unary pipeline POC",
@@ -972,6 +963,15 @@
    "url": "https://www.npmjs.com/package/@pengeszikra/typescript-win32-x64",
    "repo": "TypeScript",
    "homepage": "https://github.com/Pengeszikra/TypeScript#readme"
+  },
+  {
+   "name": "qwik-saga",
+   "version": "0.0.1",
+   "description": "react minimal typesafe state handling even with saga",
+   "date": "2023-10-06T09:00:38.741Z",
+   "url": "https://www.npmjs.com/package/qwik-saga",
+   "repo": "qwik-saga",
+   "homepage": "https://github.com/Pengeszikra/qwik-saga#readme"
   },
   {
    "name": "mordorjs",
@@ -992,15 +992,6 @@
    "homepage": "https://github.com/Pengeszikra/react-troll#readme"
   },
   {
-   "name": "@pengeszikra/typescript-win32-arm64",
-   "version": "7.1.0-pipeline.1",
-   "description": "Native win32-arm64 compiler for the TypeScript unary pipeline POC",
-   "date": "2026-09-30T20:32:33.727Z",
-   "url": "https://www.npmjs.com/package/@pengeszikra/typescript-win32-arm64",
-   "repo": "TypeScript",
-   "homepage": "https://github.com/Pengeszikra/TypeScript#readme"
-  },
-  {
    "name": "fencer",
    "version": "0.0.2",
    "description": "Experimental functional JSX framework",
@@ -1015,6 +1006,15 @@
    "description": "Native darwin-arm64 compiler for the TypeScript unary pipeline POC",
    "date": "2026-09-30T20:33:07.894Z",
    "url": "https://www.npmjs.com/package/@pengeszikra/typescript-darwin-arm64",
+   "repo": "TypeScript",
+   "homepage": "https://github.com/Pengeszikra/TypeScript#readme"
+  },
+  {
+   "name": "@pengeszikra/typescript-win32-arm64",
+   "version": "7.1.0-pipeline.1",
+   "description": "Native win32-arm64 compiler for the TypeScript unary pipeline POC",
+   "date": "2026-09-30T20:32:33.727Z",
+   "url": "https://www.npmjs.com/package/@pengeszikra/typescript-win32-arm64",
    "repo": "TypeScript",
    "homepage": "https://github.com/Pengeszikra/TypeScript#readme"
   },
