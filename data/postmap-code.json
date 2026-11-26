@@ -1,6 +1,18 @@
 {
- "generatedAt": "2026-11-26T00:43:25.381Z",
+ "generatedAt": "2026-11-26T04:28:01.220Z",
  "repos": [
+  {
+   "name": "Pengeszikra",
+   "url": "https://github.com/Pengeszikra/Pengeszikra",
+   "description": "",
+   "homepage": "",
+   "language": "JavaScript",
+   "stars": 0,
+   "fork": false,
+   "archived": false,
+   "pushedAt": "2026-11-26T00:43:26Z",
+   "topics": []
+  },
   {
    "name": "Spider-Paint",
    "url": "https://github.com/Pengeszikra/Spider-Paint",
@@ -11,18 +23,6 @@
    "fork": false,
    "archived": false,
    "pushedAt": "2026-11-25T22:20:17Z",
-   "topics": []
-  },
-  {
-   "name": "Pengeszikra",
-   "url": "https://github.com/Pengeszikra/Pengeszikra",
-   "description": "",
-   "homepage": "",
-   "language": "JavaScript",
-   "stars": 0,
-   "fork": false,
-   "archived": false,
-   "pushedAt": "2026-11-25T20:25:13Z",
    "topics": []
   },
   {
@@ -920,24 +920,6 @@
    "homepage": "https://github.com/Pengeszikra/TypeScript#readme"
   },
   {
-   "name": "jsdoc-duck",
-   "version": "0.0.5",
-   "description": "react/jsdoc minimal typesafe state handling",
-   "date": "2024-08-28T04:33:31.025Z",
-   "url": "https://www.npmjs.com/package/jsdoc-duck",
-   "repo": "jsdoc-duck",
-   "homepage": "https://github.com/Pengeszikra/jsdoc-duck#readme"
-  },
-  {
-   "name": "@pengeszikra/typescript-darwin-x64",
-   "version": "7.1.0-pipeline.1",
-   "description": "Native darwin-x64 compiler for the TypeScript unary pipeline POC",
-   "date": "2026-09-30T20:31:41.377Z",
-   "url": "https://www.npmjs.com/package/@pengeszikra/typescript-darwin-x64",
-   "repo": "TypeScript",
-   "homepage": "https://github.com/Pengeszikra/TypeScript#readme"
-  },
-  {
    "name": "react-slash",
    "version": "0.8.5",
    "description": "Tiny useReducer / jsx element naming oriented react helper library.",
@@ -947,11 +929,29 @@
    "homepage": "https://github.com/Pengeszikra/react-slash#readme"
   },
   {
+   "name": "jsdoc-duck",
+   "version": "0.0.5",
+   "description": "react/jsdoc minimal typesafe state handling",
+   "date": "2024-08-28T04:33:31.025Z",
+   "url": "https://www.npmjs.com/package/jsdoc-duck",
+   "repo": "jsdoc-duck",
+   "homepage": "https://github.com/Pengeszikra/jsdoc-duck#readme"
+  },
+  {
    "name": "@pengeszikra/typescript-linux-x64",
    "version": "7.1.0-pipeline.1",
    "description": "Native linux-x64 compiler for the TypeScript unary pipeline POC",
    "date": "2026-09-30T20:32:13.529Z",
    "url": "https://www.npmjs.com/package/@pengeszikra/typescript-linux-x64",
+   "repo": "TypeScript",
+   "homepage": "https://github.com/Pengeszikra/TypeScript#readme"
+  },
+  {
+   "name": "@pengeszikra/typescript-darwin-x64",
+   "version": "7.1.0-pipeline.1",
+   "description": "Native darwin-x64 compiler for the TypeScript unary pipeline POC",
+   "date": "2026-09-30T20:31:41.377Z",
+   "url": "https://www.npmjs.com/package/@pengeszikra/typescript-darwin-x64",
    "repo": "TypeScript",
    "homepage": "https://github.com/Pengeszikra/TypeScript#readme"
   },
@@ -1028,6 +1028,15 @@
    "homepage": "https://github.com/Pengeszikra/marker#readme"
   },
   {
+   "name": "preact-slash",
+   "version": "0.8.4",
+   "description": "Tiny useReducer / jsx element naming oriented preact helper library.",
+   "date": "2020-02-19T05:59:53.686Z",
+   "url": "https://www.npmjs.com/package/preact-slash",
+   "repo": "react-slash",
+   "homepage": "https://github.com/Pengeszikra/react-slash#readme"
+  },
+  {
    "name": "marker-edit",
    "version": "0.0.3",
    "description": "pure HTML markdown editor",
@@ -1044,15 +1053,6 @@
    "url": "https://www.npmjs.com/package/@pengeszikra/typescript-win32-arm64",
    "repo": "TypeScript",
    "homepage": "https://github.com/Pengeszikra/TypeScript#readme"
-  },
-  {
-   "name": "preact-slash",
-   "version": "0.8.4",
-   "description": "Tiny useReducer / jsx element naming oriented preact helper library.",
-   "date": "2020-02-19T05:59:53.686Z",
-   "url": "https://www.npmjs.com/package/preact-slash",
-   "repo": "react-slash",
-   "homepage": "https://github.com/Pengeszikra/react-slash#readme"
   },
   {
    "name": "callbag-take-to-finally",
