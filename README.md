@@ -26,6 +26,16 @@ Here are some ideas to get you started:
 <br>
 
 <details>
+<summary><code>2026-11-25</code> <b>Home Office Nightmare</b> · <sub>new — not on the map yet</sub></summary>
+<br>
+<a href="https://dev.to/thethirdcup/home-office-nightmare-2ja0"><img src="https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fut13ys6b3gx2vbwohd2u.png" alt="" width="420"></a><br>
+I Constantly Try to Survive Reality Maybe that's why I built an entire universe, including a...<br>
+<sub>2 min read · ♡ 55 · #discuss #mentalhealth #productivity</sub><br>
+<a href="https://dev.to/thethirdcup/home-office-nightmare-2ja0">Read on dev.to →</a>
+<br><br>
+</details>
+
+<details>
 <summary><code>2026-11-23</code> <b>3Draft : $1 Million VR Quest</b> · <sub>new — not on the map yet</sub></summary>
 <br>
 ...<br>
@@ -57,7 +67,7 @@ Spider Paint capability not limited to serve my VR program, fare beyond that it 
 <summary><code>2026-11-22</code> <b>3Draft: Five Percent — 30 Minutes to Deadline</b> · <sub>Five Percent · 3Draft</sub></summary>
 <br>
 This is probably the most improvised demo video I've ever made. I recorded it roughly 30 minutes...<br>
-<sub>2 min read · ♡ 24 · #ai #opensource #showdev #tools</sub><br>
+<sub>2 min read · ♡ 25 · #ai #opensource #showdev #tools</sub><br>
 <a href="https://dev.to/pengeszikra/3draft-five-percent-30-minutes-to-deadline-1kfk">Read on dev.to →</a>
 <br><br>
 </details>
@@ -89,17 +99,6 @@ Short: I am totally exhaused after 11days vibe, result is: ...<br>
 A Vibe Archeologist’s main job is to dig through the past, and although I’m not going back to the...<br>
 <sub>1 min read · ♡ 19 · #retrowek #claude #showdev</sub><br>
 <a href="https://dev.to/pengeszikra/retro-germo-the-flash-developer-5akc">Read on dev.to →</a>
-<br><br>
-</details>
-
-<details>
-<summary><code>2026-11-06</code> <b>Retro :: Spider-Paint</b> · <sub>Lost in Space</sub></summary>
-<br>
-<a href="https://dev.to/pengeszikra/retro-spider-paint-6lf"><img src="https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fi7u5od8lu9aru184t7g9.png" alt="" width="420"></a><br>
-The weeklyretro tag doesn’t come close to covering it. This is really another trip through time into...<br>
-🧩 <a href="https://github.com/Pengeszikra/Spider-Paint"><code>Spider-Paint</code></a> · <a href="https://github.com/Pengeszikra/3Draft"><code>3Draft</code></a> <a href="https://www.npmjs.com/package/3draft">📦 <code>3draft</code></a> <img src="https://img.shields.io/npm/v/3draft?style=flat-square&label=&color=3d3528" alt="npm version" align="absmiddle"><br>
-<sub>2 min read · ♡ 25 · #showdev #tooling #weeklyretro #opensource</sub><br>
-<a href="https://dev.to/pengeszikra/retro-spider-paint-6lf">Read on dev.to →</a>
 <br><br>
 </details>
 
