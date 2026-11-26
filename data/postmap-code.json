@@ -1,18 +1,6 @@
 {
- "generatedAt": "2026-11-26T16:27:05.855Z",
+ "generatedAt": "2026-11-26T20:25:39.091Z",
  "repos": [
-  {
-   "name": "Pengeszikra",
-   "url": "https://github.com/Pengeszikra/Pengeszikra",
-   "description": "",
-   "homepage": "",
-   "language": "JavaScript",
-   "stars": 0,
-   "fork": false,
-   "archived": false,
-   "pushedAt": "2026-11-26T12:31:46Z",
-   "topics": []
-  },
   {
    "name": "Spider-Paint",
    "url": "https://github.com/Pengeszikra/Spider-Paint",
@@ -22,7 +10,43 @@
    "stars": 1,
    "fork": false,
    "archived": false,
-   "pushedAt": "2026-11-26T11:43:23Z",
+   "pushedAt": "2026-11-26T19:31:24Z",
+   "topics": []
+  },
+  {
+   "name": "markrush",
+   "url": "https://github.com/Pengeszikra/markrush",
+   "description": "markdown first CLI editor based on basic VIM motions",
+   "homepage": "",
+   "language": "JavaScript",
+   "stars": 0,
+   "fork": false,
+   "archived": false,
+   "pushedAt": "2026-11-26T18:19:31Z",
+   "topics": []
+  },
+  {
+   "name": "tuskek-es-gyokerek",
+   "url": "https://github.com/Pengeszikra/tuskek-es-gyokerek",
+   "description": "Tüskék és Gyökerek - Independent Software Workshop",
+   "homepage": "https://tuskek-es-gyokerek.vercel.app",
+   "language": "HTML",
+   "stars": 0,
+   "fork": false,
+   "archived": false,
+   "pushedAt": "2026-11-26T17:49:14Z",
+   "topics": []
+  },
+  {
+   "name": "Pengeszikra",
+   "url": "https://github.com/Pengeszikra/Pengeszikra",
+   "description": "",
+   "homepage": "",
+   "language": "JavaScript",
+   "stars": 0,
+   "fork": false,
+   "archived": false,
+   "pushedAt": "2026-11-26T16:27:07Z",
    "topics": []
   },
   {
@@ -47,18 +71,6 @@
    "fork": false,
    "archived": false,
    "pushedAt": "2026-11-25T05:32:05Z",
-   "topics": []
-  },
-  {
-   "name": "tuskek-es-gyokerek",
-   "url": "https://github.com/Pengeszikra/tuskek-es-gyokerek",
-   "description": "Tüskék és Gyökerek - Independent Software Workshop",
-   "homepage": "https://tuskek-es-gyokerek.vercel.app",
-   "language": "",
-   "stars": 0,
-   "fork": false,
-   "archived": false,
-   "pushedAt": "2026-11-24T11:12:32Z",
    "topics": []
   },
   {
@@ -215,18 +227,6 @@
    "fork": false,
    "archived": false,
    "pushedAt": "2026-04-12T20:23:01Z",
-   "topics": []
-  },
-  {
-   "name": "markrush",
-   "url": "https://github.com/Pengeszikra/markrush",
-   "description": "markdown first CLI editor based on basic VIM motions",
-   "homepage": "",
-   "language": "JavaScript",
-   "stars": 0,
-   "fork": false,
-   "archived": false,
-   "pushedAt": "2026-03-24T12:06:16Z",
    "topics": []
   },
   {
@@ -857,20 +857,20 @@
    "homepage": "https://github.com/Pengeszikra/3Draft#readme"
   },
   {
-   "name": "spi3der",
-   "version": "26.11.24001",
-   "description": "Browser-native 3D scene building, WebXR and ViRtuSH, based on 3Draft",
-   "date": "2026-11-24T00:26:51.908Z",
-   "url": "https://www.npmjs.com/package/spi3der",
-   "repo": null,
-   "homepage": ""
-  },
-  {
    "name": "spider-paint",
    "version": "26.11.26002",
    "description": "Spider Paint: the test and community workshop of the 3Draft engine (custom MCP test program)",
    "date": "2026-11-26T11:31:04.728Z",
    "url": "https://www.npmjs.com/package/spider-paint",
+   "repo": null,
+   "homepage": ""
+  },
+  {
+   "name": "spi3der",
+   "version": "26.11.24001",
+   "description": "Browser-native 3D scene building, WebXR and ViRtuSH, based on 3Draft",
+   "date": "2026-11-24T00:26:51.908Z",
+   "url": "https://www.npmjs.com/package/spi3der",
    "repo": null,
    "homepage": ""
   },
@@ -956,15 +956,6 @@
    "homepage": "https://github.com/Pengeszikra/TypeScript#readme"
   },
   {
-   "name": "@pengeszikra/typescript-linux-arm64",
-   "version": "7.1.0-pipeline.1",
-   "description": "Native linux-arm64 compiler for the TypeScript unary pipeline POC",
-   "date": "2026-09-30T20:32:19.921Z",
-   "url": "https://www.npmjs.com/package/@pengeszikra/typescript-linux-arm64",
-   "repo": "TypeScript",
-   "homepage": "https://github.com/Pengeszikra/TypeScript#readme"
-  },
-  {
    "name": "qwik-saga",
    "version": "0.0.1",
    "description": "react minimal typesafe state handling even with saga",
@@ -972,6 +963,15 @@
    "url": "https://www.npmjs.com/package/qwik-saga",
    "repo": "qwik-saga",
    "homepage": "https://github.com/Pengeszikra/qwik-saga#readme"
+  },
+  {
+   "name": "@pengeszikra/typescript-linux-arm64",
+   "version": "7.1.0-pipeline.1",
+   "description": "Native linux-arm64 compiler for the TypeScript unary pipeline POC",
+   "date": "2026-09-30T20:32:19.921Z",
+   "url": "https://www.npmjs.com/package/@pengeszikra/typescript-linux-arm64",
+   "repo": "TypeScript",
+   "homepage": "https://github.com/Pengeszikra/TypeScript#readme"
   },
   {
    "name": "@pengeszikra/typescript-win32-x64",
@@ -1019,6 +1019,15 @@
    "homepage": "https://github.com/Pengeszikra/fencer#readme"
   },
   {
+   "name": "marker-edit",
+   "version": "0.0.3",
+   "description": "pure HTML markdown editor",
+   "date": "2024-12-11T09:00:58.382Z",
+   "url": "https://www.npmjs.com/package/marker-edit",
+   "repo": "marker",
+   "homepage": "https://github.com/Pengeszikra/marker#readme"
+  },
+  {
    "name": "preact-slash",
    "version": "0.8.4",
    "description": "Tiny useReducer / jsx element naming oriented preact helper library.",
@@ -1033,15 +1042,6 @@
    "description": "pure HTML markdown editor",
    "date": "2024-12-11T08:30:22.976Z",
    "url": "https://www.npmjs.com/package/marker-editor",
-   "repo": "marker",
-   "homepage": "https://github.com/Pengeszikra/marker#readme"
-  },
-  {
-   "name": "marker-edit",
-   "version": "0.0.3",
-   "description": "pure HTML markdown editor",
-   "date": "2024-12-11T09:00:58.382Z",
-   "url": "https://www.npmjs.com/package/marker-edit",
    "repo": "marker",
    "homepage": "https://github.com/Pengeszikra/marker#readme"
   },
