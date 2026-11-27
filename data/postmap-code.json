@@ -1,16 +1,28 @@
 {
- "generatedAt": "2026-11-27T08:28:53.409Z",
+ "generatedAt": "2026-11-27T12:31:23.569Z",
  "repos": [
   {
-   "name": "spid3err--opus",
-   "url": "https://github.com/Pengeszikra/spid3err--opus",
-   "description": "rust challenge by Claude Opus 5.5 High",
+   "name": "spi3derr--gpt6",
+   "url": "https://github.com/Pengeszikra/spi3derr--gpt6",
+   "description": "spi3der port to Rust by chatGTP6 Medium",
    "homepage": "",
    "language": "Rust",
    "stars": 0,
    "fork": false,
    "archived": false,
-   "pushedAt": "2026-11-27T07:42:49Z",
+   "pushedAt": "2026-11-27T12:15:21Z",
+   "topics": []
+  },
+  {
+   "name": "spi3derr--opus",
+   "url": "https://github.com/Pengeszikra/spi3derr--opus",
+   "description": "rust challenge by Claude Opus 5.5 Medium",
+   "homepage": "",
+   "language": "Rust",
+   "stars": 0,
+   "fork": false,
+   "archived": false,
+   "pushedAt": "2026-11-27T10:41:26Z",
    "topics": []
   },
   {
@@ -22,19 +34,7 @@
    "stars": 0,
    "fork": false,
    "archived": false,
-   "pushedAt": "2026-11-27T07:42:47Z",
-   "topics": []
-  },
-  {
-   "name": "spi3der--gpt6",
-   "url": "https://github.com/Pengeszikra/spi3der--gpt6",
-   "description": "spi3der port to Rust by chatGTP6 Medium",
-   "homepage": "",
-   "language": "Rust",
-   "stars": 0,
-   "fork": false,
-   "archived": false,
-   "pushedAt": "2026-11-27T05:55:55Z",
+   "pushedAt": "2026-11-27T08:49:05Z",
    "topics": []
   },
   {
@@ -46,7 +46,7 @@
    "stars": 0,
    "fork": false,
    "archived": false,
-   "pushedAt": "2026-11-27T04:27:50Z",
+   "pushedAt": "2026-11-27T08:28:54Z",
    "topics": []
   },
   {
@@ -947,15 +947,6 @@
    "homepage": "https://github.com/Pengeszikra/TypeScript#readme"
   },
   {
-   "name": "typerdux",
-   "version": "0.0.7",
-   "description": "react state handling helper based on useReducer and typescript",
-   "date": "2023-09-09T15:16:45.564Z",
-   "url": "https://www.npmjs.com/package/typerdux",
-   "repo": null,
-   "homepage": ""
-  },
-  {
    "name": "react-slash",
    "version": "0.8.5",
    "description": "Tiny useReducer / jsx element naming oriented react helper library.",
@@ -963,6 +954,15 @@
    "url": "https://www.npmjs.com/package/react-slash",
    "repo": "react-slash",
    "homepage": "https://github.com/Pengeszikra/react-slash#readme"
+  },
+  {
+   "name": "typerdux",
+   "version": "0.0.7",
+   "description": "react state handling helper based on useReducer and typescript",
+   "date": "2023-09-09T15:16:45.564Z",
+   "url": "https://www.npmjs.com/package/typerdux",
+   "repo": null,
+   "homepage": ""
   },
   {
    "name": "jsdoc-duck",
@@ -1046,15 +1046,6 @@
    "homepage": "https://github.com/Pengeszikra/react-troll#readme"
   },
   {
-   "name": "marker-edit",
-   "version": "0.0.3",
-   "description": "pure HTML markdown editor",
-   "date": "2024-12-11T09:00:58.382Z",
-   "url": "https://www.npmjs.com/package/marker-edit",
-   "repo": "marker",
-   "homepage": "https://github.com/Pengeszikra/marker#readme"
-  },
-  {
    "name": "fencer",
    "version": "0.0.2",
    "description": "Experimental functional JSX framework",
@@ -1062,6 +1053,15 @@
    "url": "https://www.npmjs.com/package/fencer",
    "repo": "fencer",
    "homepage": "https://github.com/Pengeszikra/fencer#readme"
+  },
+  {
+   "name": "marker-edit",
+   "version": "0.0.3",
+   "description": "pure HTML markdown editor",
+   "date": "2024-12-11T09:00:58.382Z",
+   "url": "https://www.npmjs.com/package/marker-edit",
+   "repo": "marker",
+   "homepage": "https://github.com/Pengeszikra/marker#readme"
   },
   {
    "name": "preact-slash",
