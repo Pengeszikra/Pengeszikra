@@ -30,7 +30,7 @@ Here are some ideas to get you started:
 <br>
 Just a hyper quick video showcase about my spide-painter working in terminal a two way: git clone...<br>
 🧩 <a href="https://github.com/Pengeszikra/Spider-Paint"><code>Spider-Paint</code></a><br>
-<sub>1 min read · ♡ 26 · #claude #discuss #linux #deno</sub><br>
+<sub>1 min read · ♡ 27 · #claude #discuss #linux #deno</sub><br>
 <a href="https://dev.to/startupcafe/3draft-terminal-based-3d-editor-4koa">Read on dev.to →</a>
 <br><br>
 </details>
@@ -40,7 +40,7 @@ Just a hyper quick video showcase about my spide-painter working in terminal a t
 <br>
 <a href="https://dev.to/thethirdcup/home-office-nightmare-2ja0"><img src="https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fut13ys6b3gx2vbwohd2u.png" alt="" width="420"></a><br>
 I Constantly Try to Survive Reality Maybe that's why I built an entire universe, including a...<br>
-<sub>2 min read · ♡ 55 · #discuss #mentalhealth #productivity</sub><br>
+<sub>2 min read · ♡ 56 · #discuss #mentalhealth #productivity</sub><br>
 <a href="https://dev.to/thethirdcup/home-office-nightmare-2ja0">Read on dev.to →</a>
 <br><br>
 </details>
