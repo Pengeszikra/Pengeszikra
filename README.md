@@ -26,6 +26,16 @@ Here are some ideas to get you started:
 <br>
 
 <details>
+<summary><code>2026-11-26</code> <b>3Draft: Terminal based 3D editor</b> · <sub>new — not on the map yet</sub></summary>
+<br>
+Just a hyper quick video showcase about my spide-painter working in terminal a two way: git clone...<br>
+🧩 <a href="https://github.com/Pengeszikra/Spider-Paint"><code>Spider-Paint</code></a><br>
+<sub>1 min read · ♡ 24 · #claude #discuss #linux #deno</sub><br>
+<a href="https://dev.to/startupcafe/3draft-terminal-based-3d-editor-4koa">Read on dev.to →</a>
+<br><br>
+</details>
+
+<details>
 <summary><code>2026-11-25</code> <b>Home Office Nightmare</b> · <sub>new — not on the map yet</sub></summary>
 <br>
 <a href="https://dev.to/thethirdcup/home-office-nightmare-2ja0"><img src="https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fut13ys6b3gx2vbwohd2u.png" alt="" width="420"></a><br>
@@ -67,7 +77,7 @@ Spider Paint capability not limited to serve my VR program, fare beyond that it 
 <summary><code>2026-11-22</code> <b>3Draft: Five Percent — 30 Minutes to Deadline</b> · <sub>Five Percent · 3Draft</sub></summary>
 <br>
 This is probably the most improvised demo video I've ever made. I recorded it roughly 30 minutes...<br>
-<sub>2 min read · ♡ 25 · #ai #opensource #showdev #tools</sub><br>
+<sub>2 min read · ♡ 26 · #ai #opensource #showdev #tools</sub><br>
 <a href="https://dev.to/pengeszikra/3draft-five-percent-30-minutes-to-deadline-1kfk">Read on dev.to →</a>
 <br><br>
 </details>
@@ -89,16 +99,6 @@ This is Part I of the explanation, simply because there is so much to talk about
 Short: I am totally exhaused after 11days vibe, result is: ...<br>
 <sub>1 min read · ♡ 24 · #showdev #webdev #mcp #ai</sub><br>
 <a href="https://dev.to/pengeszikra/100-x-exhaused-4g9">Read on dev.to →</a>
-<br><br>
-</details>
-
-<details>
-<summary><code>2026-11-11</code> <b>Retro :: Germo the flash developer</b> · <sub>Lost in Space</sub></summary>
-<br>
-<a href="https://dev.to/pengeszikra/retro-germo-the-flash-developer-5akc"><img src="https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fmlia5tbgtseus45y5v41.gif" alt="" width="420"></a><br>
-A Vibe Archeologist’s main job is to dig through the past, and although I’m not going back to the...<br>
-<sub>1 min read · ♡ 19 · #retrowek #claude #showdev</sub><br>
-<a href="https://dev.to/pengeszikra/retro-germo-the-flash-developer-5akc">Read on dev.to →</a>
 <br><br>
 </details>
 

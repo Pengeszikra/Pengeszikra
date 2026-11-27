@@ -1,16 +1,40 @@
 {
- "generatedAt": "2026-11-27T04:27:49.351Z",
+ "generatedAt": "2026-11-27T08:28:53.409Z",
  "repos": [
   {
-   "name": "tuskek-es-gyokerek",
-   "url": "https://github.com/Pengeszikra/tuskek-es-gyokerek",
-   "description": "Tüskék és Gyökerek - Independent Software Workshop",
-   "homepage": "https://tuskek-es-gyokerek.vercel.app",
-   "language": "HTML",
+   "name": "spid3err--opus",
+   "url": "https://github.com/Pengeszikra/spid3err--opus",
+   "description": "rust challenge by Claude Opus 5.5 High",
+   "homepage": "",
+   "language": "Rust",
    "stars": 0,
    "fork": false,
    "archived": false,
-   "pushedAt": "2026-11-27T04:24:38Z",
+   "pushedAt": "2026-11-27T07:42:49Z",
+   "topics": []
+  },
+  {
+   "name": "spi3derr",
+   "url": "https://github.com/Pengeszikra/spi3derr",
+   "description": "Rust based spi3der",
+   "homepage": "",
+   "language": "Rust",
+   "stars": 0,
+   "fork": false,
+   "archived": false,
+   "pushedAt": "2026-11-27T07:42:47Z",
+   "topics": []
+  },
+  {
+   "name": "spi3der--gpt6",
+   "url": "https://github.com/Pengeszikra/spi3der--gpt6",
+   "description": "spi3der port to Rust by chatGTP6 Medium",
+   "homepage": "",
+   "language": "Rust",
+   "stars": 0,
+   "fork": false,
+   "archived": false,
+   "pushedAt": "2026-11-27T05:55:55Z",
    "topics": []
   },
   {
@@ -22,19 +46,19 @@
    "stars": 0,
    "fork": false,
    "archived": false,
-   "pushedAt": "2026-11-27T00:43:52Z",
+   "pushedAt": "2026-11-27T04:27:50Z",
    "topics": []
   },
   {
-   "name": "spid3err--opus",
-   "url": "https://github.com/Pengeszikra/spid3err--opus",
-   "description": "rust challenge by Claude Opus 5.5 High",
-   "homepage": "",
-   "language": "",
+   "name": "tuskek-es-gyokerek",
+   "url": "https://github.com/Pengeszikra/tuskek-es-gyokerek",
+   "description": "Tüskék és Gyökerek - Independent Software Workshop",
+   "homepage": "https://tuskek-es-gyokerek.vercel.app",
+   "language": "HTML",
    "stars": 0,
    "fork": false,
    "archived": false,
-   "pushedAt": "2026-11-26T23:56:57Z",
+   "pushedAt": "2026-11-27T04:24:38Z",
    "topics": []
   },
   {
@@ -1446,6 +1470,13 @@
    "stamp": "2026-11-25T20:47:25Z",
    "repos": [],
    "packages": []
+  },
+  "5127977": {
+   "stamp": "2026-11-27T05:49:11Z",
+   "repos": [
+    "spider-paint"
+   ],
+   "packages": []
   }
  },
  "links": {
@@ -1631,6 +1662,14 @@
    "packages": [
     "3draft"
    ]
+  },
+  "5127977": {
+   "url": "https://dev.to/startupcafe/3draft-terminal-based-3d-editor-4koa",
+   "title": "3Draft: Terminal based 3D editor",
+   "repos": [
+    "Spider-Paint"
+   ],
+   "packages": []
   }
  }
 }
