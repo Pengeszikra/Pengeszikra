@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-28T08:27:20.570Z",
+ "generatedAt": "2026-11-28T12:29:48.227Z",
  "repos": [
   {
    "name": "Pengeszikra",
@@ -10,7 +10,7 @@
    "stars": 0,
    "fork": false,
    "archived": false,
-   "pushedAt": "2026-11-28T04:27:12Z",
+   "pushedAt": "2026-11-28T08:27:21Z",
    "topics": []
   },
   {
@@ -64,7 +64,7 @@
   {
    "name": "Spider-Paint",
    "url": "https://github.com/Pengeszikra/Spider-Paint",
-   "description": "lightweight 3D test scene builder program based on Three.js / webGL with a little Big Bum animation",
+   "description": "Based on 3Draft independent 3D 3editor. Was in 2012 a lightweight 3D test scene builder program based on Three.js / webGL with a little Big Bum animation",
    "homepage": "https://spider-paint.vercel.app",
    "language": "JavaScript",
    "stars": 1,
@@ -1001,15 +1001,6 @@
    "homepage": "https://github.com/Pengeszikra/TypeScript#readme"
   },
   {
-   "name": "qwik-saga",
-   "version": "0.0.1",
-   "description": "react minimal typesafe state handling even with saga",
-   "date": "2023-10-06T09:00:38.741Z",
-   "url": "https://www.npmjs.com/package/qwik-saga",
-   "repo": "qwik-saga",
-   "homepage": "https://github.com/Pengeszikra/qwik-saga#readme"
-  },
-  {
    "name": "@pengeszikra/typescript-win32-x64",
    "version": "7.1.0-pipeline.1",
    "description": "Native win32-x64 compiler for the TypeScript unary pipeline POC",
@@ -1028,13 +1019,13 @@
    "homepage": "https://github.com/Pengeszikra/mordorjs#readme"
   },
   {
-   "name": "react-troll",
-   "version": "0.0.4",
-   "description": "react useReducer organizator",
-   "date": "2020-11-05T21:24:18.642Z",
-   "url": "https://www.npmjs.com/package/react-troll",
-   "repo": "react-troll",
-   "homepage": "https://github.com/Pengeszikra/react-troll#readme"
+   "name": "qwik-saga",
+   "version": "0.0.1",
+   "description": "react minimal typesafe state handling even with saga",
+   "date": "2023-10-06T09:00:38.741Z",
+   "url": "https://www.npmjs.com/package/qwik-saga",
+   "repo": "qwik-saga",
+   "homepage": "https://github.com/Pengeszikra/qwik-saga#readme"
   },
   {
    "name": "@pengeszikra/typescript-darwin-arm64",
@@ -1046,13 +1037,13 @@
    "homepage": "https://github.com/Pengeszikra/TypeScript#readme"
   },
   {
-   "name": "marker-editor",
-   "version": "0.0.1",
-   "description": "pure HTML markdown editor",
-   "date": "2024-12-11T08:30:22.976Z",
-   "url": "https://www.npmjs.com/package/marker-editor",
-   "repo": "marker",
-   "homepage": "https://github.com/Pengeszikra/marker#readme"
+   "name": "react-troll",
+   "version": "0.0.4",
+   "description": "react useReducer organizator",
+   "date": "2020-11-05T21:24:18.642Z",
+   "url": "https://www.npmjs.com/package/react-troll",
+   "repo": "react-troll",
+   "homepage": "https://github.com/Pengeszikra/react-troll#readme"
   },
   {
    "name": "preact-slash",
@@ -1080,6 +1071,15 @@
    "url": "https://www.npmjs.com/package/fencer",
    "repo": "fencer",
    "homepage": "https://github.com/Pengeszikra/fencer#readme"
+  },
+  {
+   "name": "marker-editor",
+   "version": "0.0.1",
+   "description": "pure HTML markdown editor",
+   "date": "2024-12-11T08:30:22.976Z",
+   "url": "https://www.npmjs.com/package/marker-editor",
+   "repo": "marker",
+   "homepage": "https://github.com/Pengeszikra/marker#readme"
   },
   {
    "name": "@pengeszikra/typescript-win32-arm64",
